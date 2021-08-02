@@ -3174,15 +3174,6 @@ enum class TwemojiIcon(
     TradeMark(plainName = "TradeMark", unicode = "2122", category = TwemojiCategory.Symbols, subcategory = TwemojiSubcategory.OtherSymbol, resource = R.drawable.ic_2122),
     MedicalSymbol(plainName = "MedicalSymbol", unicode = "2695", category = TwemojiCategory.Symbols, subcategory = TwemojiSubcategory.OtherSymbol, resource = R.drawable.ic_2695),
     Infinity(plainName = "Infinity", unicode = "267e", category = TwemojiCategory.Symbols, subcategory = TwemojiSubcategory.OtherSymbol, resource = R.drawable.ic_267e),
-    CheckBoxWithCheck(plainName = "CheckBoxWithCheck", unicode = "2611", category = TwemojiCategory.Symbols, subcategory = TwemojiSubcategory.OtherSymbol, resource = R.drawable.ic_2611),
-    CheckMark(plainName = "CheckMark", unicode = "2714", category = TwemojiCategory.Symbols, subcategory = TwemojiSubcategory.OtherSymbol, resource = R.drawable.ic_2714),
-    MultiplicationSign(plainName = "MultiplicationSign", unicode = "2716", category = TwemojiCategory.Symbols, subcategory = TwemojiSubcategory.OtherSymbol, resource = R.drawable.ic_2716),
-    PartAlternationMark(plainName = "PartAlternationMark", unicode = "303d", category = TwemojiCategory.Symbols, subcategory = TwemojiSubcategory.OtherSymbol, resource = R.drawable.ic_303d),
-    EightSpokedAsterisk(plainName = "EightSpokedAsterisk", unicode = "2733", category = TwemojiCategory.Symbols, subcategory = TwemojiSubcategory.OtherSymbol, resource = R.drawable.ic_2733),
-    EightPointedStar(plainName = "EightPointedStar", unicode = "2734", category = TwemojiCategory.Symbols, subcategory = TwemojiSubcategory.OtherSymbol, resource = R.drawable.ic_2734),
-    Sparkle(plainName = "Sparkle", unicode = "2747", category = TwemojiCategory.Symbols, subcategory = TwemojiSubcategory.OtherSymbol, resource = R.drawable.ic_2747),
-    DoubleExclamationMark(plainName = "DoubleExclamationMark", unicode = "203c", category = TwemojiCategory.Symbols, subcategory = TwemojiSubcategory.OtherSymbol, resource = R.drawable.ic_203c),
-    ExclamationQuestionMark(plainName = "ExclamationQuestionMark", unicode = "2049", category = TwemojiCategory.Symbols, subcategory = TwemojiSubcategory.OtherSymbol, resource = R.drawable.ic_2049),
     // endregion
 
     // region Religion
@@ -3198,8 +3189,6 @@ enum class TwemojiIcon(
     PlaceOfWorship(plainName = "PlaceOfWorship", unicode = "1f6d0", category = TwemojiCategory.Symbols, subcategory = TwemojiSubcategory.Religion, resource = R.drawable.ic_1f6d0),
     Menorah(plainName = "Menorah", unicode = "1f54e", category = TwemojiCategory.Symbols, subcategory = TwemojiSubcategory.Religion, resource = R.drawable.ic_1f54e),
     Om(plainName = "Om", unicode = "1f549", category = TwemojiCategory.Symbols, subcategory = TwemojiSubcategory.Religion, resource = R.drawable.ic_1f549),
-    StarOfDavid(plainName = "StarOfDavid", unicode = "2721", category = TwemojiCategory.Symbols, subcategory = TwemojiSubcategory.Religion, resource = R.drawable.ic_2721),
-    LatinCross(plainName = "LatinCross", unicode = "271d", category = TwemojiCategory.Symbols, subcategory = TwemojiSubcategory.Religion, resource = R.drawable.ic_271d),
     // endregion
 
     // region Transport Sign
