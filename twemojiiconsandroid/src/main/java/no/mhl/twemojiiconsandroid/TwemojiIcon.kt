@@ -9,15 +9,3 @@ data class TwemojiIcon(
     val subcategory: TwemojiSubcategory,
     @DrawableRes val resource: Int
 )
-
-enum class TwemojiIconnn(
-    val plainName: String,
-    val unicode: String,
-    val category: TwemojiCategory,
-    val subcategory: TwemojiSubcategory,
-    @DrawableRes val resource: Int
-) {
-
-
-
-}
