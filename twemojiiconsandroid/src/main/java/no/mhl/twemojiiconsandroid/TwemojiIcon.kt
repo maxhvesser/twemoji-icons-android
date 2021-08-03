@@ -2,7 +2,15 @@ package no.mhl.twemojiiconsandroid
 
 import androidx.annotation.DrawableRes
 
-enum class TwemojiIcon(
+data class TwemojiIcon(
+    val plainName: String,
+    val unicode: String,
+    val category: TwemojiCategory,
+    val subcategory: TwemojiSubcategory,
+    @DrawableRes val resource: Int
+)
+
+enum class TwemojiIconnn(
     val plainName: String,
     val unicode: String,
     val category: TwemojiCategory,
@@ -11,254 +19,38 @@ enum class TwemojiIcon(
 ) {
 
     /**
-     * Activities
-     */
-    // region Arts and crafts
-    ArtistPalette(plainName = "ArtistPalette", unicode = "1f3a8", category = TwemojiCategory.Activities, subcategory = TwemojiSubcategory.ArtsAndCrafts, resource = R.drawable.ic_1f3a8),
-    PerformingArts(plainName = "PerformingArts", unicode = "1f3ad", category = TwemojiCategory.Activities, subcategory = TwemojiSubcategory.ArtsAndCrafts, resource = R.drawable.ic_1f3ad),
-    FramedPicture(plainName = "FramedPicture", unicode = "1f5bc", category = TwemojiCategory.Activities, subcategory = TwemojiSubcategory.ArtsAndCrafts, resource = R.drawable.ic_1f5bc),
-    Thread(plainName = "Thread", unicode = "1f9f5", category = TwemojiCategory.Activities, subcategory = TwemojiSubcategory.ArtsAndCrafts, resource = R.drawable.ic_1f9f5),
-    Yarn(plainName = "Yarn", unicode = "1f9f6", category = TwemojiCategory.Activities, subcategory = TwemojiSubcategory.ArtsAndCrafts, resource = R.drawable.ic_1f9f6),
-    // endregion
-
-    // region Award medal
-    Trophy(plainName = "Trophy", unicode = "1f3c6", category = TwemojiCategory.Activities, subcategory = TwemojiSubcategory.AwardMedal, resource = R.drawable.ic_1f3c6),
-    SportsMedal(plainName = "SportsMedal", unicode = "1f3c5", category = TwemojiCategory.Activities, subcategory = TwemojiSubcategory.AwardMedal, resource = R.drawable.ic_1f3c5),
-    MilitaryMedal(plainName = "MilitaryMedal", unicode = "1f396", category = TwemojiCategory.Activities, subcategory = TwemojiSubcategory.AwardMedal, resource = R.drawable.ic_1f396),
-    FirstPlaceMedal(plainName = "FirstPlaceMedal", unicode = "1f947", category = TwemojiCategory.Activities, subcategory = TwemojiSubcategory.AwardMedal, resource = R.drawable.ic_1f947),
-    SecondPlaceMedal(plainName = "SecondPlaceMedal", unicode = "1f948", category = TwemojiCategory.Activities, subcategory = TwemojiSubcategory.AwardMedal, resource = R.drawable.ic_1f948),
-    ThirdPlaceMedal(plainName = "ThirdPlaceMedal", unicode = "1f949", category = TwemojiCategory.Activities, subcategory = TwemojiSubcategory.AwardMedal, resource = R.drawable.ic_1f949),
-    // endregion
-
-    // region Event
-    Sparkles(plainName = "Sparkles", unicode = "2728", category = TwemojiCategory.Activities, subcategory = TwemojiSubcategory.Event, resource = R.drawable.ic_2728),
-    PartyPopper(plainName = "PartyPopper", unicode = "1f389", category = TwemojiCategory.Activities, subcategory = TwemojiSubcategory.Event, resource = R.drawable.ic_1f389),
-    Balloon(plainName = "Balloon", unicode = "1f388", category = TwemojiCategory.Activities, subcategory = TwemojiSubcategory.Event, resource = R.drawable.ic_1f388),
-    Ribbon(plainName = "Ribbon", unicode = "1f380", category = TwemojiCategory.Activities, subcategory = TwemojiSubcategory.Event, resource = R.drawable.ic_1f380),
-    WrappedGift(plainName = "WrappedGift", unicode = "1f381", category = TwemojiCategory.Activities, subcategory = TwemojiSubcategory.Event, resource = R.drawable.ic_1f381),
-    ChristmasTree(plainName = "ChristmasTree", unicode = "1f384", category = TwemojiCategory.Activities, subcategory = TwemojiSubcategory.Event, resource = R.drawable.ic_1f384),
-    ConfettiBall(plainName = "ConfettiBall", unicode = "1f38a", category = TwemojiCategory.Activities, subcategory = TwemojiSubcategory.Event, resource = R.drawable.ic_1f38a),
-    JackOLantern(plainName = "JackOLantern", unicode = "1f383", category = TwemojiCategory.Activities, subcategory = TwemojiSubcategory.Event, resource = R.drawable.ic_1f383),
-    Fireworks(plainName = "Fireworks", unicode = "1f386", category = TwemojiCategory.Activities, subcategory = TwemojiSubcategory.Event, resource = R.drawable.ic_1f386),
-    WindChime(plainName = "WindChime", unicode = "1f390", category = TwemojiCategory.Activities, subcategory = TwemojiSubcategory.Event, resource = R.drawable.ic_1f390),
-    Sparkler(plainName = "Sparkler", unicode = "1f387", category = TwemojiCategory.Activities, subcategory = TwemojiSubcategory.Event, resource = R.drawable.ic_1f387),
-    JapaneseDolls(plainName = "JapaneseDolls", unicode = "1f38e", category = TwemojiCategory.Activities, subcategory = TwemojiSubcategory.Event, resource = R.drawable.ic_1f38e),
-    TanabataTree(plainName = "TanabataTree", unicode = "1f38b", category = TwemojiCategory.Activities, subcategory = TwemojiSubcategory.Event, resource = R.drawable.ic_1f38b),
-    PineDecoration(plainName = "PineDecoration", unicode = "1f38d", category = TwemojiCategory.Activities, subcategory = TwemojiSubcategory.Event, resource = R.drawable.ic_1f38d),
-    Ticket(plainName = "Ticket", unicode = "1f3ab", category = TwemojiCategory.Activities, subcategory = TwemojiSubcategory.Event, resource = R.drawable.ic_1f3ab),
-    CarpStreamer(plainName = "CarpStreamer", unicode = "1f38f", category = TwemojiCategory.Activities, subcategory = TwemojiSubcategory.Event, resource = R.drawable.ic_1f38f),
-    MoonViewingCeremony(plainName = "MoonViewingCeremony", unicode = "1f391", category = TwemojiCategory.Activities, subcategory = TwemojiSubcategory.Event, resource = R.drawable.ic_1f391),
-    AdmissionTickets(plainName = "AdmissionTickets", unicode = "1f39f", category = TwemojiCategory.Activities, subcategory = TwemojiSubcategory.Event, resource = R.drawable.ic_1f39f),
-    ReminderRibbon(plainName = "ReminderRibbon", unicode = "1f397", category = TwemojiCategory.Activities, subcategory = TwemojiSubcategory.Event, resource = R.drawable.ic_1f397),
-    Firecracker(plainName = "Firecracker", unicode = "1f9e8", category = TwemojiCategory.Activities, subcategory = TwemojiSubcategory.Event, resource = R.drawable.ic_1f9e8),
-    RedEnvelope(plainName = "RedEnvelope", unicode = "1f9e7", category = TwemojiCategory.Activities, subcategory = TwemojiSubcategory.Event, resource = R.drawable.ic_1f9e7),
-    // endregion
-
-    // region Game
-    CrystalBall(plainName = "CrystalBall", unicode = "1f52e", category = TwemojiCategory.Activities, subcategory = TwemojiSubcategory.Game, resource = R.drawable.ic_1f52e),
-    VideoGame(plainName = "VideoGame", unicode = "1f3ae", category = TwemojiCategory.Activities, subcategory = TwemojiSubcategory.Game, resource = R.drawable.ic_1f3ae),
-    DirectHit(plainName = "DirectHit", unicode = "1f3af", category = TwemojiCategory.Activities, subcategory = TwemojiSubcategory.Game, resource = R.drawable.ic_1f3af),
-    GameDie(plainName = "GameDie", unicode = "1f3b2", category = TwemojiCategory.Activities, subcategory = TwemojiSubcategory.Game, resource = R.drawable.ic_1f3b2),
-    Pool8Ball(plainName = "Pool8Ball", unicode = "1f3b1", category = TwemojiCategory.Activities, subcategory = TwemojiSubcategory.Game, resource = R.drawable.ic_1f3b1),
-    Joker(plainName = "Joker", unicode = "1f0cf", category = TwemojiCategory.Activities, subcategory = TwemojiSubcategory.Game, resource = R.drawable.ic_1f0cf),
-    SlotMachine(plainName = "SlotMachine", unicode = "1f3b0", category = TwemojiCategory.Activities, subcategory = TwemojiSubcategory.Game, resource = R.drawable.ic_1f3b0),
-    FlowerPlayingCards(plainName = "FlowerPlayingCards", unicode = "1f3b4", category = TwemojiCategory.Activities, subcategory = TwemojiSubcategory.Game, resource = R.drawable.ic_1f3b4),
-    MahjongRedDragon(plainName = "MahjongRedDragon", unicode = "1f004", category = TwemojiCategory.Activities, subcategory = TwemojiSubcategory.Game, resource = R.drawable.ic_1f004),
-    Joystick(plainName = "Joystick", unicode = "1f579", category = TwemojiCategory.Activities, subcategory = TwemojiSubcategory.Game, resource = R.drawable.ic_1f579),
-    SpadeSuit(plainName = "SpadeSuit", unicode = "2660", category = TwemojiCategory.Activities, subcategory = TwemojiSubcategory.Game, resource = R.drawable.ic_2660),
-    HeartSuit(plainName = "HeartSuit", unicode = "2665", category = TwemojiCategory.Activities, subcategory = TwemojiSubcategory.Game, resource = R.drawable.ic_2665),
-    DiamondSuit(plainName = "DiamondSuit", unicode = "2666", category = TwemojiCategory.Activities, subcategory = TwemojiSubcategory.Game, resource = R.drawable.ic_2666),
-    ClubSuit(plainName = "ClubSuit", unicode = "2663", category = TwemojiCategory.Activities, subcategory = TwemojiSubcategory.Game, resource = R.drawable.ic_2663),
-    YoYo(plainName = "YoYo", unicode = "1fa80", category = TwemojiCategory.Activities, subcategory = TwemojiSubcategory.Game, resource = R.drawable.ic_1fa80),
-    Kite(plainName = "Kite", unicode = "1fa81", category = TwemojiCategory.Activities, subcategory = TwemojiSubcategory.Game, resource = R.drawable.ic_1fa81),
-    NazarAmulet(plainName = "NazarAmulet", unicode = "1f9ff", category = TwemojiCategory.Activities, subcategory = TwemojiSubcategory.Game, resource = R.drawable.ic_1f9ff),
-    PuzzlePiece(plainName = "PuzzlePiece", unicode = "1f9e9", category = TwemojiCategory.Activities, subcategory = TwemojiSubcategory.Game, resource = R.drawable.ic_1f9e9),
-    TeddyBear(plainName = "TeddyBear", unicode = "1f9f8", category = TwemojiCategory.Activities, subcategory = TwemojiSubcategory.Game, resource = R.drawable.ic_1f9f8),
-    ChessPawn(plainName = "ChessPawn", unicode = "265f", category = TwemojiCategory.Activities, subcategory = TwemojiSubcategory.Game, resource = R.drawable.ic_265f),
-    // endregion
-
-    // region Sport
-    SoccerBall(plainName = "SoccerBall", unicode = "26bd", category = TwemojiCategory.Activities, subcategory = TwemojiSubcategory.Sport, resource = R.drawable.ic_26bd),
-    Basketball(plainName = "Basketball", unicode = "1f3c0", category = TwemojiCategory.Activities, subcategory = TwemojiSubcategory.Sport, resource = R.drawable.ic_1f3c0),
-    AmericanFootball(plainName = "AmericanFootball", unicode = "1f3c8", category = TwemojiCategory.Activities, subcategory = TwemojiSubcategory.Sport, resource = R.drawable.ic_1f3c8),
-    Tennis(plainName = "Tennis", unicode = "1f3be", category = TwemojiCategory.Activities, subcategory = TwemojiSubcategory.Sport, resource = R.drawable.ic_1f3be),
-    FlagInHole(plainName = "FlagInHole", unicode = "26f3", category = TwemojiCategory.Activities, subcategory = TwemojiSubcategory.Sport, resource = R.drawable.ic_26f3),
-    FishingPole(plainName = "FishingPole", unicode = "1f3a3", category = TwemojiCategory.Activities, subcategory = TwemojiSubcategory.Sport, resource = R.drawable.ic_1f3a3),
-    Bowling(plainName = "Bowling", unicode = "1f3b3", category = TwemojiCategory.Activities, subcategory = TwemojiSubcategory.Sport, resource = R.drawable.ic_1f3b3),
-    RugbyFootball(plainName = "RugbyFootball", unicode = "1f3c9", category = TwemojiCategory.Activities, subcategory = TwemojiSubcategory.Sport, resource = R.drawable.ic_1f3c9),
-    Skis(plainName = "Skis", unicode = "1f3bf", category = TwemojiCategory.Activities, subcategory = TwemojiSubcategory.Sport, resource = R.drawable.ic_1f3bf),
-    RunningShirt(plainName = "RunningShirt", unicode = "1f3bd", category = TwemojiCategory.Activities, subcategory = TwemojiSubcategory.Sport, resource = R.drawable.ic_1f3bd),
-    Badminton(plainName = "Badminton", unicode = "1f3f8", category = TwemojiCategory.Activities, subcategory = TwemojiSubcategory.Sport, resource = R.drawable.ic_1f3f8),
-    PingPong(plainName = "PingPong", unicode = "1f3d3", category = TwemojiCategory.Activities, subcategory = TwemojiSubcategory.Sport, resource = R.drawable.ic_1f3d3),
-    IceHockey(plainName = "IceHockey", unicode = "1f3d2", category = TwemojiCategory.Activities, subcategory = TwemojiSubcategory.Sport, resource = R.drawable.ic_1f3d2),
-    FieldHockey(plainName = "FieldHockey", unicode = "1f3d1", category = TwemojiCategory.Activities, subcategory = TwemojiSubcategory.Sport, resource = R.drawable.ic_1f3d1),
-    Volleyball(plainName = "Volleyball", unicode = "1f3d0", category = TwemojiCategory.Activities, subcategory = TwemojiSubcategory.Sport, resource = R.drawable.ic_1f3d0),
-    CricketGame(plainName = "CricketGame", unicode = "1f3cf", category = TwemojiCategory.Activities, subcategory = TwemojiSubcategory.Sport, resource = R.drawable.ic_1f3cf),
-    IceSkate(plainName = "IceSkate", unicode = "26f8", category = TwemojiCategory.Activities, subcategory = TwemojiSubcategory.Sport, resource = R.drawable.ic_26f8),
-    Baseball(plainName = "Baseball", unicode = "26be", category = TwemojiCategory.Activities, subcategory = TwemojiSubcategory.Sport, resource = R.drawable.ic_26be),
-    Softball(plainName = "Softball", unicode = "1f94e", category = TwemojiCategory.Activities, subcategory = TwemojiSubcategory.Sport, resource = R.drawable.ic_1f94e),
-    FlyingDisc(plainName = "FlyingDisc", unicode = "1f94f", category = TwemojiCategory.Activities, subcategory = TwemojiSubcategory.Sport, resource = R.drawable.ic_1f94f),
-    Lacrosse(plainName = "Lacrosse", unicode = "1f94d", category = TwemojiCategory.Activities, subcategory = TwemojiSubcategory.Sport, resource = R.drawable.ic_1f94d),
-    BoxingGlove(plainName = "BoxingGlove", unicode = "1f94a", category = TwemojiCategory.Activities, subcategory = TwemojiSubcategory.Sport, resource = R.drawable.ic_1f94a),
-    MartialArtsUniform(plainName = "MartialArtsUniform", unicode = "1f94b", category = TwemojiCategory.Activities, subcategory = TwemojiSubcategory.Sport, resource = R.drawable.ic_1f94b),
-    GoalNet(plainName = "GoalNet", unicode = "1f945", category = TwemojiCategory.Activities, subcategory = TwemojiSubcategory.Sport, resource = R.drawable.ic_1f945),
-    DivingMask(plainName = "DivingMask", unicode = "1f93f", category = TwemojiCategory.Activities, subcategory = TwemojiSubcategory.Sport, resource = R.drawable.ic_1f93f),
-    Sled(plainName = "Sled", unicode = "1f6f7", category = TwemojiCategory.Activities, subcategory = TwemojiSubcategory.Sport, resource = R.drawable.ic_1f6f7),
-    CurlingStone(plainName = "CurlingStone", unicode = "1f94c", category = TwemojiCategory.Activities, subcategory = TwemojiSubcategory.Sport, resource = R.drawable.ic_1f94c),
-    // endregion
-
-    /**
      * Animals and nature
      */
     // region Amphibian
-    Frog(plainName = "Frog", unicode = "1f438", category = TwemojiCategory.AnimalsAndNature, subcategory = TwemojiSubcategory.AnimalAmphibian, resource = R.drawable.ic_1f438),
+
     // endregion
 
     // region Bird
-    Penguin(plainName = "Penguin", unicode = "1f427", category = TwemojiCategory.AnimalsAndNature, subcategory = TwemojiSubcategory.AnimalBird, resource = R.drawable.ic_1f427),
-    HatchingChick(plainName = "HatchingChick", unicode = "1f423", category = TwemojiCategory.AnimalsAndNature, subcategory = TwemojiSubcategory.AnimalBird, resource = R.drawable.ic_1f423),
-    FrontFacingBabyChick(plainName = "FrontFacingBabyChick", unicode = "1f425", category = TwemojiCategory.AnimalsAndNature, subcategory = TwemojiSubcategory.AnimalBird, resource = R.drawable.ic_1f425),
-    Bird(plainName = "Bird", unicode = "1f426", category = TwemojiCategory.AnimalsAndNature, subcategory = TwemojiSubcategory.AnimalBird, resource = R.drawable.ic_1f426),
-    Chicken(plainName = "Chicken", unicode = "1f414", category = TwemojiCategory.AnimalsAndNature, subcategory = TwemojiSubcategory.AnimalBird, resource = R.drawable.ic_1f414),
-    BabyChick(plainName = "BabyChick", unicode = "1f424", category = TwemojiCategory.AnimalsAndNature, subcategory = TwemojiSubcategory.AnimalBird, resource = R.drawable.ic_1f424),
-    Rooster(plainName = "Rooster", unicode = "1f413", category = TwemojiCategory.AnimalsAndNature, subcategory = TwemojiSubcategory.AnimalBird, resource = R.drawable.ic_1f413),
-    TurkeyBird(plainName = "Turkey", unicode = "1f983", category = TwemojiCategory.AnimalsAndNature, subcategory = TwemojiSubcategory.AnimalBird, resource = R.drawable.ic_1f983),
-    Dove(plainName = "Dove", unicode = "1f54a", category = TwemojiCategory.AnimalsAndNature, subcategory = TwemojiSubcategory.AnimalBird, resource = R.drawable.ic_1f54a),
-    Eagle(plainName = "Eagle", unicode = "1f985", category = TwemojiCategory.AnimalsAndNature, subcategory = TwemojiSubcategory.AnimalBird, resource = R.drawable.ic_1f985),
-    Duck(plainName = "Duck", unicode = "1f986", category = TwemojiCategory.AnimalsAndNature, subcategory = TwemojiSubcategory.AnimalBird, resource = R.drawable.ic_1f986),
-    Swan(plainName = "Swan", unicode = "1f9a2", category = TwemojiCategory.AnimalsAndNature, subcategory = TwemojiSubcategory.AnimalBird, resource = R.drawable.ic_1f9a2),
-    Owl(plainName = "Owl", unicode = "1f989", category = TwemojiCategory.AnimalsAndNature, subcategory = TwemojiSubcategory.AnimalBird, resource = R.drawable.ic_1f989),
-    Flamingo(plainName = "Flamingo", unicode = "1f9a9", category = TwemojiCategory.AnimalsAndNature, subcategory = TwemojiSubcategory.AnimalBird, resource = R.drawable.ic_1f9a9),
-    Peacock(plainName = "Peacock", unicode = "1f99a", category = TwemojiCategory.AnimalsAndNature, subcategory = TwemojiSubcategory.AnimalBird, resource = R.drawable.ic_1f99a),
-    Parrot(plainName = "Parrot", unicode = "1f99c", category = TwemojiCategory.AnimalsAndNature, subcategory = TwemojiSubcategory.AnimalBird, resource = R.drawable.ic_1f99c),
+
     // endregion
 
     // region Bug
-    Honeybee(plainName = "Honeybee", unicode = "1f41d", category = TwemojiCategory.AnimalsAndNature, subcategory = TwemojiSubcategory.AnimalBug, resource = R.drawable.ic_1f41d),
-    Bug(plainName = "Bug", unicode = "1f41b", category = TwemojiCategory.AnimalsAndNature, subcategory = TwemojiSubcategory.AnimalBug, resource = R.drawable.ic_1f41b),
-    LadyBeetle(plainName = "LadyBeetle", unicode = "1f41e", category = TwemojiCategory.AnimalsAndNature, subcategory = TwemojiSubcategory.AnimalBug, resource = R.drawable.ic_1f41e),
-    Ant(plainName = "Ant", unicode = "1f41c", category = TwemojiCategory.AnimalsAndNature, subcategory = TwemojiSubcategory.AnimalBug, resource = R.drawable.ic_1f41c),
-    Snail(plainName = "Snail", unicode = "1f40c", category = TwemojiCategory.AnimalsAndNature, subcategory = TwemojiSubcategory.AnimalBug, resource = R.drawable.ic_1f40c),
-    Scorpion(plainName = "Scorpion", unicode = "1f982", category = TwemojiCategory.AnimalsAndNature, subcategory = TwemojiSubcategory.AnimalBug, resource = R.drawable.ic_1f982),
-    SpiderWeb(plainName = "SpiderWeb", unicode = "1f578", category = TwemojiCategory.AnimalsAndNature, subcategory = TwemojiSubcategory.AnimalBug, resource = R.drawable.ic_1f578),
-    Spider(plainName = "Spider", unicode = "1f577", category = TwemojiCategory.AnimalsAndNature, subcategory = TwemojiSubcategory.AnimalBug, resource = R.drawable.ic_1f577),
-    Butterfly(plainName = "Butterfly", unicode = "1f98b", category = TwemojiCategory.AnimalsAndNature, subcategory = TwemojiSubcategory.AnimalBug, resource = R.drawable.ic_1f98b),
-    Cricket(plainName = "Cricket", unicode = "1f997", category = TwemojiCategory.AnimalsAndNature, subcategory = TwemojiSubcategory.AnimalBug, resource = R.drawable.ic_1f997),
-    Mosquito(plainName = "Mosquito", unicode = "1f99f", category = TwemojiCategory.AnimalsAndNature, subcategory = TwemojiSubcategory.AnimalBug, resource = R.drawable.ic_1f99f),
-    Microbe(plainName = "Microbe", unicode = "1f9a0", category = TwemojiCategory.AnimalsAndNature, subcategory = TwemojiSubcategory.AnimalBug, resource = R.drawable.ic_1f9a0),
+
     // endregion
 
     // region Mammal
-    DogFace(plainName = "DogFace", unicode = "1f436", category = TwemojiCategory.AnimalsAndNature, subcategory = TwemojiSubcategory.AnimalMammal, resource = R.drawable.ic_1f436),
-    CatFace(plainName = "CatFace", unicode = "1f431", category = TwemojiCategory.AnimalsAndNature, subcategory = TwemojiSubcategory.AnimalMammal, resource = R.drawable.ic_1f431),
-    PigFace(plainName = "PigFace", unicode = "1f437", category = TwemojiCategory.AnimalsAndNature, subcategory = TwemojiSubcategory.AnimalMammal, resource = R.drawable.ic_1f437),
-    Panda(plainName = "Panda", unicode = "1f43c", category = TwemojiCategory.AnimalsAndNature, subcategory = TwemojiSubcategory.AnimalMammal, resource = R.drawable.ic_1f43c),
-    PawPrints(plainName = "PawPrints", unicode = "1f43e", category = TwemojiCategory.AnimalsAndNature, subcategory = TwemojiSubcategory.AnimalMammal, resource = R.drawable.ic_1f43e),
-    RabbitFace(plainName = "RabbitFace", unicode = "1f430", category = TwemojiCategory.AnimalsAndNature, subcategory = TwemojiSubcategory.AnimalMammal, resource = R.drawable.ic_1f430),
-    Bear(plainName = "Bear", unicode = "1f43b", category = TwemojiCategory.AnimalsAndNature, subcategory = TwemojiSubcategory.AnimalMammal, resource = R.drawable.ic_1f43b),
-    TigerFace(plainName = "TigerFace", unicode = "1f42f", category = TwemojiCategory.AnimalsAndNature, subcategory = TwemojiSubcategory.AnimalMammal, resource = R.drawable.ic_1f42f),
-    Monkey(plainName = "Monkey", unicode = "1f412", category = TwemojiCategory.AnimalsAndNature, subcategory = TwemojiSubcategory.AnimalMammal, resource = R.drawable.ic_1f412),
-    Elephant(plainName = "Elephant", unicode = "1f418", category = TwemojiCategory.AnimalsAndNature, subcategory = TwemojiSubcategory.AnimalMammal, resource = R.drawable.ic_1f418),
-    Goat(plainName = "Goat", unicode = "1f410", category = TwemojiCategory.AnimalsAndNature, subcategory = TwemojiSubcategory.AnimalMammal, resource = R.drawable.ic_1f410),
-    PigNose(plainName = "PigNose", unicode = "1f43d", category = TwemojiCategory.AnimalsAndNature, subcategory = TwemojiSubcategory.AnimalMammal, resource = R.drawable.ic_1f43d),
-    Koala(plainName = "Koala", unicode = "1f428", category = TwemojiCategory.AnimalsAndNature, subcategory = TwemojiSubcategory.AnimalMammal, resource = R.drawable.ic_1f428),
-    HorseFace(plainName = "HorseFace", unicode = "1f434", category = TwemojiCategory.AnimalsAndNature, subcategory = TwemojiSubcategory.AnimalMammal, resource = R.drawable.ic_1f434),
-    MonkeyFace(plainName = "MonkeyFace", unicode = "1f435", category = TwemojiCategory.AnimalsAndNature, subcategory = TwemojiSubcategory.AnimalMammal, resource = R.drawable.ic_1f435),
-    Wolf(plainName = "Wolf", unicode = "1f43a", category = TwemojiCategory.AnimalsAndNature, subcategory = TwemojiSubcategory.AnimalMammal, resource = R.drawable.ic_1f43a),
-    CowFace(plainName = "CowFace", unicode = "1f42e", category = TwemojiCategory.AnimalsAndNature, subcategory = TwemojiSubcategory.AnimalMammal, resource = R.drawable.ic_1f42e),
-    Hamster(plainName = "Hamster", unicode = "1f439", category = TwemojiCategory.AnimalsAndNature, subcategory = TwemojiSubcategory.AnimalMammal, resource = R.drawable.ic_1f439),
-    MouseFace(plainName = "MouseFace", unicode = "1f42d", category = TwemojiCategory.AnimalsAndNature, subcategory = TwemojiSubcategory.AnimalMammal, resource = R.drawable.ic_1f42d),
-    Ewe(plainName = "Ewe", unicode = "1f411", category = TwemojiCategory.AnimalsAndNature, subcategory = TwemojiSubcategory.AnimalMammal, resource = R.drawable.ic_1f411),
-    Horse(plainName = "Horse", unicode = "1f40e", category = TwemojiCategory.AnimalsAndNature, subcategory = TwemojiSubcategory.AnimalMammal, resource = R.drawable.ic_1f40e),
-    Rabbit(plainName = "Rabbit", unicode = "1f407", category = TwemojiCategory.AnimalsAndNature, subcategory = TwemojiSubcategory.AnimalMammal, resource = R.drawable.ic_1f407),
-    Dog(plainName = "Dog", unicode = "1f415", category = TwemojiCategory.AnimalsAndNature, subcategory = TwemojiSubcategory.AnimalMammal, resource = R.drawable.ic_1f415),
-    Cat(plainName = "Cat", unicode = "1f408", category = TwemojiCategory.AnimalsAndNature, subcategory = TwemojiSubcategory.AnimalMammal, resource = R.drawable.ic_1f408),
-    Poodle(plainName = "Poodle", unicode = "1f429", category = TwemojiCategory.AnimalsAndNature, subcategory = TwemojiSubcategory.AnimalMammal, resource = R.drawable.ic_1f429),
-    TwoHumpCamel(plainName = "TwoHumpCamel", unicode = "1f42b", category = TwemojiCategory.AnimalsAndNature, subcategory = TwemojiSubcategory.AnimalMammal, resource = R.drawable.ic_1f42b),
-    Camel(plainName = "Camel", unicode = "1f42a", category = TwemojiCategory.AnimalsAndNature, subcategory = TwemojiSubcategory.AnimalMammal, resource = R.drawable.ic_1f42a),
-    Cow(plainName = "Cow", unicode = "1f404", category = TwemojiCategory.AnimalsAndNature, subcategory = TwemojiSubcategory.AnimalMammal, resource = R.drawable.ic_1f404),
-    Pig(plainName = "Pig", unicode = "1f416", category = TwemojiCategory.AnimalsAndNature, subcategory = TwemojiSubcategory.AnimalMammal, resource = R.drawable.ic_1f416),
-    Rat(plainName = "Rat", unicode = "1f400", category = TwemojiCategory.AnimalsAndNature, subcategory = TwemojiSubcategory.AnimalMammal, resource = R.drawable.ic_1f400),
-    Ram(plainName = "Ram", unicode = "1f40f", category = TwemojiCategory.AnimalsAndNature, subcategory = TwemojiSubcategory.AnimalMammal, resource = R.drawable.ic_1f40f),
-    Tiger(plainName = "Tiger", unicode = "1f405", category = TwemojiCategory.AnimalsAndNature, subcategory = TwemojiSubcategory.AnimalMammal, resource = R.drawable.ic_1f405),
-    Boar(plainName = "Boar", unicode = "1f417", category = TwemojiCategory.AnimalsAndNature, subcategory = TwemojiSubcategory.AnimalMammal, resource = R.drawable.ic_1f417),
-    Ox(plainName = "Ox", unicode = "1f402", category = TwemojiCategory.AnimalsAndNature, subcategory = TwemojiSubcategory.AnimalMammal, resource = R.drawable.ic_1f402),
-    Leopard(plainName = "Leopard", unicode = "1f406", category = TwemojiCategory.AnimalsAndNature, subcategory = TwemojiSubcategory.AnimalMammal, resource = R.drawable.ic_1f406),
-    WaterBuffalo(plainName = "WaterBuffalo", unicode = "1f403", category = TwemojiCategory.AnimalsAndNature, subcategory = TwemojiSubcategory.AnimalMammal, resource = R.drawable.ic_1f403),
-    Mouse(plainName = "Mouse", unicode = "1f401", category = TwemojiCategory.AnimalsAndNature, subcategory = TwemojiSubcategory.AnimalMammal, resource = R.drawable.ic_1f401),
-    Unicorn(plainName = "Unicorn", unicode = "1f984", category = TwemojiCategory.AnimalsAndNature, subcategory = TwemojiSubcategory.AnimalMammal, resource = R.drawable.ic_1f984),
-    Lion(plainName = "Lion", unicode = "1f981", category = TwemojiCategory.AnimalsAndNature, subcategory = TwemojiSubcategory.AnimalMammal, resource = R.drawable.ic_1f981),
-    Chipmunk(plainName = "Chipmunk", unicode = "1f43f", category = TwemojiCategory.AnimalsAndNature, subcategory = TwemojiSubcategory.AnimalMammal, resource = R.drawable.ic_1f43f),
-    Gorilla(plainName = "Gorilla", unicode = "1f98d", category = TwemojiCategory.AnimalsAndNature, subcategory = TwemojiSubcategory.AnimalMammal, resource = R.drawable.ic_1f98d),
-    Orangutan(plainName = "Orangutan", unicode = "1f9a7", category = TwemojiCategory.AnimalsAndNature, subcategory = TwemojiSubcategory.AnimalMammal, resource = R.drawable.ic_1f9a7),
-    GuideDog(plainName = "GuideDog", unicode = "1f9ae", category = TwemojiCategory.AnimalsAndNature, subcategory = TwemojiSubcategory.AnimalMammal, resource = R.drawable.ic_1f9ae),
-    ServiceDog(plainName = "ServiceDog", unicode = "1f415-200d-1f9ba", category = TwemojiCategory.AnimalsAndNature, subcategory = TwemojiSubcategory.AnimalMammal, resource = R.drawable.ic_1f415_200d_1f9ba),
-    Fox(plainName = "Fox", unicode = "1f98a", category = TwemojiCategory.AnimalsAndNature, subcategory = TwemojiSubcategory.AnimalMammal, resource = R.drawable.ic_1f98a),
-    Raccoon(plainName = "Raccoon", unicode = "1f99d", category = TwemojiCategory.AnimalsAndNature, subcategory = TwemojiSubcategory.AnimalMammal, resource = R.drawable.ic_1f99d),
-    Zebra(plainName = "Zebra", unicode = "1f993", category = TwemojiCategory.AnimalsAndNature, subcategory = TwemojiSubcategory.AnimalMammal, resource = R.drawable.ic_1f993),
-    Deer(plainName = "Deer", unicode = "1f98c", category = TwemojiCategory.AnimalsAndNature, subcategory = TwemojiSubcategory.AnimalMammal, resource = R.drawable.ic_1f98c),
-    Llama(plainName = "Llama", unicode = "1f999", category = TwemojiCategory.AnimalsAndNature, subcategory = TwemojiSubcategory.AnimalMammal, resource = R.drawable.ic_1f999),
-    Giraffe(plainName = "Giraffe", unicode = "1f992", category = TwemojiCategory.AnimalsAndNature, subcategory = TwemojiSubcategory.AnimalMammal, resource = R.drawable.ic_1f992),
-    Rhinoceros(plainName = "Rhinoceros", unicode = "1f98f", category = TwemojiCategory.AnimalsAndNature, subcategory = TwemojiSubcategory.AnimalMammal, resource = R.drawable.ic_1f98f),
-    Hippopotamus(plainName = "Hippopotamus", unicode = "1f99b", category = TwemojiCategory.AnimalsAndNature, subcategory = TwemojiSubcategory.AnimalMammal, resource = R.drawable.ic_1f99b),
-    Hedgehog(plainName = "Hedgehog", unicode = "1f994", category = TwemojiCategory.AnimalsAndNature, subcategory = TwemojiSubcategory.AnimalMammal, resource = R.drawable.ic_1f994),
-    Bat(plainName = "Bat", unicode = "1f987", category = TwemojiCategory.AnimalsAndNature, subcategory = TwemojiSubcategory.AnimalMammal, resource = R.drawable.ic_1f987),
-    Sloth(plainName = "Sloth", unicode = "1f9a5", category = TwemojiCategory.AnimalsAndNature, subcategory = TwemojiSubcategory.AnimalMammal, resource = R.drawable.ic_1f9a5),
-    Otter(plainName = "Otter", unicode = "1f9a6", category = TwemojiCategory.AnimalsAndNature, subcategory = TwemojiSubcategory.AnimalMammal, resource = R.drawable.ic_1f9a6),
-    Skunk(plainName = "Skunk", unicode = "1f9a8", category = TwemojiCategory.AnimalsAndNature, subcategory = TwemojiSubcategory.AnimalMammal, resource = R.drawable.ic_1f9a8),
-    Kangaroo(plainName = "Kangaroo", unicode = "1f998", category = TwemojiCategory.AnimalsAndNature, subcategory = TwemojiSubcategory.AnimalMammal, resource = R.drawable.ic_1f998),
-    Badger(plainName = "Badger", unicode = "1f9a1", category = TwemojiCategory.AnimalsAndNature, subcategory = TwemojiSubcategory.AnimalMammal, resource = R.drawable.ic_1f9a1),
+
     // endregion
 
     // region Marine
-    Octopus(plainName = "Octopus", unicode = "1f419", category = TwemojiCategory.AnimalsAndNature, subcategory = TwemojiSubcategory.AnimalMarine, resource = R.drawable.ic_1f419),
-    SpoutingWhale(plainName = "SpoutingWhale", unicode = "1f433", category = TwemojiCategory.AnimalsAndNature, subcategory = TwemojiSubcategory.AnimalMarine, resource = R.drawable.ic_1f433),
-    Dolphin(plainName = "Dolphin", unicode = "1f42c", category = TwemojiCategory.AnimalsAndNature, subcategory = TwemojiSubcategory.AnimalMarine, resource = R.drawable.ic_1f42c),
-    TropicalFish(plainName = "TropicalFish", unicode = "1f420", category = TwemojiCategory.AnimalsAndNature, subcategory = TwemojiSubcategory.AnimalMarine, resource = R.drawable.ic_1f420),
-    Fish(plainName = "Fish", unicode = "1f41f", category = TwemojiCategory.AnimalsAndNature, subcategory = TwemojiSubcategory.AnimalMarine, resource = R.drawable.ic_1f41f),
-    Whale(plainName = "Whale", unicode = "1f40b", category = TwemojiCategory.AnimalsAndNature, subcategory = TwemojiSubcategory.AnimalMarine, resource = R.drawable.ic_1f40b),
-    SpiralShell(plainName = "SpiralShell", unicode = "1f41a", category = TwemojiCategory.AnimalsAndNature, subcategory = TwemojiSubcategory.AnimalMarine, resource = R.drawable.ic_1f41a),
-    Blowfish(plainName = "Blowfish", unicode = "1f421", category = TwemojiCategory.AnimalsAndNature, subcategory = TwemojiSubcategory.AnimalMarine, resource = R.drawable.ic_1f421),
-    Shark(plainName = "Shark", unicode = "1f988", category = TwemojiCategory.AnimalsAndNature, subcategory = TwemojiSubcategory.AnimalMarine, resource = R.drawable.ic_1f988),
+
     // endregion
 
     // region Reptile
-    Snake(plainName = "Snake", unicode = "1f40d", category = TwemojiCategory.AnimalsAndNature, subcategory = TwemojiSubcategory.AnimalReptile, resource = R.drawable.ic_1f40d),
-    Turtle(plainName = "Turtle", unicode = "1f422", category = TwemojiCategory.AnimalsAndNature, subcategory = TwemojiSubcategory.AnimalReptile, resource = R.drawable.ic_1f422),
-    Dragon(plainName = "Dragon", unicode = "1f409", category = TwemojiCategory.AnimalsAndNature, subcategory = TwemojiSubcategory.AnimalReptile, resource = R.drawable.ic_1f409),
-    Crocodile(plainName = "Crocodile", unicode = "1f40a", category = TwemojiCategory.AnimalsAndNature, subcategory = TwemojiSubcategory.AnimalReptile, resource = R.drawable.ic_1f40a),
-    DragonFace(plainName = "DragonFace", unicode = "1f432", category = TwemojiCategory.AnimalsAndNature, subcategory = TwemojiSubcategory.AnimalReptile, resource = R.drawable.ic_1f432),
-    Lizard(plainName = "Lizard", unicode = "1f98e", category = TwemojiCategory.AnimalsAndNature, subcategory = TwemojiSubcategory.AnimalReptile, resource = R.drawable.ic_1f98e),
-    Sauropod(plainName = "Sauropod", unicode = "1f995", category = TwemojiCategory.AnimalsAndNature, subcategory = TwemojiSubcategory.AnimalReptile, resource = R.drawable.ic_1f995),
-    TRex(plainName = "TRex", unicode = "1f996", category = TwemojiCategory.AnimalsAndNature, subcategory = TwemojiSubcategory.AnimalReptile, resource = R.drawable.ic_1f996),
+
     // endregion
 
     // region Flower
-    CherryBlossom(plainName = "CherryBlossom", unicode = "1f338", category = TwemojiCategory.AnimalsAndNature, subcategory = TwemojiSubcategory.PlantFlower, resource = R.drawable.ic_1f338),
-    Rose(plainName = "Rose", unicode = "1f339", category = TwemojiCategory.AnimalsAndNature, subcategory = TwemojiSubcategory.PlantFlower, resource = R.drawable.ic_1f339),
-    Hibiscus(plainName = "Hibiscus", unicode = "1f33a", category = TwemojiCategory.AnimalsAndNature, subcategory = TwemojiSubcategory.PlantFlower, resource = R.drawable.ic_1f33a),
-    Sunflower(plainName = "Sunflower", unicode = "1f33b", category = TwemojiCategory.AnimalsAndNature, subcategory = TwemojiSubcategory.PlantFlower, resource = R.drawable.ic_1f33b),
-    Bouquet(plainName = "Bouquet", unicode = "1f490", category = TwemojiCategory.AnimalsAndNature, subcategory = TwemojiSubcategory.PlantFlower, resource = R.drawable.ic_1f490),
-    Tulip(plainName = "Tulip", unicode = "1f337", category = TwemojiCategory.AnimalsAndNature, subcategory = TwemojiSubcategory.PlantFlower, resource = R.drawable.ic_1f337),
-    Blossom(plainName = "Blossom", unicode = "1f33c", category = TwemojiCategory.AnimalsAndNature, subcategory = TwemojiSubcategory.PlantFlower, resource = R.drawable.ic_1f33c),
-    WhiteFlower(plainName = "WhiteFlower", unicode = "1f4ae", category = TwemojiCategory.AnimalsAndNature, subcategory = TwemojiSubcategory.PlantFlower, resource = R.drawable.ic_1f4ae),
-    Rosette(plainName = "Rosette", unicode = "1f3f5", category = TwemojiCategory.AnimalsAndNature, subcategory = TwemojiSubcategory.PlantFlower, resource = R.drawable.ic_1f3f5),
-    WiltedFlower(plainName = "WiltedFlower", unicode = "1f940", category = TwemojiCategory.AnimalsAndNature, subcategory = TwemojiSubcategory.PlantFlower, resource = R.drawable.ic_1f940),
+
     // endregion
 
     // region Other
-    LeafFlutteringInWind(plainName = "LeafFlutteringInWind", unicode = "1f343", category = TwemojiCategory.AnimalsAndNature, subcategory = TwemojiSubcategory.PlantOther, resource = R.drawable.ic_1f343),
-    FourLeafClover(plainName = "FourLeafClover", unicode = "1f340", category = TwemojiCategory.AnimalsAndNature, subcategory = TwemojiSubcategory.PlantOther, resource = R.drawable.ic_1f340),
-    PalmTree(plainName = "PalmTree", unicode = "1f334", category = TwemojiCategory.AnimalsAndNature, subcategory = TwemojiSubcategory.PlantOther, resource = R.drawable.ic_1f334),
-    Herb(plainName = "Herb", unicode = "1f33f", category = TwemojiCategory.AnimalsAndNature, subcategory = TwemojiSubcategory.PlantOther, resource = R.drawable.ic_1f33f),
-    FallenLeaf(plainName = "FallenLeaf", unicode = "1f342", category = TwemojiCategory.AnimalsAndNature, subcategory = TwemojiSubcategory.PlantOther, resource = R.drawable.ic_1f342),
-    Cactus(plainName = "Cactus", unicode = "1f335", category = TwemojiCategory.AnimalsAndNature, subcategory = TwemojiSubcategory.PlantOther, resource = R.drawable.ic_1f335),
-    MapleLeaf(plainName = "MapleLeaf", unicode = "1f341", category = TwemojiCategory.AnimalsAndNature, subcategory = TwemojiSubcategory.PlantOther, resource = R.drawable.ic_1f341),
-    SheafOfRice(plainName = "SheafOfRice", unicode = "1f33e", category = TwemojiCategory.AnimalsAndNature, subcategory = TwemojiSubcategory.PlantOther, resource = R.drawable.ic_1f33e),
-    Seedling(plainName = "Seedling", unicode = "1f331", category = TwemojiCategory.AnimalsAndNature, subcategory = TwemojiSubcategory.PlantOther, resource = R.drawable.ic_1f331),
-    EvergreenTree(plainName = "EvergreenTree", unicode = "1f332", category = TwemojiCategory.AnimalsAndNature, subcategory = TwemojiSubcategory.PlantOther, resource = R.drawable.ic_1f332),
-    DeciduousTree(plainName = "DeciduousTree", unicode = "1f333", category = TwemojiCategory.AnimalsAndNature, subcategory = TwemojiSubcategory.PlantOther, resource = R.drawable.ic_1f333),
-    Shamrock(plainName = "Shamrock", unicode = "2618", category = TwemojiCategory.AnimalsAndNature, subcategory = TwemojiSubcategory.PlantOther, resource = R.drawable.ic_2618),
+
     // endregion
 
     /**
