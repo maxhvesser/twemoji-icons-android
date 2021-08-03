@@ -109,9 +109,6 @@ object PeopleAndBodyProvider {
         TwemojiIcon(plainName = "CoupleWithHeart", unicode = "1f491", category = TwemojiCategory.PeopleAndBody, subcategory = TwemojiSubcategory.Family, resource = R.drawable.ic_1f491),
         TwemojiIcon(plainName = "CoupleWithHeartWomanWoman", unicode = "1f469-200d-2764-fe0f-200d-1f469", category = TwemojiCategory.PeopleAndBody, subcategory = TwemojiSubcategory.Family, resource = R.drawable.ic_1f469_200d_2764_fe0f_200d_1f469),
         TwemojiIcon(plainName = "CoupleWithHeartManMan", unicode = "1f468-200d-2764-fe0f-200d-1f468", category = TwemojiCategory.PeopleAndBody, subcategory = TwemojiSubcategory.Family, resource = R.drawable.ic_1f468_200d_2764_fe0f_200d_1f468),
-
-        
-
         TwemojiIcon(plainName = "Family", unicode = "1f46a", category = TwemojiCategory.PeopleAndBody, subcategory = TwemojiSubcategory.Family, resource = R.drawable.ic_1f46a),
         TwemojiIcon(plainName = "MenHoldingHands", unicode = "1f46c", category = TwemojiCategory.PeopleAndBody, subcategory = TwemojiSubcategory.Family, resource = R.drawable.ic_1f46c),
         TwemojiIcon(plainName = "PeopleHoldingHands", unicode = "1f9d1-200d-1f91d-200d-1f9d1", category = TwemojiCategory.PeopleAndBody, subcategory = TwemojiSubcategory.Family, resource = R.drawable.ic_1f9d1_200d_1f91d_200d_1f9d1),
