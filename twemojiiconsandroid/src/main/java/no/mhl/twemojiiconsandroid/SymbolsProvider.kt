@@ -5,6 +5,7 @@ object SymbolsProvider {
     // region All
     fun provideSymbols(): List<TwemojiIcon> = listOf(
         provideAlphanum(),
+        provideArrow(),
         provideAv(),
         provideGender(),
         provideGeometric(),
@@ -58,6 +59,32 @@ object SymbolsProvider {
         TwemojiIcon(plainName = "JapaneseHereButton", unicode = "1f201", category = TwemojiCategory.Symbols, subcategory = TwemojiSubcategory.Alphanum, resource = R.drawable.ic_1f201),
         TwemojiIcon(plainName = "JapaneseReservedButton", unicode = "1f22f", category = TwemojiCategory.Symbols, subcategory = TwemojiSubcategory.Alphanum, resource = R.drawable.ic_1f22f),
         TwemojiIcon(plainName = "JapaneseFreeOfChargeButton", unicode = "1f21a", category = TwemojiCategory.Symbols, subcategory = TwemojiSubcategory.Alphanum, resource = R.drawable.ic_1f21a)
+    )
+    // endregion
+
+    // region Arrow
+    fun provideArrow() = listOf(
+        TwemojiIcon(plainName = "LeftArrow", unicode = "2b05", category = TwemojiCategory.Symbols, subcategory = TwemojiSubcategory.Arrow, resource = R.drawable.ic_2b05),
+        TwemojiIcon(plainName = "LeftArrowCurvingRight", unicode = "21aa", category = TwemojiCategory.Symbols, subcategory = TwemojiSubcategory.Arrow, resource = R.drawable.ic_21aa),
+        TwemojiIcon(plainName = "RightArrowCurvingLeft", unicode = "21a9", category = TwemojiCategory.Symbols, subcategory = TwemojiSubcategory.Arrow, resource = R.drawable.ic_21a9),
+        TwemojiIcon(plainName = "RightArrow", unicode = "27a1", category = TwemojiCategory.Symbols, subcategory = TwemojiSubcategory.Arrow, resource = R.drawable.ic_27a1),
+        TwemojiIcon(plainName = "TopArrow", unicode = "1f51d", category = TwemojiCategory.Symbols, subcategory = TwemojiSubcategory.Arrow, resource = R.drawable.ic_1f51d),
+        TwemojiIcon(plainName = "DownArrow", unicode = "2b07", category = TwemojiCategory.Symbols, subcategory = TwemojiSubcategory.Arrow, resource = R.drawable.ic_2b07),
+        TwemojiIcon(plainName = "BackArrow", unicode = "1f519", category = TwemojiCategory.Symbols, subcategory = TwemojiSubcategory.Arrow, resource = R.drawable.ic_1f519),
+        TwemojiIcon(plainName = "ClockwiseVerticalArrows", unicode = "1f503", category = TwemojiCategory.Symbols, subcategory = TwemojiSubcategory.Arrow, resource = R.drawable.ic_1f503),
+        TwemojiIcon(plainName = "UpArrow", unicode = "2b06", category = TwemojiCategory.Symbols, subcategory = TwemojiSubcategory.Arrow, resource = R.drawable.ic_2b06),
+        TwemojiIcon(plainName = "UpRightArrow", unicode = "2197", category = TwemojiCategory.Symbols, subcategory = TwemojiSubcategory.Arrow, resource = R.drawable.ic_2197),
+        TwemojiIcon(plainName = "DownRightArrow", unicode = "2198", category = TwemojiCategory.Symbols, subcategory = TwemojiSubcategory.Arrow, resource = R.drawable.ic_2198),
+        TwemojiIcon(plainName = "DownLeftArrow", unicode = "2199", category = TwemojiCategory.Symbols, subcategory = TwemojiSubcategory.Arrow, resource = R.drawable.ic_2199),
+        TwemojiIcon(plainName = "UpLeftArrow", unicode = "2196", category = TwemojiCategory.Symbols, subcategory = TwemojiSubcategory.Arrow, resource = R.drawable.ic_2196),
+        TwemojiIcon(plainName = "SoonArrow", unicode = "1f51c", category = TwemojiCategory.Symbols, subcategory = TwemojiSubcategory.Arrow, resource = R.drawable.ic_1f51c),
+        TwemojiIcon(plainName = "RightArrowCurvingDown", unicode = "2935", category = TwemojiCategory.Symbols, subcategory = TwemojiSubcategory.Arrow, resource = R.drawable.ic_2935),
+        TwemojiIcon(plainName = "UpDownArrow", unicode = "2195", category = TwemojiCategory.Symbols, subcategory = TwemojiSubcategory.Arrow, resource = R.drawable.ic_2195),
+        TwemojiIcon(plainName = "CounterclockwiseArrowsButton", unicode = "1f504", category = TwemojiCategory.Symbols, subcategory = TwemojiSubcategory.Arrow, resource = R.drawable.ic_1f504),
+        TwemojiIcon(plainName = "RightArrowCurvingUp", unicode = "2934", category = TwemojiCategory.Symbols, subcategory = TwemojiSubcategory.Arrow, resource = R.drawable.ic_2934),
+        TwemojiIcon(plainName = "OnArrow", unicode = "1f51b", category = TwemojiCategory.Symbols, subcategory = TwemojiSubcategory.Arrow, resource = R.drawable.ic_1f51b),
+        TwemojiIcon(plainName = "EndArrow", unicode = "1f51a", category = TwemojiCategory.Symbols, subcategory = TwemojiSubcategory.Arrow, resource = R.drawable.ic_1f51a),
+        TwemojiIcon(plainName = "LeftRightArrow", unicode = "2194", category = TwemojiCategory.Symbols, subcategory = TwemojiSubcategory.Arrow, resource = R.drawable.ic_2194),
     )
     // endregion
 
