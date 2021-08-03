@@ -19,59 +19,6 @@ enum class TwemojiIconnn(
 ) {
 
     /**
-     * Animals and nature
-     */
-    // region Amphibian
-
-    // endregion
-
-    // region Bird
-
-    // endregion
-
-    // region Bug
-
-    // endregion
-
-    // region Mammal
-
-    // endregion
-
-    // region Marine
-
-    // endregion
-
-    // region Reptile
-
-    // endregion
-
-    // region Flower
-
-    // endregion
-
-    // region Other
-
-    // endregion
-
-    /**
-     * Component
-     */
-    // region Hair style
-    RedHair(plainName = "RedHair", unicode = "1f9b0", category = TwemojiCategory.Component, subcategory = TwemojiSubcategory.HairStyle, resource = R.drawable.ic_1f9b0),
-    CurlyHair(plainName = "CurlyHair", unicode = "1f9b1", category = TwemojiCategory.Component, subcategory = TwemojiSubcategory.HairStyle, resource = R.drawable.ic_1f9b1),
-    WhiteHair(plainName = "WhiteHair", unicode = "1f9b3", category = TwemojiCategory.Component, subcategory = TwemojiSubcategory.HairStyle, resource = R.drawable.ic_1f9b3),
-    Bald(plainName = "Bald", unicode = "1f9b2", category = TwemojiCategory.Component, subcategory = TwemojiSubcategory.HairStyle, resource = R.drawable.ic_1f9b2),
-    // endregion
-
-    // region Skin tone
-    LightSkinTone(plainName = "LightSkinTone", unicode = "1f3fb", category = TwemojiCategory.Component, subcategory = TwemojiSubcategory.SkinTone, resource = R.drawable.ic_1f3fb),
-    MediumLightSkinTone(plainName = "MediumLightSkinTone", unicode = "1f3fc", category = TwemojiCategory.Component, subcategory = TwemojiSubcategory.SkinTone, resource = R.drawable.ic_1f3fc),
-    MediumSkinTone(plainName = "MediumSkinTone", unicode = "1f3fd", category = TwemojiCategory.Component, subcategory = TwemojiSubcategory.SkinTone, resource = R.drawable.ic_1f3fd),
-    MediumDarkSkinTone(plainName = "MediumDarkSkinTone", unicode = "1f3fe", category = TwemojiCategory.Component, subcategory = TwemojiSubcategory.SkinTone, resource = R.drawable.ic_1f3fe),
-    DarkSkinTone(plainName = "DarkSkinTone", unicode = "1f3ff", category = TwemojiCategory.Component, subcategory = TwemojiSubcategory.SkinTone, resource = R.drawable.ic_1f3ff),
-    // endregion
-
-    /**
      * Flags
      */
     // region Country flag
