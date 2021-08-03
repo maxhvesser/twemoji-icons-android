@@ -36,6 +36,8 @@ object FoodAndDrinkProvider {
         TwemojiIcon(plainName = "CocktailGlass", unicode = "1f378", category = TwemojiCategory.FoodAndDrink, subcategory = TwemojiSubcategory.Drink, resource = R.drawable.ic_1f378),
         TwemojiIcon(plainName = "BabyBottle", unicode = "1f37c", category = TwemojiCategory.FoodAndDrink, subcategory = TwemojiSubcategory.Drink, resource = R.drawable.ic_1f37c),
         TwemojiIcon(plainName = "TeacupWithoutHandle", unicode = "1f375", category = TwemojiCategory.FoodAndDrink, subcategory = TwemojiSubcategory.Drink, resource = R.drawable.ic_1f375),
+        TwemojiIcon(plainName = "BubbleTea", unicode = "1f9cb", category = TwemojiCategory.FoodAndDrink, subcategory = TwemojiSubcategory.Drink, resource = R.drawable.ic_1f9cb),
+        TwemojiIcon(plainName = "Teapot", unicode = "1fad6", category = TwemojiCategory.FoodAndDrink, subcategory = TwemojiSubcategory.Drink, resource = R.drawable.ic_1fad6),
         TwemojiIcon(plainName = "Sake", unicode = "1f376", category = TwemojiCategory.FoodAndDrink, subcategory = TwemojiSubcategory.Drink, resource = R.drawable.ic_1f376),
         TwemojiIcon(plainName = "BottleWithPoppingCork", unicode = "1f37e", category = TwemojiCategory.FoodAndDrink, subcategory = TwemojiSubcategory.Drink, resource = R.drawable.ic_1f37e),
         TwemojiIcon(plainName = "GlassOfMilk", unicode = "1f95b", category = TwemojiCategory.FoodAndDrink, subcategory = TwemojiSubcategory.Drink, resource = R.drawable.ic_1f95b),
@@ -88,6 +90,9 @@ object FoodAndDrinkProvider {
         TwemojiIcon(plainName = "Melon", unicode = "1f348", category = TwemojiCategory.FoodAndDrink, subcategory = TwemojiSubcategory.FoodFruit, resource = R.drawable.ic_1f348),
         TwemojiIcon(plainName = "Mango", unicode = "1f96d", category = TwemojiCategory.FoodAndDrink, subcategory = TwemojiSubcategory.FoodFruit, resource = R.drawable.ic_1f96d),
         TwemojiIcon(plainName = "KiwiFruit", unicode = "1f95d", category = TwemojiCategory.FoodAndDrink, subcategory = TwemojiSubcategory.FoodFruit, resource = R.drawable.ic_1f95d),
+        TwemojiIcon(plainName = "Blueberries", unicode = "1fad0", category = TwemojiCategory.FoodAndDrink, subcategory = TwemojiSubcategory.FoodFruit, resource = R.drawable.ic_1fad0),
+        TwemojiIcon(plainName = "BellPepper", unicode = "1fad1", category = TwemojiCategory.FoodAndDrink, subcategory = TwemojiSubcategory.FoodFruit, resource = R.drawable.ic_1fad1),
+        TwemojiIcon(plainName = "Olive", unicode = "1fad2", category = TwemojiCategory.FoodAndDrink, subcategory = TwemojiSubcategory.FoodFruit, resource = R.drawable.ic_1fad2),
         TwemojiIcon(plainName = "Coconut", unicode = "1f965", category = TwemojiCategory.FoodAndDrink, subcategory = TwemojiSubcategory.FoodFruit, resource = R.drawable.ic_1f965)
     )
     // endregion
@@ -110,6 +115,7 @@ object FoodAndDrinkProvider {
         TwemojiIcon(plainName = "PoultryLeg", unicode = "1f357", category = TwemojiCategory.FoodAndDrink, subcategory = TwemojiSubcategory.FoodPrepared, resource = R.drawable.ic_1f357),
         TwemojiIcon(plainName = "Cooking", unicode = "1f373", category = TwemojiCategory.FoodAndDrink, subcategory = TwemojiSubcategory.FoodPrepared, resource = R.drawable.ic_1f373),
         TwemojiIcon(plainName = "Bread", unicode = "1f35e", category = TwemojiCategory.FoodAndDrink, subcategory = TwemojiSubcategory.FoodPrepared, resource = R.drawable.ic_1f35e),
+        TwemojiIcon(plainName = "FlatBread", unicode = "1fad3", category = TwemojiCategory.FoodAndDrink, subcategory = TwemojiSubcategory.FoodPrepared, resource = R.drawable.ic_1fad3),
         TwemojiIcon(plainName = "MeatOnBone", unicode = "1f356", category = TwemojiCategory.FoodAndDrink, subcategory = TwemojiSubcategory.FoodPrepared, resource = R.drawable.ic_1f356),
         TwemojiIcon(plainName = "PotOfFood", unicode = "1f372", category = TwemojiCategory.FoodAndDrink, subcategory = TwemojiSubcategory.FoodPrepared, resource = R.drawable.ic_1f372),
         TwemojiIcon(plainName = "CheeseWedge", unicode = "1f9c0", category = TwemojiCategory.FoodAndDrink, subcategory = TwemojiSubcategory.FoodPrepared, resource = R.drawable.ic_1f9c0),
@@ -134,6 +140,8 @@ object FoodAndDrinkProvider {
         TwemojiIcon(plainName = "GreenSalad", unicode = "1f957", category = TwemojiCategory.FoodAndDrink, subcategory = TwemojiSubcategory.FoodPrepared, resource = R.drawable.ic_1f957),
         TwemojiIcon(plainName = "Butter", unicode = "1f9c8", category = TwemojiCategory.FoodAndDrink, subcategory = TwemojiSubcategory.FoodPrepared, resource = R.drawable.ic_1f9c8),
         TwemojiIcon(plainName = "Salt", unicode = "1f9c2", category = TwemojiCategory.FoodAndDrink, subcategory = TwemojiSubcategory.FoodPrepared, resource = R.drawable.ic_1f9c2),
+        TwemojiIcon(plainName = "Tamale", unicode = "1fad4", category = TwemojiCategory.FoodAndDrink, subcategory = TwemojiSubcategory.FoodPrepared, resource = R.drawable.ic_1fad4),
+        TwemojiIcon(plainName = "Fondue", unicode = "1fad5", category = TwemojiCategory.FoodAndDrink, subcategory = TwemojiSubcategory.FoodPrepared, resource = R.drawable.ic_1fad5),
         TwemojiIcon(plainName = "CannedFood", unicode = "1f96b", category = TwemojiCategory.FoodAndDrink, subcategory = TwemojiSubcategory.FoodPrepared, resource = R.drawable.ic_1f96b)
     )
     // endregion

@@ -37,7 +37,9 @@ object AnimalsAndNatureProvider {
         TwemojiIcon(plainName = "Swan", unicode = "1f9a2", category = TwemojiCategory.AnimalsAndNature, subcategory = TwemojiSubcategory.AnimalBird, resource = R.drawable.ic_1f9a2),
         TwemojiIcon(plainName = "Owl", unicode = "1f989", category = TwemojiCategory.AnimalsAndNature, subcategory = TwemojiSubcategory.AnimalBird, resource = R.drawable.ic_1f989),
         TwemojiIcon(plainName = "Flamingo", unicode = "1f9a9", category = TwemojiCategory.AnimalsAndNature, subcategory = TwemojiSubcategory.AnimalBird, resource = R.drawable.ic_1f9a9),
+        TwemojiIcon(plainName = "Dodo", unicode = "1f9a4", category = TwemojiCategory.AnimalsAndNature, subcategory = TwemojiSubcategory.AnimalBird, resource = R.drawable.ic_1f9a4),
         TwemojiIcon(plainName = "Peacock", unicode = "1f99a", category = TwemojiCategory.AnimalsAndNature, subcategory = TwemojiSubcategory.AnimalBird, resource = R.drawable.ic_1f99a),
+        TwemojiIcon(plainName = "Feather", unicode = "1fab6", category = TwemojiCategory.AnimalsAndNature, subcategory = TwemojiSubcategory.AnimalBird, resource = R.drawable.ic_1fab6),
         TwemojiIcon(plainName = "Parrot", unicode = "1f99c", category = TwemojiCategory.AnimalsAndNature, subcategory = TwemojiSubcategory.AnimalBird, resource = R.drawable.ic_1f99c)
     )
     // endregion
@@ -55,6 +57,10 @@ object AnimalsAndNatureProvider {
         TwemojiIcon(plainName = "Butterfly", unicode = "1f98b", category = TwemojiCategory.AnimalsAndNature, subcategory = TwemojiSubcategory.AnimalBug, resource = R.drawable.ic_1f98b),
         TwemojiIcon(plainName = "Cricket", unicode = "1f997", category = TwemojiCategory.AnimalsAndNature, subcategory = TwemojiSubcategory.AnimalBug, resource = R.drawable.ic_1f997),
         TwemojiIcon(plainName = "Mosquito", unicode = "1f99f", category = TwemojiCategory.AnimalsAndNature, subcategory = TwemojiSubcategory.AnimalBug, resource = R.drawable.ic_1f99f),
+        TwemojiIcon(plainName = "Fly", unicode = "1fab0", category = TwemojiCategory.AnimalsAndNature, subcategory = TwemojiSubcategory.AnimalBug, resource = R.drawable.ic_1fab0),
+        TwemojiIcon(plainName = "Worm", unicode = "1fab1", category = TwemojiCategory.AnimalsAndNature, subcategory = TwemojiSubcategory.AnimalBug, resource = R.drawable.ic_1fab1),
+        TwemojiIcon(plainName = "Beetle", unicode = "1fab2", category = TwemojiCategory.AnimalsAndNature, subcategory = TwemojiSubcategory.AnimalBug, resource = R.drawable.ic_1fab2),
+        TwemojiIcon(plainName = "Cockroach", unicode = "1fab3", category = TwemojiCategory.AnimalsAndNature, subcategory = TwemojiSubcategory.AnimalBug, resource = R.drawable.ic_1fab3),
         TwemojiIcon(plainName = "Microbe", unicode = "1f9a0", category = TwemojiCategory.AnimalsAndNature, subcategory = TwemojiSubcategory.AnimalBug, resource = R.drawable.ic_1f9a0)
     )
     // endregion
@@ -68,9 +74,11 @@ object AnimalsAndNatureProvider {
         TwemojiIcon(plainName = "PawPrints", unicode = "1f43e", category = TwemojiCategory.AnimalsAndNature, subcategory = TwemojiSubcategory.AnimalMammal, resource = R.drawable.ic_1f43e),
         TwemojiIcon(plainName = "RabbitFace", unicode = "1f430", category = TwemojiCategory.AnimalsAndNature, subcategory = TwemojiSubcategory.AnimalMammal, resource = R.drawable.ic_1f430),
         TwemojiIcon(plainName = "Bear", unicode = "1f43b", category = TwemojiCategory.AnimalsAndNature, subcategory = TwemojiSubcategory.AnimalMammal, resource = R.drawable.ic_1f43b),
+        TwemojiIcon(plainName = "PolarBear", unicode = "1f43b-200d-2744-fe0f", category = TwemojiCategory.AnimalsAndNature, subcategory = TwemojiSubcategory.AnimalMammal, resource = R.drawable.ic_1f43b_200d_2744_fe0f),
         TwemojiIcon(plainName = "TigerFace", unicode = "1f42f", category = TwemojiCategory.AnimalsAndNature, subcategory = TwemojiSubcategory.AnimalMammal, resource = R.drawable.ic_1f42f),
         TwemojiIcon(plainName = "Monkey", unicode = "1f412", category = TwemojiCategory.AnimalsAndNature, subcategory = TwemojiSubcategory.AnimalMammal, resource = R.drawable.ic_1f412),
         TwemojiIcon(plainName = "Elephant", unicode = "1f418", category = TwemojiCategory.AnimalsAndNature, subcategory = TwemojiSubcategory.AnimalMammal, resource = R.drawable.ic_1f418),
+        TwemojiIcon(plainName = "Mammoth", unicode = "1f9a3", category = TwemojiCategory.AnimalsAndNature, subcategory = TwemojiSubcategory.AnimalMammal, resource = R.drawable.ic_1f9a3),
         TwemojiIcon(plainName = "Goat", unicode = "1f410", category = TwemojiCategory.AnimalsAndNature, subcategory = TwemojiSubcategory.AnimalMammal, resource = R.drawable.ic_1f410),
         TwemojiIcon(plainName = "PigNose", unicode = "1f43d", category = TwemojiCategory.AnimalsAndNature, subcategory = TwemojiSubcategory.AnimalMammal, resource = R.drawable.ic_1f43d),
         TwemojiIcon(plainName = "Koala", unicode = "1f428", category = TwemojiCategory.AnimalsAndNature, subcategory = TwemojiSubcategory.AnimalMammal, resource = R.drawable.ic_1f428),
@@ -85,6 +93,7 @@ object AnimalsAndNatureProvider {
         TwemojiIcon(plainName = "Rabbit", unicode = "1f407", category = TwemojiCategory.AnimalsAndNature, subcategory = TwemojiSubcategory.AnimalMammal, resource = R.drawable.ic_1f407),
         TwemojiIcon(plainName = "Dog", unicode = "1f415", category = TwemojiCategory.AnimalsAndNature, subcategory = TwemojiSubcategory.AnimalMammal, resource = R.drawable.ic_1f415),
         TwemojiIcon(plainName = "Cat", unicode = "1f408", category = TwemojiCategory.AnimalsAndNature, subcategory = TwemojiSubcategory.AnimalMammal, resource = R.drawable.ic_1f408),
+        TwemojiIcon(plainName = "BlackCat", unicode = "1f408-200d-2b1b", category = TwemojiCategory.AnimalsAndNature, subcategory = TwemojiSubcategory.AnimalMammal, resource = R.drawable.ic_1f408_200d_2b1b),
         TwemojiIcon(plainName = "Poodle", unicode = "1f429", category = TwemojiCategory.AnimalsAndNature, subcategory = TwemojiSubcategory.AnimalMammal, resource = R.drawable.ic_1f429),
         TwemojiIcon(plainName = "TwoHumpCamel", unicode = "1f42b", category = TwemojiCategory.AnimalsAndNature, subcategory = TwemojiSubcategory.AnimalMammal, resource = R.drawable.ic_1f42b),
         TwemojiIcon(plainName = "Camel", unicode = "1f42a", category = TwemojiCategory.AnimalsAndNature, subcategory = TwemojiSubcategory.AnimalMammal, resource = R.drawable.ic_1f42a),
@@ -97,10 +106,12 @@ object AnimalsAndNatureProvider {
         TwemojiIcon(plainName = "Ox", unicode = "1f402", category = TwemojiCategory.AnimalsAndNature, subcategory = TwemojiSubcategory.AnimalMammal, resource = R.drawable.ic_1f402),
         TwemojiIcon(plainName = "Leopard", unicode = "1f406", category = TwemojiCategory.AnimalsAndNature, subcategory = TwemojiSubcategory.AnimalMammal, resource = R.drawable.ic_1f406),
         TwemojiIcon(plainName = "WaterBuffalo", unicode = "1f403", category = TwemojiCategory.AnimalsAndNature, subcategory = TwemojiSubcategory.AnimalMammal, resource = R.drawable.ic_1f403),
+        TwemojiIcon(plainName = "Bison", unicode = "1f9ac", category = TwemojiCategory.AnimalsAndNature, subcategory = TwemojiSubcategory.AnimalMammal, resource = R.drawable.ic_1f9ac),
         TwemojiIcon(plainName = "Mouse", unicode = "1f401", category = TwemojiCategory.AnimalsAndNature, subcategory = TwemojiSubcategory.AnimalMammal, resource = R.drawable.ic_1f401),
         TwemojiIcon(plainName = "Unicorn", unicode = "1f984", category = TwemojiCategory.AnimalsAndNature, subcategory = TwemojiSubcategory.AnimalMammal, resource = R.drawable.ic_1f984),
         TwemojiIcon(plainName = "Lion", unicode = "1f981", category = TwemojiCategory.AnimalsAndNature, subcategory = TwemojiSubcategory.AnimalMammal, resource = R.drawable.ic_1f981),
         TwemojiIcon(plainName = "Chipmunk", unicode = "1f43f", category = TwemojiCategory.AnimalsAndNature, subcategory = TwemojiSubcategory.AnimalMammal, resource = R.drawable.ic_1f43f),
+        TwemojiIcon(plainName = "Beaver", unicode = "1f9ab", category = TwemojiCategory.AnimalsAndNature, subcategory = TwemojiSubcategory.AnimalMammal, resource = R.drawable.ic_1f9ab),
         TwemojiIcon(plainName = "Gorilla", unicode = "1f98d", category = TwemojiCategory.AnimalsAndNature, subcategory = TwemojiSubcategory.AnimalMammal, resource = R.drawable.ic_1f98d),
         TwemojiIcon(plainName = "Orangutan", unicode = "1f9a7", category = TwemojiCategory.AnimalsAndNature, subcategory = TwemojiSubcategory.AnimalMammal, resource = R.drawable.ic_1f9a7),
         TwemojiIcon(plainName = "GuideDog", unicode = "1f9ae", category = TwemojiCategory.AnimalsAndNature, subcategory = TwemojiSubcategory.AnimalMammal, resource = R.drawable.ic_1f9ae),
@@ -133,6 +144,7 @@ object AnimalsAndNatureProvider {
         TwemojiIcon(plainName = "Whale", unicode = "1f40b", category = TwemojiCategory.AnimalsAndNature, subcategory = TwemojiSubcategory.AnimalMarine, resource = R.drawable.ic_1f40b),
         TwemojiIcon(plainName = "SpiralShell", unicode = "1f41a", category = TwemojiCategory.AnimalsAndNature, subcategory = TwemojiSubcategory.AnimalMarine, resource = R.drawable.ic_1f41a),
         TwemojiIcon(plainName = "Blowfish", unicode = "1f421", category = TwemojiCategory.AnimalsAndNature, subcategory = TwemojiSubcategory.AnimalMarine, resource = R.drawable.ic_1f421),
+        TwemojiIcon(plainName = "Seal", unicode = "1f9ad", category = TwemojiCategory.AnimalsAndNature, subcategory = TwemojiSubcategory.AnimalMarine, resource = R.drawable.ic_1f9ad),
         TwemojiIcon(plainName = "Shark", unicode = "1f988", category = TwemojiCategory.AnimalsAndNature, subcategory = TwemojiSubcategory.AnimalMarine, resource = R.drawable.ic_1f988)
     )
     // endregion
@@ -178,6 +190,9 @@ object AnimalsAndNatureProvider {
         TwemojiIcon(plainName = "Seedling", unicode = "1f331", category = TwemojiCategory.AnimalsAndNature, subcategory = TwemojiSubcategory.PlantOther, resource = R.drawable.ic_1f331),
         TwemojiIcon(plainName = "EvergreenTree", unicode = "1f332", category = TwemojiCategory.AnimalsAndNature, subcategory = TwemojiSubcategory.PlantOther, resource = R.drawable.ic_1f332),
         TwemojiIcon(plainName = "DeciduousTree", unicode = "1f333", category = TwemojiCategory.AnimalsAndNature, subcategory = TwemojiSubcategory.PlantOther, resource = R.drawable.ic_1f333),
+        TwemojiIcon(plainName = "Rock", unicode = "1faa8", category = TwemojiCategory.AnimalsAndNature, subcategory = TwemojiSubcategory.PlantOther, resource = R.drawable.ic_1faa8),
+        TwemojiIcon(plainName = "PottedPlant", unicode = "1fab4", category = TwemojiCategory.AnimalsAndNature, subcategory = TwemojiSubcategory.PlantOther, resource = R.drawable.ic_1fab4),
+        TwemojiIcon(plainName = "Wood", unicode = "1fab5", category = TwemojiCategory.AnimalsAndNature, subcategory = TwemojiSubcategory.PlantOther, resource = R.drawable.ic_1fab5),
         TwemojiIcon(plainName = "Shamrock", unicode = "2618", category = TwemojiCategory.AnimalsAndNature, subcategory = TwemojiSubcategory.PlantOther, resource = R.drawable.ic_2618)
     )
     // endregion

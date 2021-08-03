@@ -59,6 +59,8 @@ object SmileysAndEmotionProvider {
         TwemojiIcon(plainName = "Zzz", unicode = "1f4a4", category = TwemojiCategory.SmileysAndEmotion, subcategory = TwemojiSubcategory.Emotion, resource = R.drawable.ic_1f4a4),
         TwemojiIcon(plainName = "HeartDecoration", unicode = "1f49f", category = TwemojiCategory.SmileysAndEmotion, subcategory = TwemojiSubcategory.Emotion, resource = R.drawable.ic_1f49f),
         TwemojiIcon(plainName = "HeartWithRibbon", unicode = "1f49d", category = TwemojiCategory.SmileysAndEmotion, subcategory = TwemojiSubcategory.Emotion, resource = R.drawable.ic_1f49d),
+        TwemojiIcon(plainName = "HeartWithBandage", unicode = "2764-fe0f-200d1-fa79", category = TwemojiCategory.SmileysAndEmotion, TwemojiSubcategory.Emotion, resource = R.drawable.ic_2764_fe0f_200d_1fa79),
+        TwemojiIcon(plainName = "HeartOnFire", unicode = "2764-fe0f-200d-1f525", category = TwemojiCategory.SmileysAndEmotion, TwemojiSubcategory.Emotion, resource = R.drawable.ic_2764_fe0f_200d_1f525),
         TwemojiIcon(plainName = "DashingAway", unicode = "1f4a8", category = TwemojiCategory.SmileysAndEmotion, subcategory = TwemojiSubcategory.Emotion, resource = R.drawable.ic_1f4a8),
         TwemojiIcon(plainName = "LoveLetter", unicode = "1f48c", category = TwemojiCategory.SmileysAndEmotion, subcategory = TwemojiSubcategory.Emotion, resource = R.drawable.ic_1f48c),
         TwemojiIcon(plainName = "Bomb", unicode = "1f4a3", category = TwemojiCategory.SmileysAndEmotion, subcategory = TwemojiSubcategory.Emotion, resource = R.drawable.ic_1f4a3),
@@ -108,6 +110,7 @@ object SmileysAndEmotionProvider {
         TwemojiIcon(plainName = "FearfulFace", unicode = "1f628", category = TwemojiCategory.SmileysAndEmotion, subcategory = TwemojiSubcategory.FaceConcerned, resource = R.drawable.ic_1f628),
         TwemojiIcon(plainName = "AnguishedFace", unicode = "1f627", category = TwemojiCategory.SmileysAndEmotion, subcategory = TwemojiSubcategory.FaceConcerned, resource = R.drawable.ic_1f627),
         TwemojiIcon(plainName = "FaceWithOpenMouth", unicode = "1f62e", category = TwemojiCategory.SmileysAndEmotion, subcategory = TwemojiSubcategory.FaceConcerned, resource = R.drawable.ic_1f62e),
+        TwemojiIcon(plainName = "FaceExhaling", unicode = "1f62e-200d-1f4a8", category = TwemojiCategory.SmileysAndEmotion, subcategory = TwemojiSubcategory.FaceConcerned, resource = R.drawable.ic_1f62e_200d_1f4a8),
         TwemojiIcon(plainName = "HushedFace", unicode = "1f62f", category = TwemojiCategory.SmileysAndEmotion, subcategory = TwemojiSubcategory.FaceConcerned, resource = R.drawable.ic_1f62f),
         TwemojiIcon(plainName = "AstonishedFace", unicode = "1f632", category = TwemojiCategory.SmileysAndEmotion, subcategory = TwemojiSubcategory.FaceConcerned, resource = R.drawable.ic_1f632),
         TwemojiIcon(plainName = "FrowningFaceWithOpenMouth", unicode = "1f626", category = TwemojiCategory.SmileysAndEmotion, subcategory = TwemojiSubcategory.FaceConcerned, resource = R.drawable.ic_1f626),
@@ -127,6 +130,7 @@ object SmileysAndEmotionProvider {
         TwemojiIcon(plainName = "Ogre", unicode = "1f479", category = TwemojiCategory.SmileysAndEmotion, subcategory = TwemojiSubcategory.FaceCostume, resource = R.drawable.ic_1f479),
         TwemojiIcon(plainName = "Goblin", unicode = "1f47a", category = TwemojiCategory.SmileysAndEmotion, subcategory = TwemojiSubcategory.FaceCostume, resource = R.drawable.ic_1f47a),
         TwemojiIcon(plainName = "Robot", unicode = "1f916", category = TwemojiCategory.SmileysAndEmotion, subcategory = TwemojiSubcategory.FaceCostume, resource = R.drawable.ic_1f916),
+        TwemojiIcon(plainName = "DisguisedFace", unicode = "1f978", category = TwemojiCategory.SmileysAndEmotion, subcategory = TwemojiSubcategory.FaceCostume, resource = R.drawable.ic_1f978),
         TwemojiIcon(plainName = "ClownFace", unicode = "1f921", category = TwemojiCategory.SmileysAndEmotion, subcategory = TwemojiSubcategory.FaceCostume, resource = R.drawable.ic_1f921)
     )
     // endregion
@@ -176,6 +180,7 @@ object SmileysAndEmotionProvider {
         TwemojiIcon(plainName = "NeutralFace", unicode = "1f610", category = TwemojiCategory.SmileysAndEmotion, subcategory = TwemojiSubcategory.FaceNeutralSkeptical, resource = R.drawable.ic_1f610),
         TwemojiIcon(plainName = "GrimacingFace", unicode = "1f62c", category = TwemojiCategory.SmileysAndEmotion, subcategory = TwemojiSubcategory.FaceNeutralSkeptical, resource = R.drawable.ic_1f62c),
         TwemojiIcon(plainName = "FaceWithoutMouth", unicode = "1f636", category = TwemojiCategory.SmileysAndEmotion, subcategory = TwemojiSubcategory.FaceNeutralSkeptical, resource = R.drawable.ic_1f636),
+        TwemojiIcon(plainName = "FaceInClouds", unicode = "1f636-200d-1f32b-fe0f", category = TwemojiCategory.SmileysAndEmotion, subcategory = TwemojiSubcategory.FaceNeutralSkeptical, resource = R.drawable.ic_1f636_200d_1f32b_fe0f),
         TwemojiIcon(plainName = "ZipperMouthFace", unicode = "1f910", category = TwemojiCategory.SmileysAndEmotion, subcategory = TwemojiSubcategory.FaceNeutralSkeptical, resource = R.drawable.ic_1f910),
         TwemojiIcon(plainName = "FaceWithRollingEyes", unicode = "1f644", category = TwemojiCategory.SmileysAndEmotion, subcategory = TwemojiSubcategory.FaceNeutralSkeptical, resource = R.drawable.ic_1f644),
         TwemojiIcon(plainName = "FaceWithRaisedEyebrow", unicode = "1f928", category = TwemojiCategory.SmileysAndEmotion, subcategory = TwemojiSubcategory.FaceNeutralSkeptical, resource = R.drawable.ic_1f928),
@@ -207,6 +212,7 @@ object SmileysAndEmotionProvider {
         TwemojiIcon(plainName = "SmilingFaceWithHalo", unicode = "1f607", category = TwemojiCategory.SmileysAndEmotion, subcategory = TwemojiSubcategory.FaceSmiling, resource = R.drawable.ic_1f607),
         TwemojiIcon(plainName = "UpsideDownFace", unicode = "1f643", category = TwemojiCategory.SmileysAndEmotion, subcategory = TwemojiSubcategory.FaceSmiling, resource = R.drawable.ic_1f643),
         TwemojiIcon(plainName = "SlightlySmilingFace", unicode = "1f642", category = TwemojiCategory.SmileysAndEmotion, subcategory = TwemojiSubcategory.FaceSmiling, resource = R.drawable.ic_1f642),
+        TwemojiIcon(plainName = "SmilingFaceWithTear", unicode = "1f972", category = TwemojiCategory.SmileysAndEmotion, subcategory = TwemojiSubcategory.FaceSmiling, resource = R.drawable.ic_1f972),
         TwemojiIcon(plainName = "RollingOnTheFloorLaughing", unicode = "1f923", category = TwemojiCategory.SmileysAndEmotion, subcategory = TwemojiSubcategory.FaceSmiling, resource = R.drawable.ic_1f923)
     )
     // endregion
@@ -226,6 +232,7 @@ object SmileysAndEmotionProvider {
     fun provideUnwell() = listOf(
         TwemojiIcon(plainName = "FaceWithMedicalMask", unicode = "1f637", category = TwemojiCategory.SmileysAndEmotion, subcategory = TwemojiSubcategory.FaceUnwell, resource = R.drawable.ic_1f637),
         TwemojiIcon(plainName = "DizzyFace", unicode = "1f635", category = TwemojiCategory.SmileysAndEmotion, subcategory = TwemojiSubcategory.FaceUnwell, resource = R.drawable.ic_1f635),
+        TwemojiIcon(plainName = "FaceWithSpiralEyes", unicode = "1f635-200d-1f4ab", category = TwemojiCategory.SmileysAndEmotion, subcategory = TwemojiSubcategory.FaceUnwell, resource = R.drawable.ic_1f635_200d_1f4ab),
         TwemojiIcon(plainName = "FaceWithHeadBandage", unicode = "1f915", category = TwemojiCategory.SmileysAndEmotion, subcategory = TwemojiSubcategory.FaceUnwell, resource = R.drawable.ic_1f915),
         TwemojiIcon(plainName = "FaceWithThermometer", unicode = "1f912", category = TwemojiCategory.SmileysAndEmotion, subcategory = TwemojiSubcategory.FaceUnwell, resource = R.drawable.ic_1f912),
         TwemojiIcon(plainName = "NauseatedFace", unicode = "1f922", category = TwemojiCategory.SmileysAndEmotion, subcategory = TwemojiSubcategory.FaceUnwell, resource = R.drawable.ic_1f922),

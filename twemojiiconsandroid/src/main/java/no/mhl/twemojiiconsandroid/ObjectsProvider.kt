@@ -58,6 +58,7 @@ object ObjectsProvider {
         TwemojiIcon(plainName = "Bikini", unicode = "1f459", category = TwemojiCategory.Objects, subcategory = TwemojiSubcategory.Clothing, resource = R.drawable.ic_1f459),
         TwemojiIcon(plainName = "Glasses", unicode = "1f453", category = TwemojiCategory.Objects, subcategory = TwemojiSubcategory.Clothing, resource = R.drawable.ic_1f453),
         TwemojiIcon(plainName = "RunningShoe", unicode = "1f45f", category = TwemojiCategory.Objects, subcategory = TwemojiSubcategory.Clothing, resource = R.drawable.ic_1f45f),
+        TwemojiIcon(plainName = "ThongSandal", unicode = "1fa74", category = TwemojiCategory.Objects, subcategory = TwemojiSubcategory.Clothing, resource = R.drawable.ic_1fa74),
         TwemojiIcon(plainName = "TopHat", unicode = "1f3a9", category = TwemojiCategory.Objects, subcategory = TwemojiSubcategory.Clothing, resource = R.drawable.ic_1f3a9),
         TwemojiIcon(plainName = "Dress", unicode = "1f457", category = TwemojiCategory.Objects, subcategory = TwemojiSubcategory.Clothing, resource = R.drawable.ic_1f457),
         TwemojiIcon(plainName = "Jeans", unicode = "1f456", category = TwemojiCategory.Objects, subcategory = TwemojiSubcategory.Clothing, resource = R.drawable.ic_1f456),
@@ -91,6 +92,7 @@ object ObjectsProvider {
         TwemojiIcon(plainName = "HikingBoot", unicode = "1f97e", category = TwemojiCategory.Objects, subcategory = TwemojiSubcategory.Clothing, resource = R.drawable.ic_1f97e),
         TwemojiIcon(plainName = "FlatShoe", unicode = "1f97f", category = TwemojiCategory.Objects, subcategory = TwemojiSubcategory.Clothing, resource = R.drawable.ic_1f97f),
         TwemojiIcon(plainName = "BalletShoes", unicode = "1fa70", category = TwemojiCategory.Objects, subcategory = TwemojiSubcategory.Clothing, resource = R.drawable.ic_1fa70),
+        TwemojiIcon(plainName = "MilitaryHelmet", unicode = "1fa96", category = TwemojiCategory.Objects, subcategory = TwemojiSubcategory.Clothing, resource = R.drawable.ic_1fa96),
         TwemojiIcon(plainName = "BilledCap", unicode = "1f9e2", category = TwemojiCategory.Objects, subcategory = TwemojiSubcategory.Clothing, resource = R.drawable.ic_1f9e2)
     )
     // endregion
@@ -119,6 +121,8 @@ object ObjectsProvider {
         TwemojiIcon(plainName = "Door", unicode = "1f6aa", category = TwemojiCategory.Objects, subcategory = TwemojiSubcategory.Household, resource = R.drawable.ic_1f6aa),
         TwemojiIcon(plainName = "Toilet", unicode = "1f6bd", category = TwemojiCategory.Objects, subcategory = TwemojiSubcategory.Household, resource = R.drawable.ic_1f6bd),
         TwemojiIcon(plainName = "Bathtub", unicode = "1f6c1", category = TwemojiCategory.Objects, subcategory = TwemojiSubcategory.Household, resource = R.drawable.ic_1f6c1),
+        TwemojiIcon(plainName = "Mirror", unicode = "1fa9e", category = TwemojiCategory.Objects, subcategory = TwemojiSubcategory.Household, resource = R.drawable.ic_1fa9e),
+        TwemojiIcon(plainName = "Window", unicode = "1fa9f", category = TwemojiCategory.Objects, subcategory = TwemojiSubcategory.Household, resource = R.drawable.ic_1fa9f),
         TwemojiIcon(plainName = "Bed", unicode = "1f6cf", category = TwemojiCategory.Objects, subcategory = TwemojiSubcategory.Household, resource = R.drawable.ic_1f6cf),
         TwemojiIcon(plainName = "CouchAndLamp", unicode = "1f6cb", category = TwemojiCategory.Objects, subcategory = TwemojiSubcategory.Household, resource = R.drawable.ic_1f6cb),
         TwemojiIcon(plainName = "Chair", unicode = "1fa91", category = TwemojiCategory.Objects, subcategory = TwemojiSubcategory.Household, resource = R.drawable.ic_1fa91),
@@ -129,6 +133,7 @@ object ObjectsProvider {
         TwemojiIcon(plainName = "Basket", unicode = "1f9fa", category = TwemojiCategory.Objects, subcategory = TwemojiSubcategory.Household, resource = R.drawable.ic_1f9fa),
         TwemojiIcon(plainName = "RollOfPaper", unicode = "1f9fb", category = TwemojiCategory.Objects, subcategory = TwemojiSubcategory.Household, resource = R.drawable.ic_1f9fb),
         TwemojiIcon(plainName = "Soap", unicode = "1f9fc", category = TwemojiCategory.Objects, subcategory = TwemojiSubcategory.Household, resource = R.drawable.ic_1f9fc),
+        TwemojiIcon(plainName = "Toothbrush", unicode = "1faa5", category = TwemojiCategory.Objects, subcategory = TwemojiSubcategory.Household, resource = R.drawable.ic_1faa5),
         TwemojiIcon(plainName = "Sponge", unicode = "1f9fd", category = TwemojiCategory.Objects, subcategory = TwemojiSubcategory.Household, resource = R.drawable.ic_1f9fd),
         TwemojiIcon(plainName = "FireExtinguisher", unicode = "1f9ef", category = TwemojiCategory.Objects, subcategory = TwemojiSubcategory.Household, resource = R.drawable.ic_1f9ef),
         TwemojiIcon(plainName = "ShoppingCart", unicode = "1f6d2", category = TwemojiCategory.Objects, subcategory = TwemojiSubcategory.Household, resource = R.drawable.ic_1f6d2)
@@ -200,6 +205,7 @@ object ObjectsProvider {
         TwemojiIcon(plainName = "MoneyBag", unicode = "1f4b0", category = TwemojiCategory.Objects, subcategory = TwemojiSubcategory.Money, resource = R.drawable.ic_1f4b0),
         TwemojiIcon(plainName = "MoneyWithWings", unicode = "1f4b8", category = TwemojiCategory.Objects, subcategory = TwemojiSubcategory.Money, resource = R.drawable.ic_1f4b8),
         TwemojiIcon(plainName = "DollarBanknote", unicode = "1f4b5", category = TwemojiCategory.Objects, subcategory = TwemojiSubcategory.Money, resource = R.drawable.ic_1f4b5),
+        TwemojiIcon(plainName = "Coin", unicode = "1fa99", category = TwemojiCategory.Objects, subcategory = TwemojiSubcategory.Money, resource = R.drawable.ic_1fa99),
         TwemojiIcon(plainName = "HeavyDollarSign", unicode = "1f4b2", category = TwemojiCategory.Objects, subcategory = TwemojiSubcategory.Money, resource = R.drawable.ic_1f4b2),
         TwemojiIcon(plainName = "CreditCard", unicode = "1f4b3", category = TwemojiCategory.Objects, subcategory = TwemojiSubcategory.Money, resource = R.drawable.ic_1f4b3),
         TwemojiIcon(plainName = "PoundBanknote", unicode = "1f4b7", category = TwemojiCategory.Objects, subcategory = TwemojiSubcategory.Money, resource = R.drawable.ic_1f4b7),
@@ -233,6 +239,8 @@ object ObjectsProvider {
         TwemojiIcon(plainName = "Trumpet", unicode = "1f3ba", category = TwemojiCategory.Objects, subcategory = TwemojiSubcategory.MusicalInstrument, resource = R.drawable.ic_1f3ba),
         TwemojiIcon(plainName = "Violin", unicode = "1f3bb", category = TwemojiCategory.Objects, subcategory = TwemojiSubcategory.MusicalInstrument, resource = R.drawable.ic_1f3bb),
         TwemojiIcon(plainName = "Drum", unicode = "1f941", category = TwemojiCategory.Objects, subcategory = TwemojiSubcategory.MusicalInstrument, resource = R.drawable.ic_1f941),
+        TwemojiIcon(plainName = "LongDrum", unicode = "1fa98", category = TwemojiCategory.Objects, subcategory = TwemojiSubcategory.MusicalInstrument, resource = R.drawable.ic_1fa98),
+        TwemojiIcon(plainName = "Accordion", unicode = "1fa97", category = TwemojiCategory.Objects, subcategory = TwemojiSubcategory.MusicalInstrument, resource = R.drawable.ic_1fa97),
         TwemojiIcon(plainName = "Banjo", unicode = "1fa95", category = TwemojiCategory.Objects, subcategory = TwemojiSubcategory.MusicalInstrument, resource = R.drawable.ic_1fa95)
     )
     // endregion
@@ -249,6 +257,7 @@ object ObjectsProvider {
         TwemojiIcon(plainName = "Paperclip", unicode = "1f4ce", category = TwemojiCategory.Objects, subcategory = TwemojiSubcategory.Office, resource = R.drawable.ic_1f4ce),
         TwemojiIcon(plainName = "ChartDecreasing", unicode = "1f4c9", category = TwemojiCategory.Objects, subcategory = TwemojiSubcategory.Office, resource = R.drawable.ic_1f4c9),
         TwemojiIcon(plainName = "Clipboard", unicode = "1f4cb", category = TwemojiCategory.Objects, subcategory = TwemojiSubcategory.Office, resource = R.drawable.ic_1f4cb),
+        TwemojiIcon(plainName = "Placard", unicode = "1faa7", category = TwemojiCategory.Objects, subcategory = TwemojiSubcategory.Office, resource = R.drawable.ic_1faa7),
         TwemojiIcon(plainName = "BarChart", unicode = "1f4ca", category = TwemojiCategory.Objects, subcategory = TwemojiSubcategory.Office, resource = R.drawable.ic_1f4ca),
         TwemojiIcon(plainName = "TriangularRuler", unicode = "1f4d0", category = TwemojiCategory.Objects, subcategory = TwemojiSubcategory.Office, resource = R.drawable.ic_1f4d0),
         TwemojiIcon(plainName = "StraightRuler", unicode = "1f4cf", category = TwemojiCategory.Objects, subcategory = TwemojiSubcategory.Office, resource = R.drawable.ic_1f4cf),
@@ -270,6 +279,8 @@ object ObjectsProvider {
         TwemojiIcon(plainName = "Cigarette", unicode = "1f6ac", category = TwemojiCategory.Objects, subcategory = TwemojiSubcategory.OtherObject, resource = R.drawable.ic_1f6ac),
         TwemojiIcon(plainName = "Moai", unicode = "1f5ff", category = TwemojiCategory.Objects, subcategory = TwemojiSubcategory.OtherObject, resource = R.drawable.ic_1f5ff),
         TwemojiIcon(plainName = "FuneralUrn", unicode = "26b1", category = TwemojiCategory.Objects, subcategory = TwemojiSubcategory.OtherObject, resource = R.drawable.ic_26b1),
+        TwemojiIcon(plainName = "MouseTrap", unicode = "1faa4", category = TwemojiCategory.Objects, subcategory = TwemojiSubcategory.OtherObject, resource = R.drawable.ic_1faa4),
+        TwemojiIcon(plainName = "Headstone", unicode = "1faa6", category = TwemojiCategory.Objects, subcategory = TwemojiSubcategory.OtherObject, resource = R.drawable.ic_1faa6),
         TwemojiIcon(plainName = "Coffin", unicode = "26b0", category = TwemojiCategory.Objects, subcategory = TwemojiSubcategory.OtherObject, resource = R.drawable.ic_26b0)
     )
     // endregion
@@ -296,6 +307,7 @@ object ObjectsProvider {
         TwemojiIcon(plainName = "Dna", unicode = "1f9ec", category = TwemojiCategory.Objects, subcategory = TwemojiSubcategory.Science, resource = R.drawable.ic_1f9ec)
     )
     // endregion
+    // endregion
 
     // region Sound
     fun provideSound() = listOf(
@@ -318,6 +330,12 @@ object ObjectsProvider {
         TwemojiIcon(plainName = "Hammer", unicode = "1f528", category = TwemojiCategory.Objects, subcategory = TwemojiSubcategory.Tool, resource = R.drawable.ic_1f528),
         TwemojiIcon(plainName = "NutAndBolt", unicode = "1f529", category = TwemojiCategory.Objects, subcategory = TwemojiSubcategory.Tool, resource = R.drawable.ic_1f529),
         TwemojiIcon(plainName = "Wrench", unicode = "1f527", category = TwemojiCategory.Objects, subcategory = TwemojiSubcategory.Tool, resource = R.drawable.ic_1f527),
+        TwemojiIcon(plainName = "CarpentrySaw", unicode = "1fa9a", category = TwemojiCategory.Objects, subcategory = TwemojiSubcategory.Tool, resource = R.drawable.ic_1fa9a),
+        TwemojiIcon(plainName = "Screwdriver", unicode = "1fa9b", category = TwemojiCategory.Objects, subcategory = TwemojiSubcategory.Tool, resource = R.drawable.ic_1fa9b),
+        TwemojiIcon(plainName = "Ladder", unicode = "1fa9c", category = TwemojiCategory.Objects, subcategory = TwemojiSubcategory.Tool, resource = R.drawable.ic_1fa9c),
+        TwemojiIcon(plainName = "Hook", unicode = "1fa9d", category = TwemojiCategory.Objects, subcategory = TwemojiSubcategory.Tool, resource = R.drawable.ic_1fa9d),
+        TwemojiIcon(plainName = "Plunger", unicode = "1faa0", category = TwemojiCategory.Objects, subcategory = TwemojiSubcategory.Tool, resource = R.drawable.ic_1faa0),
+        TwemojiIcon(plainName = "Bucket", unicode = "1faa3", category = TwemojiCategory.Objects, subcategory = TwemojiSubcategory.Tool, resource = R.drawable.ic_1faa3),
         TwemojiIcon(plainName = "Gear", unicode = "2699", category = TwemojiCategory.Objects, subcategory = TwemojiSubcategory.Tool, resource = R.drawable.ic_2699),
         TwemojiIcon(plainName = "BalanceScale", unicode = "2696", category = TwemojiCategory.Objects, subcategory = TwemojiSubcategory.Tool, resource = R.drawable.ic_2696),
         TwemojiIcon(plainName = "CrossedSwords", unicode = "2694", category = TwemojiCategory.Objects, subcategory = TwemojiSubcategory.Tool, resource = R.drawable.ic_2694),
@@ -327,11 +345,13 @@ object ObjectsProvider {
         TwemojiIcon(plainName = "Clamp", unicode = "1f5dc", category = TwemojiCategory.Objects, subcategory = TwemojiSubcategory.Tool, resource = R.drawable.ic_1f5dc),
         TwemojiIcon(plainName = "BowAndArrow", unicode = "1f3f9", category = TwemojiCategory.Objects, subcategory = TwemojiSubcategory.Tool, resource = R.drawable.ic_1f3f9),
         TwemojiIcon(plainName = "Chains", unicode = "26d3", category = TwemojiCategory.Objects, subcategory = TwemojiSubcategory.Tool, resource = R.drawable.ic_26d3),
+        TwemojiIcon(plainName = "Knot", unicode = "1faa2", category = TwemojiCategory.Objects, subcategory = TwemojiSubcategory.Tool, resource = R.drawable.ic_1faa2),
         TwemojiIcon(plainName = "Pick", unicode = "26cf", category = TwemojiCategory.Objects, subcategory = TwemojiSubcategory.Tool, resource = R.drawable.ic_26cf),
         TwemojiIcon(plainName = "HammerAndPick", unicode = "2692", category = TwemojiCategory.Objects, subcategory = TwemojiSubcategory.Tool, resource = R.drawable.ic_2692),
         TwemojiIcon(plainName = "Axe", unicode = "1fa93", category = TwemojiCategory.Objects, subcategory = TwemojiSubcategory.Tool, resource = R.drawable.ic_1fa93),
         TwemojiIcon(plainName = "ProbingCane", unicode = "1f9af", category = TwemojiCategory.Objects, subcategory = TwemojiSubcategory.Tool, resource = R.drawable.ic_1f9af),
         TwemojiIcon(plainName = "Toolbox", unicode = "1f9f0", category = TwemojiCategory.Objects, subcategory = TwemojiSubcategory.Tool, resource = R.drawable.ic_1f9f0),
+        TwemojiIcon(plainName = "Boomerang", unicode = "1fa83", category = TwemojiCategory.Objects, subcategory = TwemojiSubcategory.Tool, resource = R.drawable.ic_1fa83),
         TwemojiIcon(plainName = "Magnet", unicode = "1f9f2", category = TwemojiCategory.Objects, subcategory = TwemojiSubcategory.Tool, resource = R.drawable.ic_1f9f2)
     )
     // endregion

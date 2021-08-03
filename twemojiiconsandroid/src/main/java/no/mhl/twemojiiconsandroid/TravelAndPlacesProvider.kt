@@ -49,7 +49,8 @@ object TravelAndPlacesProvider {
         TwemojiIcon(plainName = "DerelictHouse", unicode = "1f3da", category = TwemojiCategory.TravelAndPlaces, subcategory = TwemojiSubcategory.PlaceBuilding, resource = R.drawable.ic_1f3da),
         TwemojiIcon(plainName = "Houses", unicode = "1f3d8", category = TwemojiCategory.TravelAndPlaces, subcategory = TwemojiSubcategory.PlaceBuilding, resource = R.drawable.ic_1f3d8),
         TwemojiIcon(plainName = "BuildingConstruction", unicode = "1f3d7", category = TwemojiCategory.TravelAndPlaces, subcategory = TwemojiSubcategory.PlaceBuilding, resource = R.drawable.ic_1f3d7),
-        TwemojiIcon(plainName = "Brick", unicode = "1f9f1", category = TwemojiCategory.TravelAndPlaces, subcategory = TwemojiSubcategory.PlaceBuilding, resource = R.drawable.ic_1f9f1)
+        TwemojiIcon(plainName = "Brick", unicode = "1f9f1", category = TwemojiCategory.TravelAndPlaces, subcategory = TwemojiSubcategory.PlaceBuilding, resource = R.drawable.ic_1f9f1),
+        TwemojiIcon(plainName = "Hut", unicode = "1f6d6", category = TwemojiCategory.TravelAndPlaces, subcategory = TwemojiSubcategory.PlaceBuilding, resource = R.drawable.ic_1f6d6)
     )
     // endregion
 
@@ -265,6 +266,8 @@ object TravelAndPlacesProvider {
         TwemojiIcon(plainName = "MotorizedWheelchair", unicode = "1f9bc", category = TwemojiCategory.TravelAndPlaces, subcategory = TwemojiSubcategory.TransportGround, resource = R.drawable.ic_1f9bc),
         TwemojiIcon(plainName = "AutoRickshaw", unicode = "1f6fa", category = TwemojiCategory.TravelAndPlaces, subcategory = TwemojiSubcategory.TransportGround, resource = R.drawable.ic_1f6fa),
         TwemojiIcon(plainName = "KickScooter", unicode = "1f6f4", category = TwemojiCategory.TravelAndPlaces, subcategory = TwemojiSubcategory.TransportGround, resource = R.drawable.ic_1f6f4),
+        TwemojiIcon(plainName = "PickupTruck", unicode = "1f6fb", category = TwemojiCategory.TravelAndPlaces, subcategory = TwemojiSubcategory.TransportGround, resource = R.drawable.ic_1f6fb),
+        TwemojiIcon(plainName = "RollerSkate", unicode = "1f6fc", category = TwemojiCategory.TravelAndPlaces, subcategory = TwemojiSubcategory.TransportGround, resource = R.drawable.ic_1f6fc),
         TwemojiIcon(plainName = "Skateboard", unicode = "1f6f9", category = TwemojiCategory.TravelAndPlaces, subcategory = TwemojiSubcategory.TransportGround, resource = R.drawable.ic_1f6f9)
     )
     // endregion

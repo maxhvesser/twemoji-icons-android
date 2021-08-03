@@ -69,6 +69,8 @@ object PeopleAndBodyProvider {
         TwemojiIcon(plainName = "EarWithHearingAidDarkSkinTone", unicode = "1f9bb-1f3ff", category = TwemojiCategory.PeopleAndBody, subcategory = TwemojiSubcategory.BodyParts, resource = R.drawable.ic_1f9bb_1f3ff),
         TwemojiIcon(plainName = "Brain", unicode = "1f9e0", category = TwemojiCategory.PeopleAndBody, subcategory = TwemojiSubcategory.BodyParts, resource = R.drawable.ic_1f9e0),
         TwemojiIcon(plainName = "Tooth", unicode = "1f9b7", category = TwemojiCategory.PeopleAndBody, subcategory = TwemojiSubcategory.BodyParts, resource = R.drawable.ic_1f9b7),
+        TwemojiIcon(plainName = "AnatomicalHeart", unicode = "1fac0", category = TwemojiCategory.PeopleAndBody, subcategory = TwemojiSubcategory.BodyParts, resource = R.drawable.ic_1fac0),
+        TwemojiIcon(plainName = "Lungs", unicode = "1fac1", category = TwemojiCategory.PeopleAndBody, subcategory = TwemojiSubcategory.BodyParts, resource = R.drawable.ic_1fac1),
         TwemojiIcon(plainName = "Bone", unicode = "1f9b4", category = TwemojiCategory.PeopleAndBody, subcategory = TwemojiSubcategory.BodyParts, resource = R.drawable.ic_1f9b4)
     )
     // endregion
@@ -107,6 +109,9 @@ object PeopleAndBodyProvider {
         TwemojiIcon(plainName = "CoupleWithHeart", unicode = "1f491", category = TwemojiCategory.PeopleAndBody, subcategory = TwemojiSubcategory.Family, resource = R.drawable.ic_1f491),
         TwemojiIcon(plainName = "CoupleWithHeartWomanWoman", unicode = "1f469-200d-2764-fe0f-200d-1f469", category = TwemojiCategory.PeopleAndBody, subcategory = TwemojiSubcategory.Family, resource = R.drawable.ic_1f469_200d_2764_fe0f_200d_1f469),
         TwemojiIcon(plainName = "CoupleWithHeartManMan", unicode = "1f468-200d-2764-fe0f-200d-1f468", category = TwemojiCategory.PeopleAndBody, subcategory = TwemojiSubcategory.Family, resource = R.drawable.ic_1f468_200d_2764_fe0f_200d_1f468),
+
+        
+
         TwemojiIcon(plainName = "Family", unicode = "1f46a", category = TwemojiCategory.PeopleAndBody, subcategory = TwemojiSubcategory.Family, resource = R.drawable.ic_1f46a),
         TwemojiIcon(plainName = "MenHoldingHands", unicode = "1f46c", category = TwemojiCategory.PeopleAndBody, subcategory = TwemojiSubcategory.Family, resource = R.drawable.ic_1f46c),
         TwemojiIcon(plainName = "PeopleHoldingHands", unicode = "1f9d1-200d-1f91d-200d-1f9d1", category = TwemojiCategory.PeopleAndBody, subcategory = TwemojiSubcategory.Family, resource = R.drawable.ic_1f9d1_200d_1f91d_200d_1f9d1),
@@ -318,6 +323,12 @@ object PeopleAndBodyProvider {
         TwemojiIcon(plainName = "PinchingHandMediumSkinTone", unicode = "1f90f-1f3fd", category = TwemojiCategory.PeopleAndBody, subcategory = TwemojiSubcategory.HandFingersPartial, resource = R.drawable.ic_1f90f_1f3fd),
         TwemojiIcon(plainName = "PinchingHandMediumDarkSkinTone", unicode = "1f90f-1f3fe", category = TwemojiCategory.PeopleAndBody, subcategory = TwemojiSubcategory.HandFingersPartial, resource = R.drawable.ic_1f90f_1f3fe),
         TwemojiIcon(plainName = "PinchingHandDarkSkinTone", unicode = "1f90f-1f3ff", category = TwemojiCategory.PeopleAndBody, subcategory = TwemojiSubcategory.HandFingersPartial, resource = R.drawable.ic_1f90f_1f3ff),
+        TwemojiIcon(plainName = "PinchedFingers", unicode = "1f90c", category = TwemojiCategory.PeopleAndBody, subcategory = TwemojiSubcategory.HandFingersPartial, resource = R.drawable.ic_1f90c),
+        TwemojiIcon(plainName = "PinchedFingersLightSkinTone", unicode = "1f90c-1f3fb", category = TwemojiCategory.PeopleAndBody, subcategory = TwemojiSubcategory.HandFingersPartial, resource = R.drawable.ic_1f90c_1f3fb),
+        TwemojiIcon(plainName = "PinchedFingersMediumLightSkinTone", unicode = "1f90c-1f3fc", category = TwemojiCategory.PeopleAndBody, subcategory = TwemojiSubcategory.HandFingersPartial, resource = R.drawable.ic_1f90c_1f3fc),
+        TwemojiIcon(plainName = "PinchedFingersMediumSkinTone", unicode = "1f90c-1f3fd", category = TwemojiCategory.PeopleAndBody, subcategory = TwemojiSubcategory.HandFingersPartial, resource = R.drawable.ic_1f90c_1f3fd),
+        TwemojiIcon(plainName = "PinchedFingersMediumDarkSkinTone", unicode = "1f90c-1f3fe", category = TwemojiCategory.PeopleAndBody, subcategory = TwemojiSubcategory.HandFingersPartial, resource = R.drawable.ic_1f90c_1f3fe),
+        TwemojiIcon(plainName = "PinchedFingersDarkSkinTone", unicode = "1f90c-1f3ff", category = TwemojiCategory.PeopleAndBody, subcategory = TwemojiSubcategory.HandFingersPartial, resource = R.drawable.ic_1f90c_1f3ff),
         TwemojiIcon(plainName = "CrossedFingers", unicode = "1f91e", category = TwemojiCategory.PeopleAndBody, subcategory = TwemojiSubcategory.HandFingersPartial, resource = R.drawable.ic_1f91e),
         TwemojiIcon(plainName = "CrossedFingersLightSkinTone", unicode = "1f91e-1f3fb", category = TwemojiCategory.PeopleAndBody, subcategory = TwemojiSubcategory.HandFingersPartial, resource = R.drawable.ic_1f91e_1f3fb),
         TwemojiIcon(plainName = "CrossedFingersMediumLightSkinTone", unicode = "1f91e-1f3fc", category = TwemojiCategory.PeopleAndBody, subcategory = TwemojiSubcategory.HandFingersPartial, resource = R.drawable.ic_1f91e_1f3fc),
@@ -1511,8 +1522,17 @@ object PeopleAndBodyProvider {
         TwemojiIcon(plainName = "PersonLiftingWeights", unicode = "1f3cb", category = TwemojiCategory.PeopleAndBody, subcategory = TwemojiSubcategory.PersonSport, resource = R.drawable.ic_1f3cb),
         TwemojiIcon(plainName = "PersonBouncingBallLightSkinTone", unicode = "26f9-1f3fb", category = TwemojiCategory.PeopleAndBody, subcategory = TwemojiSubcategory.PersonSport, resource = R.drawable.ic_26f9_1f3fb),
         TwemojiIcon(plainName = "PersonBouncingBall", unicode = "26f9", category = TwemojiCategory.PeopleAndBody, subcategory = TwemojiSubcategory.PersonSport, resource = R.drawable.ic_26f9),
+        TwemojiIcon(plainName = "PersonBouncingBallMediumLightSkinTone", unicode = "26f9-1f3fc", category = TwemojiCategory.PeopleAndBody, subcategory = TwemojiSubcategory.PersonSport, resource = R.drawable.ic_26f9_1f3fc),
+        TwemojiIcon(plainName = "PersonBouncingBallMediumSkinTone", unicode = "26f9-1f3fd", category = TwemojiCategory.PeopleAndBody, subcategory = TwemojiSubcategory.PersonSport, resource = R.drawable.ic_26f9_1f3fd),
+        TwemojiIcon(plainName = "PersonBouncingBallMediumDarkSkinTone", unicode = "26f9-1f3fe", category = TwemojiCategory.PeopleAndBody, subcategory = TwemojiSubcategory.PersonSport, resource = R.drawable.ic_26f9_1f3fe),
+        TwemojiIcon(plainName = "PersonBouncingBallDarkSkinTone", unicode = "26f9-1f3ff", category = TwemojiCategory.PeopleAndBody, subcategory = TwemojiSubcategory.PersonSport, resource = R.drawable.ic_26f9_1f3ff),
         TwemojiIcon(plainName = "PersonGolfing", unicode = "1f3cc", category = TwemojiCategory.PeopleAndBody, subcategory = TwemojiSubcategory.PersonSport, resource = R.drawable.ic_1f3cc),
         TwemojiIcon(plainName = "Skier", unicode = "26f7", category = TwemojiCategory.PeopleAndBody, subcategory = TwemojiSubcategory.PersonSport, resource = R.drawable.ic_26f7),
+        TwemojiIcon(plainName = "SkierLightSkinTone", unicode = "26f7-1f3fb", category = TwemojiCategory.PeopleAndBody, subcategory = TwemojiSubcategory.PersonSport, resource = R.drawable.ic_26f7_1f3fb),
+        TwemojiIcon(plainName = "SkierMediumLightSkinTone", unicode = "26f7-1f3fc", category = TwemojiCategory.PeopleAndBody, subcategory = TwemojiSubcategory.PersonSport, resource = R.drawable.ic_26f7_1f3fc),
+        TwemojiIcon(plainName = "SkierMediumSkinTone", unicode = "26f7-1f3fd", category = TwemojiCategory.PeopleAndBody, subcategory = TwemojiSubcategory.PersonSport, resource = R.drawable.ic_26f7_1f3fd),
+        TwemojiIcon(plainName = "SkierMediumDarkSkinTone", unicode = "26f7-1f3fe", category = TwemojiCategory.PeopleAndBody, subcategory = TwemojiSubcategory.PersonSport, resource = R.drawable.ic_26f7_1f3fe),
+        TwemojiIcon(plainName = "SkierDarkSkinTone", unicode = "26f7-1f3ff", category = TwemojiCategory.PeopleAndBody, subcategory = TwemojiSubcategory.PersonSport, resource = R.drawable.ic_26f7_1f3ff),
         TwemojiIcon(plainName = "PersonFencing", unicode = "1f93a", category = TwemojiCategory.PeopleAndBody, subcategory = TwemojiSubcategory.PersonSport, resource = R.drawable.ic_1f93a),
         TwemojiIcon(plainName = "HorseRacingLightSkinTone", unicode = "1f3c7-1f3fb", category = TwemojiCategory.PeopleAndBody, subcategory = TwemojiSubcategory.PersonSport, resource = R.drawable.ic_1f3c7_1f3fb),
         TwemojiIcon(plainName = "HorseRacingMediumLightSkinTone", unicode = "1f3c7-1f3fc", category = TwemojiCategory.PeopleAndBody, subcategory = TwemojiSubcategory.PersonSport, resource = R.drawable.ic_1f3c7_1f3fc),
@@ -1708,6 +1728,7 @@ object PeopleAndBodyProvider {
         TwemojiIcon(plainName = "Footprints", unicode = "1f463", category = TwemojiCategory.PeopleAndBody, subcategory = TwemojiSubcategory.PersonSymbol, resource = R.drawable.ic_1f463),
         TwemojiIcon(plainName = "BustInSilhouette", unicode = "1f464", category = TwemojiCategory.PeopleAndBody, subcategory = TwemojiSubcategory.PersonSymbol, resource = R.drawable.ic_1f464),
         TwemojiIcon(plainName = "BustsInSilhouette", unicode = "1f465", category = TwemojiCategory.PeopleAndBody, subcategory = TwemojiSubcategory.PersonSymbol, resource = R.drawable.ic_1f465),
+        TwemojiIcon(plainName = "PeopleHugging", unicode = "1fac2", category = TwemojiCategory.PeopleAndBody, subcategory = TwemojiSubcategory.PersonSymbol, resource = R.drawable.ic_1fac2),
         TwemojiIcon(plainName = "SpeakingHead", unicode = "1f5e3", category = TwemojiCategory.PeopleAndBody, subcategory = TwemojiSubcategory.PersonSymbol, resource = R.drawable.ic_1f5e3)
     )
     // endregion

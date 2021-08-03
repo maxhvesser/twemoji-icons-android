@@ -157,12 +157,15 @@ object SymbolsProvider {
         TwemojiIcon(plainName = "OrangeSquare", unicode = "1f7e7", category = TwemojiCategory.Symbols, subcategory = TwemojiSubcategory.Geometric, resource = R.drawable.ic_1f7e7),
         TwemojiIcon(plainName = "YellowSquare", unicode = "1f7e8", category = TwemojiCategory.Symbols, subcategory = TwemojiSubcategory.Geometric, resource = R.drawable.ic_1f7e8),
         TwemojiIcon(plainName = "GreenSquare", unicode = "1f7e9", category = TwemojiCategory.Symbols, subcategory = TwemojiSubcategory.Geometric, resource = R.drawable.ic_1f7e9),
+        TwemojiIcon(plainName = "PurpleSquare", unicode = "1f7ea", category = TwemojiCategory.Symbols, subcategory = TwemojiSubcategory.Geometric, resource = R.drawable.ic_1f7ea),
+        TwemojiIcon(plainName = "BrownSquare", unicode = "1f7eb", category = TwemojiCategory.Symbols, subcategory = TwemojiSubcategory.Geometric, resource = R.drawable.ic_1f7eb),
         TwemojiIcon(plainName = "BlueSquare", unicode = "1f7e6", category = TwemojiCategory.Symbols, subcategory = TwemojiSubcategory.Geometric, resource = R.drawable.ic_1f7e6)
     )
     // endregion
 
     // region Keycap
     fun provideKeycap() = listOf(
+        TwemojiIcon(plainName = "KeycapAsterix", unicode = "2a-20e3", category = TwemojiCategory.Symbols, subcategory = TwemojiSubcategory.Keycap, resource = R.drawable.ic_2a_20e3),
         TwemojiIcon(plainName = "Keycap10", unicode = "1f51f", category = TwemojiCategory.Symbols, subcategory = TwemojiSubcategory.Keycap, resource = R.drawable.ic_1f51f),
         TwemojiIcon(plainName = "KeycapNumber", unicode = "23-20e3", category = TwemojiCategory.Symbols, subcategory = TwemojiSubcategory.Keycap, resource = R.drawable.ic_23_20e3),
         TwemojiIcon(plainName = "Keycap0", unicode = "30-20e3", category = TwemojiCategory.Symbols, subcategory = TwemojiSubcategory.Keycap, resource = R.drawable.ic_30_20e3),
@@ -174,7 +177,33 @@ object SymbolsProvider {
         TwemojiIcon(plainName = "Keycap6", unicode = "36-20e3", category = TwemojiCategory.Symbols, subcategory = TwemojiSubcategory.Keycap, resource = R.drawable.ic_36_20e3),
         TwemojiIcon(plainName = "Keycap7", unicode = "37-20e3", category = TwemojiCategory.Symbols, subcategory = TwemojiSubcategory.Keycap, resource = R.drawable.ic_37_20e3),
         TwemojiIcon(plainName = "Keycap8", unicode = "38-20e3", category = TwemojiCategory.Symbols, subcategory = TwemojiSubcategory.Keycap, resource = R.drawable.ic_38_20e3),
-        TwemojiIcon(plainName = "Keycap9", unicode = "39-20e3", category = TwemojiCategory.Symbols, subcategory = TwemojiSubcategory.Keycap, resource = R.drawable.ic_39_20e3)
+        TwemojiIcon(plainName = "Keycap9", unicode = "39-20e3", category = TwemojiCategory.Symbols, subcategory = TwemojiSubcategory.Keycap, resource = R.drawable.ic_39_20e3),
+        TwemojiIcon(plainName = "KeycapA", unicode = "1f1e6", category = TwemojiCategory.Symbols, subcategory = TwemojiSubcategory.Keycap, resource = R.drawable.ic_1f1e6),
+        TwemojiIcon(plainName = "KeycapB", unicode = "1f1e7", category = TwemojiCategory.Symbols, subcategory = TwemojiSubcategory.Keycap, resource = R.drawable.ic_1f1e7),
+        TwemojiIcon(plainName = "KeycapC", unicode = "1f1e8", category = TwemojiCategory.Symbols, subcategory = TwemojiSubcategory.Keycap, resource = R.drawable.ic_1f1e8),
+        TwemojiIcon(plainName = "KeycapD", unicode = "1f1e9", category = TwemojiCategory.Symbols, subcategory = TwemojiSubcategory.Keycap, resource = R.drawable.ic_1f1e9),
+        TwemojiIcon(plainName = "KeycapE", unicode = "1f1ea", category = TwemojiCategory.Symbols, subcategory = TwemojiSubcategory.Keycap, resource = R.drawable.ic_1f1ea),
+        TwemojiIcon(plainName = "KeycapF", unicode = "1f1eb", category = TwemojiCategory.Symbols, subcategory = TwemojiSubcategory.Keycap, resource = R.drawable.ic_1f1eb),
+        TwemojiIcon(plainName = "KeycapG", unicode = "1f1ec", category = TwemojiCategory.Symbols, subcategory = TwemojiSubcategory.Keycap, resource = R.drawable.ic_1f1ec),
+        TwemojiIcon(plainName = "KeycapH", unicode = "1f1ed", category = TwemojiCategory.Symbols, subcategory = TwemojiSubcategory.Keycap, resource = R.drawable.ic_1f1ed),
+        TwemojiIcon(plainName = "KeycapI", unicode = "1f1ee", category = TwemojiCategory.Symbols, subcategory = TwemojiSubcategory.Keycap, resource = R.drawable.ic_1f1ee),
+        TwemojiIcon(plainName = "KeycapJ", unicode = "1f1ef", category = TwemojiCategory.Symbols, subcategory = TwemojiSubcategory.Keycap, resource = R.drawable.ic_1f1ef),
+        TwemojiIcon(plainName = "KeycapK", unicode = "1f1f0", category = TwemojiCategory.Symbols, subcategory = TwemojiSubcategory.Keycap, resource = R.drawable.ic_1f1f0),
+        TwemojiIcon(plainName = "KeycapL", unicode = "1f1f1", category = TwemojiCategory.Symbols, subcategory = TwemojiSubcategory.Keycap, resource = R.drawable.ic_1f1f1),
+        TwemojiIcon(plainName = "KeycapM", unicode = "1f1f2", category = TwemojiCategory.Symbols, subcategory = TwemojiSubcategory.Keycap, resource = R.drawable.ic_1f1f2),
+        TwemojiIcon(plainName = "KeycapN", unicode = "1f1f3", category = TwemojiCategory.Symbols, subcategory = TwemojiSubcategory.Keycap, resource = R.drawable.ic_1f1f3),
+        TwemojiIcon(plainName = "KeycapO", unicode = "1f1f4", category = TwemojiCategory.Symbols, subcategory = TwemojiSubcategory.Keycap, resource = R.drawable.ic_1f1f4),
+        TwemojiIcon(plainName = "KeycapP", unicode = "1f1f5", category = TwemojiCategory.Symbols, subcategory = TwemojiSubcategory.Keycap, resource = R.drawable.ic_1f1f5),
+        TwemojiIcon(plainName = "KeycapQ", unicode = "1f1f6", category = TwemojiCategory.Symbols, subcategory = TwemojiSubcategory.Keycap, resource = R.drawable.ic_1f1f6),
+        TwemojiIcon(plainName = "KeycapR", unicode = "1f1f7", category = TwemojiCategory.Symbols, subcategory = TwemojiSubcategory.Keycap, resource = R.drawable.ic_1f1f7),
+        TwemojiIcon(plainName = "KeycapS", unicode = "1f1f8", category = TwemojiCategory.Symbols, subcategory = TwemojiSubcategory.Keycap, resource = R.drawable.ic_1f1f8),
+        TwemojiIcon(plainName = "KeycapT", unicode = "1f1f9", category = TwemojiCategory.Symbols, subcategory = TwemojiSubcategory.Keycap, resource = R.drawable.ic_1f1f9),
+        TwemojiIcon(plainName = "KeycapU", unicode = "1f1fa", category = TwemojiCategory.Symbols, subcategory = TwemojiSubcategory.Keycap, resource = R.drawable.ic_1f1fa),
+        TwemojiIcon(plainName = "KeycapV", unicode = "1f1fb", category = TwemojiCategory.Symbols, subcategory = TwemojiSubcategory.Keycap, resource = R.drawable.ic_1f1fb),
+        TwemojiIcon(plainName = "KeycapW", unicode = "1f1fc", category = TwemojiCategory.Symbols, subcategory = TwemojiSubcategory.Keycap, resource = R.drawable.ic_1f1fc),
+        TwemojiIcon(plainName = "KeycapX", unicode = "1f1fd", category = TwemojiCategory.Symbols, subcategory = TwemojiSubcategory.Keycap, resource = R.drawable.ic_1f1fd),
+        TwemojiIcon(plainName = "KeycapY", unicode = "1f1fe", category = TwemojiCategory.Symbols, subcategory = TwemojiSubcategory.Keycap, resource = R.drawable.ic_1f1fe),
+        TwemojiIcon(plainName = "KeycapZ", unicode = "1f1ff", category = TwemojiCategory.Symbols, subcategory = TwemojiSubcategory.Keycap, resource = R.drawable.ic_1f1ff)
     )
     // endregion
 
@@ -209,7 +238,10 @@ object SymbolsProvider {
         TwemojiIcon(plainName = "DivisionSign", unicode = "2797", category = TwemojiCategory.Symbols, subcategory = TwemojiSubcategory.OtherSymbol, resource = R.drawable.ic_2797),
         TwemojiIcon(plainName = "FleurDeLis", unicode = "269c", category = TwemojiCategory.Symbols, subcategory = TwemojiSubcategory.OtherSymbol, resource = R.drawable.ic_269c),
         TwemojiIcon(plainName = "TradeMark", unicode = "2122", category = TwemojiCategory.Symbols, subcategory = TwemojiSubcategory.OtherSymbol, resource = R.drawable.ic_2122),
+        TwemojiIcon(plainName = "Registered", unicode = "ae", category = TwemojiCategory.Symbols, subcategory = TwemojiSubcategory.OtherSymbol, resource = R.drawable.ic_ae),
+        TwemojiIcon(plainName = "Copyright", unicode = "a9", category = TwemojiCategory.Symbols, subcategory = TwemojiSubcategory.OtherSymbol, resource = R.drawable.ic_a9),
         TwemojiIcon(plainName = "MedicalSymbol", unicode = "2695", category = TwemojiCategory.Symbols, subcategory = TwemojiSubcategory.OtherSymbol, resource = R.drawable.ic_2695),
+        TwemojiIcon(plainName = "TransgenderSymbol", unicode = "26a7", category = TwemojiCategory.Symbols, subcategory = TwemojiSubcategory.OtherSymbol, resource = R.drawable.ic_26a7),
         TwemojiIcon(plainName = "Infinity", unicode = "267e", category = TwemojiCategory.Symbols, subcategory = TwemojiSubcategory.OtherSymbol, resource = R.drawable.ic_267e)
     )
     // endregion
@@ -245,6 +277,7 @@ object SymbolsProvider {
         TwemojiIcon(plainName = "Restroom", unicode = "1f6bb", category = TwemojiCategory.Symbols, subcategory = TwemojiSubcategory.TransportSign, resource = R.drawable.ic_1f6bb),
         TwemojiIcon(plainName = "PotableWater", unicode = "1f6b0", category = TwemojiCategory.Symbols, subcategory = TwemojiSubcategory.TransportSign, resource = R.drawable.ic_1f6b0),
         TwemojiIcon(plainName = "PassportControl", unicode = "1f6c2", category = TwemojiCategory.Symbols, subcategory = TwemojiSubcategory.TransportSign, resource = R.drawable.ic_1f6c2),
+        TwemojiIcon(plainName = "Elevator", unicode = "1f6d7", category = TwemojiCategory.Symbols, subcategory = TwemojiSubcategory.TransportSign, resource = R.drawable.ic_1f6d7),
         TwemojiIcon(plainName = "BaggageClaim", unicode = "1f6c4", category = TwemojiCategory.Symbols, subcategory = TwemojiSubcategory.TransportSign, resource = R.drawable.ic_1f6c4)
     )
     // endregion

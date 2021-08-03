@@ -281,7 +281,8 @@ object FlagsProvider {
         TwemojiIcon(plainName = "BlackFlag", unicode = "1f3f4", category = TwemojiCategory.Flags, subcategory = TwemojiSubcategory.Flag, resource = R.drawable.ic_1f3f4),
         TwemojiIcon(plainName = "WhiteFlag", unicode = "1f3f3", category = TwemojiCategory.Flags, subcategory = TwemojiSubcategory.Flag, resource = R.drawable.ic_1f3f3),
         TwemojiIcon(plainName = "RainbowFlag", unicode = "1f3f3-fe0f-200d-1f308", category = TwemojiCategory.Flags, subcategory = TwemojiSubcategory.Flag, resource = R.drawable.ic_1f3f3_fe0f_200d_1f308),
-        TwemojiIcon(plainName = "PirateFlag", unicode = "1f3f4-200d-2620-fe0f", category = TwemojiCategory.Flags, subcategory = TwemojiSubcategory.Flag, resource = R.drawable.ic_1f3f4_200d_2620_fe0f)
+        TwemojiIcon(plainName = "PirateFlag", unicode = "1f3f4-200d-2620-fe0f", category = TwemojiCategory.Flags, subcategory = TwemojiSubcategory.Flag, resource = R.drawable.ic_1f3f4_200d_2620_fe0f),
+        TwemojiIcon(plainName = "TransgenderFlag", unicode = "1f3f3-fe0f-200d-26a7-fe0f", category = TwemojiCategory.Flags, subcategory = TwemojiSubcategory.Flag, resource = R.drawable.ic_1f3f3_fe0f_200d_26a7_fe0f)
     )
     // endregion
 

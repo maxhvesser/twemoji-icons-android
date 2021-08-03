@@ -18,6 +18,7 @@ object ActivitiesProvider {
         TwemojiIcon(plainName = "PerformingArts", unicode = "1f3ad", category = TwemojiCategory.Activities, subcategory = TwemojiSubcategory.ArtsAndCrafts, resource = R.drawable.ic_1f3ad),
         TwemojiIcon(plainName = "FramedPicture", unicode = "1f5bc", category = TwemojiCategory.Activities, subcategory = TwemojiSubcategory.ArtsAndCrafts, resource = R.drawable.ic_1f5bc),
         TwemojiIcon(plainName = "Thread", unicode = "1f9f5", category = TwemojiCategory.Activities, subcategory = TwemojiSubcategory.ArtsAndCrafts, resource = R.drawable.ic_1f9f5),
+        TwemojiIcon(plainName = "SewingNeedle", unicode = "1faa1", category = TwemojiCategory.Objects, subcategory = TwemojiSubcategory.Tool, resource = R.drawable.ic_1faa1),
         TwemojiIcon(plainName = "Yarn", unicode = "1f9f6", category = TwemojiCategory.Activities, subcategory = TwemojiSubcategory.ArtsAndCrafts, resource = R.drawable.ic_1f9f6)
     )
     // endregion
@@ -62,6 +63,9 @@ object ActivitiesProvider {
     // region Games
     fun provideGames() = listOf(
         TwemojiIcon(plainName = "CrystalBall", unicode = "1f52e", category = TwemojiCategory.Activities, subcategory = TwemojiSubcategory.Game, resource = R.drawable.ic_1f52e),
+        TwemojiIcon(plainName = "MagicWand", unicode = "1fa84", category = TwemojiCategory.Activities, subcategory = TwemojiSubcategory.Game, resource = R.drawable.ic_1fa84),
+        TwemojiIcon(plainName = "Pinata", unicode = "1fa85", category = TwemojiCategory.Activities, subcategory = TwemojiSubcategory.Game, resource = R.drawable.ic_1fa85),
+        TwemojiIcon(plainName = "NestingDolls", unicode = "1fa86", category = TwemojiCategory.Activities, subcategory = TwemojiSubcategory.Game, resource = R.drawable.ic_1fa86),
         TwemojiIcon(plainName = "VideoGame", unicode = "1f3ae", category = TwemojiCategory.Activities, subcategory = TwemojiSubcategory.Game, resource = R.drawable.ic_1f3ae),
         TwemojiIcon(plainName = "DirectHit", unicode = "1f3af", category = TwemojiCategory.Activities, subcategory = TwemojiSubcategory.Game, resource = R.drawable.ic_1f3af),
         TwemojiIcon(plainName = "GameDie", unicode = "1f3b2", category = TwemojiCategory.Activities, subcategory = TwemojiSubcategory.Game, resource = R.drawable.ic_1f3b2),
