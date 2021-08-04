@@ -1,4 +1,4 @@
-package no.mhl.twemojiiconsandroid
+package no.mhl.twemojiiconsandroid.model
 
 import androidx.annotation.DrawableRes
 

@@ -1,6 +1,11 @@
-package no.mhl.twemojiiconsandroid
+package no.mhl.twemojiiconsandroid.categories
 
-object ObjectsProvider {
+import no.mhl.twemojiiconsandroid.R
+import no.mhl.twemojiiconsandroid.model.TwemojiCategory
+import no.mhl.twemojiiconsandroid.model.TwemojiIcon
+import no.mhl.twemojiiconsandroid.model.TwemojiSubcategory
+
+internal object ObjectsProvider {
 
     // region All
     fun provideObjects(): List<TwemojiIcon> = listOf(

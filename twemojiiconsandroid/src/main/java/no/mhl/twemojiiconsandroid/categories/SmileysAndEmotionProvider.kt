@@ -1,6 +1,11 @@
-package no.mhl.twemojiiconsandroid
+package no.mhl.twemojiiconsandroid.categories
 
-object SmileysAndEmotionProvider {
+import no.mhl.twemojiiconsandroid.R
+import no.mhl.twemojiiconsandroid.model.TwemojiCategory
+import no.mhl.twemojiiconsandroid.model.TwemojiIcon
+import no.mhl.twemojiiconsandroid.model.TwemojiSubcategory
+
+internal object SmileysAndEmotionProvider {
 
     // region All
     fun provideSmileysAndEmotion(): List<TwemojiIcon> = listOf(
