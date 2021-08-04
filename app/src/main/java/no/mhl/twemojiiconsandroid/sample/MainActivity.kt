@@ -19,6 +19,7 @@ import androidx.compose.ui.draw.clip
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.platform.LocalDensity
 import androidx.compose.ui.res.painterResource
+import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
 import androidx.core.view.WindowCompat
 import com.google.accompanist.insets.LocalWindowInsets
@@ -28,7 +29,6 @@ import kotlinx.coroutines.CoroutineScope
 import kotlinx.coroutines.launch
 import no.mhl.twemojiiconsandroid.TwemojiIconProvider
 import no.mhl.twemojiiconsandroid.model.TwemojiIcon
-import no.mhl.twemojiiconsandroid.sample.ui.theme.Iron
 import no.mhl.twemojiiconsandroid.sample.ui.theme.SampleTheme
 
 class MainActivity : ComponentActivity() {
@@ -70,12 +70,22 @@ private fun TwemojiIcons() {
     val selectedIcon: MutableState<TwemojiIcon?> = remember { mutableStateOf(null) }
 
     BottomSheetScaffold(
-        sheetContent = { IconInfoSheet(icon = selectedIcon.value) },
+        sheetContent = {
+            IconInfoSheet(
+                coroutineScope = coroutineScope,
+                sheetState = sheetScaffoldState,
+                icon = selectedIcon.value
+            )
+        },
         scaffoldState = sheetScaffoldState,
         sheetPeekHeight = 0.dp,
-        sheetBackgroundColor = MaterialTheme.colors.background
+        sheetBackgroundColor = MaterialTheme.colors.onSurface
     ) {
-        IconGrid(coroutineScope, selectedIcon, sheetScaffoldState)
+        IconGrid(
+            coroutineScope = coroutineScope,
+            selectedIcon = selectedIcon,
+            sheetState = sheetScaffoldState
+        )
     }
 }
 
@@ -124,19 +134,73 @@ private fun IconGrid(
     }
 }
 
+@ExperimentalMaterialApi
 @Composable
 private fun IconInfoSheet(
+    coroutineScope: CoroutineScope,
+    sheetState: BottomSheetScaffoldState,
     icon: TwemojiIcon?
 ) = Column(
     modifier = Modifier.padding(16.dp)
 ) {
-    Spacer(Modifier.height(32.dp))
-    Text("Plain name: ${icon?.plainName ?: ""}")
-    Spacer(Modifier.height(32.dp))
-    Text("Unicode ${icon?.unicode ?: ""}")
-    Spacer(Modifier.height(32.dp))
-    Text("Category: ${icon?.category?.name ?: ""}")
-    Spacer(Modifier.height(32.dp))
-    Text("Subcategory: ${icon?.subcategory?.name ?: ""}")
+    @Composable
+    fun PropertyText(
+        title: String,
+        text: String
+    ) = Row(
+        verticalAlignment = Alignment.CenterVertically
+    ) {
+        Text(
+            text = title,
+            style = MaterialTheme.typography.subtitle2,
+            color = MaterialTheme.colors.onBackground
+        )
+        Spacer(Modifier.width(4.dp))
+        Text(
+            text = text,
+            style = MaterialTheme.typography.body2,
+            color = MaterialTheme.colors.onBackground
+        )
+    }
+
+    Row(
+        verticalAlignment = Alignment.CenterVertically
+    ) {
+        Image(
+            painter = painterResource(icon?.resource ?: R.drawable.ic_1f004),
+            contentDescription = icon?.plainName
+        )
+        Spacer(Modifier.weight(1f))
+        IconButton(
+            onClick = {
+                coroutineScope.launch { sheetState.bottomSheetState.collapse() }
+            }
+        ) {
+            Icon(
+                painter = painterResource(R.drawable.ic_close),
+                contentDescription = null,
+                tint = MaterialTheme.colors.onBackground
+            )
+        }
+    }
+    PropertyText(
+        title = "Name:",
+        text = icon?.plainName ?: ""
+    )
+    Spacer(Modifier.height(16.dp))
+    PropertyText(
+        title = "Unicode:",
+        text = icon?.unicode ?: ""
+    )
+    Spacer(Modifier.height(16.dp))
+    PropertyText(
+        title = "Category:",
+        text = icon?.category?.name ?: ""
+    )
+    Spacer(Modifier.height(16.dp))
+    PropertyText(
+        title = "Subcategory:",
+        text = icon?.subcategory?.name ?: ""
+    )
     Spacer(Modifier.height(32.dp))
 }

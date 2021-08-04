@@ -13,3 +13,7 @@ val Porcelain = Color(0xFFEFF1F2)
 val AthensGray = Color(0xFFF9F9FB)
 val Iron = Color(0xFFE1E3E4)
 // endregion
+
+// region Text
+val Shark = Color(0xFF1A1C1E)
+// endregion

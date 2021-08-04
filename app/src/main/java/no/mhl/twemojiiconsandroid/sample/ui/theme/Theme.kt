@@ -17,7 +17,9 @@ private val LightColorPalette = lightColors(
     primaryVariant = ShuttleGray,
     secondary = Calypso,
     background = Porcelain,
-    surface = AthensGray
+    surface = AthensGray,
+    onBackground = Shark,
+    onSurface = Iron
 )
 
 @Composable
