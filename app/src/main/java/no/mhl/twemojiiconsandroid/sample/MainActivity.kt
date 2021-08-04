@@ -6,6 +6,7 @@ import androidx.activity.compose.setContent
 import androidx.compose.foundation.ExperimentalFoundationApi
 import androidx.compose.foundation.Image
 import androidx.compose.foundation.background
+import androidx.compose.foundation.clickable
 import androidx.compose.foundation.layout.*
 import androidx.compose.foundation.lazy.GridCells
 import androidx.compose.foundation.lazy.LazyVerticalGrid
@@ -78,7 +79,8 @@ fun IconGrid() {
                         .clip(MaterialTheme.shapes.large)
                         .background(MaterialTheme.colors.surface)
                         .fillMaxWidth()
-                        .height(maxWidth),
+                        .height(maxWidth)
+                        .clickable {  },
                     contentAlignment = Alignment.Center
                 ) {
                     Image(
