@@ -67,7 +67,7 @@ fun IconGrid() {
 
     LazyVerticalGrid(
         cells = GridCells.Fixed(4),
-        contentPadding = PaddingValues(4.dp, top, 4.dp, bottom)
+        contentPadding = PaddingValues(8.dp, top, 8.dp, bottom)
     ) {
         items(TwemojiIconProvider().provideAll()) { icon ->
             BoxWithConstraints {
