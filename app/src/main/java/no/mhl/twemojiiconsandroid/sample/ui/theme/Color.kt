@@ -2,7 +2,14 @@ package no.mhl.twemojiiconsandroid.sample.ui.theme
 
 import androidx.compose.ui.graphics.Color
 
-val Purple200 = Color(0xFFBB86FC)
-val Purple500 = Color(0xFF6200EE)
-val Purple700 = Color(0xFF3700B3)
-val Teal200 = Color(0xFF03DAC5)
+// region Branding
+val FrenchPass = Color(0xFFC3E8FC)
+val Calypso = Color(0xFF2B6581)
+val ShuttleGray = Color(0xFF5A6063)
+// endregion
+
+// region View
+val Porcelain = Color(0xFFEFF1F2)
+val AthensGray = Color(0xFFF9F9FB)
+val Iron = Color(0xFFE1E3E4)
+// endregion
