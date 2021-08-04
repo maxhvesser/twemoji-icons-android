@@ -12,8 +12,12 @@ val ShuttleGray = Color(0xFF5A6063)
 val Porcelain = Color(0xFFEFF1F2)
 val AthensGray = Color(0xFFF9F9FB)
 val Iron = Color(0xFFE1E3E4)
+val MineShaft = Color(0xFF303033)
+val HeavyMetal = Color(0xFF1B1B1E)
+val Abbey = Color(0xFF46464A)
 // endregion
 
 // region Text
 val Shark = Color(0xFF1A1C1E)
+val Concrete = Color(0xFFF1F0F3)
 // endregion
