@@ -173,6 +173,7 @@ private fun IconInfoSheet(
             )
         }
     }
+    Spacer(Modifier.height(8.dp))
     PropertyText(
         title = "Name:",
         text = icon?.plainName ?: ""
