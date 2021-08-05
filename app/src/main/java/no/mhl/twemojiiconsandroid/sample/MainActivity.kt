@@ -56,7 +56,6 @@ private fun TwemojiIcons() {
         bottomSheetState = BottomSheetState(BottomSheetValue.Collapsed)
     )
     val coroutineScope = rememberCoroutineScope()
-
     val selectedIcon: MutableState<TwemojiIcon?> = remember { mutableStateOf(null) }
 
     BottomSheetScaffold(
@@ -93,13 +92,11 @@ private fun IconGrid(
     val bottom = with(density) { insets.navigationBars.bottom.toDp() }
 
     LazyVerticalGrid(
-        cells = GridCells.Fixed(4),
+        cells = GridCells.Adaptive(80.dp),
         contentPadding = PaddingValues(8.dp, top, 8.dp, bottom)
     ) {
         items(TwemojiIconProvider().provideAll()) { icon ->
             BoxWithConstraints {
-                val iconSize = if ((maxWidth / 2) > 72.dp) 72.dp else (maxWidth / 2)
-
                 Box(
                     modifier = Modifier
                         .padding(2.dp)
@@ -114,7 +111,7 @@ private fun IconGrid(
                     contentAlignment = Alignment.Center
                 ) {
                     Image(
-                        modifier = Modifier.size(iconSize),
+                        modifier = Modifier.size(40.dp),
                         painter = painterResource(icon.resource),
                         contentDescription = icon.plainName
                     )
