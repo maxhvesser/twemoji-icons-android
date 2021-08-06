@@ -1,3 +1,16 @@
 <resources>
+
+    <!-- region App name -->
     <string name="app_name">TIA</string>
+    <!-- endregion -->
+
+    <!-- region Sample screen -->
+    <string name="icon_info_name">Name:</string>
+    <string name="icon_info_unicode">Unicode:</string>
+    <string name="icon_info_category">Category:</string>
+    <string name="icon_info_subcategory">Subcategory:</string>
+
+    <string name="close_content_description">Close</string>
+    <!-- endregion -->
+
 </resources>
