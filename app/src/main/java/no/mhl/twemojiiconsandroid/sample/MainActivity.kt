@@ -26,11 +26,12 @@ import kotlinx.coroutines.CoroutineScope
 import kotlinx.coroutines.launch
 import no.mhl.twemojiiconsandroid.TwemojiIconProvider
 import no.mhl.twemojiiconsandroid.model.TwemojiIcon
+import no.mhl.twemojiiconsandroid.sample.ui.sample.IconsSample
 import no.mhl.twemojiiconsandroid.sample.ui.theme.SampleTheme
 
+@ExperimentalMaterialApi
+@ExperimentalFoundationApi
 class MainActivity : ComponentActivity() {
-    @ExperimentalMaterialApi
-    @ExperimentalFoundationApi
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
 
@@ -41,7 +42,7 @@ class MainActivity : ComponentActivity() {
             // Main content
             SampleTheme {
                 ProvideWindowInsets {
-                    Surface(color = MaterialTheme.colors.background) { TwemojiIcons() }
+                    Surface(color = MaterialTheme.colors.background) { IconsSample() }
                 }
             }
         }
