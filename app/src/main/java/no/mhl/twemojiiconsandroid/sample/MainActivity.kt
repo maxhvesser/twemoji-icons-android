@@ -154,7 +154,7 @@ private fun IconInfoSheet(
         verticalAlignment = Alignment.CenterVertically
     ) {
         Image(
-            painter = painterResource(icon?.resource ?: R.drawable.ic_1f004),
+            painter = painterResource(icon?.resource ?: R.drawable.ic_1f60d),
             contentDescription = icon?.plainName
         )
         Spacer(Modifier.weight(1f))
