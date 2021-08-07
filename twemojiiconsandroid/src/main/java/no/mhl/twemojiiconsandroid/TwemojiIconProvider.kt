@@ -1,7 +1,7 @@
 package no.mhl.twemojiiconsandroid
 
 import no.mhl.twemojiiconsandroid.categories.*
-import no.mhl.twemojiiconsandroid.model.TwemojiIcon
+import no.mhl.twemojiiconsandroid.core.model.TwemojiIcon
 
 class TwemojiIconProvider {
 

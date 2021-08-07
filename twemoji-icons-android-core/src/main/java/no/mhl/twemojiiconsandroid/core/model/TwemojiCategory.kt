@@ -1,4 +1,4 @@
-package no.mhl.twemojiiconsandroid.model
+package no.mhl.twemojiiconsandroid.core.model
 
 enum class TwemojiCategory {
     Activities,

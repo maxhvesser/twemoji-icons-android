@@ -1,7 +1,7 @@
-package no.mhl.twemojiiconsandroid.model
+package no.mhl.twemojiiconsandroid.core.model
 
 import androidx.annotation.DrawableRes
-import no.mhl.twemojiiconsandroid.R
+import no.mhl.twemojiiconsandroid.core.R
 
 data class TwemojiIcon(
     val plainName: String = "",

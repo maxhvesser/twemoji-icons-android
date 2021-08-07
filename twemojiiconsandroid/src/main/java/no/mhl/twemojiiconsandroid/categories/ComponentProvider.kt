@@ -1,9 +1,9 @@
 package no.mhl.twemojiiconsandroid.categories
 
 import no.mhl.twemojiiconsandroid.R
-import no.mhl.twemojiiconsandroid.model.TwemojiCategory
-import no.mhl.twemojiiconsandroid.model.TwemojiIcon
-import no.mhl.twemojiiconsandroid.model.TwemojiSubcategory
+import no.mhl.twemojiiconsandroid.core.model.TwemojiCategory
+import no.mhl.twemojiiconsandroid.core.model.TwemojiIcon
+import no.mhl.twemojiiconsandroid.core.model.TwemojiSubcategory
 
 internal object ComponentProvider {
 

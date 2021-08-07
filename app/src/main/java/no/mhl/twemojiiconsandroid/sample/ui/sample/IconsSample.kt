@@ -21,7 +21,7 @@ import com.google.accompanist.insets.LocalWindowInsets
 import kotlinx.coroutines.CoroutineScope
 import kotlinx.coroutines.launch
 import no.mhl.twemojiiconsandroid.TwemojiIconProvider
-import no.mhl.twemojiiconsandroid.model.TwemojiIcon
+import no.mhl.twemojiiconsandroid.core.model.TwemojiIcon
 import no.mhl.twemojiiconsandroid.sample.R
 import no.mhl.twemojiiconsandroid.sample.ui.views.PropertyText
 
