@@ -26,6 +26,7 @@ import no.mhl.twemojiiconsandroid.component.ComponentProvider
 import no.mhl.twemojiiconsandroid.core.model.TwemojiIcon
 import no.mhl.twemojiiconsandroid.flags.FlagsProvider
 import no.mhl.twemojiiconsandroid.food.FoodAndDrinksProvider
+import no.mhl.twemojiiconsandroid.objects.ObjectsProvider
 import no.mhl.twemojiiconsandroid.sample.R
 import no.mhl.twemojiiconsandroid.sample.ui.views.PropertyText
 
@@ -71,7 +72,8 @@ private fun IconGrid(
             AnimalsAndNatureProvider.provideAnimalsAndNature(),
             ComponentProvider.provideComponents(),
             FlagsProvider.provideFlags(),
-            FoodAndDrinksProvider.provideFoodAndDrink()
+            FoodAndDrinksProvider.provideFoodAndDrink(),
+            ObjectsProvider.provideObjects()
         ).flatten()
 
         items(icons) {
