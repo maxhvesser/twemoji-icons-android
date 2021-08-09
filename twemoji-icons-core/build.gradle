@@ -1,6 +1,7 @@
 plugins {
     id 'com.android.library'
     id 'kotlin-android'
+    id 'maven-publish'
 }
 
 android {
@@ -37,4 +38,16 @@ dependencies {
     // Core KTX
     implementation "androidx.core:core-ktx:$core_ktx_version"
 
+}
+
+afterEvaluate {
+    publishing {
+        publications {
+            release(MavenPublication) {
+                groupId = 'no.mhl.twemojiiconsandroid'
+                artifactId = 'core'
+                version = '0.1.0'
+            }
+        }
+    }
 }
