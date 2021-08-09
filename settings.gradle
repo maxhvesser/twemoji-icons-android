@@ -9,6 +9,6 @@ dependencyResolutionManagement {
 rootProject.name = "Sample"
 include ':app'
 include ':twemojiiconsandroid'
-include ':twemoji-icons-android-core'
+include ':twemoji-icons-core'
 include ':twemoji-icons-activities'
 include ':twemoji-icons-animals'

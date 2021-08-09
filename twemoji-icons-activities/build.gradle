@@ -38,6 +38,6 @@ dependencies {
     implementation "androidx.core:core-ktx:$core_ktx_version"
 
     // twemoji-icons-core
-    implementation project(':twemoji-icons-android-core')
+    implementation project(':twemoji-icons-core')
 
 }
