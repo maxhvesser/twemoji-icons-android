@@ -79,6 +79,7 @@ dependencies {
     implementation project(':twemoji-icons-food')
     implementation project(':twemoji-icons-objects')
     implementation project(':twemoji-icons-people')
+    implementation project(':twemoji-icons-smileys')
 
     // Accompanist
     implementation "com.google.accompanist:accompanist-insets:$accompanist_version"

@@ -30,6 +30,7 @@ import no.mhl.twemojiiconsandroid.objects.ObjectsProvider
 import no.mhl.twemojiiconsandroid.people.PeopleAndBodyProvider
 import no.mhl.twemojiiconsandroid.sample.R
 import no.mhl.twemojiiconsandroid.sample.ui.views.PropertyText
+import no.mhl.twemojiiconsandroid.smileys.SmileysAndEmotionProvider
 
 // region Main entry
 @ExperimentalMaterialApi
@@ -75,7 +76,8 @@ private fun IconGrid(
             FlagsProvider.provideFlags(),
             FoodAndDrinksProvider.provideFoodAndDrink(),
             ObjectsProvider.provideObjects(),
-            PeopleAndBodyProvider.providePeopleAndBody()
+            PeopleAndBodyProvider.providePeopleAndBody(),
+            SmileysAndEmotionProvider.provideSmileysAndEmotion()
         ).flatten()
 
         items(icons) {
