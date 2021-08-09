@@ -20,7 +20,7 @@ import androidx.compose.ui.unit.dp
 import com.google.accompanist.insets.LocalWindowInsets
 import kotlinx.coroutines.CoroutineScope
 import kotlinx.coroutines.launch
-import no.mhl.twemojiiconsandroid.activities.ActivitiesProver
+import no.mhl.twemojiiconsandroid.activities.ActivitiesProvider
 import no.mhl.twemojiiconsandroid.animals.AnimalsAndNatureProvider
 import no.mhl.twemojiiconsandroid.core.model.TwemojiIcon
 import no.mhl.twemojiiconsandroid.sample.R
@@ -64,7 +64,7 @@ private fun IconGrid(
         contentPadding = PaddingValues(8.dp, top, 8.dp, bottom)
     ) {
         val icons = listOf(
-            ActivitiesProver.provideActivities(),
+            ActivitiesProvider.provideActivities(),
             AnimalsAndNatureProvider.provideAnimalsAndNature()
         ).flatten()
 

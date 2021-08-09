@@ -4,7 +4,7 @@ import no.mhl.twemojiiconsandroid.core.model.TwemojiCategory
 import no.mhl.twemojiiconsandroid.core.model.TwemojiIcon
 import no.mhl.twemojiiconsandroid.core.model.TwemojiSubcategory
 
-object ActivitiesProver {
+object ActivitiesProvider {
 
     // region All
     fun provideActivities(): List<TwemojiIcon> = listOf(
