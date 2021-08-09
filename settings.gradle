@@ -10,3 +10,4 @@ rootProject.name = "Sample"
 include ':app'
 include ':twemojiiconsandroid'
 include ':twemoji-icons-android-core'
+include ':twemoji-icons-activities'
