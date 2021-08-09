@@ -21,6 +21,8 @@ import com.google.accompanist.insets.LocalWindowInsets
 import kotlinx.coroutines.CoroutineScope
 import kotlinx.coroutines.launch
 import no.mhl.twemojiiconsandroid.TwemojiIconProvider
+import no.mhl.twemojiiconsandroid.activities.ActivitiesProver
+import no.mhl.twemojiiconsandroid.animals.AnimalsAndNatureProvider
 import no.mhl.twemojiiconsandroid.core.model.TwemojiIcon
 import no.mhl.twemojiiconsandroid.sample.R
 import no.mhl.twemojiiconsandroid.sample.ui.views.PropertyText
@@ -62,7 +64,12 @@ private fun IconGrid(
         cells = GridCells.Adaptive(80.dp),
         contentPadding = PaddingValues(8.dp, top, 8.dp, bottom)
     ) {
-        items(TwemojiIconProvider().provideAll()) {
+        val icons = listOf(
+            ActivitiesProver.provideActivities(),
+            AnimalsAndNatureProvider.provideAnimalsAndNature()
+        ).flatten()
+
+        items(icons) {
             IconTile(
                 coroutineScope = coroutineScope,
                 selectedIcon = selectedIcon,

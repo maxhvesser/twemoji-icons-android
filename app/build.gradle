@@ -73,6 +73,8 @@ dependencies {
     // twemoji-icons-android
     implementation project(':twemojiiconsandroid')
     implementation project(':twemoji-icons-core')
+    implementation project(':twemoji-icons-activities')
+    implementation project(':twemoji-icons-animals')
 
     // Accompanist
     implementation "com.google.accompanist:accompanist-insets:$accompanist_version"
