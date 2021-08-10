@@ -39,3 +39,16 @@ dependencies {
     implementation "androidx.core:core-ktx:$core_ktx_version"
 
 }
+
+afterEvaluate {
+    publishing {
+        publications {
+            release(MavenPublication) {
+                from components.release
+                groupId = 'no.mhl'
+                artifactId = 'twemoji-icons-android-core'
+                version = '0.1.3'
+            }
+        }
+    }
+}
