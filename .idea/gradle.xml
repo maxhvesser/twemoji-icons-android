@@ -11,17 +11,17 @@
           <set>
             <option value="$PROJECT_DIR$" />
             <option value="$PROJECT_DIR$/activities" />
+            <option value="$PROJECT_DIR$/animals" />
             <option value="$PROJECT_DIR$/app" />
+            <option value="$PROJECT_DIR$/component" />
             <option value="$PROJECT_DIR$/core" />
-            <option value="$PROJECT_DIR$/twemoji-icons-animals" />
-            <option value="$PROJECT_DIR$/twemoji-icons-component" />
-            <option value="$PROJECT_DIR$/twemoji-icons-flags" />
-            <option value="$PROJECT_DIR$/twemoji-icons-food" />
-            <option value="$PROJECT_DIR$/twemoji-icons-objects" />
-            <option value="$PROJECT_DIR$/twemoji-icons-people" />
-            <option value="$PROJECT_DIR$/twemoji-icons-smileys" />
-            <option value="$PROJECT_DIR$/twemoji-icons-symbols" />
-            <option value="$PROJECT_DIR$/twemoji-icons-travel" />
+            <option value="$PROJECT_DIR$/flags" />
+            <option value="$PROJECT_DIR$/food" />
+            <option value="$PROJECT_DIR$/objects" />
+            <option value="$PROJECT_DIR$/people" />
+            <option value="$PROJECT_DIR$/smileys" />
+            <option value="$PROJECT_DIR$/symbols" />
+            <option value="$PROJECT_DIR$/travel" />
           </set>
         </option>
         <option name="resolveModulePerSourceSet" value="false" />

@@ -73,15 +73,15 @@ dependencies {
     // twemoji-icons-android
     implementation project(':core')
     implementation project(':activities')
-    implementation project(':twemoji-icons-animals')
-    implementation project(':twemoji-icons-component')
-    implementation project(':twemoji-icons-flags')
-    implementation project(':twemoji-icons-food')
-    implementation project(':twemoji-icons-objects')
-    implementation project(':twemoji-icons-people')
-    implementation project(':twemoji-icons-smileys')
-    implementation project(':twemoji-icons-symbols')
-    implementation project(':twemoji-icons-travel')
+    implementation project(':animals')
+    implementation project(':component')
+    implementation project(':flags')
+    implementation project(':food')
+    implementation project(':objects')
+    implementation project(':people')
+    implementation project(':smileys')
+    implementation project(':symbols')
+    implementation project(':travel')
 
     // Accompanist
     implementation "com.google.accompanist:accompanist-insets:$accompanist_version"
