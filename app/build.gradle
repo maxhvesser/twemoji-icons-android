@@ -71,8 +71,8 @@ dependencies {
     debugImplementation "androidx.compose.ui:ui-tooling:$compose_version"
 
     // twemoji-icons-android
-    implementation project(':twemoji-icons-core')
-    implementation project(':twemoji-icons-activities')
+    implementation project(':core')
+    implementation project(':activities')
     implementation project(':twemoji-icons-animals')
     implementation project(':twemoji-icons-component')
     implementation project(':twemoji-icons-flags')

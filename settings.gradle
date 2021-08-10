@@ -8,8 +8,8 @@ dependencyResolutionManagement {
 }
 rootProject.name = "Sample"
 include ':app'
-include ':twemoji-icons-core'
-include ':twemoji-icons-activities'
+include ':core'
+include ':activities'
 include ':twemoji-icons-animals'
 include ':twemoji-icons-component'
 include ':twemoji-icons-flags'

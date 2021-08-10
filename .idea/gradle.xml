@@ -10,11 +10,11 @@
         <option name="modules">
           <set>
             <option value="$PROJECT_DIR$" />
+            <option value="$PROJECT_DIR$/activities" />
             <option value="$PROJECT_DIR$/app" />
-            <option value="$PROJECT_DIR$/twemoji-icons-activities" />
+            <option value="$PROJECT_DIR$/core" />
             <option value="$PROJECT_DIR$/twemoji-icons-animals" />
             <option value="$PROJECT_DIR$/twemoji-icons-component" />
-            <option value="$PROJECT_DIR$/twemoji-icons-core" />
             <option value="$PROJECT_DIR$/twemoji-icons-flags" />
             <option value="$PROJECT_DIR$/twemoji-icons-food" />
             <option value="$PROJECT_DIR$/twemoji-icons-objects" />
