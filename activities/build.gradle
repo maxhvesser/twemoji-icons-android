@@ -48,9 +48,9 @@ afterEvaluate {
         publications {
             release(MavenPublication) {
                 from components.release
-                groupId = 'no.mhl'
-                artifactId = 'twemoji-icons-activities'
-                version = '0.1.4'
+                groupId = 'no.mhl.twemoji-icons'
+                artifactId = 'activities'
+                version = '0.1.5'
             }
         }
     }
