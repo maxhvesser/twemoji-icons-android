@@ -10,6 +10,8 @@
 
 ## Twemoji Icons Android
 
+[![](https://jitpack.io/v/maxhvesser/twemoji-icons-android.svg)](https://jitpack.io/#maxhvesser/twemoji-icons-android)
+
 In a basic sense this library is a wrapper class for [Twemoji](https://github.com/twitter/twemoji), targetting the Android platform. All assets have been sorted into categories and converted to WebP resources. Each category has a following `provider` class which for now is a very basic object with references to drawables. At the moment, subcategories are not accessible but are present, if there is a need for such granualarity then these can also be made available.
 
 ### But really...why does this library exist?
@@ -23,6 +25,21 @@ This project will be kept up-to-date and include new emoji as the Twemoji spec i
 ### Sample
 
 In this repository will you find the library itself (core project and categories) and in addition a sample app (written in Compose) which implements each module and loads the icons into a `LazyGrid`. Just in case you don't want to go and run the sample yourself, he's a couple of screenshots:
+
+<p align="center">
+    <img
+        src="https://user-images.githubusercontent.com/46483870/129178025-a9e03f94-0d8d-4326-95e1-07a468979ba6.png"
+        width="225">
+    <img
+        src="https://user-images.githubusercontent.com/46483870/129178037-aaca733f-7e1a-4cdc-88c9-d5549d70480c.png"
+        width="225">
+    <img 
+        src="https://user-images.githubusercontent.com/46483870/129178045-9f124e12-3482-4207-bdcf-6bccb1a598f0.png"
+        width="225">
+    <img 
+        src="https://user-images.githubusercontent.com/46483870/129178056-37312d84-7d29-41f9-82c2-3a754fbdb891.png"
+        width="225">
+</p>
 
 ### Available categories
 
