@@ -29,16 +29,16 @@ In this repository will you find the library itself (core project and categories
 <p align="center">
     <img
         src="https://user-images.githubusercontent.com/46483870/129178025-a9e03f94-0d8d-4326-95e1-07a468979ba6.png"
-        width="225">
+        width="200">
     <img
         src="https://user-images.githubusercontent.com/46483870/129178037-aaca733f-7e1a-4cdc-88c9-d5549d70480c.png"
-        width="225">
+        width="200">
     <img 
         src="https://user-images.githubusercontent.com/46483870/129178045-9f124e12-3482-4207-bdcf-6bccb1a598f0.png"
-        width="225">
+        width="200">
     <img 
         src="https://user-images.githubusercontent.com/46483870/129178056-37312d84-7d29-41f9-82c2-3a754fbdb891.png"
-        width="225">
+        width="200">
 </p>
 
 ### Available categories
