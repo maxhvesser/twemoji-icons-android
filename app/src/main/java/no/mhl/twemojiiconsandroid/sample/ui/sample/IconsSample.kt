@@ -73,7 +73,7 @@ private fun IconGrid(
     ) {
         val icons = listOf(
             ActivitiesProvider.provideActivities(),
-            AnimalsAndNatureProvider.provideAnimalsAndNature(),
+            AnimalsAndNatureProvider.icons,
             ComponentProvider.provideComponents(),
             FlagsProvider.provideFlags(),
             FoodAndDrinksProvider.provideFoodAndDrink(),

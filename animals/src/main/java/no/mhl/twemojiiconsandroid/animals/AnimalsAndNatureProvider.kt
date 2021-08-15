@@ -6,27 +6,14 @@ import no.mhl.twemojiiconsandroid.core.model.TwemojiSubcategory
 
 object AnimalsAndNatureProvider {
 
-    // region All
-    fun provideAnimalsAndNature(): List<TwemojiIcon> = listOf(
-        provideAmphibians(),
-        provideBirds(),
-        provideBugs(),
-        provideMammals(),
-        provideMarine(),
-        provideReptiles(),
-        provideFlowers(),
-        provideOther()
-    ).flatten()
-    // endregion
-
     // region Amphibian
-    private fun provideAmphibians(): List<TwemojiIcon> = listOf(
+    private val amphibians: List<TwemojiIcon> = listOf(
         TwemojiIcon(plainName = "Frog", unicode = "1f438", category = TwemojiCategory.AnimalsAndNature, subcategory = TwemojiSubcategory.AnimalAmphibian, resource = R.drawable.ic_1f438)
     )
     // endregion
 
     // region Birds
-    private fun provideBirds(): List<TwemojiIcon> = listOf(
+    private val birds: List<TwemojiIcon> = listOf(
         TwemojiIcon(plainName = "Penguin", unicode = "1f427", category = TwemojiCategory.AnimalsAndNature, subcategory = TwemojiSubcategory.AnimalBird, resource = R.drawable.ic_1f427),
         TwemojiIcon(plainName = "HatchingChick", unicode = "1f423", category = TwemojiCategory.AnimalsAndNature, subcategory = TwemojiSubcategory.AnimalBird, resource = R.drawable.ic_1f423),
         TwemojiIcon(plainName = "FrontFacingBabyChick", unicode = "1f425", category = TwemojiCategory.AnimalsAndNature, subcategory = TwemojiSubcategory.AnimalBird, resource = R.drawable.ic_1f425),
@@ -49,7 +36,7 @@ object AnimalsAndNatureProvider {
     // endregion
 
     // region Bugs
-    private fun provideBugs(): List<TwemojiIcon> = listOf(
+    private val bugs: List<TwemojiIcon> = listOf(
         TwemojiIcon(plainName = "Honeybee", unicode = "1f41d", category = TwemojiCategory.AnimalsAndNature, subcategory = TwemojiSubcategory.AnimalBug, resource = R.drawable.ic_1f41d),
         TwemojiIcon(plainName = "Bug", unicode = "1f41b", category = TwemojiCategory.AnimalsAndNature, subcategory = TwemojiSubcategory.AnimalBug, resource = R.drawable.ic_1f41b),
         TwemojiIcon(plainName = "LadyBeetle", unicode = "1f41e", category = TwemojiCategory.AnimalsAndNature, subcategory = TwemojiSubcategory.AnimalBug, resource = R.drawable.ic_1f41e),
@@ -70,7 +57,7 @@ object AnimalsAndNatureProvider {
     // endregion
 
     // region Mammals
-    private fun provideMammals(): List<TwemojiIcon> = listOf(
+    private val mammals: List<TwemojiIcon> = listOf(
         TwemojiIcon(plainName = "DogFace", unicode = "1f436", category = TwemojiCategory.AnimalsAndNature, subcategory = TwemojiSubcategory.AnimalMammal, resource = R.drawable.ic_1f436),
         TwemojiIcon(plainName = "CatFace", unicode = "1f431", category = TwemojiCategory.AnimalsAndNature, subcategory = TwemojiSubcategory.AnimalMammal, resource = R.drawable.ic_1f431),
         TwemojiIcon(plainName = "PigFace", unicode = "1f437", category = TwemojiCategory.AnimalsAndNature, subcategory = TwemojiSubcategory.AnimalMammal, resource = R.drawable.ic_1f437),
@@ -139,7 +126,7 @@ object AnimalsAndNatureProvider {
     // endregion
 
     // region Marine
-    private fun provideMarine(): List<TwemojiIcon> = listOf(
+    private val marine: List<TwemojiIcon> = listOf(
         TwemojiIcon(plainName = "Octopus", unicode = "1f419", category = TwemojiCategory.AnimalsAndNature, subcategory = TwemojiSubcategory.AnimalMarine, resource = R.drawable.ic_1f419),
         TwemojiIcon(plainName = "SpoutingWhale", unicode = "1f433", category = TwemojiCategory.AnimalsAndNature, subcategory = TwemojiSubcategory.AnimalMarine, resource = R.drawable.ic_1f433),
         TwemojiIcon(plainName = "Dolphin", unicode = "1f42c", category = TwemojiCategory.AnimalsAndNature, subcategory = TwemojiSubcategory.AnimalMarine, resource = R.drawable.ic_1f42c),
@@ -154,7 +141,7 @@ object AnimalsAndNatureProvider {
     // endregion
 
     // region Reptiles
-    private fun provideReptiles(): List<TwemojiIcon> = listOf(
+    private val reptiles: List<TwemojiIcon> = listOf(
         TwemojiIcon(plainName = "Snake", unicode = "1f40d", category = TwemojiCategory.AnimalsAndNature, subcategory = TwemojiSubcategory.AnimalReptile, resource = R.drawable.ic_1f40d),
         TwemojiIcon(plainName = "Turtle", unicode = "1f422", category = TwemojiCategory.AnimalsAndNature, subcategory = TwemojiSubcategory.AnimalReptile, resource = R.drawable.ic_1f422),
         TwemojiIcon(plainName = "Dragon", unicode = "1f409", category = TwemojiCategory.AnimalsAndNature, subcategory = TwemojiSubcategory.AnimalReptile, resource = R.drawable.ic_1f409),
@@ -167,7 +154,7 @@ object AnimalsAndNatureProvider {
     // endregion
 
     // region Flowers
-    private fun provideFlowers(): List<TwemojiIcon> = listOf(
+    private val flowers: List<TwemojiIcon> = listOf(
         TwemojiIcon(plainName = "CherryBlossom", unicode = "1f338", category = TwemojiCategory.AnimalsAndNature, subcategory = TwemojiSubcategory.PlantFlower, resource = R.drawable.ic_1f338),
         TwemojiIcon(plainName = "Rose", unicode = "1f339", category = TwemojiCategory.AnimalsAndNature, subcategory = TwemojiSubcategory.PlantFlower, resource = R.drawable.ic_1f339),
         TwemojiIcon(plainName = "Hibiscus", unicode = "1f33a", category = TwemojiCategory.AnimalsAndNature, subcategory = TwemojiSubcategory.PlantFlower, resource = R.drawable.ic_1f33a),
@@ -182,7 +169,7 @@ object AnimalsAndNatureProvider {
     // endregion
 
     // region Others
-    private fun provideOther(): List<TwemojiIcon> = listOf(
+    private val other: List<TwemojiIcon> = listOf(
         TwemojiIcon(plainName = "LeafFlutteringInWind", unicode = "1f343", category = TwemojiCategory.AnimalsAndNature, subcategory = TwemojiSubcategory.PlantOther, resource = R.drawable.ic_1f343),
         TwemojiIcon(plainName = "FourLeafClover", unicode = "1f340", category = TwemojiCategory.AnimalsAndNature, subcategory = TwemojiSubcategory.PlantOther, resource = R.drawable.ic_1f340),
         TwemojiIcon(plainName = "PalmTree", unicode = "1f334", category = TwemojiCategory.AnimalsAndNature, subcategory = TwemojiSubcategory.PlantOther, resource = R.drawable.ic_1f334),
@@ -199,6 +186,23 @@ object AnimalsAndNatureProvider {
         TwemojiIcon(plainName = "Wood", unicode = "1fab5", category = TwemojiCategory.AnimalsAndNature, subcategory = TwemojiSubcategory.PlantOther, resource = R.drawable.ic_1fab5),
         TwemojiIcon(plainName = "Shamrock", unicode = "2618", category = TwemojiCategory.AnimalsAndNature, subcategory = TwemojiSubcategory.PlantOther, resource = R.drawable.ic_2618)
     )
+    // endregion
+
+    // region All
+    val icons: List<TwemojiIcon> = listOf(
+        amphibians,
+        birds,
+        bugs,
+        mammals,
+        marine,
+        reptiles,
+        flowers,
+        other
+    ).flatten()
+    // endregion
+
+    // region Helper functions
+    fun iconByUnicode(unicode: String): TwemojiIcon? = icons.firstOrNull { it.unicode == unicode }
     // endregion
 
 }
