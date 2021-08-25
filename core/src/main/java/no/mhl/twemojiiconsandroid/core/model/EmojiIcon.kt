@@ -3,7 +3,7 @@ package no.mhl.twemojiiconsandroid.core.model
 import androidx.annotation.DrawableRes
 import no.mhl.twemojiiconsandroid.core.R
 
-private data class EmojiIcon(
+data class EmojiIcon(
     val name: String = "",
     val unicode: String = "",
     val category: Category = Category.Unknown,
