@@ -8,7 +8,9 @@ import no.mhl.twemojiiconsandroid.core.model.Subcategory
 object SmileysAndEmotion {
 
     // region All
-    fun all(): List<EmojiIcon> = listOf()
+    fun all(): List<EmojiIcon> = listOf(
+        faceSmiling()
+    ).flatten()
     // endregion
 
     // region FaceSmiling
