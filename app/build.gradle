@@ -74,7 +74,6 @@ dependencies {
     implementation project(':core')
     implementation project(':activities')
     implementation project(':animals')
-    implementation project(':component')
     implementation project(':flags')
     implementation project(':food')
     implementation project(':objects')
