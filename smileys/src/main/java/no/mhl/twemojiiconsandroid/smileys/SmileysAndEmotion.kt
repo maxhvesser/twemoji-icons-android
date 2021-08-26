@@ -19,7 +19,8 @@ object SmileysAndEmotion {
         faceHat(),
         faceGlasses(),
         faceConcerned(),
-        faceNegative()
+        faceNegative(),
+        faceCostume()
     ).flatten()
     // endregion
 
@@ -178,7 +179,16 @@ object SmileysAndEmotion {
     // endregion
 
     // region FaceCostume
-    fun faceCostume(): List<EmojiIcon> = listOf()
+    fun faceCostume(): List<EmojiIcon> = listOf(
+        EmojiIcon("PileOfPoo", "1f4a9", Category.SmileysAndEmotion, Subcategory.FaceCostume, Font.Twemoji, R.drawable.ic_1f4a9),
+        EmojiIcon("ClownFace", "1f921", Category.SmileysAndEmotion, Subcategory.FaceCostume, Font.Twemoji, R.drawable.ic_1f921),
+        EmojiIcon("Ogre", "1f479", Category.SmileysAndEmotion, Subcategory.FaceCostume, Font.Twemoji, R.drawable.ic_1f479),
+        EmojiIcon("Goblin", "1f47a", Category.SmileysAndEmotion, Subcategory.FaceCostume, Font.Twemoji, R.drawable.ic_1f47a),
+        EmojiIcon("Ghost", "1f47b", Category.SmileysAndEmotion, Subcategory.FaceCostume, Font.Twemoji, R.drawable.ic_1f47b),
+        EmojiIcon("Alien", "1f47d", Category.SmileysAndEmotion, Subcategory.FaceCostume, Font.Twemoji, R.drawable.ic_1f47d),
+        EmojiIcon("AlienMonster", "1f47e", Category.SmileysAndEmotion, Subcategory.FaceCostume, Font.Twemoji, R.drawable.ic_1f47e),
+        EmojiIcon("Robot", "1f916", Category.SmileysAndEmotion, Subcategory.FaceCostume, Font.Twemoji, R.drawable.ic_1f916)
+    )
     // endregion
 
     // region CatFace
