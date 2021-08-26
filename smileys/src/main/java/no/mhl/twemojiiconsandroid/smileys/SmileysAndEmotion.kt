@@ -17,7 +17,8 @@ object SmileysAndEmotion {
         faceSleepy(),
         faceUnwell(),
         faceHat(),
-        faceGlasses()
+        faceGlasses(),
+        faceConcerned()
     ).flatten()
     // endregion
 
@@ -134,7 +135,32 @@ object SmileysAndEmotion {
     // endregion
 
     // region FaceConcerned
-    fun faceConcerned(): List<EmojiIcon> = listOf()
+    fun faceConcerned(): List<EmojiIcon> = listOf(
+        EmojiIcon("ConfusedFace", "1f615", Category.SmileysAndEmotion, Subcategory.FaceConcerned, Font.Twemoji, R.drawable.ic_1f615),
+        EmojiIcon("WorriedFace", "1f61f", Category.SmileysAndEmotion, Subcategory.FaceConcerned, Font.Twemoji, R.drawable.ic_1f61f),
+        EmojiIcon("SlightlyFrowningFace", "1f641", Category.SmileysAndEmotion, Subcategory.FaceConcerned, Font.Twemoji, R.drawable.ic_1f641),
+        EmojiIcon("RowningFace", "2639", Category.SmileysAndEmotion, Subcategory.FaceConcerned, Font.Twemoji, R.drawable.ic_2639),
+        EmojiIcon("FaceWithOpenMouth", "1f62e", Category.SmileysAndEmotion, Subcategory.FaceConcerned, Font.Twemoji, R.drawable.ic_1f62e),
+        EmojiIcon("HushedFace", "1f62f", Category.SmileysAndEmotion, Subcategory.FaceConcerned, Font.Twemoji, R.drawable.ic_1f62f),
+        EmojiIcon("AstonishedFace", "1f632", Category.SmileysAndEmotion, Subcategory.FaceConcerned, Font.Twemoji, R.drawable.ic_1f632),
+        EmojiIcon("FlushedFace", "1f633", Category.SmileysAndEmotion, Subcategory.FaceConcerned, Font.Twemoji, R.drawable.ic_1f633),
+        EmojiIcon("PleadingFace", "1f97a", Category.SmileysAndEmotion, Subcategory.FaceConcerned, Font.Twemoji, R.drawable.ic_1f97a),
+        EmojiIcon("FrowningFaceWithOpenMouth", "1f626", Category.SmileysAndEmotion, Subcategory.FaceConcerned, Font.Twemoji, R.drawable.ic_1f626),
+        EmojiIcon("AnguishedFace", "1f627", Category.SmileysAndEmotion, Subcategory.FaceConcerned, Font.Twemoji, R.drawable.ic_1f627),
+        EmojiIcon("FearfulFace", "1f628", Category.SmileysAndEmotion, Subcategory.FaceConcerned, Font.Twemoji, R.drawable.ic_1f628),
+        EmojiIcon("AnxiousFaceWithSweat", "1f630", Category.SmileysAndEmotion, Subcategory.FaceConcerned, Font.Twemoji, R.drawable.ic_1f630),
+        EmojiIcon("SadButRelievedFace", "1f625", Category.SmileysAndEmotion, Subcategory.FaceConcerned, Font.Twemoji, R.drawable.ic_1f625),
+        EmojiIcon("CryingFace", "1f622", Category.SmileysAndEmotion, Subcategory.FaceConcerned, Font.Twemoji, R.drawable.ic_1f622),
+        EmojiIcon("LoudlyCryingFace", "1f62d", Category.SmileysAndEmotion, Subcategory.FaceConcerned, Font.Twemoji, R.drawable.ic_1f62d),
+        EmojiIcon("FaceScreamingInFear", "1f631", Category.SmileysAndEmotion, Subcategory.FaceConcerned, Font.Twemoji, R.drawable.ic_1f631),
+        EmojiIcon("ConfoundedFace", "1f616", Category.SmileysAndEmotion, Subcategory.FaceConcerned, Font.Twemoji, R.drawable.ic_1f616),
+        EmojiIcon("PerseveringFace", "1f623", Category.SmileysAndEmotion, Subcategory.FaceConcerned, Font.Twemoji, R.drawable.ic_1f623),
+        EmojiIcon("DisappointedFace", "1f61e", Category.SmileysAndEmotion, Subcategory.FaceConcerned, Font.Twemoji, R.drawable.ic_1f61e),
+        EmojiIcon("DowncastFaceWithSweat", "1f613", Category.SmileysAndEmotion, Subcategory.FaceConcerned, Font.Twemoji, R.drawable.ic_1f613),
+        EmojiIcon("WearyFace", "1f629", Category.SmileysAndEmotion, Subcategory.FaceConcerned, Font.Twemoji, R.drawable.ic_1f629),
+        EmojiIcon("TiredFace", "1f62b", Category.SmileysAndEmotion, Subcategory.FaceConcerned, Font.Twemoji, R.drawable.ic_1f62b),
+        EmojiIcon("YawningFace", "1f971", Category.SmileysAndEmotion, Subcategory.FaceConcerned, Font.Twemoji, R.drawable.ic_1f971)
+    )
     // endregion
 
     // region FaceNegative
