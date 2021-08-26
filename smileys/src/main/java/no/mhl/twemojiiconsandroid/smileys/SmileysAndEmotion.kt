@@ -7,28 +7,8 @@ import no.mhl.twemojiiconsandroid.core.model.Subcategory
 
 object SmileysAndEmotion {
 
-    // region All
-    fun all(): List<EmojiIcon> = listOf(
-        faceSmiling(),
-        faceAffection(),
-        faceTongue(),
-        faceHand(),
-        faceNeutralSkeptical(),
-        faceSleepy(),
-        faceUnwell(),
-        faceHat(),
-        faceGlasses(),
-        faceConcerned(),
-        faceNegative(),
-        faceCostume(),
-        catFace(),
-        monkeyFace(),
-        emotion()
-    ).flatten()
-    // endregion
-
     // region FaceSmiling
-    fun faceSmiling(): List<EmojiIcon> = listOf(
+    private val faceSmiling: List<EmojiIcon> = listOf(
         EmojiIcon("GrinningFace", "1f600", Category.SmileysAndEmotion, Subcategory.FaceSmiling, Font.Twemoji, R.drawable.ic_1f600),
         EmojiIcon("GrinningFaceWithBigEyes", "1f603", Category.SmileysAndEmotion, Subcategory.FaceSmiling, Font.Twemoji, R.drawable.ic_1f603),
         EmojiIcon("GrinningFaceWithSmilingEyes", "1f604", Category.SmileysAndEmotion, Subcategory.FaceSmiling, Font.Twemoji, R.drawable.ic_1f604),
@@ -46,7 +26,7 @@ object SmileysAndEmotion {
     // endregion
 
     // region FaceAffection
-    fun faceAffection(): List<EmojiIcon> = listOf(
+    private val faceAffection: List<EmojiIcon> = listOf(
         EmojiIcon("SmilingFaceWithHearts", "1f970", Category.SmileysAndEmotion, Subcategory.FaceAffection, Font.Twemoji, R.drawable.ic_1f970),
         EmojiIcon("SmilingFaceWithHeart-Eyes", "1f60d", Category.SmileysAndEmotion, Subcategory.FaceAffection, Font.Twemoji, R.drawable.ic_1f60d),
         EmojiIcon("Star-Struck", "1f929", Category.SmileysAndEmotion, Subcategory.FaceAffection, Font.Twemoji, R.drawable.ic_1f929),
@@ -60,7 +40,7 @@ object SmileysAndEmotion {
     // endregion
 
     // region FaceTongue
-    fun faceTongue(): List<EmojiIcon> = listOf(
+    private val faceTongue: List<EmojiIcon> = listOf(
         EmojiIcon("FaceSavoringFood", "1f60b", Category.SmileysAndEmotion, Subcategory.FaceTongue, Font.Twemoji, R.drawable.ic_1f60b),
         EmojiIcon("FaceWithTongue", "1f61b", Category.SmileysAndEmotion, Subcategory.FaceTongue, Font.Twemoji, R.drawable.ic_1f61b),
         EmojiIcon("WinkingFaceWithTongue", "1f61c", Category.SmileysAndEmotion, Subcategory.FaceTongue, Font.Twemoji, R.drawable.ic_1f61c),
@@ -71,7 +51,7 @@ object SmileysAndEmotion {
     // endregion
 
     // region FaceHand
-    fun faceHand(): List<EmojiIcon> = listOf(
+    private val faceHand: List<EmojiIcon> = listOf(
         EmojiIcon("HuggingFace", "1f917", Category.SmileysAndEmotion, Subcategory.FaceHand, Font.Twemoji, R.drawable.ic_1f917),
         EmojiIcon("FaceWithHandOverMouth", "1f92d", Category.SmileysAndEmotion, Subcategory.FaceHand, Font.Twemoji, R.drawable.ic_1f92d),
         EmojiIcon("ShushingFace", "1f92b", Category.SmileysAndEmotion, Subcategory.FaceHand, Font.Twemoji, R.drawable.ic_1f92b),
@@ -80,7 +60,7 @@ object SmileysAndEmotion {
     // endregion
 
     // region FaceNeutralSkeptical
-    fun faceNeutralSkeptical(): List<EmojiIcon> = listOf(
+    private val faceNeutralSkeptical: List<EmojiIcon> = listOf(
         EmojiIcon("ZipperMouthFace", "1f910", Category.SmileysAndEmotion, Subcategory.FaceNeutralSkeptical, Font.Twemoji, R.drawable.ic_1f910),
         EmojiIcon("FaceWithRaisedEyebrow", "1f928", Category.SmileysAndEmotion, Subcategory.FaceNeutralSkeptical, Font.Twemoji, R.drawable.ic_1f928),
         EmojiIcon("NeutralFace", "1f610", Category.SmileysAndEmotion, Subcategory.FaceNeutralSkeptical, Font.Twemoji, R.drawable.ic_1f610),
@@ -97,7 +77,7 @@ object SmileysAndEmotion {
     // endregion
 
     // region FaceSleepy
-    fun faceSleepy(): List<EmojiIcon> = listOf(
+    private val faceSleepy: List<EmojiIcon> = listOf(
         EmojiIcon("RelievedFace", "1f60c", Category.SmileysAndEmotion, Subcategory.FaceSleepy, Font.Twemoji, R.drawable.ic_1f60c),
         EmojiIcon("PensiveFace", "1f614", Category.SmileysAndEmotion, Subcategory.FaceSleepy, Font.Twemoji, R.drawable.ic_1f614),
         EmojiIcon("SleepyFace", "1f62a", Category.SmileysAndEmotion, Subcategory.FaceSleepy, Font.Twemoji, R.drawable.ic_1f62a),
@@ -107,7 +87,7 @@ object SmileysAndEmotion {
     // endregion
 
     // region FaceUnwell
-    fun faceUnwell(): List<EmojiIcon> = listOf(
+    private val faceUnwell: List<EmojiIcon> = listOf(
         EmojiIcon("FaceWithMedicalMask", "1f637", Category.SmileysAndEmotion, Subcategory.FaceUnwell, Font.Twemoji, R.drawable.ic_1f637),
         EmojiIcon("FaceWithThermometer", "1f912", Category.SmileysAndEmotion, Subcategory.FaceUnwell, Font.Twemoji, R.drawable.ic_1f912),
         EmojiIcon("FaceWithHead-Bandage", "1f915", Category.SmileysAndEmotion, Subcategory.FaceUnwell, Font.Twemoji, R.drawable.ic_1f915),
@@ -124,7 +104,7 @@ object SmileysAndEmotion {
     // endregion
 
     // region FaceHat
-    fun faceHat(): List<EmojiIcon> = listOf(
+    private val faceHat: List<EmojiIcon> = listOf(
         EmojiIcon("CowboyHatFace", "1f920", Category.SmileysAndEmotion, Subcategory.FaceHat, Font.Twemoji, R.drawable.ic_1f920),
         EmojiIcon("PartyingFace", "1f973", Category.SmileysAndEmotion, Subcategory.FaceHat, Font.Twemoji, R.drawable.ic_1f973),
         EmojiIcon("DisguisedFace", "1f978", Category.SmileysAndEmotion, Subcategory.FaceHat, Font.Twemoji, R.drawable.ic_1f978)
@@ -132,7 +112,7 @@ object SmileysAndEmotion {
     // endregion
 
     // region FaceGlasses
-    fun faceGlasses(): List<EmojiIcon> = listOf(
+    private val faceGlasses: List<EmojiIcon> = listOf(
         EmojiIcon("SmilingFaceWithSunglasses", "1f60e", Category.SmileysAndEmotion, Subcategory.FaceGlasses, Font.Twemoji, R.drawable.ic_1f60e),
         EmojiIcon("NerdFace", "1f913", Category.SmileysAndEmotion, Subcategory.FaceGlasses, Font.Twemoji, R.drawable.ic_1f913),
         EmojiIcon("FaceWithMonocle", "1f9d0", Category.SmileysAndEmotion, Subcategory.FaceGlasses, Font.Twemoji, R.drawable.ic_1f9d0)
@@ -140,7 +120,7 @@ object SmileysAndEmotion {
     // endregion
 
     // region FaceConcerned
-    fun faceConcerned(): List<EmojiIcon> = listOf(
+    private val faceConcerned: List<EmojiIcon> = listOf(
         EmojiIcon("ConfusedFace", "1f615", Category.SmileysAndEmotion, Subcategory.FaceConcerned, Font.Twemoji, R.drawable.ic_1f615),
         EmojiIcon("WorriedFace", "1f61f", Category.SmileysAndEmotion, Subcategory.FaceConcerned, Font.Twemoji, R.drawable.ic_1f61f),
         EmojiIcon("SlightlyFrowningFace", "1f641", Category.SmileysAndEmotion, Subcategory.FaceConcerned, Font.Twemoji, R.drawable.ic_1f641),
@@ -169,7 +149,7 @@ object SmileysAndEmotion {
     // endregion
 
     // region FaceNegative
-    fun faceNegative(): List<EmojiIcon> = listOf(
+    private val faceNegative: List<EmojiIcon> = listOf(
         EmojiIcon("FaceWithSteamFromNose", "1f624", Category.SmileysAndEmotion, Subcategory.FaceNegative, Font.Twemoji, R.drawable.ic_1f624),
         EmojiIcon("PoutingFace", "1f621", Category.SmileysAndEmotion, Subcategory.FaceNegative, Font.Twemoji, R.drawable.ic_1f621),
         EmojiIcon("AngryFace", "1f620", Category.SmileysAndEmotion, Subcategory.FaceNegative, Font.Twemoji, R.drawable.ic_1f620),
@@ -182,7 +162,7 @@ object SmileysAndEmotion {
     // endregion
 
     // region FaceCostume
-    fun faceCostume(): List<EmojiIcon> = listOf(
+    private val faceCostume: List<EmojiIcon> = listOf(
         EmojiIcon("PileOfPoo", "1f4a9", Category.SmileysAndEmotion, Subcategory.FaceCostume, Font.Twemoji, R.drawable.ic_1f4a9),
         EmojiIcon("ClownFace", "1f921", Category.SmileysAndEmotion, Subcategory.FaceCostume, Font.Twemoji, R.drawable.ic_1f921),
         EmojiIcon("Ogre", "1f479", Category.SmileysAndEmotion, Subcategory.FaceCostume, Font.Twemoji, R.drawable.ic_1f479),
@@ -195,7 +175,7 @@ object SmileysAndEmotion {
     // endregion
 
     // region CatFace
-    fun catFace(): List<EmojiIcon> = listOf(
+    private val catFace: List<EmojiIcon> = listOf(
         EmojiIcon("GrinningCat", "1f63a", Category.SmileysAndEmotion, Subcategory.CatFace, Font.Twemoji, R.drawable.ic_1f63a),
         EmojiIcon("GrinningCatWithSmilingEyes", "1f638", Category.SmileysAndEmotion, Subcategory.CatFace, Font.Twemoji, R.drawable.ic_1f638),
         EmojiIcon("CatWithTearsOfJoy", "1f639", Category.SmileysAndEmotion, Subcategory.CatFace, Font.Twemoji, R.drawable.ic_1f639),
@@ -209,7 +189,7 @@ object SmileysAndEmotion {
     // endregion
 
     // region MonkeyFace
-    fun monkeyFace(): List<EmojiIcon> = listOf(
+    private val monkeyFace: List<EmojiIcon> = listOf(
         EmojiIcon("SeeNoEvilMonkey", "1f648", Category.SmileysAndEmotion, Subcategory.MonkeyFace, Font.Twemoji, R.drawable.ic_1f648),
         EmojiIcon("HearNoEvilMonkey", "1f649", Category.SmileysAndEmotion, Subcategory.MonkeyFace, Font.Twemoji, R.drawable.ic_1f649),
         EmojiIcon("SpeakNoEvilMonkey", "1f64a", Category.SmileysAndEmotion, Subcategory.MonkeyFace, Font.Twemoji, R.drawable.ic_1f64a)
@@ -217,7 +197,7 @@ object SmileysAndEmotion {
     // endregion
 
     // region Emotion
-    fun emotion(): List<EmojiIcon> = listOf(
+    private val emotion: List<EmojiIcon> = listOf(
         EmojiIcon("KissMark", "1f48b", Category.SmileysAndEmotion, Subcategory.Emotion, Font.Twemoji, R.drawable.ic_1f48b),
         EmojiIcon("LoveLetter", "1f48c", Category.SmileysAndEmotion, Subcategory.Emotion, Font.Twemoji, R.drawable.ic_1f48c),
         EmojiIcon("HeartWithArrow", "1f498", Category.SmileysAndEmotion, Subcategory.Emotion, Font.Twemoji, R.drawable.ic_1f498),
@@ -256,6 +236,26 @@ object SmileysAndEmotion {
         EmojiIcon("ThoughtBalloon", "1f4ad", Category.SmileysAndEmotion, Subcategory.Emotion, Font.Twemoji, R.drawable.ic_1f4ad),
         EmojiIcon("Zzz", "1f4a4", Category.SmileysAndEmotion, Subcategory.Emotion, Font.Twemoji, R.drawable.ic_1f4a4)
     )
+    // endregion
+
+    // region All
+    val all: List<EmojiIcon> = listOf(
+        faceSmiling,
+        faceAffection,
+        faceTongue,
+        faceHand,
+        faceNeutralSkeptical,
+        faceSleepy,
+        faceUnwell,
+        faceHat,
+        faceGlasses,
+        faceConcerned,
+        faceNegative,
+        faceCostume,
+        catFace,
+        monkeyFace,
+        emotion
+    ).flatten()
     // endregion
 
 }
