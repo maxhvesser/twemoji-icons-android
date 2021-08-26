@@ -15,7 +15,8 @@ object SmileysAndEmotion {
         faceHand(),
         faceNeutralSkeptical(),
         faceSleepy(),
-        faceUnwell()
+        faceUnwell(),
+        faceHat()
     ).flatten()
     // endregion
 
@@ -116,7 +117,11 @@ object SmileysAndEmotion {
     // endregion
 
     // region FaceHat
-    fun faceHat(): List<EmojiIcon> = listOf()
+    fun faceHat(): List<EmojiIcon> = listOf(
+        EmojiIcon("CowboyHatFace", "1f920", Category.SmileysAndEmotion, Subcategory.FaceHat, Font.Twemoji, R.drawable.ic_1f920),
+        EmojiIcon("PartyingFace", "1f973", Category.SmileysAndEmotion, Subcategory.FaceHat, Font.Twemoji, R.drawable.ic_1f973),
+        EmojiIcon("DisguisedFace", "1f978", Category.SmileysAndEmotion, Subcategory.FaceHat, Font.Twemoji, R.drawable.ic_1f978)
+    )
     // endregion
 
     // region FaceGlasses
