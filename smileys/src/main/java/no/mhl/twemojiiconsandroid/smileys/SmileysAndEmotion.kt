@@ -20,7 +20,8 @@ object SmileysAndEmotion {
         faceGlasses(),
         faceConcerned(),
         faceNegative(),
-        faceCostume()
+        faceCostume(),
+        catFace()
     ).flatten()
     // endregion
 
@@ -192,7 +193,17 @@ object SmileysAndEmotion {
     // endregion
 
     // region CatFace
-    fun catFace(): List<EmojiIcon> = listOf()
+    fun catFace(): List<EmojiIcon> = listOf(
+        EmojiIcon("GrinningCat", "1f63a", Category.SmileysAndEmotion, Subcategory.CatFace, Font.Twemoji, R.drawable.ic_1f63a),
+        EmojiIcon("GrinningCatWithSmilingEyes", "1f638", Category.SmileysAndEmotion, Subcategory.CatFace, Font.Twemoji, R.drawable.ic_1f638),
+        EmojiIcon("CatWithTearsOfJoy", "1f639", Category.SmileysAndEmotion, Subcategory.CatFace, Font.Twemoji, R.drawable.ic_1f639),
+        EmojiIcon("SmilingCatWithHeart-Eyes", "1f63b", Category.SmileysAndEmotion, Subcategory.CatFace, Font.Twemoji, R.drawable.ic_1f63b),
+        EmojiIcon("CatWithWrySmile", "1f63c", Category.SmileysAndEmotion, Subcategory.CatFace, Font.Twemoji, R.drawable.ic_1f63c),
+        EmojiIcon("KissingCat", "1f63d", Category.SmileysAndEmotion, Subcategory.CatFace, Font.Twemoji, R.drawable.ic_1f63d),
+        EmojiIcon("WearyCat", "1f640", Category.SmileysAndEmotion, Subcategory.CatFace, Font.Twemoji, R.drawable.ic_1f640),
+        EmojiIcon("CryingCat", "1f63f", Category.SmileysAndEmotion, Subcategory.CatFace, Font.Twemoji, R.drawable.ic_1f63f),
+        EmojiIcon("PoutingCat", "1f63e", Category.SmileysAndEmotion, Subcategory.CatFace, Font.Twemoji, R.drawable.ic_1f63e)
+    )
     // endregion
 
     // region MonkeyFace
