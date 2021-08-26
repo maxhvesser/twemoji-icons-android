@@ -14,7 +14,8 @@ object SmileysAndEmotion {
         faceTongue(),
         faceHand(),
         faceNeutralSkeptical(),
-        faceSleepy()
+        faceSleepy(),
+        faceUnwell()
     ).flatten()
     // endregion
 
@@ -98,7 +99,20 @@ object SmileysAndEmotion {
     // endregion
 
     // region FaceUnwell
-    fun faceUnwell(): List<EmojiIcon> = listOf()
+    fun faceUnwell(): List<EmojiIcon> = listOf(
+        EmojiIcon("FaceWithMedicalMask", "1f637", Category.SmileysAndEmotion, Subcategory.FaceUnwell, Font.Twemoji, R.drawable.ic_1f637),
+        EmojiIcon("FaceWithThermometer", "1f912", Category.SmileysAndEmotion, Subcategory.FaceUnwell, Font.Twemoji, R.drawable.ic_1f912),
+        EmojiIcon("FaceWithHead-Bandage", "1f915", Category.SmileysAndEmotion, Subcategory.FaceUnwell, Font.Twemoji, R.drawable.ic_1f915),
+        EmojiIcon("NauseatedFace", "1f922", Category.SmileysAndEmotion, Subcategory.FaceUnwell, Font.Twemoji, R.drawable.ic_1f922),
+        EmojiIcon("FaceVomiting", "1f92e", Category.SmileysAndEmotion, Subcategory.FaceUnwell, Font.Twemoji, R.drawable.ic_1f92e),
+        EmojiIcon("SneezingFace", "1f927", Category.SmileysAndEmotion, Subcategory.FaceUnwell, Font.Twemoji, R.drawable.ic_1f927),
+        EmojiIcon("HotFace", "1f975", Category.SmileysAndEmotion, Subcategory.FaceUnwell, Font.Twemoji, R.drawable.ic_1f975),
+        EmojiIcon("ColdFace", "1f976", Category.SmileysAndEmotion, Subcategory.FaceUnwell, Font.Twemoji, R.drawable.ic_1f976),
+        EmojiIcon("WoozyFace", "1f974", Category.SmileysAndEmotion, Subcategory.FaceUnwell, Font.Twemoji, R.drawable.ic_1f974),
+        EmojiIcon("KnockedOutFace", "1f635", Category.SmileysAndEmotion, Subcategory.FaceUnwell, Font.Twemoji, R.drawable.ic_1f635),
+        EmojiIcon("FaceWithSpiralEyes", "1f635-200d-1f4ab", Category.SmileysAndEmotion, Subcategory.FaceUnwell, Font.Twemoji, R.drawable.ic_1f635_200d_1f4ab),
+        EmojiIcon("ExplodingHead", "1f92f", Category.SmileysAndEmotion, Subcategory.FaceUnwell, Font.Twemoji, R.drawable.ic_1f92f)
+    )
     // endregion
 
     // region FaceHat
