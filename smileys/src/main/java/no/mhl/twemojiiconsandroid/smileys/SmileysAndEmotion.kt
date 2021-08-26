@@ -10,7 +10,11 @@ object SmileysAndEmotion {
     // region All
     fun all(): List<EmojiIcon> = listOf(
         faceSmiling(),
-        faceAffection()
+        faceAffection(),
+        faceTongue(),
+        faceHand(),
+        faceNeutralSkeptical(),
+        faceSleepy()
     ).flatten()
     // endregion
 
@@ -47,19 +51,50 @@ object SmileysAndEmotion {
     // endregion
 
     // region FaceTongue
-    fun faceTongue(): List<EmojiIcon> = listOf()
+    fun faceTongue(): List<EmojiIcon> = listOf(
+        EmojiIcon("FaceSavoringFood", "1f60b", Category.SmileysAndEmotion, Subcategory.FaceTongue, Font.Twemoji, R.drawable.ic_1f60b),
+        EmojiIcon("FaceWithTongue", "1f61b", Category.SmileysAndEmotion, Subcategory.FaceTongue, Font.Twemoji, R.drawable.ic_1f61b),
+        EmojiIcon("WinkingFaceWithTongue", "1f61c", Category.SmileysAndEmotion, Subcategory.FaceTongue, Font.Twemoji, R.drawable.ic_1f61c),
+        EmojiIcon("ZanyFace", "1f92a", Category.SmileysAndEmotion, Subcategory.FaceTongue, Font.Twemoji, R.drawable.ic_1f92a),
+        EmojiIcon("SquintingFaceWithTongue", "1f61d", Category.SmileysAndEmotion, Subcategory.FaceTongue, Font.Twemoji, R.drawable.ic_1f61d),
+        EmojiIcon("Money-MouthFace", "1f911", Category.SmileysAndEmotion, Subcategory.FaceTongue, Font.Twemoji, R.drawable.ic_1f911)
+    )
     // endregion
 
     // region FaceHand
-    fun faceHand(): List<EmojiIcon> = listOf()
+    fun faceHand(): List<EmojiIcon> = listOf(
+        EmojiIcon("HuggingFace", "1f917", Category.SmileysAndEmotion, Subcategory.FaceHand, Font.Twemoji, R.drawable.ic_1f917),
+        EmojiIcon("FaceWithHandOverMouth", "1f92d", Category.SmileysAndEmotion, Subcategory.FaceHand, Font.Twemoji, R.drawable.ic_1f92d),
+        EmojiIcon("ShushingFace", "1f92b", Category.SmileysAndEmotion, Subcategory.FaceHand, Font.Twemoji, R.drawable.ic_1f92b),
+        EmojiIcon("ThinkingFace", "1f914", Category.SmileysAndEmotion, Subcategory.FaceHand, Font.Twemoji, R.drawable.ic_1f914)
+    )
     // endregion
 
     // region FaceNeutralSkeptical
-    fun faceNeutralSkeptical(): List<EmojiIcon> = listOf()
+    fun faceNeutralSkeptical(): List<EmojiIcon> = listOf(
+        EmojiIcon("ZipperMouthFace", "1f910", Category.SmileysAndEmotion, Subcategory.FaceNeutralSkeptical, Font.Twemoji, R.drawable.ic_1f910),
+        EmojiIcon("FaceWithRaisedEyebrow", "1f928", Category.SmileysAndEmotion, Subcategory.FaceNeutralSkeptical, Font.Twemoji, R.drawable.ic_1f928),
+        EmojiIcon("NeutralFace", "1f610", Category.SmileysAndEmotion, Subcategory.FaceNeutralSkeptical, Font.Twemoji, R.drawable.ic_1f610),
+        EmojiIcon("ExpressionlessFace", "1f611", Category.SmileysAndEmotion, Subcategory.FaceNeutralSkeptical, Font.Twemoji, R.drawable.ic_1f611),
+        EmojiIcon("FaceWithoutMouth", "1f636", Category.SmileysAndEmotion, Subcategory.FaceNeutralSkeptical, Font.Twemoji, R.drawable.ic_1f636),
+        EmojiIcon("FaceInClouds", "1f636-200d-1f32b-fe0f", Category.SmileysAndEmotion, Subcategory.FaceNeutralSkeptical, Font.Twemoji, R.drawable.ic_1f636_200d_1f32b_fe0f),
+        EmojiIcon("SmirkingFace", "1f60f", Category.SmileysAndEmotion, Subcategory.FaceNeutralSkeptical, Font.Twemoji, R.drawable.ic_1f60f),
+        EmojiIcon("UnamusedFace", "1f612", Category.SmileysAndEmotion, Subcategory.FaceNeutralSkeptical, Font.Twemoji, R.drawable.ic_1f612),
+        EmojiIcon("FaceWithRollingEyes", "1f644", Category.SmileysAndEmotion, Subcategory.FaceNeutralSkeptical, Font.Twemoji, R.drawable.ic_1f644),
+        EmojiIcon("GrimacingFace", "1f62c", Category.SmileysAndEmotion, Subcategory.FaceNeutralSkeptical, Font.Twemoji, R.drawable.ic_1f62c),
+        EmojiIcon("FaceExhaling", "1f62e-200d-1f4a8", Category.SmileysAndEmotion, Subcategory.FaceNeutralSkeptical, Font.Twemoji, R.drawable.ic_1f62e_200d_1f4a8),
+        EmojiIcon("GFace", "1f925", Category.SmileysAndEmotion, Subcategory.FaceNeutralSkeptical, Font.Twemoji, R.drawable.ic_1f925)
+    )
     // endregion
 
     // region FaceSleepy
-    fun faceSleepy(): List<EmojiIcon> = listOf()
+    fun faceSleepy(): List<EmojiIcon> = listOf(
+        EmojiIcon("RelievedFace", "1f60c", Category.SmileysAndEmotion, Subcategory.FaceSleepy, Font.Twemoji, R.drawable.ic_1f60c),
+        EmojiIcon("PensiveFace", "1f614", Category.SmileysAndEmotion, Subcategory.FaceSleepy, Font.Twemoji, R.drawable.ic_1f614),
+        EmojiIcon("SleepyFace", "1f62a", Category.SmileysAndEmotion, Subcategory.FaceSleepy, Font.Twemoji, R.drawable.ic_1f62a),
+        EmojiIcon("DroolingFace", "1f924", Category.SmileysAndEmotion, Subcategory.FaceSleepy, Font.Twemoji, R.drawable.ic_1f924),
+        EmojiIcon("SleepingFace", "1f634", Category.SmileysAndEmotion, Subcategory.FaceSleepy, Font.Twemoji, R.drawable.ic_1f634)
+    )
     // endregion
 
     // region FaceUnwell
