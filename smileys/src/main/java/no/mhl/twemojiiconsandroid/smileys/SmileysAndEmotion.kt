@@ -18,7 +18,8 @@ object SmileysAndEmotion {
         faceUnwell(),
         faceHat(),
         faceGlasses(),
-        faceConcerned()
+        faceConcerned(),
+        faceNegative()
     ).flatten()
     // endregion
 
@@ -164,7 +165,16 @@ object SmileysAndEmotion {
     // endregion
 
     // region FaceNegative
-    fun faceNegative(): List<EmojiIcon> = listOf()
+    fun faceNegative(): List<EmojiIcon> = listOf(
+        EmojiIcon("FaceWithSteamFromNose", "1f624", Category.SmileysAndEmotion, Subcategory.FaceNegative, Font.Twemoji, R.drawable.ic_1f624),
+        EmojiIcon("PoutingFace", "1f621", Category.SmileysAndEmotion, Subcategory.FaceNegative, Font.Twemoji, R.drawable.ic_1f621),
+        EmojiIcon("AngryFace", "1f620", Category.SmileysAndEmotion, Subcategory.FaceNegative, Font.Twemoji, R.drawable.ic_1f620),
+        EmojiIcon("FaceWithSymbolsOnMouth", "1f92c", Category.SmileysAndEmotion, Subcategory.FaceNegative, Font.Twemoji, R.drawable.ic_1f92c),
+        EmojiIcon("SmilingFaceWithHorns", "1f608", Category.SmileysAndEmotion, Subcategory.FaceNegative, Font.Twemoji, R.drawable.ic_1f608),
+        EmojiIcon("AngryFaceWithHorns", "1f47f", Category.SmileysAndEmotion, Subcategory.FaceNegative, Font.Twemoji, R.drawable.ic_1f47f),
+        EmojiIcon("Skull", "1f480", Category.SmileysAndEmotion, Subcategory.FaceNegative, Font.Twemoji, R.drawable.ic_1f480),
+        EmojiIcon("SkullAndCrossbones", "2620", Category.SmileysAndEmotion, Subcategory.FaceNegative, Font.Twemoji, R.drawable.ic_2620)
+    )
     // endregion
 
     // region FaceCostume
