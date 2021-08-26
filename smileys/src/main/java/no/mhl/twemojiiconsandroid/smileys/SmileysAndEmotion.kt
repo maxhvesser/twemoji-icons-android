@@ -9,7 +9,8 @@ object SmileysAndEmotion {
 
     // region All
     fun all(): List<EmojiIcon> = listOf(
-        faceSmiling()
+        faceSmiling(),
+        faceAffection()
     ).flatten()
     // endregion
 
@@ -32,7 +33,17 @@ object SmileysAndEmotion {
     // endregion
 
     // region FaceAffection
-    fun faceAffection(): List<EmojiIcon> = listOf()
+    fun faceAffection(): List<EmojiIcon> = listOf(
+        EmojiIcon("SmilingFaceWithHearts", "1f970", Category.SmileysAndEmotion, Subcategory.FaceAffection, Font.Twemoji, R.drawable.ic_1f970),
+        EmojiIcon("SmilingFaceWithHeart-Eyes", "1f60d", Category.SmileysAndEmotion, Subcategory.FaceAffection, Font.Twemoji, R.drawable.ic_1f60d),
+        EmojiIcon("Star-Struck", "1f929", Category.SmileysAndEmotion, Subcategory.FaceAffection, Font.Twemoji, R.drawable.ic_1f929),
+        EmojiIcon("FaceBlowingAKiss", "1f618", Category.SmileysAndEmotion, Subcategory.FaceAffection, Font.Twemoji, R.drawable.ic_1f618),
+        EmojiIcon("KissingFace", "1f617", Category.SmileysAndEmotion, Subcategory.FaceAffection, Font.Twemoji, R.drawable.ic_1f617),
+        EmojiIcon("SmilingFace", "263a", Category.SmileysAndEmotion, Subcategory.FaceAffection, Font.Twemoji, R.drawable.ic_263a),
+        EmojiIcon("KissingFaceWithClosedEyes", "1f61a", Category.SmileysAndEmotion, Subcategory.FaceAffection, Font.Twemoji, R.drawable.ic_1f61a),
+        EmojiIcon("KissingFaceWithSmilingEyes", "1f619", Category.SmileysAndEmotion, Subcategory.FaceAffection, Font.Twemoji, R.drawable.ic_1f619),
+        EmojiIcon("SmilingFaceWithTear", "1f972", Category.SmileysAndEmotion, Subcategory.FaceAffection, Font.Twemoji, R.drawable.ic_1f972)
+    )
     // endregion
 
     // region FaceTongue
