@@ -21,7 +21,8 @@ object SmileysAndEmotion {
         faceConcerned(),
         faceNegative(),
         faceCostume(),
-        catFace()
+        catFace(),
+        monkeyFace()
     ).flatten()
     // endregion
 
@@ -207,7 +208,11 @@ object SmileysAndEmotion {
     // endregion
 
     // region MonkeyFace
-    fun monkeyFace(): List<EmojiIcon> = listOf()
+    fun monkeyFace(): List<EmojiIcon> = listOf(
+        EmojiIcon("SeeNoEvilMonkey", "1f648", Category.SmileysAndEmotion, Subcategory.MonkeyFace, Font.Twemoji, R.drawable.ic_1f648),
+        EmojiIcon("HearNoEvilMonkey", "1f649", Category.SmileysAndEmotion, Subcategory.MonkeyFace, Font.Twemoji, R.drawable.ic_1f649),
+        EmojiIcon("SpeakNoEvilMonkey", "1f64a", Category.SmileysAndEmotion, Subcategory.MonkeyFace, Font.Twemoji, R.drawable.ic_1f64a)
+    )
     // endregion
 
     // region Emotion
