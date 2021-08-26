@@ -22,7 +22,8 @@ object SmileysAndEmotion {
         faceNegative(),
         faceCostume(),
         catFace(),
-        monkeyFace()
+        monkeyFace(),
+        emotion()
     ).flatten()
     // endregion
 
@@ -143,7 +144,7 @@ object SmileysAndEmotion {
         EmojiIcon("ConfusedFace", "1f615", Category.SmileysAndEmotion, Subcategory.FaceConcerned, Font.Twemoji, R.drawable.ic_1f615),
         EmojiIcon("WorriedFace", "1f61f", Category.SmileysAndEmotion, Subcategory.FaceConcerned, Font.Twemoji, R.drawable.ic_1f61f),
         EmojiIcon("SlightlyFrowningFace", "1f641", Category.SmileysAndEmotion, Subcategory.FaceConcerned, Font.Twemoji, R.drawable.ic_1f641),
-        EmojiIcon("RowningFace", "2639", Category.SmileysAndEmotion, Subcategory.FaceConcerned, Font.Twemoji, R.drawable.ic_2639),
+        EmojiIcon("FrowningFace", "2639", Category.SmileysAndEmotion, Subcategory.FaceConcerned, Font.Twemoji, R.drawable.ic_2639),
         EmojiIcon("FaceWithOpenMouth", "1f62e", Category.SmileysAndEmotion, Subcategory.FaceConcerned, Font.Twemoji, R.drawable.ic_1f62e),
         EmojiIcon("HushedFace", "1f62f", Category.SmileysAndEmotion, Subcategory.FaceConcerned, Font.Twemoji, R.drawable.ic_1f62f),
         EmojiIcon("AstonishedFace", "1f632", Category.SmileysAndEmotion, Subcategory.FaceConcerned, Font.Twemoji, R.drawable.ic_1f632),
@@ -216,7 +217,45 @@ object SmileysAndEmotion {
     // endregion
 
     // region Emotion
-    fun emotion(): List<EmojiIcon> = listOf()
+    fun emotion(): List<EmojiIcon> = listOf(
+        EmojiIcon("KissMark", "1f48b", Category.SmileysAndEmotion, Subcategory.Emotion, Font.Twemoji, R.drawable.ic_1f48b),
+        EmojiIcon("LoveLetter", "1f48c", Category.SmileysAndEmotion, Subcategory.Emotion, Font.Twemoji, R.drawable.ic_1f48c),
+        EmojiIcon("HeartWithArrow", "1f498", Category.SmileysAndEmotion, Subcategory.Emotion, Font.Twemoji, R.drawable.ic_1f498),
+        EmojiIcon("HeartWithRibbon", "1f49d", Category.SmileysAndEmotion, Subcategory.Emotion, Font.Twemoji, R.drawable.ic_1f49d),
+        EmojiIcon("SparklingHeart", "1f496", Category.SmileysAndEmotion, Subcategory.Emotion, Font.Twemoji, R.drawable.ic_1f496),
+        EmojiIcon("GrowingHeart", "1f497", Category.SmileysAndEmotion, Subcategory.Emotion, Font.Twemoji, R.drawable.ic_1f497),
+        EmojiIcon("BeatingHeart", "1f493", Category.SmileysAndEmotion, Subcategory.Emotion, Font.Twemoji, R.drawable.ic_1f493),
+        EmojiIcon("RevolvingHearts", "1f49e", Category.SmileysAndEmotion, Subcategory.Emotion, Font.Twemoji, R.drawable.ic_1f49e),
+        EmojiIcon("TwoHearts", "1f495", Category.SmileysAndEmotion, Subcategory.Emotion, Font.Twemoji, R.drawable.ic_1f495),
+        EmojiIcon("HeartDecoration", "1f49f", Category.SmileysAndEmotion, Subcategory.Emotion, Font.Twemoji, R.drawable.ic_1f49f),
+        EmojiIcon("HeartExclamation", "2763", Category.SmileysAndEmotion, Subcategory.Emotion, Font.Twemoji, R.drawable.ic_2763),
+        EmojiIcon("BrokenHeart", "1f494", Category.SmileysAndEmotion, Subcategory.Emotion, Font.Twemoji, R.drawable.ic_1f494),
+        EmojiIcon("HeartOnFire", "2764-fe0f-200d-1f525", Category.SmileysAndEmotion, Subcategory.Emotion, Font.Twemoji, R.drawable.ic_2764_fe0f_200d_1f525),
+        EmojiIcon("MendingHeart", "2764-fe0f-200d-1fa79", Category.SmileysAndEmotion, Subcategory.Emotion, Font.Twemoji, R.drawable.ic_2764_fe0f_200d_1fa79),
+        EmojiIcon("RedHeart", "2764", Category.SmileysAndEmotion, Subcategory.Emotion, Font.Twemoji, R.drawable.ic_2764),
+        EmojiIcon("OrangeHeart", "1f9e1", Category.SmileysAndEmotion, Subcategory.Emotion, Font.Twemoji, R.drawable.ic_1f9e1),
+        EmojiIcon("YellowHeart", "1f49b", Category.SmileysAndEmotion, Subcategory.Emotion, Font.Twemoji, R.drawable.ic_1f49b),
+        EmojiIcon("GreenHeart", "1f49a", Category.SmileysAndEmotion, Subcategory.Emotion, Font.Twemoji, R.drawable.ic_1f49a),
+        EmojiIcon("BlueHeart", "1f499", Category.SmileysAndEmotion, Subcategory.Emotion, Font.Twemoji, R.drawable.ic_1f499),
+        EmojiIcon("PurpleHeart", "1f49c", Category.SmileysAndEmotion, Subcategory.Emotion, Font.Twemoji, R.drawable.ic_1f49c),
+        EmojiIcon("BrownHeart", "1f90e", Category.SmileysAndEmotion, Subcategory.Emotion, Font.Twemoji, R.drawable.ic_1f90e),
+        EmojiIcon("BlackHeart", "1f5a4", Category.SmileysAndEmotion, Subcategory.Emotion, Font.Twemoji, R.drawable.ic_1f5a4),
+        EmojiIcon("WhiteHeart", "1f90d", Category.SmileysAndEmotion, Subcategory.Emotion, Font.Twemoji, R.drawable.ic_1f90d),
+        EmojiIcon("HundredPoints", "1f4af", Category.SmileysAndEmotion, Subcategory.Emotion, Font.Twemoji, R.drawable.ic_1f4af),
+        EmojiIcon("AngerSymbol", "1f4a2", Category.SmileysAndEmotion, Subcategory.Emotion, Font.Twemoji, R.drawable.ic_1f4a2),
+        EmojiIcon("Collision", "1f4a5", Category.SmileysAndEmotion, Subcategory.Emotion, Font.Twemoji, R.drawable.ic_1f4a5),
+        EmojiIcon("Dizzy", "1f4ab", Category.SmileysAndEmotion, Subcategory.Emotion, Font.Twemoji, R.drawable.ic_1f4ab),
+        EmojiIcon("SweatDroplets", "1f4a6", Category.SmileysAndEmotion, Subcategory.Emotion, Font.Twemoji, R.drawable.ic_1f4a6),
+        EmojiIcon("DashingAway", "1f4a8", Category.SmileysAndEmotion, Subcategory.Emotion, Font.Twemoji, R.drawable.ic_1f4a8),
+        EmojiIcon("Hole", "1f573", Category.SmileysAndEmotion, Subcategory.Emotion, Font.Twemoji, R.drawable.ic_1f573),
+        EmojiIcon("Bomb", "1f4a3", Category.SmileysAndEmotion, Subcategory.Emotion, Font.Twemoji, R.drawable.ic_1f4a3),
+        EmojiIcon("SpeechBalloon", "1f4ac", Category.SmileysAndEmotion, Subcategory.Emotion, Font.Twemoji, R.drawable.ic_1f4ac),
+        EmojiIcon("EyeInSpeechBubble", "1f441-200d-1f5e8", Category.SmileysAndEmotion, Subcategory.Emotion, Font.Twemoji, R.drawable.ic_1f441_200d_1f5e8),
+        EmojiIcon("LeftSpeechBubble", "1f5e8", Category.SmileysAndEmotion, Subcategory.Emotion, Font.Twemoji, R.drawable.ic_1f5e8),
+        EmojiIcon("RightAngerBubble", "1f5ef", Category.SmileysAndEmotion, Subcategory.Emotion, Font.Twemoji, R.drawable.ic_1f5ef),
+        EmojiIcon("ThoughtBalloon", "1f4ad", Category.SmileysAndEmotion, Subcategory.Emotion, Font.Twemoji, R.drawable.ic_1f4ad),
+        EmojiIcon("Zzz", "1f4a4", Category.SmileysAndEmotion, Subcategory.Emotion, Font.Twemoji, R.drawable.ic_1f4a4)
+    )
     // endregion
 
 }
