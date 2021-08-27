@@ -69,16 +69,7 @@ private fun IconGrid(
         cells = GridCells.Adaptive(80.dp),
         contentPadding = PaddingValues(8.dp, top, 8.dp, bottom)
     ) {
-        val icons = listOf(
-            ActivitiesProvider.provideActivities(),
-            AnimalsAndNatureProvider.icons,
-            FlagsProvider.provideFlags(),
-            FoodAndDrinksProvider.provideFoodAndDrink(),
-            ObjectsProvider.provideObjects(),
-            PeopleAndBodyProvider.providePeopleAndBody(),
-            SymbolsProvider.provideSymbols(),
-            TravelAndPlacesProvider.provideTravelAndPlaces()
-        ).flatten()
+        val icons = listOf<TwemojiIcon>()
 
         items(icons) {
             IconTile(
