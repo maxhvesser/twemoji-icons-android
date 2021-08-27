@@ -213,13 +213,37 @@ object PeopleAndBody {
     )
     // endregion
 
+    // region Hand prop
+    private val handProp: List<EmojiIcon> = listOf(
+        EmojiIcon("WritingHand", "270d", Category.PeopleAndBody, Subcategory.HandProp, Font.Twemoji, R.drawable.ic_270d),
+        EmojiIcon("WritingHandLightSkinTone", "270d-1f3fb", Category.PeopleAndBody, Subcategory.HandProp, Font.Twemoji, R.drawable.ic_270d_1f3fb),
+        EmojiIcon("WritingHandMediumLightSkinTone", "270d-1f3fc", Category.PeopleAndBody, Subcategory.HandProp, Font.Twemoji, R.drawable.ic_270d_1f3fc),
+        EmojiIcon("WritingHandMediumSkinTone", "270d-1f3fd", Category.PeopleAndBody, Subcategory.HandProp, Font.Twemoji, R.drawable.ic_270d_1f3fd),
+        EmojiIcon("WritingHandMediumDarkSkinTone", "270d-1f3fe", Category.PeopleAndBody, Subcategory.HandProp, Font.Twemoji, R.drawable.ic_270d_1f3fe),
+        EmojiIcon("WritingHandDarkSkinTone", "270d-1f3ff", Category.PeopleAndBody, Subcategory.HandProp, Font.Twemoji, R.drawable.ic_270d_1f3ff),
+        EmojiIcon("NailPolish", "1f485", Category.PeopleAndBody, Subcategory.HandProp, Font.Twemoji, R.drawable.ic_1f485),
+        EmojiIcon("NailPolishLightSkinTone", "1f485-1f3fb", Category.PeopleAndBody, Subcategory.HandProp, Font.Twemoji, R.drawable.ic_1f485_1f3fb),
+        EmojiIcon("NailPolishMediumLightSkinTone", "1f485-1f3fc", Category.PeopleAndBody, Subcategory.HandProp, Font.Twemoji, R.drawable.ic_1f485_1f3fc),
+        EmojiIcon("NailPolishMediumSkinTone", "1f485-1f3fd", Category.PeopleAndBody, Subcategory.HandProp, Font.Twemoji, R.drawable.ic_1f485_1f3fd),
+        EmojiIcon("NailPolishMediumDarkSkinTone", "1f485-1f3fe", Category.PeopleAndBody, Subcategory.HandProp, Font.Twemoji, R.drawable.ic_1f485_1f3fe),
+        EmojiIcon("NailPolishDarkSkinTone", "1f485-1f3ff", Category.PeopleAndBody, Subcategory.HandProp, Font.Twemoji, R.drawable.ic_1f485_1f3ff),
+        EmojiIcon("Selfie", "1f933", Category.PeopleAndBody, Subcategory.HandProp, Font.Twemoji, R.drawable.ic_1f933),
+        EmojiIcon("SelfieLightSkinTone", "1f933-1f3fb", Category.PeopleAndBody, Subcategory.HandProp, Font.Twemoji, R.drawable.ic_1f933_1f3fb),
+        EmojiIcon("SelfieMediumLightSkinTone", "1f933-1f3fc", Category.PeopleAndBody, Subcategory.HandProp, Font.Twemoji, R.drawable.ic_1f933_1f3fc),
+        EmojiIcon("SelfieMediumSkinTone", "1f933-1f3fd", Category.PeopleAndBody, Subcategory.HandProp, Font.Twemoji, R.drawable.ic_1f933_1f3fd),
+        EmojiIcon("SelfieMediumDarkSkinTone", "1f933-1f3fe", Category.PeopleAndBody, Subcategory.HandProp, Font.Twemoji, R.drawable.ic_1f933_1f3fe),
+        EmojiIcon("SelfieDarkSkinTone", "1f933-1f3ff", Category.PeopleAndBody, Subcategory.HandProp, Font.Twemoji, R.drawable.ic_1f933_1f3ff)
+    )
+    // endregion
+
     // region All
     val all: List<EmojiIcon> = listOf(
         handFingersOpen,
         handFingersPartial,
         handSingleFinger,
         handFingersClosed,
-        hands
+        hands,
+        handProp
     ).flatten()
     // endregion
 
