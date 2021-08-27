@@ -236,6 +236,58 @@ object PeopleAndBody {
     )
     // endregion
 
+    // region Body parts
+    private val bodyParts: List<EmojiIcon> = listOf(
+        EmojiIcon("FlexedBiceps", "1f4aa", Category.PeopleAndBody, Subcategory.BodyParts, Font.Twemoji, R.drawable.ic_1f4aa),
+        EmojiIcon("FlexedBicepsLightSkinTone", "1f4aa-1f3fb", Category.PeopleAndBody, Subcategory.BodyParts, Font.Twemoji, R.drawable.ic_1f4aa_1f3fb),
+        EmojiIcon("FlexedBicepsMediumLightSkinTone", "1f4aa-1f3fc", Category.PeopleAndBody, Subcategory.BodyParts, Font.Twemoji, R.drawable.ic_1f4aa_1f3fc),
+        EmojiIcon("FlexedBicepsMediumSkinTone", "1f4aa-1f3fd", Category.PeopleAndBody, Subcategory.BodyParts, Font.Twemoji, R.drawable.ic_1f4aa_1f3fd),
+        EmojiIcon("FlexedBicepsMediumDarkSkinTone", "1f4aa-1f3fe", Category.PeopleAndBody, Subcategory.BodyParts, Font.Twemoji, R.drawable.ic_1f4aa_1f3fe),
+        EmojiIcon("FlexedBicepsDarkSkinTone", "1f4aa-1f3ff", Category.PeopleAndBody, Subcategory.BodyParts, Font.Twemoji, R.drawable.ic_1f4aa_1f3ff),
+        EmojiIcon("MechanicalArm", "1f9be", Category.PeopleAndBody, Subcategory.BodyParts, Font.Twemoji, R.drawable.ic_1f9be),
+        EmojiIcon("MechanicalLeg", "1f9bf", Category.PeopleAndBody, Subcategory.BodyParts, Font.Twemoji, R.drawable.ic_1f9bf),
+        EmojiIcon("Leg", "1f9b5", Category.PeopleAndBody, Subcategory.BodyParts, Font.Twemoji, R.drawable.ic_1f9b5),
+        EmojiIcon("LegLightSkinTone", "1f9b5-1f3fb", Category.PeopleAndBody, Subcategory.BodyParts, Font.Twemoji, R.drawable.ic_1f9b5_1f3fb),
+        EmojiIcon("LegMediumLightSkinTone", "1f9b5-1f3fc", Category.PeopleAndBody, Subcategory.BodyParts, Font.Twemoji, R.drawable.ic_1f9b5_1f3fc),
+        EmojiIcon("LegMediumSkinTone", "1f9b5-1f3fd", Category.PeopleAndBody, Subcategory.BodyParts, Font.Twemoji, R.drawable.ic_1f9b5_1f3fd),
+        EmojiIcon("LegMediumDarkSkinTone", "1f9b5-1f3fe", Category.PeopleAndBody, Subcategory.BodyParts, Font.Twemoji, R.drawable.ic_1f9b5_1f3fe),
+        EmojiIcon("LegDarkSkinTone", "1f9b5-1f3ff", Category.PeopleAndBody, Subcategory.BodyParts, Font.Twemoji, R.drawable.ic_1f9b5_1f3ff),
+        EmojiIcon("Foot", "1f9b6", Category.PeopleAndBody, Subcategory.BodyParts, Font.Twemoji, R.drawable.ic_1f9b6),
+        EmojiIcon("FootLightSkinTone", "1f9b6-1f3fb", Category.PeopleAndBody, Subcategory.BodyParts, Font.Twemoji, R.drawable.ic_1f9b6_1f3fb),
+        EmojiIcon("FootMediumLightSkinTone", "1f9b6-1f3fc", Category.PeopleAndBody, Subcategory.BodyParts, Font.Twemoji, R.drawable.ic_1f9b6_1f3fc),
+        EmojiIcon("FootMediumSkinTone", "1f9b6-1f3fd", Category.PeopleAndBody, Subcategory.BodyParts, Font.Twemoji, R.drawable.ic_1f9b6_1f3fd),
+        EmojiIcon("FootMediumDarkSkinTone", "1f9b6-1f3fe", Category.PeopleAndBody, Subcategory.BodyParts, Font.Twemoji, R.drawable.ic_1f9b6_1f3fe),
+        EmojiIcon("FootDarkSkinTone", "1f9b6-1f3ff", Category.PeopleAndBody, Subcategory.BodyParts, Font.Twemoji, R.drawable.ic_1f9b6_1f3ff),
+        EmojiIcon("Ear", "1f442", Category.PeopleAndBody, Subcategory.BodyParts, Font.Twemoji, R.drawable.ic_1f442),
+        EmojiIcon("EarLightSkinTone", "1f442-1f3fb", Category.PeopleAndBody, Subcategory.BodyParts, Font.Twemoji, R.drawable.ic_1f442_1f3fb),
+        EmojiIcon("EarMediumLightSkinTone", "1f442-1f3fc", Category.PeopleAndBody, Subcategory.BodyParts, Font.Twemoji, R.drawable.ic_1f442_1f3fc),
+        EmojiIcon("EarMediumSkinTone", "1f442-1f3fd", Category.PeopleAndBody, Subcategory.BodyParts, Font.Twemoji, R.drawable.ic_1f442_1f3fd),
+        EmojiIcon("EarMediumDarkSkinTone", "1f442-1f3fe", Category.PeopleAndBody, Subcategory.BodyParts, Font.Twemoji, R.drawable.ic_1f442_1f3fe),
+        EmojiIcon("EarDarkSkinTone", "1f442-1f3ff", Category.PeopleAndBody, Subcategory.BodyParts, Font.Twemoji, R.drawable.ic_1f442_1f3ff),
+        EmojiIcon("EarWithHearingAid", "1f9bb", Category.PeopleAndBody, Subcategory.BodyParts, Font.Twemoji, R.drawable.ic_1f9bb),
+        EmojiIcon("EarWithHearingAidLightSkinTone", "1f9bb-1f3fb", Category.PeopleAndBody, Subcategory.BodyParts, Font.Twemoji, R.drawable.ic_1f9bb_1f3fb),
+        EmojiIcon("EarWithHearingAidMediumLightSkinTone", "1f9bb-1f3fc", Category.PeopleAndBody, Subcategory.BodyParts, Font.Twemoji, R.drawable.ic_1f9bb_1f3fc),
+        EmojiIcon("EarWithHearingAidMediumSkinTone", "1f9bb-1f3fd", Category.PeopleAndBody, Subcategory.BodyParts, Font.Twemoji, R.drawable.ic_1f9bb_1f3fd),
+        EmojiIcon("EarWithHearingAidMediumDarkSkinTone", "1f9bb-1f3fe", Category.PeopleAndBody, Subcategory.BodyParts, Font.Twemoji, R.drawable.ic_1f9bb_1f3fe),
+        EmojiIcon("EarWithHearingAidDarkSkinTone", "1f9bb-1f3ff", Category.PeopleAndBody, Subcategory.BodyParts, Font.Twemoji, R.drawable.ic_1f9bb_1f3ff),
+        EmojiIcon("Nose", "1f443", Category.PeopleAndBody, Subcategory.BodyParts, Font.Twemoji, R.drawable.ic_1f443),
+        EmojiIcon("NoseLightSkinTone", "1f443-1f3fb", Category.PeopleAndBody, Subcategory.BodyParts, Font.Twemoji, R.drawable.ic_1f443_1f3fb),
+        EmojiIcon("NoseMediumLightSkinTone", "1f443-1f3fc", Category.PeopleAndBody, Subcategory.BodyParts, Font.Twemoji, R.drawable.ic_1f443_1f3fc),
+        EmojiIcon("NoseMediumSkinTone", "1f443-1f3fd", Category.PeopleAndBody, Subcategory.BodyParts, Font.Twemoji, R.drawable.ic_1f443_1f3fd),
+        EmojiIcon("NoseMediumDarkSkinTone", "1f443-1f3fe", Category.PeopleAndBody, Subcategory.BodyParts, Font.Twemoji, R.drawable.ic_1f443_1f3fe),
+        EmojiIcon("NoseDarkSkinTone", "1f443-1f3ff", Category.PeopleAndBody, Subcategory.BodyParts, Font.Twemoji, R.drawable.ic_1f443_1f3ff),
+        EmojiIcon("Brain", "1f9e0", Category.PeopleAndBody, Subcategory.BodyParts, Font.Twemoji, R.drawable.ic_1f9e0),
+        EmojiIcon("AnatomicalHeart", "1fac0", Category.PeopleAndBody, Subcategory.BodyParts, Font.Twemoji, R.drawable.ic_1fac0),
+        EmojiIcon("Lungs", "1fac1", Category.PeopleAndBody, Subcategory.BodyParts, Font.Twemoji, R.drawable.ic_1fac1),
+        EmojiIcon("Tooth", "1f9b7", Category.PeopleAndBody, Subcategory.BodyParts, Font.Twemoji, R.drawable.ic_1f9b7),
+        EmojiIcon("Bone", "1f9b4", Category.PeopleAndBody, Subcategory.BodyParts, Font.Twemoji, R.drawable.ic_1f9b4),
+        EmojiIcon("Eyes", "1f440", Category.PeopleAndBody, Subcategory.BodyParts, Font.Twemoji, R.drawable.ic_1f440),
+        EmojiIcon("Eye", "1f441", Category.PeopleAndBody, Subcategory.BodyParts, Font.Twemoji, R.drawable.ic_1f441),
+        EmojiIcon("Tongue", "1f445", Category.PeopleAndBody, Subcategory.BodyParts, Font.Twemoji, R.drawable.ic_1f445),
+        EmojiIcon("Mouth", "1f444", Category.PeopleAndBody, Subcategory.BodyParts, Font.Twemoji, R.drawable.ic_1f444)
+    )
+    // endregion
+
     // region All
     val all: List<EmojiIcon> = listOf(
         handFingersOpen,
@@ -243,7 +295,8 @@ object PeopleAndBody {
         handSingleFinger,
         handFingersClosed,
         hands,
-        handProp
+        handProp,
+        bodyParts
     ).flatten()
     // endregion
 
