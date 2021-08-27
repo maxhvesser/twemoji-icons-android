@@ -177,12 +177,49 @@ object PeopleAndBody {
     )
     // endregion
 
+    // region Hands
+    private val hands: List<EmojiIcon> = listOf(
+        EmojiIcon("ClappingHands", "1f44f", Category.PeopleAndBody, Subcategory.Hands, Font.Twemoji, R.drawable.ic_1f44f),
+        EmojiIcon("ClappingHandsLightSkinTone", "1f44f-1f3fb", Category.PeopleAndBody, Subcategory.Hands, Font.Twemoji, R.drawable.ic_1f44f_1f3fb),
+        EmojiIcon("ClappingHandsMediumLightSkinTone", "1f44f-1f3fc", Category.PeopleAndBody, Subcategory.Hands, Font.Twemoji, R.drawable.ic_1f44f_1f3fc),
+        EmojiIcon("ClappingHandsMediumSkinTone", "1f44f-1f3fd", Category.PeopleAndBody, Subcategory.Hands, Font.Twemoji, R.drawable.ic_1f44f_1f3fd),
+        EmojiIcon("ClappingHandsMediumDarkSkinTone", "1f44f-1f3fe", Category.PeopleAndBody, Subcategory.Hands, Font.Twemoji, R.drawable.ic_1f44f_1f3fe),
+        EmojiIcon("ClappingHandsDarkSkinTone", "1f44f-1f3ff", Category.PeopleAndBody, Subcategory.Hands, Font.Twemoji, R.drawable.ic_1f44f_1f3ff),
+        EmojiIcon("RaisingHands", "1f64c", Category.PeopleAndBody, Subcategory.Hands, Font.Twemoji, R.drawable.ic_1f64c),
+        EmojiIcon("RaisingHandsLightSkinTone", "1f64c-1f3fb", Category.PeopleAndBody, Subcategory.Hands, Font.Twemoji, R.drawable.ic_1f64c_1f3fb),
+        EmojiIcon("RaisingHandsMediumLightSkinTone", "1f64c-1f3fc", Category.PeopleAndBody, Subcategory.Hands, Font.Twemoji, R.drawable.ic_1f64c_1f3fc),
+        EmojiIcon("RaisingHandsMediumSkinTone", "1f64c-1f3fd", Category.PeopleAndBody, Subcategory.Hands, Font.Twemoji, R.drawable.ic_1f64c_1f3fd),
+        EmojiIcon("RaisingHandsMediumDarkSkinTone", "1f64c-1f3fe", Category.PeopleAndBody, Subcategory.Hands, Font.Twemoji, R.drawable.ic_1f64c_1f3fe),
+        EmojiIcon("RaisingHandsDarkSkinTone", "1f64c-1f3ff", Category.PeopleAndBody, Subcategory.Hands, Font.Twemoji, R.drawable.ic_1f64c_1f3ff),
+        EmojiIcon("OpenHands", "1f450", Category.PeopleAndBody, Subcategory.Hands, Font.Twemoji, R.drawable.ic_1f450),
+        EmojiIcon("OpenHandsLightSkinTone", "1f450-1f3fb", Category.PeopleAndBody, Subcategory.Hands, Font.Twemoji, R.drawable.ic_1f450_1f3fb),
+        EmojiIcon("OpenHandsMediumLightSkinTone", "1f450-1f3fc", Category.PeopleAndBody, Subcategory.Hands, Font.Twemoji, R.drawable.ic_1f450_1f3fc),
+        EmojiIcon("OpenHandsMediumSkinTone", "1f450-1f3fd", Category.PeopleAndBody, Subcategory.Hands, Font.Twemoji, R.drawable.ic_1f450_1f3fd),
+        EmojiIcon("OpenHandsMediumDarkSkinTone", "1f450-1f3fe", Category.PeopleAndBody, Subcategory.Hands, Font.Twemoji, R.drawable.ic_1f450_1f3fe),
+        EmojiIcon("OpenHandsDarkSkinTone", "1f450-1f3ff", Category.PeopleAndBody, Subcategory.Hands, Font.Twemoji, R.drawable.ic_1f450_1f3ff),
+        EmojiIcon("PalmsUpTogether", "1f932", Category.PeopleAndBody, Subcategory.Hands, Font.Twemoji, R.drawable.ic_1f932),
+        EmojiIcon("PalmsUpTogetherLightSkinTone", "1f932-1f3fb", Category.PeopleAndBody, Subcategory.Hands, Font.Twemoji, R.drawable.ic_1f932_1f3fb),
+        EmojiIcon("PalmsUpTogetherMediumLightSkinTone", "1f932-1f3fc", Category.PeopleAndBody, Subcategory.Hands, Font.Twemoji, R.drawable.ic_1f932_1f3fc),
+        EmojiIcon("PalmsUpTogetherMediumSkinTone", "1f932-1f3fd", Category.PeopleAndBody, Subcategory.Hands, Font.Twemoji, R.drawable.ic_1f932_1f3fd),
+        EmojiIcon("PalmsUpTogetherMediumDarkSkinTone", "1f932-1f3fe", Category.PeopleAndBody, Subcategory.Hands, Font.Twemoji, R.drawable.ic_1f932_1f3fe),
+        EmojiIcon("PalmsUpTogetherDarkSkinTone", "1f932-1f3ff", Category.PeopleAndBody, Subcategory.Hands, Font.Twemoji, R.drawable.ic_1f932_1f3ff),
+        EmojiIcon("Handshake", "1f91d", Category.PeopleAndBody, Subcategory.Hands, Font.Twemoji, R.drawable.ic_1f91d),
+        EmojiIcon("FoldedHands", "1f64f", Category.PeopleAndBody, Subcategory.Hands, Font.Twemoji, R.drawable.ic_1f64f),
+        EmojiIcon("FoldedHandsLightSkinTone", "1f64f-1f3fb", Category.PeopleAndBody, Subcategory.Hands, Font.Twemoji, R.drawable.ic_1f64f_1f3fb),
+        EmojiIcon("FoldedHandsMediumLightSkinTone", "1f64f-1f3fc", Category.PeopleAndBody, Subcategory.Hands, Font.Twemoji, R.drawable.ic_1f64f_1f3fc),
+        EmojiIcon("FoldedHandsMediumSkinTone", "1f64f-1f3fd", Category.PeopleAndBody, Subcategory.Hands, Font.Twemoji, R.drawable.ic_1f64f_1f3fd),
+        EmojiIcon("FoldedHandsMediumDarkSkinTone", "1f64f-1f3fe", Category.PeopleAndBody, Subcategory.Hands, Font.Twemoji, R.drawable.ic_1f64f_1f3fe),
+        EmojiIcon("FoldedHandsDarkSkinTone", "1f64f-1f3ff", Category.PeopleAndBody, Subcategory.Hands, Font.Twemoji, R.drawable.ic_1f64f_1f3ff)
+    )
+    // endregion
+
     // region All
     val all: List<EmojiIcon> = listOf(
         handFingersOpen,
         handFingersPartial,
         handSingleFinger,
-        handFingersClosed
+        handFingersClosed,
+        hands
     ).flatten()
     // endregion
 
