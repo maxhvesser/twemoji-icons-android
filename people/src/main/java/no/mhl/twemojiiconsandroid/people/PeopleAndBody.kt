@@ -1123,6 +1123,7 @@ object PeopleAndBody {
         EmojiIcon("PersonFeedingBabyMediumDarkSkinTone", "1f9d1-1f3fe-200d-1f37c", Category.PeopleAndBody, Subcategory.PersonRole, Font.Twemoji, R.drawable.ic_1f9d1_1f3fe_200d_1f37c),
         EmojiIcon("PersonFeedingBabyDarkSkinTone", "1f9d1-1f3ff-200d-1f37c", Category.PeopleAndBody, Subcategory.PersonRole, Font.Twemoji, R.drawable.ic_1f9d1_1f3ff_200d_1f37c)
     )
+    // endregion
 
     // region All
     val all: List<EmojiIcon> = listOf(
