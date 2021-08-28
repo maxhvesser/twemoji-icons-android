@@ -1748,6 +1748,41 @@ object PeopleAndBody {
     )
     // endregion
 
+    // region Person resting
+    private val personResting: List<EmojiIcon> = listOf(
+        EmojiIcon("PersonInLotusPosition", "1f9d8", Category.PeopleAndBody, Subcategory.PersonResting, Font.Twemoji, R.drawable.ic_1f9d8),
+        EmojiIcon("PersonInLotusPositionLightSkinTone", "1f9d8-1f3fb", Category.PeopleAndBody, Subcategory.PersonResting, Font.Twemoji, R.drawable.ic_1f9d8_1f3fb),
+        EmojiIcon("PersonInLotusPositionMediumLightSkinTone", "1f9d8-1f3fc", Category.PeopleAndBody, Subcategory.PersonResting, Font.Twemoji, R.drawable.ic_1f9d8_1f3fc),
+        EmojiIcon("PersonInLotusPositionMediumSkinTone", "1f9d8-1f3fd", Category.PeopleAndBody, Subcategory.PersonResting, Font.Twemoji, R.drawable.ic_1f9d8_1f3fd),
+        EmojiIcon("PersonInLotusPositionMediumDarkSkinTone", "1f9d8-1f3fe", Category.PeopleAndBody, Subcategory.PersonResting, Font.Twemoji, R.drawable.ic_1f9d8_1f3fe),
+        EmojiIcon("PersonInLotusPositionDarkSkinTone", "1f9d8-1f3ff", Category.PeopleAndBody, Subcategory.PersonResting, Font.Twemoji, R.drawable.ic_1f9d8_1f3ff),
+        EmojiIcon("ManInLotusPosition", "1f9d8-200d-2642-fe0f", Category.PeopleAndBody, Subcategory.PersonResting, Font.Twemoji, R.drawable.ic_1f9d8_200d_2642_fe0f),
+        EmojiIcon("ManInLotusPositionLightSkinTone", "1f9d8-1f3fb-200d-2642-fe0f", Category.PeopleAndBody, Subcategory.PersonResting, Font.Twemoji, R.drawable.ic_1f9d8_1f3fb_200d_2642_fe0f),
+        EmojiIcon("ManInLotusPositionMediumLightSkinTone", "1f9d8-1f3fc-200d-2642-fe0f", Category.PeopleAndBody, Subcategory.PersonResting, Font.Twemoji, R.drawable.ic_1f9d8_1f3fc_200d_2642_fe0f),
+        EmojiIcon("ManInLotusPositionMediumSkinTone", "1f9d8-1f3fd-200d-2642-fe0f", Category.PeopleAndBody, Subcategory.PersonResting, Font.Twemoji, R.drawable.ic_1f9d8_1f3fd_200d_2642_fe0f),
+        EmojiIcon("ManInLotusPositionMediumDarkSkinTone", "1f9d8-1f3fe-200d-2642-fe0f", Category.PeopleAndBody, Subcategory.PersonResting, Font.Twemoji, R.drawable.ic_1f9d8_1f3fe_200d_2642_fe0f),
+        EmojiIcon("ManInLotusPositionDarkSkinTone", "1f9d8-1f3ff-200d-2642-fe0f", Category.PeopleAndBody, Subcategory.PersonResting, Font.Twemoji, R.drawable.ic_1f9d8_1f3ff_200d_2642_fe0f),
+        EmojiIcon("WomanInLotusPosition", "1f9d8-200d-2640-fe0f", Category.PeopleAndBody, Subcategory.PersonResting, Font.Twemoji, R.drawable.ic_1f9d8_200d_2640_fe0f),
+        EmojiIcon("WomanInLotusPositionLightSkinTone", "1f9d8-1f3fb-200d-2640-fe0f", Category.PeopleAndBody, Subcategory.PersonResting, Font.Twemoji, R.drawable.ic_1f9d8_1f3fb_200d_2640_fe0f),
+        EmojiIcon("WomanInLotusPositionMediumLightSkinTone", "1f9d8-1f3fc-200d-2640-fe0f", Category.PeopleAndBody, Subcategory.PersonResting, Font.Twemoji, R.drawable.ic_1f9d8_1f3fc_200d_2640_fe0f),
+        EmojiIcon("WomanInLotusPositionMediumSkinTone", "1f9d8-1f3fd-200d-2640-fe0f", Category.PeopleAndBody, Subcategory.PersonResting, Font.Twemoji, R.drawable.ic_1f9d8_1f3fd_200d_2640_fe0f),
+        EmojiIcon("WomanInLotusPositionMediumDarkSkinTone", "1f9d8-1f3fe-200d-2640-fe0f", Category.PeopleAndBody, Subcategory.PersonResting, Font.Twemoji, R.drawable.ic_1f9d8_1f3fe_200d_2640_fe0f),
+        EmojiIcon("WomanInLotusPositionDarkSkinTone", "1f9d8-1f3ff-200d-2640-fe0f", Category.PeopleAndBody, Subcategory.PersonResting, Font.Twemoji, R.drawable.ic_1f9d8_1f3ff_200d_2640_fe0f),
+        EmojiIcon("PersonTakingBath", "1f6c0", Category.PeopleAndBody, Subcategory.PersonResting, Font.Twemoji, R.drawable.ic_1f6c0),
+        EmojiIcon("PersonTakingBathLightSkinTone", "1f6c0-1f3fb", Category.PeopleAndBody, Subcategory.PersonResting, Font.Twemoji, R.drawable.ic_1f6c0_1f3fb),
+        EmojiIcon("PersonTakingBathMediumLightSkinTone", "1f6c0-1f3fc", Category.PeopleAndBody, Subcategory.PersonResting, Font.Twemoji, R.drawable.ic_1f6c0_1f3fc),
+        EmojiIcon("PersonTakingBathMediumSkinTone", "1f6c0-1f3fd", Category.PeopleAndBody, Subcategory.PersonResting, Font.Twemoji, R.drawable.ic_1f6c0_1f3fd),
+        EmojiIcon("PersonTakingBathMediumDarkSkinTone", "1f6c0-1f3fe", Category.PeopleAndBody, Subcategory.PersonResting, Font.Twemoji, R.drawable.ic_1f6c0_1f3fe),
+        EmojiIcon("PersonTakingBathDarkSkinTone", "1f6c0-1f3ff", Category.PeopleAndBody, Subcategory.PersonResting, Font.Twemoji, R.drawable.ic_1f6c0_1f3ff),
+        EmojiIcon("PersonInBed", "1f6cc", Category.PeopleAndBody, Subcategory.PersonResting, Font.Twemoji, R.drawable.ic_1f6cc),
+        EmojiIcon("PersonInBedLightSkinTone", "1f6cc-1f3fb", Category.PeopleAndBody, Subcategory.PersonResting, Font.Twemoji, R.drawable.ic_1f6cc_1f3fb),
+        EmojiIcon("PersonInBedMediumLightSkinTone", "1f6cc-1f3fc", Category.PeopleAndBody, Subcategory.PersonResting, Font.Twemoji, R.drawable.ic_1f6cc_1f3fc),
+        EmojiIcon("PersonInBedMediumSkinTone", "1f6cc-1f3fd", Category.PeopleAndBody, Subcategory.PersonResting, Font.Twemoji, R.drawable.ic_1f6cc_1f3fd),
+        EmojiIcon("PersonInBedMediumDarkSkinTone", "1f6cc-1f3fe", Category.PeopleAndBody, Subcategory.PersonResting, Font.Twemoji, R.drawable.ic_1f6cc_1f3fe),
+        EmojiIcon("PersonInBedDarkSkinTone", "1f6cc-1f3ff", Category.PeopleAndBody, Subcategory.PersonResting, Font.Twemoji, R.drawable.ic_1f6cc_1f3ff)
+    )
+    // endregion
+
     // region All
     val all: List<EmojiIcon> = listOf(
         handFingersOpen,
@@ -1762,7 +1797,8 @@ object PeopleAndBody {
         personRole,
         personFantasy,
         personActivity,
-        personSport
+        personSport,
+        personResting
     ).flatten()
     // endregion
 
