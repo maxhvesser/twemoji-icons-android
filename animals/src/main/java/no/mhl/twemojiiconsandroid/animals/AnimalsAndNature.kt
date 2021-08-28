@@ -105,11 +105,25 @@ object AnimalsAndNature {
     )
     // endregion
 
+    // region Animal reptile
+    private val animalReptile: List<EmojiIcon> = listOf(
+        EmojiIcon("Crocodile", "1f40a", Category.AnimalsAndNature, Subcategory.AnimalReptile, Font.Twemoji, R.drawable.ic_1f40a),
+        EmojiIcon("Turtle", "1f422", Category.AnimalsAndNature, Subcategory.AnimalReptile, Font.Twemoji, R.drawable.ic_1f422),
+        EmojiIcon("Lizard", "1f98e", Category.AnimalsAndNature, Subcategory.AnimalReptile, Font.Twemoji, R.drawable.ic_1f98e),
+        EmojiIcon("Snake", "1f40d", Category.AnimalsAndNature, Subcategory.AnimalReptile, Font.Twemoji, R.drawable.ic_1f40d),
+        EmojiIcon("DragonFace", "1f432", Category.AnimalsAndNature, Subcategory.AnimalReptile, Font.Twemoji, R.drawable.ic_1f432),
+        EmojiIcon("Dragon", "1f409", Category.AnimalsAndNature, Subcategory.AnimalReptile, Font.Twemoji, R.drawable.ic_1f409),
+        EmojiIcon("Sauropod", "1f995", Category.AnimalsAndNature, Subcategory.AnimalReptile, Font.Twemoji, R.drawable.ic_1f995),
+        EmojiIcon("TRex", "1f996", Category.AnimalsAndNature, Subcategory.AnimalReptile, Font.Twemoji, R.drawable.ic_1f996)
+    )
+    // endregion
+
     // region All
     val all: List<EmojiIcon> = listOf(
         animalMammal,
         animalBird,
-        animalAmphibian
+        animalAmphibian,
+        animalReptile
     ).flatten()
     // endregion
 
