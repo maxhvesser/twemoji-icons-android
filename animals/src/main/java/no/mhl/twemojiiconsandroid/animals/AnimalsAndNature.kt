@@ -1,4 +1,85 @@
 package no.mhl.twemojiiconsandroid.animals
 
+import no.mhl.twemojiiconsandroid.core.model.Category
+import no.mhl.twemojiiconsandroid.core.model.EmojiIcon
+import no.mhl.twemojiiconsandroid.core.model.Font
+import no.mhl.twemojiiconsandroid.core.model.Subcategory
+
 object AnimalsAndNature {
+
+    // region Animal mammal
+    private val animalMammal: List<EmojiIcon> = listOf(
+        EmojiIcon("MonkeyFace", "1f435", Category.AnimalsAndNature, Subcategory.AnimalMammal, Font.Twemoji, R.drawable.ic_1f435),
+        EmojiIcon("Monkey", "1f412", Category.AnimalsAndNature, Subcategory.AnimalMammal, Font.Twemoji, R.drawable.ic_1f412),
+        EmojiIcon("Gorilla", "1f98d", Category.AnimalsAndNature, Subcategory.AnimalMammal, Font.Twemoji, R.drawable.ic_1f98d),
+        EmojiIcon("Orangutan", "1f9a7", Category.AnimalsAndNature, Subcategory.AnimalMammal, Font.Twemoji, R.drawable.ic_1f9a7),
+        EmojiIcon("DogFace", "1f436", Category.AnimalsAndNature, Subcategory.AnimalMammal, Font.Twemoji, R.drawable.ic_1f436),
+        EmojiIcon("Dog", "1f415", Category.AnimalsAndNature, Subcategory.AnimalMammal, Font.Twemoji, R.drawable.ic_1f415),
+        EmojiIcon("GuideDog", "1f9ae", Category.AnimalsAndNature, Subcategory.AnimalMammal, Font.Twemoji, R.drawable.ic_1f9ae),
+        EmojiIcon("ServiceDog", "1f415-200d-1f9ba", Category.AnimalsAndNature, Subcategory.AnimalMammal, Font.Twemoji, R.drawable.ic_1f415_200d_1f9ba),
+        EmojiIcon("Poodle", "1f429", Category.AnimalsAndNature, Subcategory.AnimalMammal, Font.Twemoji, R.drawable.ic_1f429),
+        EmojiIcon("Wolf", "1f43a", Category.AnimalsAndNature, Subcategory.AnimalMammal, Font.Twemoji, R.drawable.ic_1f43a),
+        EmojiIcon("Fox", "1f98a", Category.AnimalsAndNature, Subcategory.AnimalMammal, Font.Twemoji, R.drawable.ic_1f98a),
+        EmojiIcon("Raccoon", "1f99d", Category.AnimalsAndNature, Subcategory.AnimalMammal, Font.Twemoji, R.drawable.ic_1f99d),
+        EmojiIcon("CatFace", "1f431", Category.AnimalsAndNature, Subcategory.AnimalMammal, Font.Twemoji, R.drawable.ic_1f431),
+        EmojiIcon("Cat", "1f408", Category.AnimalsAndNature, Subcategory.AnimalMammal, Font.Twemoji, R.drawable.ic_1f408),
+        EmojiIcon("BlackCat", "1f408-200d-2b1b", Category.AnimalsAndNature, Subcategory.AnimalMammal, Font.Twemoji, R.drawable.ic_1f408_200d_2b1b),
+        EmojiIcon("Lion", "1f981", Category.AnimalsAndNature, Subcategory.AnimalMammal, Font.Twemoji, R.drawable.ic_1f981),
+        EmojiIcon("TigerFace", "1f42f", Category.AnimalsAndNature, Subcategory.AnimalMammal, Font.Twemoji, R.drawable.ic_1f42f),
+        EmojiIcon("Tiger", "1f405", Category.AnimalsAndNature, Subcategory.AnimalMammal, Font.Twemoji, R.drawable.ic_1f405),
+        EmojiIcon("Leopard", "1f406", Category.AnimalsAndNature, Subcategory.AnimalMammal, Font.Twemoji, R.drawable.ic_1f406),
+        EmojiIcon("HorseFace", "1f434", Category.AnimalsAndNature, Subcategory.AnimalMammal, Font.Twemoji, R.drawable.ic_1f434),
+        EmojiIcon("Horse", "1f40e", Category.AnimalsAndNature, Subcategory.AnimalMammal, Font.Twemoji, R.drawable.ic_1f40e),
+        EmojiIcon("Unicorn", "1f984", Category.AnimalsAndNature, Subcategory.AnimalMammal, Font.Twemoji, R.drawable.ic_1f984),
+        EmojiIcon("Zebra", "1f993", Category.AnimalsAndNature, Subcategory.AnimalMammal, Font.Twemoji, R.drawable.ic_1f993),
+        EmojiIcon("Deer", "1f98c", Category.AnimalsAndNature, Subcategory.AnimalMammal, Font.Twemoji, R.drawable.ic_1f98c),
+        EmojiIcon("Bison", "1f9ac", Category.AnimalsAndNature, Subcategory.AnimalMammal, Font.Twemoji, R.drawable.ic_1f9ac),
+        EmojiIcon("CowFace", "1f42e", Category.AnimalsAndNature, Subcategory.AnimalMammal, Font.Twemoji, R.drawable.ic_1f42e),
+        EmojiIcon("Ox", "1f402", Category.AnimalsAndNature, Subcategory.AnimalMammal, Font.Twemoji, R.drawable.ic_1f402),
+        EmojiIcon("WaterBuffalo", "1f403", Category.AnimalsAndNature, Subcategory.AnimalMammal, Font.Twemoji, R.drawable.ic_1f403),
+        EmojiIcon("Cow", "1f404", Category.AnimalsAndNature, Subcategory.AnimalMammal, Font.Twemoji, R.drawable.ic_1f404),
+        EmojiIcon("PigFace", "1f437", Category.AnimalsAndNature, Subcategory.AnimalMammal, Font.Twemoji, R.drawable.ic_1f437),
+        EmojiIcon("Pig", "1f416", Category.AnimalsAndNature, Subcategory.AnimalMammal, Font.Twemoji, R.drawable.ic_1f416),
+        EmojiIcon("Boar", "1f417", Category.AnimalsAndNature, Subcategory.AnimalMammal, Font.Twemoji, R.drawable.ic_1f417),
+        EmojiIcon("PigNose", "1f43d", Category.AnimalsAndNature, Subcategory.AnimalMammal, Font.Twemoji, R.drawable.ic_1f43d),
+        EmojiIcon("Ram", "1f40f", Category.AnimalsAndNature, Subcategory.AnimalMammal, Font.Twemoji, R.drawable.ic_1f40f),
+        EmojiIcon("Ewe", "1f411", Category.AnimalsAndNature, Subcategory.AnimalMammal, Font.Twemoji, R.drawable.ic_1f411),
+        EmojiIcon("Goat", "1f410", Category.AnimalsAndNature, Subcategory.AnimalMammal, Font.Twemoji, R.drawable.ic_1f410),
+        EmojiIcon("Camel", "1f42a", Category.AnimalsAndNature, Subcategory.AnimalMammal, Font.Twemoji, R.drawable.ic_1f42a),
+        EmojiIcon("TwoHumpCamel", "1f42b", Category.AnimalsAndNature, Subcategory.AnimalMammal, Font.Twemoji, R.drawable.ic_1f42b),
+        EmojiIcon("Llama", "1f999", Category.AnimalsAndNature, Subcategory.AnimalMammal, Font.Twemoji, R.drawable.ic_1f999),
+        EmojiIcon("Giraffe", "1f992", Category.AnimalsAndNature, Subcategory.AnimalMammal, Font.Twemoji, R.drawable.ic_1f992),
+        EmojiIcon("Elephant", "1f418", Category.AnimalsAndNature, Subcategory.AnimalMammal, Font.Twemoji, R.drawable.ic_1f418),
+        EmojiIcon("Mammoth", "1f9a3", Category.AnimalsAndNature, Subcategory.AnimalMammal, Font.Twemoji, R.drawable.ic_1f9a3),
+        EmojiIcon("Rhinoceros", "1f98f", Category.AnimalsAndNature, Subcategory.AnimalMammal, Font.Twemoji, R.drawable.ic_1f98f),
+        EmojiIcon("Hippopotamus", "1f99b", Category.AnimalsAndNature, Subcategory.AnimalMammal, Font.Twemoji, R.drawable.ic_1f99b),
+        EmojiIcon("MouseFace", "1f42d", Category.AnimalsAndNature, Subcategory.AnimalMammal, Font.Twemoji, R.drawable.ic_1f42d),
+        EmojiIcon("Mouse", "1f401", Category.AnimalsAndNature, Subcategory.AnimalMammal, Font.Twemoji, R.drawable.ic_1f401),
+        EmojiIcon("Rat", "1f400", Category.AnimalsAndNature, Subcategory.AnimalMammal, Font.Twemoji, R.drawable.ic_1f400),
+        EmojiIcon("Hamster", "1f439", Category.AnimalsAndNature, Subcategory.AnimalMammal, Font.Twemoji, R.drawable.ic_1f439),
+        EmojiIcon("RabbitFace", "1f430", Category.AnimalsAndNature, Subcategory.AnimalMammal, Font.Twemoji, R.drawable.ic_1f430),
+        EmojiIcon("Rabbit", "1f407", Category.AnimalsAndNature, Subcategory.AnimalMammal, Font.Twemoji, R.drawable.ic_1f407),
+        EmojiIcon("Chipmunk", "1f43f", Category.AnimalsAndNature, Subcategory.AnimalMammal, Font.Twemoji, R.drawable.ic_1f43f),
+        EmojiIcon("Beaver", "1f9ab", Category.AnimalsAndNature, Subcategory.AnimalMammal, Font.Twemoji, R.drawable.ic_1f9ab),
+        EmojiIcon("Hedgehog", "1f994", Category.AnimalsAndNature, Subcategory.AnimalMammal, Font.Twemoji, R.drawable.ic_1f994),
+        EmojiIcon("Bat", "1f987", Category.AnimalsAndNature, Subcategory.AnimalMammal, Font.Twemoji, R.drawable.ic_1f987),
+        EmojiIcon("Bear", "1f43b", Category.AnimalsAndNature, Subcategory.AnimalMammal, Font.Twemoji, R.drawable.ic_1f43b),
+        EmojiIcon("PolarBear", "1f43b-200d-2744-fe0f", Category.AnimalsAndNature, Subcategory.AnimalMammal, Font.Twemoji, R.drawable.ic_1f43b_200d_2744_fe0f),
+        EmojiIcon("Koala", "1f428", Category.AnimalsAndNature, Subcategory.AnimalMammal, Font.Twemoji, R.drawable.ic_1f428),
+        EmojiIcon("Panda", "1f43c", Category.AnimalsAndNature, Subcategory.AnimalMammal, Font.Twemoji, R.drawable.ic_1f43c),
+        EmojiIcon("Sloth", "1f9a5", Category.AnimalsAndNature, Subcategory.AnimalMammal, Font.Twemoji, R.drawable.ic_1f9a5),
+        EmojiIcon("Otter", "1f9a6", Category.AnimalsAndNature, Subcategory.AnimalMammal, Font.Twemoji, R.drawable.ic_1f9a6),
+        EmojiIcon("Skunk", "1f9a8", Category.AnimalsAndNature, Subcategory.AnimalMammal, Font.Twemoji, R.drawable.ic_1f9a8),
+        EmojiIcon("Kangaroo", "1f998", Category.AnimalsAndNature, Subcategory.AnimalMammal, Font.Twemoji, R.drawable.ic_1f998),
+        EmojiIcon("Badger", "1f9a1", Category.AnimalsAndNature, Subcategory.AnimalMammal, Font.Twemoji, R.drawable.ic_1f9a1),
+        EmojiIcon("PawPrints", "1f43e", Category.AnimalsAndNature, Subcategory.AnimalMammal, Font.Twemoji, R.drawable.ic_1f43e)
+    )
+    // endregion
+
+    // region All
+    val all: List<EmojiIcon> = listOf(
+        animalMammal
+    ).flatten()
+    // endregion
+
 }
