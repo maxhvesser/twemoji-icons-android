@@ -133,13 +133,35 @@ object AnimalsAndNature {
     )
     // endregion
 
+    // region Animal bug
+    private val animalBug: List<EmojiIcon> = listOf(
+        EmojiIcon("Snail", "1f40c", Category.AnimalsAndNature, Subcategory.AnimalBug, Font.Twemoji, R.drawable.ic_1f40c),
+        EmojiIcon("Butterfly", "1f98b", Category.AnimalsAndNature, Subcategory.AnimalBug, Font.Twemoji, R.drawable.ic_1f98b),
+        EmojiIcon("Bug", "1f41b", Category.AnimalsAndNature, Subcategory.AnimalBug, Font.Twemoji, R.drawable.ic_1f41b),
+        EmojiIcon("Ant", "1f41c", Category.AnimalsAndNature, Subcategory.AnimalBug, Font.Twemoji, R.drawable.ic_1f41c),
+        EmojiIcon("Honeybee", "1f41d", Category.AnimalsAndNature, Subcategory.AnimalBug, Font.Twemoji, R.drawable.ic_1f41d),
+        EmojiIcon("Beetle", "1fab2", Category.AnimalsAndNature, Subcategory.AnimalBug, Font.Twemoji, R.drawable.ic_1fab2),
+        EmojiIcon("LadyBeetle", "1f41e", Category.AnimalsAndNature, Subcategory.AnimalBug, Font.Twemoji, R.drawable.ic_1f41e),
+        EmojiIcon("Cricket", "1f997", Category.AnimalsAndNature, Subcategory.AnimalBug, Font.Twemoji, R.drawable.ic_1f997),
+        EmojiIcon("Cockroach", "1fab3", Category.AnimalsAndNature, Subcategory.AnimalBug, Font.Twemoji, R.drawable.ic_1fab3),
+        EmojiIcon("Spider", "1f577", Category.AnimalsAndNature, Subcategory.AnimalBug, Font.Twemoji, R.drawable.ic_1f577),
+        EmojiIcon("SpiderWeb", "1f578", Category.AnimalsAndNature, Subcategory.AnimalBug, Font.Twemoji, R.drawable.ic_1f578),
+        EmojiIcon("Scorpion", "1f982", Category.AnimalsAndNature, Subcategory.AnimalBug, Font.Twemoji, R.drawable.ic_1f982),
+        EmojiIcon("Mosquito", "1f99f", Category.AnimalsAndNature, Subcategory.AnimalBug, Font.Twemoji, R.drawable.ic_1f99f),
+        EmojiIcon("Fly", "1fab0", Category.AnimalsAndNature, Subcategory.AnimalBug, Font.Twemoji, R.drawable.ic_1fab0),
+        EmojiIcon("Worm", "1fab1", Category.AnimalsAndNature, Subcategory.AnimalBug, Font.Twemoji, R.drawable.ic_1fab1),
+        EmojiIcon("Microbe", "1f9a0", Category.AnimalsAndNature, Subcategory.AnimalBug, Font.Twemoji, R.drawable.ic_1f9a0)
+    )
+    // endregion
+
     // region All
     val all: List<EmojiIcon> = listOf(
         animalMammal,
         animalBird,
         animalAmphibian,
         animalReptile,
-        animalMarine
+        animalMarine,
+        animalBug
     ).flatten()
     // endregion
 
