@@ -99,10 +99,17 @@ object AnimalsAndNature {
     )
     // endregion
 
+    // region Animal amphibian
+    private val animalAmphibian: List<EmojiIcon> = listOf(
+        EmojiIcon("Frog", "1f438", Category.AnimalsAndNature, Subcategory.AnimalAmphibian, Font.Twemoji, R.drawable.ic_1f438)
+    )
+    // endregion
+
     // region All
     val all: List<EmojiIcon> = listOf(
         animalMammal,
-        animalBird
+        animalBird,
+        animalAmphibian
     ).flatten()
     // endregion
 
