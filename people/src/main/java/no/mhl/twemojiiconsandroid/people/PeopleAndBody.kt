@@ -2125,6 +2125,16 @@ object PeopleAndBody {
     )
     // endregion
 
+    // region Person symbol
+    private val personSymbol: List<EmojiIcon> = listOf(
+        EmojiIcon("SpeakingHead", "1f5e3", Category.PeopleAndBody, Subcategory.PersonSymbol, Font.Twemoji, R.drawable.ic_1f5e3),
+        EmojiIcon("BustInSilhouette", "1f464", Category.PeopleAndBody, Subcategory.PersonSymbol, Font.Twemoji, R.drawable.ic_1f464),
+        EmojiIcon("BustsInSilhouette", "1f465", Category.PeopleAndBody, Subcategory.PersonSymbol, Font.Twemoji, R.drawable.ic_1f465),
+        EmojiIcon("PeopleHugging", "1fac2", Category.PeopleAndBody, Subcategory.PersonSymbol, Font.Twemoji, R.drawable.ic_1fac2),
+        EmojiIcon("Footprints", "1f463", Category.PeopleAndBody, Subcategory.PersonSymbol, Font.Twemoji, R.drawable.ic_1f463)
+    )
+    // endregion
+
     // region All
     val all: List<EmojiIcon> = listOf(
         handFingersOpen,
@@ -2141,7 +2151,8 @@ object PeopleAndBody {
         personActivity,
         personSport,
         personResting,
-        personFamily
+        personFamily,
+        personSymbol
     ).flatten()
     // endregion
 
