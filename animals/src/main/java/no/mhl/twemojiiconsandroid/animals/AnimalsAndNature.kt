@@ -118,12 +118,28 @@ object AnimalsAndNature {
     )
     // endregion
 
+    // region Animal marine
+    private val animalMarine: List<EmojiIcon> = listOf(
+        EmojiIcon("SpoutingWhale", "1f433", Category.AnimalsAndNature, Subcategory.AnimalMarine, Font.Twemoji, R.drawable.ic_1f433),
+        EmojiIcon("Whale", "1f40b", Category.AnimalsAndNature, Subcategory.AnimalMarine, Font.Twemoji, R.drawable.ic_1f40b),
+        EmojiIcon("Dolphin", "1f42c", Category.AnimalsAndNature, Subcategory.AnimalMarine, Font.Twemoji, R.drawable.ic_1f42c),
+        EmojiIcon("Seal", "1f9ad", Category.AnimalsAndNature, Subcategory.AnimalMarine, Font.Twemoji, R.drawable.ic_1f9ad),
+        EmojiIcon("Fish", "1f41f", Category.AnimalsAndNature, Subcategory.AnimalMarine, Font.Twemoji, R.drawable.ic_1f41f),
+        EmojiIcon("TropicalFish", "1f420", Category.AnimalsAndNature, Subcategory.AnimalMarine, Font.Twemoji, R.drawable.ic_1f420),
+        EmojiIcon("Blowfish", "1f421", Category.AnimalsAndNature, Subcategory.AnimalMarine, Font.Twemoji, R.drawable.ic_1f421),
+        EmojiIcon("Shark", "1f988", Category.AnimalsAndNature, Subcategory.AnimalMarine, Font.Twemoji, R.drawable.ic_1f988),
+        EmojiIcon("Octopus", "1f419", Category.AnimalsAndNature, Subcategory.AnimalMarine, Font.Twemoji, R.drawable.ic_1f419),
+        EmojiIcon("SpiralShell", "1f41a", Category.AnimalsAndNature, Subcategory.AnimalMarine, Font.Twemoji, R.drawable.ic_1f41a)
+    )
+    // endregion
+
     // region All
     val all: List<EmojiIcon> = listOf(
         animalMammal,
         animalBird,
         animalAmphibian,
-        animalReptile
+        animalReptile,
+        animalMarine
     ).flatten()
     // endregion
 
