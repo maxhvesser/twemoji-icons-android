@@ -169,6 +169,24 @@ object AnimalsAndNature {
     )
     // endregion
 
+    // region Plant other
+    private val plantOther: List<EmojiIcon> = listOf(
+        EmojiIcon("Seedling", "1f331", Category.AnimalsAndNature, Subcategory.PlantOther, Font.Twemoji, R.drawable.ic_1f331),
+        EmojiIcon("PottedPlant", "1fab4", Category.AnimalsAndNature, Subcategory.PlantOther, Font.Twemoji, R.drawable.ic_1fab4),
+        EmojiIcon("EvergreenTree", "1f332", Category.AnimalsAndNature, Subcategory.PlantOther, Font.Twemoji, R.drawable.ic_1f332),
+        EmojiIcon("DeciduousTree", "1f333", Category.AnimalsAndNature, Subcategory.PlantOther, Font.Twemoji, R.drawable.ic_1f333),
+        EmojiIcon("PalmTree", "1f334", Category.AnimalsAndNature, Subcategory.PlantOther, Font.Twemoji, R.drawable.ic_1f334),
+        EmojiIcon("Cactus", "1f335", Category.AnimalsAndNature, Subcategory.PlantOther, Font.Twemoji, R.drawable.ic_1f335),
+        EmojiIcon("SheafOfRice", "1f33e", Category.AnimalsAndNature, Subcategory.PlantOther, Font.Twemoji, R.drawable.ic_1f33e),
+        EmojiIcon("Herb", "1f33f", Category.AnimalsAndNature, Subcategory.PlantOther, Font.Twemoji, R.drawable.ic_1f33f),
+        EmojiIcon("Shamrock", "2618", Category.AnimalsAndNature, Subcategory.PlantOther, Font.Twemoji, R.drawable.ic_2618),
+        EmojiIcon("FourLeafClover", "1f340", Category.AnimalsAndNature, Subcategory.PlantOther, Font.Twemoji, R.drawable.ic_1f340),
+        EmojiIcon("MapleLeaf", "1f341", Category.AnimalsAndNature, Subcategory.PlantOther, Font.Twemoji, R.drawable.ic_1f341),
+        EmojiIcon("FallenLeaf", "1f342", Category.AnimalsAndNature, Subcategory.PlantOther, Font.Twemoji, R.drawable.ic_1f342),
+        EmojiIcon("LeafFlutteringInWind", "1f343", Category.AnimalsAndNature, Subcategory.PlantOther, Font.Twemoji, R.drawable.ic_1f343)
+    )
+    // endregion
+
     // region All
     val all: List<EmojiIcon> = listOf(
         animalMammal,
@@ -177,7 +195,8 @@ object AnimalsAndNature {
         animalReptile,
         animalMarine,
         animalBug,
-        plantFlower
+        plantFlower,
+        plantOther
     ).flatten()
     // endregion
 
