@@ -76,9 +76,33 @@ object AnimalsAndNature {
     )
     // endregion
 
+    // region Animal bird
+    private val animalBird: List<EmojiIcon> = listOf(
+        EmojiIcon("Turkey", "1f983", Category.AnimalsAndNature, Subcategory.AnimalBird, Font.Twemoji, R.drawable.ic_1f983),
+        EmojiIcon("Chicken", "1f414", Category.AnimalsAndNature, Subcategory.AnimalBird, Font.Twemoji, R.drawable.ic_1f414),
+        EmojiIcon("Rooster", "1f413", Category.AnimalsAndNature, Subcategory.AnimalBird, Font.Twemoji, R.drawable.ic_1f413),
+        EmojiIcon("HatchingChick", "1f423", Category.AnimalsAndNature, Subcategory.AnimalBird, Font.Twemoji, R.drawable.ic_1f423),
+        EmojiIcon("BabyChick", "1f424", Category.AnimalsAndNature, Subcategory.AnimalBird, Font.Twemoji, R.drawable.ic_1f424),
+        EmojiIcon("FrontFacingBabyChick", "1f425", Category.AnimalsAndNature, Subcategory.AnimalBird, Font.Twemoji, R.drawable.ic_1f425),
+        EmojiIcon("Bird", "1f426", Category.AnimalsAndNature, Subcategory.AnimalBird, Font.Twemoji, R.drawable.ic_1f426),
+        EmojiIcon("Penguin", "1f427", Category.AnimalsAndNature, Subcategory.AnimalBird, Font.Twemoji, R.drawable.ic_1f427),
+        EmojiIcon("Dove", "1f54a", Category.AnimalsAndNature, Subcategory.AnimalBird, Font.Twemoji, R.drawable.ic_1f54a),
+        EmojiIcon("Eagle", "1f985", Category.AnimalsAndNature, Subcategory.AnimalBird, Font.Twemoji, R.drawable.ic_1f985),
+        EmojiIcon("Duck", "1f986", Category.AnimalsAndNature, Subcategory.AnimalBird, Font.Twemoji, R.drawable.ic_1f986),
+        EmojiIcon("Swan", "1f9a2", Category.AnimalsAndNature, Subcategory.AnimalBird, Font.Twemoji, R.drawable.ic_1f9a2),
+        EmojiIcon("Owl", "1f989", Category.AnimalsAndNature, Subcategory.AnimalBird, Font.Twemoji, R.drawable.ic_1f989),
+        EmojiIcon("Dodo", "1f9a4", Category.AnimalsAndNature, Subcategory.AnimalBird, Font.Twemoji, R.drawable.ic_1f9a4),
+        EmojiIcon("Feather", "1fab6", Category.AnimalsAndNature, Subcategory.AnimalBird, Font.Twemoji, R.drawable.ic_1fab6),
+        EmojiIcon("Flamingo", "1f9a9", Category.AnimalsAndNature, Subcategory.AnimalBird, Font.Twemoji, R.drawable.ic_1f9a9),
+        EmojiIcon("Peacock", "1f99a", Category.AnimalsAndNature, Subcategory.AnimalBird, Font.Twemoji, R.drawable.ic_1f99a),
+        EmojiIcon("Parrot", "1f99c", Category.AnimalsAndNature, Subcategory.AnimalBird, Font.Twemoji, R.drawable.ic_1f99c)
+    )
+    // endregion
+
     // region All
     val all: List<EmojiIcon> = listOf(
-        animalMammal
+        animalMammal,
+        animalBird
     ).flatten()
     // endregion
 
