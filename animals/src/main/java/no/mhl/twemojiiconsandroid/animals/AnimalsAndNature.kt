@@ -154,6 +154,21 @@ object AnimalsAndNature {
     )
     // endregion
 
+    // region Plant flower
+    private val plantFlower: List<EmojiIcon> = listOf(
+        EmojiIcon("Bouquet", "1f490", Category.AnimalsAndNature, Subcategory.PlantFlower, Font.Twemoji, R.drawable.ic_1f490),
+        EmojiIcon("CherryBlossom", "1f338", Category.AnimalsAndNature, Subcategory.PlantFlower, Font.Twemoji, R.drawable.ic_1f338),
+        EmojiIcon("WhiteFlower", "1f4ae", Category.AnimalsAndNature, Subcategory.PlantFlower, Font.Twemoji, R.drawable.ic_1f4ae),
+        EmojiIcon("Rosette", "1f3f5", Category.AnimalsAndNature, Subcategory.PlantFlower, Font.Twemoji, R.drawable.ic_1f3f5),
+        EmojiIcon("Rose", "1f339", Category.AnimalsAndNature, Subcategory.PlantFlower, Font.Twemoji, R.drawable.ic_1f339),
+        EmojiIcon("WiltedFlower", "1f940", Category.AnimalsAndNature, Subcategory.PlantFlower, Font.Twemoji, R.drawable.ic_1f940),
+        EmojiIcon("Hibiscus", "1f33a", Category.AnimalsAndNature, Subcategory.PlantFlower, Font.Twemoji, R.drawable.ic_1f33a),
+        EmojiIcon("Sunflower", "1f33b", Category.AnimalsAndNature, Subcategory.PlantFlower, Font.Twemoji, R.drawable.ic_1f33b),
+        EmojiIcon("Blossom", "1f33c", Category.AnimalsAndNature, Subcategory.PlantFlower, Font.Twemoji, R.drawable.ic_1f33c),
+        EmojiIcon("Tulip", "1f337", Category.AnimalsAndNature, Subcategory.PlantFlower, Font.Twemoji, R.drawable.ic_1f337)
+    )
+    // endregion
+
     // region All
     val all: List<EmojiIcon> = listOf(
         animalMammal,
@@ -161,7 +176,8 @@ object AnimalsAndNature {
         animalAmphibian,
         animalReptile,
         animalMarine,
-        animalBug
+        animalBug,
+        plantFlower
     ).flatten()
     // endregion
 
