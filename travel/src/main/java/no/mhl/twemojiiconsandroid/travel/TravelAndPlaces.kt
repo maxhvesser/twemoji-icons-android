@@ -164,6 +164,24 @@ object TravelAndPlaces {
     )
     // endregion
 
+    // region Transport air
+    private val transportAir: List<EmojiIcon> = listOf(
+        EmojiIcon("Airplane", "2708", Category.TravelAndPlaces, Subcategory.TransportAir, Font.Twemoji, R.drawable.ic_2708),
+        EmojiIcon("SmallAirplane", "1f6e9", Category.TravelAndPlaces, Subcategory.TransportAir, Font.Twemoji, R.drawable.ic_1f6e9),
+        EmojiIcon("AirplaneDeparture", "1f6eb", Category.TravelAndPlaces, Subcategory.TransportAir, Font.Twemoji, R.drawable.ic_1f6eb),
+        EmojiIcon("AirplaneArrival", "1f6ec", Category.TravelAndPlaces, Subcategory.TransportAir, Font.Twemoji, R.drawable.ic_1f6ec),
+        EmojiIcon("Parachute", "1fa82", Category.TravelAndPlaces, Subcategory.TransportAir, Font.Twemoji, R.drawable.ic_1fa82),
+        EmojiIcon("Seat", "1f4ba", Category.TravelAndPlaces, Subcategory.TransportAir, Font.Twemoji, R.drawable.ic_1f4ba),
+        EmojiIcon("Helicopter", "1f681", Category.TravelAndPlaces, Subcategory.TransportAir, Font.Twemoji, R.drawable.ic_1f681),
+        EmojiIcon("SuspensionRailway", "1f69f", Category.TravelAndPlaces, Subcategory.TransportAir, Font.Twemoji, R.drawable.ic_1f69f),
+        EmojiIcon("MountainCableway", "1f6a0", Category.TravelAndPlaces, Subcategory.TransportAir, Font.Twemoji, R.drawable.ic_1f6a0),
+        EmojiIcon("AerialTramway", "1f6a1", Category.TravelAndPlaces, Subcategory.TransportAir, Font.Twemoji, R.drawable.ic_1f6a1),
+        EmojiIcon("Satellite", "1f6f0", Category.TravelAndPlaces, Subcategory.TransportAir, Font.Twemoji, R.drawable.ic_1f6f0),
+        EmojiIcon("Rocket", "1f680", Category.TravelAndPlaces, Subcategory.TransportAir, Font.Twemoji, R.drawable.ic_1f680),
+        EmojiIcon("FlyingSaucer", "1f6f8", Category.TravelAndPlaces, Subcategory.TransportAir, Font.Twemoji, R.drawable.ic_1f6f8)
+    )
+    // endregion
+
     // region All
     val all: List<EmojiIcon> = listOf(
         placeMap,
@@ -172,7 +190,8 @@ object TravelAndPlaces {
         placeReligious,
         placeOther,
         transportGround,
-        transportWater
+        transportWater,
+        transportAir
     ).flatten()
     // endregion
 
