@@ -33,10 +33,43 @@ object TravelAndPlaces {
     )
     // endregion
 
+    // region Place building
+    private val placeBuilding: List<EmojiIcon> = listOf(
+        EmojiIcon("Stadium", "1f3df", Category.TravelAndPlaces, Subcategory.PlaceBuilding, Font.Twemoji, R.drawable.ic_1f3df),
+        EmojiIcon("ClassicalBuilding", "1f3db", Category.TravelAndPlaces, Subcategory.PlaceBuilding, Font.Twemoji, R.drawable.ic_1f3db),
+        EmojiIcon("BuildingConstruction", "1f3d7", Category.TravelAndPlaces, Subcategory.PlaceBuilding, Font.Twemoji, R.drawable.ic_1f3d7),
+        EmojiIcon("Brick", "1f9f1", Category.TravelAndPlaces, Subcategory.PlaceBuilding, Font.Twemoji, R.drawable.ic_1f9f1),
+        EmojiIcon("Rock", "1faa8", Category.TravelAndPlaces, Subcategory.PlaceBuilding, Font.Twemoji, R.drawable.ic_1faa8),
+        EmojiIcon("Wood", "1fab5", Category.TravelAndPlaces, Subcategory.PlaceBuilding, Font.Twemoji, R.drawable.ic_1fab5),
+        EmojiIcon("Hut", "1f6d6", Category.TravelAndPlaces, Subcategory.PlaceBuilding, Font.Twemoji, R.drawable.ic_1f6d6),
+        EmojiIcon("Houses", "1f3d8", Category.TravelAndPlaces, Subcategory.PlaceBuilding, Font.Twemoji, R.drawable.ic_1f3d8),
+        EmojiIcon("DerelictHouse", "1f3da", Category.TravelAndPlaces, Subcategory.PlaceBuilding, Font.Twemoji, R.drawable.ic_1f3da),
+        EmojiIcon("House", "1f3e0", Category.TravelAndPlaces, Subcategory.PlaceBuilding, Font.Twemoji, R.drawable.ic_1f3e0),
+        EmojiIcon("HouseWithGarden", "1f3e1", Category.TravelAndPlaces, Subcategory.PlaceBuilding, Font.Twemoji, R.drawable.ic_1f3e1),
+        EmojiIcon("OfficeBuilding", "1f3e2", Category.TravelAndPlaces, Subcategory.PlaceBuilding, Font.Twemoji, R.drawable.ic_1f3e2),
+        EmojiIcon("JapanesePostOffice", "1f3e3", Category.TravelAndPlaces, Subcategory.PlaceBuilding, Font.Twemoji, R.drawable.ic_1f3e3),
+        EmojiIcon("PostOffice", "1f3e4", Category.TravelAndPlaces, Subcategory.PlaceBuilding, Font.Twemoji, R.drawable.ic_1f3e4),
+        EmojiIcon("Hospital", "1f3e5", Category.TravelAndPlaces, Subcategory.PlaceBuilding, Font.Twemoji, R.drawable.ic_1f3e5),
+        EmojiIcon("Bank", "1f3e6", Category.TravelAndPlaces, Subcategory.PlaceBuilding, Font.Twemoji, R.drawable.ic_1f3e6),
+        EmojiIcon("Hotel", "1f3e8", Category.TravelAndPlaces, Subcategory.PlaceBuilding, Font.Twemoji, R.drawable.ic_1f3e8),
+        EmojiIcon("LoveHotel", "1f3e9", Category.TravelAndPlaces, Subcategory.PlaceBuilding, Font.Twemoji, R.drawable.ic_1f3e9),
+        EmojiIcon("ConvenienceStore", "1f3ea", Category.TravelAndPlaces, Subcategory.PlaceBuilding, Font.Twemoji, R.drawable.ic_1f3ea),
+        EmojiIcon("School", "1f3eb", Category.TravelAndPlaces, Subcategory.PlaceBuilding, Font.Twemoji, R.drawable.ic_1f3eb),
+        EmojiIcon("DepartmentStore", "1f3ec", Category.TravelAndPlaces, Subcategory.PlaceBuilding, Font.Twemoji, R.drawable.ic_1f3ec),
+        EmojiIcon("Factory", "1f3ed", Category.TravelAndPlaces, Subcategory.PlaceBuilding, Font.Twemoji, R.drawable.ic_1f3ed),
+        EmojiIcon("JapaneseCastle", "1f3ef", Category.TravelAndPlaces, Subcategory.PlaceBuilding, Font.Twemoji, R.drawable.ic_1f3ef),
+        EmojiIcon("Castle", "1f3f0", Category.TravelAndPlaces, Subcategory.PlaceBuilding, Font.Twemoji, R.drawable.ic_1f3f0),
+        EmojiIcon("Wedding", "1f492", Category.TravelAndPlaces, Subcategory.PlaceBuilding, Font.Twemoji, R.drawable.ic_1f492),
+        EmojiIcon("TokyoTower", "1f5fc", Category.TravelAndPlaces, Subcategory.PlaceBuilding, Font.Twemoji, R.drawable.ic_1f5fc),
+        EmojiIcon("StatueOfLiberty", "1f5fd", Category.TravelAndPlaces, Subcategory.PlaceBuilding, Font.Twemoji, R.drawable.ic_1f5fd)
+    )
+    // endregion
+
     // region All
     val all: List<EmojiIcon> = listOf(
         placeMap,
-        placeGeographic
+        placeGeographic,
+        placeBuilding
     ).flatten()
     // endregion
 
