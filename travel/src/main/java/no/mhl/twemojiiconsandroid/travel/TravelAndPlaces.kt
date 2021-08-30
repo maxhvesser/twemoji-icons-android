@@ -65,11 +65,23 @@ object TravelAndPlaces {
     )
     // endregion
 
+    // region Place religious
+    private val placeReligious: List<EmojiIcon> = listOf(
+        EmojiIcon("Church", "26ea", Category.TravelAndPlaces, Subcategory.PlaceBuilding, Font.Twemoji, R.drawable.ic_26ea),
+        EmojiIcon("Mosque", "1f54c", Category.TravelAndPlaces, Subcategory.PlaceBuilding, Font.Twemoji, R.drawable.ic_1f54c),
+        EmojiIcon("HinduTemple", "1f6d5", Category.TravelAndPlaces, Subcategory.PlaceBuilding, Font.Twemoji, R.drawable.ic_1f6d5),
+        EmojiIcon("Synagogue", "1f54d", Category.TravelAndPlaces, Subcategory.PlaceBuilding, Font.Twemoji, R.drawable.ic_1f54d),
+        EmojiIcon("ShintoShrine", "26e9", Category.TravelAndPlaces, Subcategory.PlaceBuilding, Font.Twemoji, R.drawable.ic_26e9),
+        EmojiIcon("Kaaba", "1f54b", Category.TravelAndPlaces, Subcategory.PlaceBuilding, Font.Twemoji, R.drawable.ic_1f54b)
+    )
+    // endregion
+
     // region All
     val all: List<EmojiIcon> = listOf(
         placeMap,
         placeGeographic,
-        placeBuilding
+        placeBuilding,
+        placeReligious
     ).flatten()
     // endregion
 
