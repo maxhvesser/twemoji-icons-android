@@ -31,9 +31,29 @@ object FoodAndDrink {
     )
     // endregion
 
+    // region Food vegetable
+    private val foodVegetable: List<EmojiIcon> = listOf(
+        EmojiIcon("Avocado", "1f951", Category.FoodAndDrink, Subcategory.FoodVegetable, Font.Twemoji, R.drawable.ic_1f951),
+        EmojiIcon("Eggplant", "1f346", Category.FoodAndDrink, Subcategory.FoodVegetable, Font.Twemoji, R.drawable.ic_1f346),
+        EmojiIcon("Potato", "1f954", Category.FoodAndDrink, Subcategory.FoodVegetable, Font.Twemoji, R.drawable.ic_1f954),
+        EmojiIcon("Carrot", "1f955", Category.FoodAndDrink, Subcategory.FoodVegetable, Font.Twemoji, R.drawable.ic_1f955),
+        EmojiIcon("EarOfCorn", "1f33d", Category.FoodAndDrink, Subcategory.FoodVegetable, Font.Twemoji, R.drawable.ic_1f33d),
+        EmojiIcon("HotPepper", "1f336", Category.FoodAndDrink, Subcategory.FoodVegetable, Font.Twemoji, R.drawable.ic_1f336),
+        EmojiIcon("BellPepper", "1fad1", Category.FoodAndDrink, Subcategory.FoodVegetable, Font.Twemoji, R.drawable.ic_1fad1),
+        EmojiIcon("Cucumber", "1f952", Category.FoodAndDrink, Subcategory.FoodVegetable, Font.Twemoji, R.drawable.ic_1f952),
+        EmojiIcon("LeafyGreen", "1f96c", Category.FoodAndDrink, Subcategory.FoodVegetable, Font.Twemoji, R.drawable.ic_1f96c),
+        EmojiIcon("Broccoli", "1f966", Category.FoodAndDrink, Subcategory.FoodVegetable, Font.Twemoji, R.drawable.ic_1f966),
+        EmojiIcon("Garlic", "1f9c4", Category.FoodAndDrink, Subcategory.FoodVegetable, Font.Twemoji, R.drawable.ic_1f9c4),
+        EmojiIcon("Onion", "1f9c5", Category.FoodAndDrink, Subcategory.FoodVegetable, Font.Twemoji, R.drawable.ic_1f9c5),
+        EmojiIcon("Mushroom", "1f344", Category.FoodAndDrink, Subcategory.FoodVegetable, Font.Twemoji, R.drawable.ic_1f344),
+        EmojiIcon("Peanuts", "1f95c", Category.FoodAndDrink, Subcategory.FoodVegetable, Font.Twemoji, R.drawable.ic_1f95c)
+    )
+    // endregion
+
     // region All
     val all: List<EmojiIcon> = listOf(
-        foodFruit
+        foodFruit,
+        foodVegetable
     ).flatten()
     // endregion
 
