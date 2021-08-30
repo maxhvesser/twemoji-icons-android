@@ -151,6 +151,19 @@ object TravelAndPlaces {
     )
     // endregion
 
+    // region Transport water
+    private val transportWater: List<EmojiIcon> = listOf(
+        EmojiIcon("Anchor", "2693", Category.TravelAndPlaces, Subcategory.TransportWater, Font.Twemoji, R.drawable.ic_2693),
+        EmojiIcon("Sailboat", "26f5", Category.TravelAndPlaces, Subcategory.TransportWater, Font.Twemoji, R.drawable.ic_26f5),
+        EmojiIcon("Canoe", "1f6f6", Category.TravelAndPlaces, Subcategory.TransportWater, Font.Twemoji, R.drawable.ic_1f6f6),
+        EmojiIcon("Speedboat", "1f6a4", Category.TravelAndPlaces, Subcategory.TransportWater, Font.Twemoji, R.drawable.ic_1f6a4),
+        EmojiIcon("PassengerShip", "1f6f3", Category.TravelAndPlaces, Subcategory.TransportWater, Font.Twemoji, R.drawable.ic_1f6f3),
+        EmojiIcon("Ferry", "26f4", Category.TravelAndPlaces, Subcategory.TransportWater, Font.Twemoji, R.drawable.ic_26f4),
+        EmojiIcon("MotorBoat", "1f6e5", Category.TravelAndPlaces, Subcategory.TransportWater, Font.Twemoji, R.drawable.ic_1f6e5),
+        EmojiIcon("Ship", "1f6a2", Category.TravelAndPlaces, Subcategory.TransportWater, Font.Twemoji, R.drawable.ic_1f6a2)
+    )
+    // endregion
+
     // region All
     val all: List<EmojiIcon> = listOf(
         placeMap,
@@ -158,7 +171,8 @@ object TravelAndPlaces {
         placeBuilding,
         placeReligious,
         placeOther,
-        transportGround
+        transportGround,
+        transportWater
     ).flatten()
     // endregion
 
