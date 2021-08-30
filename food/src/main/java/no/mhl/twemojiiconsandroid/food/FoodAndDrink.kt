@@ -46,7 +46,8 @@ object FoodAndDrink {
         EmojiIcon("Garlic", "1f9c4", Category.FoodAndDrink, Subcategory.FoodVegetable, Font.Twemoji, R.drawable.ic_1f9c4),
         EmojiIcon("Onion", "1f9c5", Category.FoodAndDrink, Subcategory.FoodVegetable, Font.Twemoji, R.drawable.ic_1f9c5),
         EmojiIcon("Mushroom", "1f344", Category.FoodAndDrink, Subcategory.FoodVegetable, Font.Twemoji, R.drawable.ic_1f344),
-        EmojiIcon("Peanuts", "1f95c", Category.FoodAndDrink, Subcategory.FoodVegetable, Font.Twemoji, R.drawable.ic_1f95c)
+        EmojiIcon("Peanuts", "1f95c", Category.FoodAndDrink, Subcategory.FoodVegetable, Font.Twemoji, R.drawable.ic_1f95c),
+        EmojiIcon("Chestnut", "1f330", Category.FoodAndDrink, Subcategory.FoodVegetable, Font.Twemoji, R.drawable.ic_1f330)
     )
     // endregion
 
