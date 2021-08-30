@@ -90,11 +90,34 @@ object FoodAndDrink {
     )
     // endregion
 
+    // region Food asian
+    private val foodAsian: List<EmojiIcon> = listOf(
+        EmojiIcon("BentoBox", "1f371", Category.FoodAndDrink, Subcategory.FoodAsian, Font.Twemoji, R.drawable.ic_1f371),
+        EmojiIcon("RiceCracker", "1f358", Category.FoodAndDrink, Subcategory.FoodAsian, Font.Twemoji, R.drawable.ic_1f358),
+        EmojiIcon("RiceBall", "1f359", Category.FoodAndDrink, Subcategory.FoodAsian, Font.Twemoji, R.drawable.ic_1f359),
+        EmojiIcon("CookedRice", "1f35a", Category.FoodAndDrink, Subcategory.FoodAsian, Font.Twemoji, R.drawable.ic_1f35a),
+        EmojiIcon("CurryRice", "1f35b", Category.FoodAndDrink, Subcategory.FoodAsian, Font.Twemoji, R.drawable.ic_1f35b),
+        EmojiIcon("SteamingBowl", "1f35c", Category.FoodAndDrink, Subcategory.FoodAsian, Font.Twemoji, R.drawable.ic_1f35c),
+        EmojiIcon("Spaghetti", "1f35d", Category.FoodAndDrink, Subcategory.FoodAsian, Font.Twemoji, R.drawable.ic_1f35d),
+        EmojiIcon("RoastedSweetPotato", "1f360", Category.FoodAndDrink, Subcategory.FoodAsian, Font.Twemoji, R.drawable.ic_1f360),
+        EmojiIcon("Oden", "1f362", Category.FoodAndDrink, Subcategory.FoodAsian, Font.Twemoji, R.drawable.ic_1f362),
+        EmojiIcon("Sushi", "1f363", Category.FoodAndDrink, Subcategory.FoodAsian, Font.Twemoji, R.drawable.ic_1f363),
+        EmojiIcon("FriedShrimp", "1f364", Category.FoodAndDrink, Subcategory.FoodAsian, Font.Twemoji, R.drawable.ic_1f364),
+        EmojiIcon("FishCakeWithSwirl", "1f365", Category.FoodAndDrink, Subcategory.FoodAsian, Font.Twemoji, R.drawable.ic_1f365),
+        EmojiIcon("MoonCake", "1f96e", Category.FoodAndDrink, Subcategory.FoodAsian, Font.Twemoji, R.drawable.ic_1f96e),
+        EmojiIcon("Dango", "1f361", Category.FoodAndDrink, Subcategory.FoodAsian, Font.Twemoji, R.drawable.ic_1f361),
+        EmojiIcon("Dumpling", "1f95f", Category.FoodAndDrink, Subcategory.FoodAsian, Font.Twemoji, R.drawable.ic_1f95f),
+        EmojiIcon("FortuneCookie", "1f960", Category.FoodAndDrink, Subcategory.FoodAsian, Font.Twemoji, R.drawable.ic_1f960),
+        EmojiIcon("TakeoutBox", "1f961", Category.FoodAndDrink, Subcategory.FoodAsian, Font.Twemoji, R.drawable.ic_1f961)
+    )
+    // endregion
+
     // region All
     val all: List<EmojiIcon> = listOf(
         foodFruit,
         foodVegetable,
-        foodPrepared
+        foodPrepared,
+        foodAsian
     ).flatten()
     // endregion
 
