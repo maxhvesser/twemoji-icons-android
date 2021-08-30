@@ -19,8 +19,25 @@ object TravelAndPlaces {
     )
     // endregion
 
+    // region Place geographic
+    private val placeGeographic: List<EmojiIcon> = listOf(
+        EmojiIcon("SnowCappedMountain", "1f3d4", Category.TravelAndPlaces, Subcategory.PlaceMap, Font.Twemoji, R.drawable.ic_1f3d4),
+        EmojiIcon("Mountain", "26f0", Category.TravelAndPlaces, Subcategory.PlaceMap, Font.Twemoji, R.drawable.ic_26f0),
+        EmojiIcon("Volcano", "1f30b", Category.TravelAndPlaces, Subcategory.PlaceMap, Font.Twemoji, R.drawable.ic_1f30b),
+        EmojiIcon("MountFuji", "1f5fb", Category.TravelAndPlaces, Subcategory.PlaceMap, Font.Twemoji, R.drawable.ic_1f5fb),
+        EmojiIcon("Camping", "1f3d5", Category.TravelAndPlaces, Subcategory.PlaceMap, Font.Twemoji, R.drawable.ic_1f3d5),
+        EmojiIcon("BeachWithUmbrella", "1f3d6", Category.TravelAndPlaces, Subcategory.PlaceMap, Font.Twemoji, R.drawable.ic_1f3d6),
+        EmojiIcon("Desert", "1f3dc", Category.TravelAndPlaces, Subcategory.PlaceMap, Font.Twemoji, R.drawable.ic_1f3dc),
+        EmojiIcon("DesertIsland", "1f3dd", Category.TravelAndPlaces, Subcategory.PlaceMap, Font.Twemoji, R.drawable.ic_1f3dd),
+        EmojiIcon("NationalPark", "1f3de", Category.TravelAndPlaces, Subcategory.PlaceMap, Font.Twemoji, R.drawable.ic_1f3de)
+    )
+    // endregion
+
     // region All
-    val all: List<EmojiIcon> = listOf()
+    val all: List<EmojiIcon> = listOf(
+        placeMap,
+        placeGeographic
+    ).flatten()
     // endregion
 
 }
