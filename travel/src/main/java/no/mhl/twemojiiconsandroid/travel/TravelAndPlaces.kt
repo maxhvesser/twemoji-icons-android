@@ -189,6 +189,42 @@ object TravelAndPlaces {
     )
     // endregion
 
+    // region Time
+    private val time: List<EmojiIcon> = listOf(
+        EmojiIcon("HourglassDone", "231b", Category.TravelAndPlaces, Subcategory.Time, Font.Twemoji, R.drawable.ic_231b),
+        EmojiIcon("HourglassNotDone", "23f3", Category.TravelAndPlaces, Subcategory.Time, Font.Twemoji, R.drawable.ic_23f3),
+        EmojiIcon("Watch", "231a", Category.TravelAndPlaces, Subcategory.Time, Font.Twemoji, R.drawable.ic_231a),
+        EmojiIcon("AlarmClock", "23f0", Category.TravelAndPlaces, Subcategory.Time, Font.Twemoji, R.drawable.ic_23f0),
+        EmojiIcon("Stopwatch", "23f1", Category.TravelAndPlaces, Subcategory.Time, Font.Twemoji, R.drawable.ic_23f1),
+        EmojiIcon("TimerClock", "23f2", Category.TravelAndPlaces, Subcategory.Time, Font.Twemoji, R.drawable.ic_23f2),
+        EmojiIcon("MantelpieceClock", "1f570", Category.TravelAndPlaces, Subcategory.Time, Font.Twemoji, R.drawable.ic_1f570),
+        EmojiIcon("TwelveOClock", "1f55b", Category.TravelAndPlaces, Subcategory.Time, Font.Twemoji, R.drawable.ic_1f55b),
+        EmojiIcon("TwelveThirty", "1f567", Category.TravelAndPlaces, Subcategory.Time, Font.Twemoji, R.drawable.ic_1f567),
+        EmojiIcon("OneOClock", "1f550", Category.TravelAndPlaces, Subcategory.Time, Font.Twemoji, R.drawable.ic_1f550),
+        EmojiIcon("OneThirty", "1f55c", Category.TravelAndPlaces, Subcategory.Time, Font.Twemoji, R.drawable.ic_1f55c),
+        EmojiIcon("TwoOClock", "1f551", Category.TravelAndPlaces, Subcategory.Time, Font.Twemoji, R.drawable.ic_1f551),
+        EmojiIcon("TwoThirty", "1f55d", Category.TravelAndPlaces, Subcategory.Time, Font.Twemoji, R.drawable.ic_1f55d),
+        EmojiIcon("ThreeOClock", "1f552", Category.TravelAndPlaces, Subcategory.Time, Font.Twemoji, R.drawable.ic_1f552),
+        EmojiIcon("ThreeThirty", "1f55e", Category.TravelAndPlaces, Subcategory.Time, Font.Twemoji, R.drawable.ic_1f55e),
+        EmojiIcon("FourOClock", "1f553", Category.TravelAndPlaces, Subcategory.Time, Font.Twemoji, R.drawable.ic_1f553),
+        EmojiIcon("FourThirty", "1f55f", Category.TravelAndPlaces, Subcategory.Time, Font.Twemoji, R.drawable.ic_1f55f),
+        EmojiIcon("FiveOClock", "1f554", Category.TravelAndPlaces, Subcategory.Time, Font.Twemoji, R.drawable.ic_1f554),
+        EmojiIcon("FiveThirty", "1f560", Category.TravelAndPlaces, Subcategory.Time, Font.Twemoji, R.drawable.ic_1f560),
+        EmojiIcon("SixOClock", "1f555", Category.TravelAndPlaces, Subcategory.Time, Font.Twemoji, R.drawable.ic_1f555),
+        EmojiIcon("SixThirty", "1f561", Category.TravelAndPlaces, Subcategory.Time, Font.Twemoji, R.drawable.ic_1f561),
+        EmojiIcon("SevenOClock", "1f556", Category.TravelAndPlaces, Subcategory.Time, Font.Twemoji, R.drawable.ic_1f556),
+        EmojiIcon("SevenThirty", "1f562", Category.TravelAndPlaces, Subcategory.Time, Font.Twemoji, R.drawable.ic_1f562),
+        EmojiIcon("EightOClock", "1f557", Category.TravelAndPlaces, Subcategory.Time, Font.Twemoji, R.drawable.ic_1f557),
+        EmojiIcon("EightThirty", "1f563", Category.TravelAndPlaces, Subcategory.Time, Font.Twemoji, R.drawable.ic_1f563),
+        EmojiIcon("NineOClock", "1f558", Category.TravelAndPlaces, Subcategory.Time, Font.Twemoji, R.drawable.ic_1f558),
+        EmojiIcon("NineThirty", "1f564", Category.TravelAndPlaces, Subcategory.Time, Font.Twemoji, R.drawable.ic_1f564),
+        EmojiIcon("TenOClock", "1f559", Category.TravelAndPlaces, Subcategory.Time, Font.Twemoji, R.drawable.ic_1f559),
+        EmojiIcon("TenThirty", "1f565", Category.TravelAndPlaces, Subcategory.Time, Font.Twemoji, R.drawable.ic_1f565),
+        EmojiIcon("ElevenOClock", "1f55a", Category.TravelAndPlaces, Subcategory.Time, Font.Twemoji, R.drawable.ic_1f55a),
+        EmojiIcon("ElevenThirty", "1f566", Category.TravelAndPlaces, Subcategory.Time, Font.Twemoji, R.drawable.ic_1f566)
+    )
+    // endregion
+
     // region All
     val all: List<EmojiIcon> = listOf(
         placeMap,
@@ -199,7 +235,8 @@ object TravelAndPlaces {
         transportGround,
         transportWater,
         transportAir,
-        hotel
+        hotel,
+        time
     ).flatten()
     // endregion
 
