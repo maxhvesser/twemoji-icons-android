@@ -225,6 +225,58 @@ object TravelAndPlaces {
     )
     // endregion
 
+    // region Sky and weather
+    private val skyAndWeather: List<EmojiIcon> = listOf(
+        EmojiIcon("NewMoon", "1f311", Category.TravelAndPlaces, Subcategory.SkyAndWeather, Font.Twemoji, R.drawable.ic_1f311),
+        EmojiIcon("WaxingCrescentMoon", "1f312", Category.TravelAndPlaces, Subcategory.SkyAndWeather, Font.Twemoji, R.drawable.ic_1f312),
+        EmojiIcon("FirstQuarterMoon", "1f313", Category.TravelAndPlaces, Subcategory.SkyAndWeather, Font.Twemoji, R.drawable.ic_1f313),
+        EmojiIcon("WaxingGibbousMoon", "1f314", Category.TravelAndPlaces, Subcategory.SkyAndWeather, Font.Twemoji, R.drawable.ic_1f314),
+        EmojiIcon("FullMoon", "1f315", Category.TravelAndPlaces, Subcategory.SkyAndWeather, Font.Twemoji, R.drawable.ic_1f315),
+        EmojiIcon("WaningGibbousMoon", "1f316", Category.TravelAndPlaces, Subcategory.SkyAndWeather, Font.Twemoji, R.drawable.ic_1f316),
+        EmojiIcon("LastQuarterMoon", "1f317", Category.TravelAndPlaces, Subcategory.SkyAndWeather, Font.Twemoji, R.drawable.ic_1f317),
+        EmojiIcon("WaningCrescentMoon", "1f318", Category.TravelAndPlaces, Subcategory.SkyAndWeather, Font.Twemoji, R.drawable.ic_1f318),
+        EmojiIcon("CrescentMoon", "1f319", Category.TravelAndPlaces, Subcategory.SkyAndWeather, Font.Twemoji, R.drawable.ic_1f319),
+        EmojiIcon("NewMoonFace", "1f31a", Category.TravelAndPlaces, Subcategory.SkyAndWeather, Font.Twemoji, R.drawable.ic_1f31a),
+        EmojiIcon("FirstQuarterMoonFace", "1f31b", Category.TravelAndPlaces, Subcategory.SkyAndWeather, Font.Twemoji, R.drawable.ic_1f31b),
+        EmojiIcon("LastQuarterMoonFace", "1f31c", Category.TravelAndPlaces, Subcategory.SkyAndWeather, Font.Twemoji, R.drawable.ic_1f31c),
+        EmojiIcon("Thermometer", "1f321", Category.TravelAndPlaces, Subcategory.SkyAndWeather, Font.Twemoji, R.drawable.ic_1f321),
+        EmojiIcon("Sun", "2600", Category.TravelAndPlaces, Subcategory.SkyAndWeather, Font.Twemoji, R.drawable.ic_2600),
+        EmojiIcon("FullMoonFace", "1f31d", Category.TravelAndPlaces, Subcategory.SkyAndWeather, Font.Twemoji, R.drawable.ic_1f31d),
+        EmojiIcon("SunWithFace", "1f31e", Category.TravelAndPlaces, Subcategory.SkyAndWeather, Font.Twemoji, R.drawable.ic_1f31e),
+        EmojiIcon("RingedPlanet", "1fa90", Category.TravelAndPlaces, Subcategory.SkyAndWeather, Font.Twemoji, R.drawable.ic_1fa90),
+        EmojiIcon("Star", "2b50", Category.TravelAndPlaces, Subcategory.SkyAndWeather, Font.Twemoji, R.drawable.ic_2b50),
+        EmojiIcon("GlowingStar", "1f31f", Category.TravelAndPlaces, Subcategory.SkyAndWeather, Font.Twemoji, R.drawable.ic_1f31f),
+        EmojiIcon("ShootingStar", "1f320", Category.TravelAndPlaces, Subcategory.SkyAndWeather, Font.Twemoji, R.drawable.ic_1f320),
+        EmojiIcon("MilkyWay", "1f30c", Category.TravelAndPlaces, Subcategory.SkyAndWeather, Font.Twemoji, R.drawable.ic_1f30c),
+        EmojiIcon("Cloud", "2601", Category.TravelAndPlaces, Subcategory.SkyAndWeather, Font.Twemoji, R.drawable.ic_2601),
+        EmojiIcon("SunBehindCloud", "26c5", Category.TravelAndPlaces, Subcategory.SkyAndWeather, Font.Twemoji, R.drawable.ic_26c5),
+        EmojiIcon("CloudWithLightningAndRain", "26c8", Category.TravelAndPlaces, Subcategory.SkyAndWeather, Font.Twemoji, R.drawable.ic_26c8),
+        EmojiIcon("SunBehindSmallCloud", "1f324", Category.TravelAndPlaces, Subcategory.SkyAndWeather, Font.Twemoji, R.drawable.ic_1f324),
+        EmojiIcon("SunBehindLargeCloud", "1f325", Category.TravelAndPlaces, Subcategory.SkyAndWeather, Font.Twemoji, R.drawable.ic_1f325),
+        EmojiIcon("SunBehindRainCloud", "1f326", Category.TravelAndPlaces, Subcategory.SkyAndWeather, Font.Twemoji, R.drawable.ic_1f326),
+        EmojiIcon("CloudWithRain", "1f327", Category.TravelAndPlaces, Subcategory.SkyAndWeather, Font.Twemoji, R.drawable.ic_1f327),
+        EmojiIcon("CloudWithSnow", "1f328", Category.TravelAndPlaces, Subcategory.SkyAndWeather, Font.Twemoji, R.drawable.ic_1f328),
+        EmojiIcon("CloudWithLightning", "1f329", Category.TravelAndPlaces, Subcategory.SkyAndWeather, Font.Twemoji, R.drawable.ic_1f329),
+        EmojiIcon("Tornado", "1f32a", Category.TravelAndPlaces, Subcategory.SkyAndWeather, Font.Twemoji, R.drawable.ic_1f32a),
+        EmojiIcon("Fog", "1f32b", Category.TravelAndPlaces, Subcategory.SkyAndWeather, Font.Twemoji, R.drawable.ic_1f32b),
+        EmojiIcon("WindFace", "1f32c", Category.TravelAndPlaces, Subcategory.SkyAndWeather, Font.Twemoji, R.drawable.ic_1f32c),
+        EmojiIcon("Cyclone", "1f300", Category.TravelAndPlaces, Subcategory.SkyAndWeather, Font.Twemoji, R.drawable.ic_1f300),
+        EmojiIcon("Rainbow", "1f308", Category.TravelAndPlaces, Subcategory.SkyAndWeather, Font.Twemoji, R.drawable.ic_1f308),
+        EmojiIcon("ClosedUmbrella", "1f302", Category.TravelAndPlaces, Subcategory.SkyAndWeather, Font.Twemoji, R.drawable.ic_1f302),
+        EmojiIcon("Umbrella", "2602", Category.TravelAndPlaces, Subcategory.SkyAndWeather, Font.Twemoji, R.drawable.ic_2602),
+        EmojiIcon("UmbrellaWithRainDrops", "2614", Category.TravelAndPlaces, Subcategory.SkyAndWeather, Font.Twemoji, R.drawable.ic_2614),
+        EmojiIcon("UmbrellaOnGround", "26f1", Category.TravelAndPlaces, Subcategory.SkyAndWeather, Font.Twemoji, R.drawable.ic_26f1),
+        EmojiIcon("HighVoltage", "26a1", Category.TravelAndPlaces, Subcategory.SkyAndWeather, Font.Twemoji, R.drawable.ic_26a1),
+        EmojiIcon("Snowflake", "2744", Category.TravelAndPlaces, Subcategory.SkyAndWeather, Font.Twemoji, R.drawable.ic_2744),
+        EmojiIcon("Snowman", "2603", Category.TravelAndPlaces, Subcategory.SkyAndWeather, Font.Twemoji, R.drawable.ic_2603),
+        EmojiIcon("SnowmanWithoutSnow", "26c4", Category.TravelAndPlaces, Subcategory.SkyAndWeather, Font.Twemoji, R.drawable.ic_26c4),
+        EmojiIcon("Comet", "2604", Category.TravelAndPlaces, Subcategory.SkyAndWeather, Font.Twemoji, R.drawable.ic_2604),
+        EmojiIcon("Fire", "1f525", Category.TravelAndPlaces, Subcategory.SkyAndWeather, Font.Twemoji, R.drawable.ic_1f525),
+        EmojiIcon("Droplet", "1f4a7", Category.TravelAndPlaces, Subcategory.SkyAndWeather, Font.Twemoji, R.drawable.ic_1f4a7),
+        EmojiIcon("WaterWave", "1f30a", Category.TravelAndPlaces, Subcategory.SkyAndWeather, Font.Twemoji, R.drawable.ic_1f30a)
+    )
+    // endregion
+
     // region All
     val all: List<EmojiIcon> = listOf(
         placeMap,
@@ -236,7 +288,8 @@ object TravelAndPlaces {
         transportWater,
         transportAir,
         hotel,
-        time
+        time,
+        skyAndWeather
     ).flatten()
     // endregion
 
