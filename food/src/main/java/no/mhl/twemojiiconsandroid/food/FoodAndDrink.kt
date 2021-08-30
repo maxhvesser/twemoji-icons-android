@@ -141,6 +141,30 @@ object FoodAndDrink {
     )
     // endregion
 
+    // region Drink
+    private val drink: List<EmojiIcon> = listOf(
+        EmojiIcon("BabyBottle", "1f37c", Category.FoodAndDrink, Subcategory.Drink, Font.Twemoji, R.drawable.ic_1f37c),
+        EmojiIcon("GlassOfMilk", "1f95b", Category.FoodAndDrink, Subcategory.Drink, Font.Twemoji, R.drawable.ic_1f95b),
+        EmojiIcon("HotBeverage", "2615", Category.FoodAndDrink, Subcategory.Drink, Font.Twemoji, R.drawable.ic_2615),
+        EmojiIcon("Teapot", "1fad6", Category.FoodAndDrink, Subcategory.Drink, Font.Twemoji, R.drawable.ic_1fad6),
+        EmojiIcon("TeacupWithoutHandle", "1f375", Category.FoodAndDrink, Subcategory.Drink, Font.Twemoji, R.drawable.ic_1f375),
+        EmojiIcon("Sake", "1f376", Category.FoodAndDrink, Subcategory.Drink, Font.Twemoji, R.drawable.ic_1f376),
+        EmojiIcon("BottleWithPoppingCork", "1f37e", Category.FoodAndDrink, Subcategory.Drink, Font.Twemoji, R.drawable.ic_1f37e),
+        EmojiIcon("WineGlass", "1f377", Category.FoodAndDrink, Subcategory.Drink, Font.Twemoji, R.drawable.ic_1f377),
+        EmojiIcon("CocktailGlass", "1f378", Category.FoodAndDrink, Subcategory.Drink, Font.Twemoji, R.drawable.ic_1f378),
+        EmojiIcon("TropicalDrink", "1f379", Category.FoodAndDrink, Subcategory.Drink, Font.Twemoji, R.drawable.ic_1f379),
+        EmojiIcon("BeerMug", "1f37a", Category.FoodAndDrink, Subcategory.Drink, Font.Twemoji, R.drawable.ic_1f37a),
+        EmojiIcon("ClinkingBeerMugs", "1f37b", Category.FoodAndDrink, Subcategory.Drink, Font.Twemoji, R.drawable.ic_1f37b),
+        EmojiIcon("ClinkingGlasses", "1f942", Category.FoodAndDrink, Subcategory.Drink, Font.Twemoji, R.drawable.ic_1f942),
+        EmojiIcon("TumblerGlass", "1f943", Category.FoodAndDrink, Subcategory.Drink, Font.Twemoji, R.drawable.ic_1f943),
+        EmojiIcon("CupWithStraw", "1f964", Category.FoodAndDrink, Subcategory.Drink, Font.Twemoji, R.drawable.ic_1f964),
+        EmojiIcon("BubbleTea", "1f9cb", Category.FoodAndDrink, Subcategory.Drink, Font.Twemoji, R.drawable.ic_1f9cb),
+        EmojiIcon("BeverageBox", "1f9c3", Category.FoodAndDrink, Subcategory.Drink, Font.Twemoji, R.drawable.ic_1f9c3),
+        EmojiIcon("Mate", "1f9c9", Category.FoodAndDrink, Subcategory.Drink, Font.Twemoji, R.drawable.ic_1f9c9),
+        EmojiIcon("Ice", "1f9ca", Category.FoodAndDrink, Subcategory.Drink, Font.Twemoji, R.drawable.ic_1f9ca)
+    )
+    // endregion
+
     // region All
     val all: List<EmojiIcon> = listOf(
         foodFruit,
@@ -148,7 +172,8 @@ object FoodAndDrink {
         foodPrepared,
         foodAsian,
         foodMarine,
-        foodSweet
+        foodSweet,
+        drink
     ).flatten()
     // endregion
 
