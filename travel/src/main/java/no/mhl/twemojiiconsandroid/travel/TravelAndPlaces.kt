@@ -182,6 +182,13 @@ object TravelAndPlaces {
     )
     // endregion
 
+    // region Hotel
+    private val hotel: List<EmojiIcon> = listOf(
+        EmojiIcon("BellhopBell", "1f6ce", Category.TravelAndPlaces, Subcategory.Hotel, Font.Twemoji, R.drawable.ic_1f6ce),
+        EmojiIcon("Luggage", "1f9f3", Category.TravelAndPlaces, Subcategory.Hotel, Font.Twemoji, R.drawable.ic_1f9f3)
+    )
+    // endregion
+
     // region All
     val all: List<EmojiIcon> = listOf(
         placeMap,
@@ -191,7 +198,8 @@ object TravelAndPlaces {
         placeOther,
         transportGround,
         transportWater,
-        transportAir
+        transportAir,
+        hotel
     ).flatten()
     // endregion
 
