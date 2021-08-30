@@ -122,13 +122,33 @@ object FoodAndDrink {
     )
     // endregion
 
+    // region Food sweet
+    private val foodSweet: List<EmojiIcon> = listOf(
+        EmojiIcon("SoftIceCream", "1f366", Category.FoodAndDrink, Subcategory.FoodSweet, Font.Twemoji, R.drawable.ic_1f366),
+        EmojiIcon("ShavedIce", "1f367", Category.FoodAndDrink, Subcategory.FoodSweet, Font.Twemoji, R.drawable.ic_1f367),
+        EmojiIcon("IceCream", "1f368", Category.FoodAndDrink, Subcategory.FoodSweet, Font.Twemoji, R.drawable.ic_1f368),
+        EmojiIcon("Doughnut", "1f369", Category.FoodAndDrink, Subcategory.FoodSweet, Font.Twemoji, R.drawable.ic_1f369),
+        EmojiIcon("Cookie", "1f36a", Category.FoodAndDrink, Subcategory.FoodSweet, Font.Twemoji, R.drawable.ic_1f36a),
+        EmojiIcon("BirthdayCake", "1f382", Category.FoodAndDrink, Subcategory.FoodSweet, Font.Twemoji, R.drawable.ic_1f382),
+        EmojiIcon("Shortcake", "1f370", Category.FoodAndDrink, Subcategory.FoodSweet, Font.Twemoji, R.drawable.ic_1f370),
+        EmojiIcon("Cupcake", "1f9c1", Category.FoodAndDrink, Subcategory.FoodSweet, Font.Twemoji, R.drawable.ic_1f9c1),
+        EmojiIcon("Pie", "1f967", Category.FoodAndDrink, Subcategory.FoodSweet, Font.Twemoji, R.drawable.ic_1f967),
+        EmojiIcon("ChocolateBar", "1f36b", Category.FoodAndDrink, Subcategory.FoodSweet, Font.Twemoji, R.drawable.ic_1f36b),
+        EmojiIcon("Candy", "1f36c", Category.FoodAndDrink, Subcategory.FoodSweet, Font.Twemoji, R.drawable.ic_1f36c),
+        EmojiIcon("Lollipop", "1f36d", Category.FoodAndDrink, Subcategory.FoodSweet, Font.Twemoji, R.drawable.ic_1f36d),
+        EmojiIcon("Custard", "1f36e", Category.FoodAndDrink, Subcategory.FoodSweet, Font.Twemoji, R.drawable.ic_1f36e),
+        EmojiIcon("HoneyPot", "1f36f", Category.FoodAndDrink, Subcategory.FoodSweet, Font.Twemoji, R.drawable.ic_1f36f)
+    )
+    // endregion
+
     // region All
     val all: List<EmojiIcon> = listOf(
         foodFruit,
         foodVegetable,
         foodPrepared,
         foodAsian,
-        foodMarine
+        foodMarine,
+        foodSweet
     ).flatten()
     // endregion
 
