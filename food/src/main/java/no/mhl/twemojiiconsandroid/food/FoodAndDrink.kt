@@ -112,12 +112,23 @@ object FoodAndDrink {
     )
     // endregion
 
+    // region Food marine
+    private val foodMarine: List<EmojiIcon> = listOf(
+        EmojiIcon("Crab", "1f980", Category.FoodAndDrink, Subcategory.FoodMarine, Font.Twemoji, R.drawable.ic_1f980),
+        EmojiIcon("Lobster", "1f99e", Category.FoodAndDrink, Subcategory.FoodMarine, Font.Twemoji, R.drawable.ic_1f99e),
+        EmojiIcon("Shrimp", "1f990", Category.FoodAndDrink, Subcategory.FoodMarine, Font.Twemoji, R.drawable.ic_1f990),
+        EmojiIcon("Squid", "1f991", Category.FoodAndDrink, Subcategory.FoodMarine, Font.Twemoji, R.drawable.ic_1f991),
+        EmojiIcon("Oyster", "1f9aa", Category.FoodAndDrink, Subcategory.FoodMarine, Font.Twemoji, R.drawable.ic_1f9aa)
+    )
+    // endregion
+
     // region All
     val all: List<EmojiIcon> = listOf(
         foodFruit,
         foodVegetable,
         foodPrepared,
-        foodAsian
+        foodAsian,
+        foodMarine
     ).flatten()
     // endregion
 
