@@ -76,12 +76,34 @@ object TravelAndPlaces {
     )
     // endregion
 
+    // region Place other
+    private val placeOther: List<EmojiIcon> = listOf(
+        EmojiIcon("Fountain", "26f2", Category.TravelAndPlaces, Subcategory.PlaceOther, Font.Twemoji, R.drawable.ic_26f2),
+        EmojiIcon("Tent", "26fa", Category.TravelAndPlaces, Subcategory.PlaceOther, Font.Twemoji, R.drawable.ic_26fa),
+        EmojiIcon("Foggy", "1f301", Category.TravelAndPlaces, Subcategory.PlaceOther, Font.Twemoji, R.drawable.ic_1f301),
+        EmojiIcon("NightWithStars", "1f303", Category.TravelAndPlaces, Subcategory.PlaceOther, Font.Twemoji, R.drawable.ic_1f303),
+        EmojiIcon("Cityscape", "1f3d9", Category.TravelAndPlaces, Subcategory.PlaceOther, Font.Twemoji, R.drawable.ic_1f3d9),
+        EmojiIcon("SunriseOverMountains", "1f304", Category.TravelAndPlaces, Subcategory.PlaceOther, Font.Twemoji, R.drawable.ic_1f304),
+        EmojiIcon("Sunrise", "1f305", Category.TravelAndPlaces, Subcategory.PlaceOther, Font.Twemoji, R.drawable.ic_1f305),
+        EmojiIcon("CityscapeAtDusk", "1f306", Category.TravelAndPlaces, Subcategory.PlaceOther, Font.Twemoji, R.drawable.ic_1f306),
+        EmojiIcon("Sunset", "1f307", Category.TravelAndPlaces, Subcategory.PlaceOther, Font.Twemoji, R.drawable.ic_1f307),
+        EmojiIcon("BridgeAtNight", "1f309", Category.TravelAndPlaces, Subcategory.PlaceOther, Font.Twemoji, R.drawable.ic_1f309),
+        EmojiIcon("HotSprings", "2668", Category.TravelAndPlaces, Subcategory.PlaceOther, Font.Twemoji, R.drawable.ic_2668),
+        EmojiIcon("CarouselHorse", "1f3a0", Category.TravelAndPlaces, Subcategory.PlaceOther, Font.Twemoji, R.drawable.ic_1f3a0),
+        EmojiIcon("FerrisWheel", "1f3a1", Category.TravelAndPlaces, Subcategory.PlaceOther, Font.Twemoji, R.drawable.ic_1f3a1),
+        EmojiIcon("RollerCoaster", "1f3a2", Category.TravelAndPlaces, Subcategory.PlaceOther, Font.Twemoji, R.drawable.ic_1f3a2),
+        EmojiIcon("BarberPole", "1f488", Category.TravelAndPlaces, Subcategory.PlaceOther, Font.Twemoji, R.drawable.ic_1f488),
+        EmojiIcon("CircusTent", "1f3aa", Category.TravelAndPlaces, Subcategory.PlaceOther, Font.Twemoji, R.drawable.ic_1f3aa)
+    )
+    // endregion
+
     // region All
     val all: List<EmojiIcon> = listOf(
         placeMap,
         placeGeographic,
         placeBuilding,
-        placeReligious
+        placeReligious,
+        placeOther
     ).flatten()
     // endregion
 
