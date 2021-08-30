@@ -97,13 +97,68 @@ object TravelAndPlaces {
     )
     // endregion
 
+    // region Transport ground
+    private val transportGround: List<EmojiIcon> = listOf(
+        EmojiIcon("Locomotive", "1f682", Category.TravelAndPlaces, Subcategory.TransportGround, Font.Twemoji, R.drawable.ic_1f682),
+        EmojiIcon("RailwayCar", "1f683", Category.TravelAndPlaces, Subcategory.TransportGround, Font.Twemoji, R.drawable.ic_1f683),
+        EmojiIcon("HighSpeedTrain", "1f684", Category.TravelAndPlaces, Subcategory.TransportGround, Font.Twemoji, R.drawable.ic_1f684),
+        EmojiIcon("BulletTrain", "1f685", Category.TravelAndPlaces, Subcategory.TransportGround, Font.Twemoji, R.drawable.ic_1f685),
+        EmojiIcon("Train", "1f686", Category.TravelAndPlaces, Subcategory.TransportGround, Font.Twemoji, R.drawable.ic_1f686),
+        EmojiIcon("Metro", "1f687", Category.TravelAndPlaces, Subcategory.TransportGround, Font.Twemoji, R.drawable.ic_1f687),
+        EmojiIcon("LightRail", "1f688", Category.TravelAndPlaces, Subcategory.TransportGround, Font.Twemoji, R.drawable.ic_1f688),
+        EmojiIcon("Station", "1f689", Category.TravelAndPlaces, Subcategory.TransportGround, Font.Twemoji, R.drawable.ic_1f689),
+        EmojiIcon("Tram", "1f68a", Category.TravelAndPlaces, Subcategory.TransportGround, Font.Twemoji, R.drawable.ic_1f68a),
+        EmojiIcon("Monorail", "1f69d", Category.TravelAndPlaces, Subcategory.TransportGround, Font.Twemoji, R.drawable.ic_1f69d),
+        EmojiIcon("MountainRailway", "1f69e", Category.TravelAndPlaces, Subcategory.TransportGround, Font.Twemoji, R.drawable.ic_1f69e),
+        EmojiIcon("TramCar", "1f68b", Category.TravelAndPlaces, Subcategory.TransportGround, Font.Twemoji, R.drawable.ic_1f68b),
+        EmojiIcon("Bus", "1f68c", Category.TravelAndPlaces, Subcategory.TransportGround, Font.Twemoji, R.drawable.ic_1f68c),
+        EmojiIcon("OncomingBus", "1f68d", Category.TravelAndPlaces, Subcategory.TransportGround, Font.Twemoji, R.drawable.ic_1f68d),
+        EmojiIcon("Trolleybus", "1f68e", Category.TravelAndPlaces, Subcategory.TransportGround, Font.Twemoji, R.drawable.ic_1f68e),
+        EmojiIcon("Minibus", "1f690", Category.TravelAndPlaces, Subcategory.TransportGround, Font.Twemoji, R.drawable.ic_1f690),
+        EmojiIcon("Ambulance", "1f691", Category.TravelAndPlaces, Subcategory.TransportGround, Font.Twemoji, R.drawable.ic_1f691),
+        EmojiIcon("FireEngine", "1f692", Category.TravelAndPlaces, Subcategory.TransportGround, Font.Twemoji, R.drawable.ic_1f692),
+        EmojiIcon("PoliceCar", "1f693", Category.TravelAndPlaces, Subcategory.TransportGround, Font.Twemoji, R.drawable.ic_1f693),
+        EmojiIcon("OncomingPoliceCar", "1f694", Category.TravelAndPlaces, Subcategory.TransportGround, Font.Twemoji, R.drawable.ic_1f694),
+        EmojiIcon("Taxi", "1f695", Category.TravelAndPlaces, Subcategory.TransportGround, Font.Twemoji, R.drawable.ic_1f695),
+        EmojiIcon("OncomingTaxi", "1f696", Category.TravelAndPlaces, Subcategory.TransportGround, Font.Twemoji, R.drawable.ic_1f696),
+        EmojiIcon("Automobile", "1f697", Category.TravelAndPlaces, Subcategory.TransportGround, Font.Twemoji, R.drawable.ic_1f697),
+        EmojiIcon("OncomingAutomobile", "1f698", Category.TravelAndPlaces, Subcategory.TransportGround, Font.Twemoji, R.drawable.ic_1f698),
+        EmojiIcon("SportUtilityVehicle", "1f699", Category.TravelAndPlaces, Subcategory.TransportGround, Font.Twemoji, R.drawable.ic_1f699),
+        EmojiIcon("PickupTruck", "1f6fb", Category.TravelAndPlaces, Subcategory.TransportGround, Font.Twemoji, R.drawable.ic_1f6fb),
+        EmojiIcon("DeliveryTruck", "1f69a", Category.TravelAndPlaces, Subcategory.TransportGround, Font.Twemoji, R.drawable.ic_1f69a),
+        EmojiIcon("ArticulatedLorry", "1f69b", Category.TravelAndPlaces, Subcategory.TransportGround, Font.Twemoji, R.drawable.ic_1f69b),
+        EmojiIcon("Tractor", "1f69c", Category.TravelAndPlaces, Subcategory.TransportGround, Font.Twemoji, R.drawable.ic_1f69c),
+        EmojiIcon("RacingCar", "1f3ce", Category.TravelAndPlaces, Subcategory.TransportGround, Font.Twemoji, R.drawable.ic_1f3ce),
+        EmojiIcon("Motorcycle", "1f3cd", Category.TravelAndPlaces, Subcategory.TransportGround, Font.Twemoji, R.drawable.ic_1f3cd),
+        EmojiIcon("MotorScooter", "1f6f5", Category.TravelAndPlaces, Subcategory.TransportGround, Font.Twemoji, R.drawable.ic_1f6f5),
+        EmojiIcon("ManualWheelchair", "1f9bd", Category.TravelAndPlaces, Subcategory.TransportGround, Font.Twemoji, R.drawable.ic_1f9bd),
+        EmojiIcon("MotorizedWheelchair", "1f9bc", Category.TravelAndPlaces, Subcategory.TransportGround, Font.Twemoji, R.drawable.ic_1f9bc),
+        EmojiIcon("AutoRickshaw", "1f6fa", Category.TravelAndPlaces, Subcategory.TransportGround, Font.Twemoji, R.drawable.ic_1f6fa),
+        EmojiIcon("Bicycle", "1f6b2", Category.TravelAndPlaces, Subcategory.TransportGround, Font.Twemoji, R.drawable.ic_1f6b2),
+        EmojiIcon("KickScooter", "1f6f4", Category.TravelAndPlaces, Subcategory.TransportGround, Font.Twemoji, R.drawable.ic_1f6f4),
+        EmojiIcon("Skateboard", "1f6f9", Category.TravelAndPlaces, Subcategory.TransportGround, Font.Twemoji, R.drawable.ic_1f6f9),
+        EmojiIcon("RollerSkate", "1f6fc", Category.TravelAndPlaces, Subcategory.TransportGround, Font.Twemoji, R.drawable.ic_1f6fc),
+        EmojiIcon("BusStop", "1f68f", Category.TravelAndPlaces, Subcategory.TransportGround, Font.Twemoji, R.drawable.ic_1f68f),
+        EmojiIcon("Motorway", "1f6e3", Category.TravelAndPlaces, Subcategory.TransportGround, Font.Twemoji, R.drawable.ic_1f6e3),
+        EmojiIcon("RailwayTrack", "1f6e4", Category.TravelAndPlaces, Subcategory.TransportGround, Font.Twemoji, R.drawable.ic_1f6e4),
+        EmojiIcon("OilDrum", "1f6e2", Category.TravelAndPlaces, Subcategory.TransportGround, Font.Twemoji, R.drawable.ic_1f6e2),
+        EmojiIcon("FuelPump", "26fd", Category.TravelAndPlaces, Subcategory.TransportGround, Font.Twemoji, R.drawable.ic_26fd),
+        EmojiIcon("PoliceCarLight", "1f6a8", Category.TravelAndPlaces, Subcategory.TransportGround, Font.Twemoji, R.drawable.ic_1f6a8),
+        EmojiIcon("HorizontalTrafficLight", "1f6a5", Category.TravelAndPlaces, Subcategory.TransportGround, Font.Twemoji, R.drawable.ic_1f6a5),
+        EmojiIcon("VerticalTrafficLight", "1f6a6", Category.TravelAndPlaces, Subcategory.TransportGround, Font.Twemoji, R.drawable.ic_1f6a6),
+        EmojiIcon("StopSign", "1f6d1", Category.TravelAndPlaces, Subcategory.TransportGround, Font.Twemoji, R.drawable.ic_1f6d1),
+        EmojiIcon("Construction", "1f6a7", Category.TravelAndPlaces, Subcategory.TransportGround, Font.Twemoji, R.drawable.ic_1f6a7)
+    )
+    // endregion
+
     // region All
     val all: List<EmojiIcon> = listOf(
         placeMap,
         placeGeographic,
         placeBuilding,
         placeReligious,
-        placeOther
+        placeOther,
+        transportGround
     ).flatten()
     // endregion
 
