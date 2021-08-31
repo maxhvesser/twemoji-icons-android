@@ -46,7 +46,7 @@ object Activities {
 
     // region Sport
     private val sport: List<EmojiIcon> = listOf(
-        EmojiIcon("SoccerBall", "26bd", Category.Activities, Subcategory.Sport, Font.Twemoji, R.drawable.ic_26bd),,
+        EmojiIcon("SoccerBall", "26bd", Category.Activities, Subcategory.Sport, Font.Twemoji, R.drawable.ic_26bd),
         EmojiIcon("Baseball", "26be", Category.Activities, Subcategory.Sport, Font.Twemoji, R.drawable.ic_26be),
         EmojiIcon("Softball", "1f94e", Category.Activities, Subcategory.Sport, Font.Twemoji, R.drawable.ic_1f94e),
         EmojiIcon("Basketball", "1f3c0", Category.Activities, Subcategory.Sport, Font.Twemoji, R.drawable.ic_1f3c0),
