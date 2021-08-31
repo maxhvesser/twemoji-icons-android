@@ -38,9 +38,9 @@ object Activities {
         EmojiIcon("MilitaryMedal", "1f396", Category.Activities, Subcategory.AwardMedal, Font.Twemoji, R.drawable.ic_1f396),
         EmojiIcon("Trophy", "1f3c6", Category.Activities, Subcategory.AwardMedal, Font.Twemoji, R.drawable.ic_1f3c6),
         EmojiIcon("SportsMedal", "1f3c5", Category.Activities, Subcategory.AwardMedal, Font.Twemoji, R.drawable.ic_1f3c5),
-        EmojiIcon("StPlaceMedal", "1f947", Category.Activities, Subcategory.AwardMedal, Font.Twemoji, R.drawable.ic_1f947),
-        EmojiIcon("NdPlaceMedal", "1f948", Category.Activities, Subcategory.AwardMedal, Font.Twemoji, R.drawable.ic_1f948),
-        EmojiIcon("RdPlaceMedal", "1f949", Category.Activities, Subcategory.AwardMedal, Font.Twemoji, R.drawable.ic_1f949)
+        EmojiIcon("FirstPlaceMedal", "1f947", Category.Activities, Subcategory.AwardMedal, Font.Twemoji, R.drawable.ic_1f947),
+        EmojiIcon("SecondPlaceMedal", "1f948", Category.Activities, Subcategory.AwardMedal, Font.Twemoji, R.drawable.ic_1f948),
+        EmojiIcon("ThirdPlaceMedal", "1f949", Category.Activities, Subcategory.AwardMedal, Font.Twemoji, R.drawable.ic_1f949)
     )
     // endregion
 
