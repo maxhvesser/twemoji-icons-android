@@ -44,10 +44,43 @@ object Activities {
     )
     // endregion
 
+    // region Sport
+    private val sport: List<EmojiIcon> = listOf(
+        EmojiIcon("SoccerBall", "26bd", Category.Activities, Subcategory.Sport, Font.Twemoji, R.drawable.ic_26bd),,
+        EmojiIcon("Baseball", "26be", Category.Activities, Subcategory.Sport, Font.Twemoji, R.drawable.ic_26be),
+        EmojiIcon("Softball", "1f94e", Category.Activities, Subcategory.Sport, Font.Twemoji, R.drawable.ic_1f94e),
+        EmojiIcon("Basketball", "1f3c0", Category.Activities, Subcategory.Sport, Font.Twemoji, R.drawable.ic_1f3c0),
+        EmojiIcon("Volleyball", "1f3d0", Category.Activities, Subcategory.Sport, Font.Twemoji, R.drawable.ic_1f3d0),
+        EmojiIcon("AmericanFootball", "1f3c8", Category.Activities, Subcategory.Sport, Font.Twemoji, R.drawable.ic_1f3c8),
+        EmojiIcon("RugbyFootball", "1f3c9", Category.Activities, Subcategory.Sport, Font.Twemoji, R.drawable.ic_1f3c9),
+        EmojiIcon("Tennis", "1f3be", Category.Activities, Subcategory.Sport, Font.Twemoji, R.drawable.ic_1f3be),
+        EmojiIcon("FlyingDisc", "1f94f", Category.Activities, Subcategory.Sport, Font.Twemoji, R.drawable.ic_1f94f),
+        EmojiIcon("Bowling", "1f3b3", Category.Activities, Subcategory.Sport, Font.Twemoji, R.drawable.ic_1f3b3),
+        EmojiIcon("CricketGame", "1f3cf", Category.Activities, Subcategory.Sport, Font.Twemoji, R.drawable.ic_1f3cf),
+        EmojiIcon("FieldHockey", "1f3d1", Category.Activities, Subcategory.Sport, Font.Twemoji, R.drawable.ic_1f3d1),
+        EmojiIcon("IceHockey", "1f3d2", Category.Activities, Subcategory.Sport, Font.Twemoji, R.drawable.ic_1f3d2),
+        EmojiIcon("Lacrosse", "1f94d", Category.Activities, Subcategory.Sport, Font.Twemoji, R.drawable.ic_1f94d),
+        EmojiIcon("PingPong", "1f3d3", Category.Activities, Subcategory.Sport, Font.Twemoji, R.drawable.ic_1f3d3),
+        EmojiIcon("Badminton", "1f3f8", Category.Activities, Subcategory.Sport, Font.Twemoji, R.drawable.ic_1f3f8),
+        EmojiIcon("BoxingGlove", "1f94a", Category.Activities, Subcategory.Sport, Font.Twemoji, R.drawable.ic_1f94a),
+        EmojiIcon("MartialArtsUniform", "1f94b", Category.Activities, Subcategory.Sport, Font.Twemoji, R.drawable.ic_1f94b),
+        EmojiIcon("GoalNet", "1f945", Category.Activities, Subcategory.Sport, Font.Twemoji, R.drawable.ic_1f945),
+        EmojiIcon("FlagInHole", "26f3", Category.Activities, Subcategory.Sport, Font.Twemoji, R.drawable.ic_26f3),
+        EmojiIcon("IceSkate", "26f8", Category.Activities, Subcategory.Sport, Font.Twemoji, R.drawable.ic_26f8),
+        EmojiIcon("FishingPole", "1f3a3", Category.Activities, Subcategory.Sport, Font.Twemoji, R.drawable.ic_1f3a3),
+        EmojiIcon("DivingMask", "1f93f", Category.Activities, Subcategory.Sport, Font.Twemoji, R.drawable.ic_1f93f),
+        EmojiIcon("RunningShirt", "1f3bd", Category.Activities, Subcategory.Sport, Font.Twemoji, R.drawable.ic_1f3bd),
+        EmojiIcon("Skis", "1f3bf", Category.Activities, Subcategory.Sport, Font.Twemoji, R.drawable.ic_1f3bf),
+        EmojiIcon("Sled", "1f6f7", Category.Activities, Subcategory.Sport, Font.Twemoji, R.drawable.ic_1f6f7),
+        EmojiIcon("CurlingStone", "1f94c", Category.Activities, Subcategory.Sport, Font.Twemoji, R.drawable.ic_1f94c)
+    )
+    // endregion
+
     // region All
     val all: List<EmojiIcon> = listOf(
         event,
-        awardMedal
+        awardMedal,
+        sport
     ).flatten()
     // endregion
 
