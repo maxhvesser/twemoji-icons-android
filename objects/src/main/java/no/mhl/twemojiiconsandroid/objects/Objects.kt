@@ -216,6 +216,34 @@ object Objects {
     )
     // endregion
 
+    // region Office
+    private val office: List<EmojiIcon> = listOf(
+        EmojiIcon("Briefcase", "1f4bc", Category.Objects, Subcategory.Office, Font.Twemoji, R.drawable.ic_1f4bc),
+        EmojiIcon("FileFolder", "1f4c1", Category.Objects, Subcategory.Office, Font.Twemoji, R.drawable.ic_1f4c1),
+        EmojiIcon("OpenFileFolder", "1f4c2", Category.Objects, Subcategory.Office, Font.Twemoji, R.drawable.ic_1f4c2),
+        EmojiIcon("CardIndexDividers", "1f5c2", Category.Objects, Subcategory.Office, Font.Twemoji, R.drawable.ic_1f5c2),
+        EmojiIcon("Calendar", "1f4c5", Category.Objects, Subcategory.Office, Font.Twemoji, R.drawable.ic_1f4c5),
+        EmojiIcon("TearOffCalendar", "1f4c6", Category.Objects, Subcategory.Office, Font.Twemoji, R.drawable.ic_1f4c6),
+        EmojiIcon("SpiralNotepad", "1f5d2", Category.Objects, Subcategory.Office, Font.Twemoji, R.drawable.ic_1f5d2),
+        EmojiIcon("SpiralCalendar", "1f5d3", Category.Objects, Subcategory.Office, Font.Twemoji, R.drawable.ic_1f5d3),
+        EmojiIcon("CardIndex", "1f4c7", Category.Objects, Subcategory.Office, Font.Twemoji, R.drawable.ic_1f4c7),
+        EmojiIcon("ChartIncreasing", "1f4c8", Category.Objects, Subcategory.Office, Font.Twemoji, R.drawable.ic_1f4c8),
+        EmojiIcon("ChartDecreasing", "1f4c9", Category.Objects, Subcategory.Office, Font.Twemoji, R.drawable.ic_1f4c9),
+        EmojiIcon("BarChart", "1f4ca", Category.Objects, Subcategory.Office, Font.Twemoji, R.drawable.ic_1f4ca),
+        EmojiIcon("Clipboard", "1f4cb", Category.Objects, Subcategory.Office, Font.Twemoji, R.drawable.ic_1f4cb),
+        EmojiIcon("Pushpin", "1f4cc", Category.Objects, Subcategory.Office, Font.Twemoji, R.drawable.ic_1f4cc),
+        EmojiIcon("RoundPushpin", "1f4cd", Category.Objects, Subcategory.Office, Font.Twemoji, R.drawable.ic_1f4cd),
+        EmojiIcon("Paperclip", "1f4ce", Category.Objects, Subcategory.Office, Font.Twemoji, R.drawable.ic_1f4ce),
+        EmojiIcon("LinkedPaperclips", "1f587", Category.Objects, Subcategory.Office, Font.Twemoji, R.drawable.ic_1f587),
+        EmojiIcon("StraightRuler", "1f4cf", Category.Objects, Subcategory.Office, Font.Twemoji, R.drawable.ic_1f4cf),
+        EmojiIcon("TriangularRuler", "1f4d0", Category.Objects, Subcategory.Office, Font.Twemoji, R.drawable.ic_1f4d0),
+        EmojiIcon("Scissors", "2702", Category.Objects, Subcategory.Office, Font.Twemoji, R.drawable.ic_2702),
+        EmojiIcon("CardFileBox", "1f5c3", Category.Objects, Subcategory.Office, Font.Twemoji, R.drawable.ic_1f5c3),
+        EmojiIcon("FileCabinet", "1f5c4", Category.Objects, Subcategory.Office, Font.Twemoji, R.drawable.ic_1f5c4),
+        EmojiIcon("Wastebasket", "1f5d1", Category.Objects, Subcategory.Office, Font.Twemoji, R.drawable.ic_1f5d1)
+    )
+    // endregion
+
     // region All
     val all: List<EmojiIcon> = listOf(
         clothing,
@@ -228,7 +256,8 @@ object Objects {
         bookPaper,
         money,
         mail,
-        writing
+        writing,
+        office
     ).flatten()
     // endregion
 
