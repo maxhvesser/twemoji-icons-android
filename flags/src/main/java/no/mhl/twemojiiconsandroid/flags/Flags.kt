@@ -282,10 +282,19 @@ object Flags {
     )
     // endregion
 
+    // region Subdivision flag
+    private val subdivisionFlag: List<EmojiIcon> = listOf(
+        EmojiIcon("FlagEngland", "1f3f4-e0067-e0062-e0065-e006e-e0067-e007f", Category.Flags, Subcategory.SubdivisionFlag, Font.Twemoji, R.drawable.ic_1f3f4_e0067_e0062_e0065_e006e_e0067_e007f),
+        EmojiIcon("FlagScotland", "1f3f4-e0067-e0062-e0073-e0063-e0074-e007f", Category.Flags, Subcategory.SubdivisionFlag, Font.Twemoji, R.drawable.ic_1f3f4_e0067_e0062_e0073_e0063_e0074_e007f),
+        EmojiIcon("FlagWales", "1f3f4-e0067-e0062-e0077-e006c-e0073-e007f", Category.Flags, Subcategory.SubdivisionFlag, Font.Twemoji, R.drawable.ic_1f3f4_e0067_e0062_e0077_e006c_e0073_e007f)
+    )
+    // endregion
+
     // region All
     val all: List<EmojiIcon> = listOf(
         flag,
-        countryFlag
+        countryFlag,
+        subdivisionFlag
     ).flatten()
     // endregion
 
