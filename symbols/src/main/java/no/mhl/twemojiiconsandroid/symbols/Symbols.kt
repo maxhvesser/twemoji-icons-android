@@ -258,6 +258,45 @@ object Symbols {
     )
     // endregion
 
+    // region Geometric
+    private val geometric: List<EmojiIcon> = listOf(
+        EmojiIcon("RedCircle", "1f534", Category.Symbols, Subcategory.Geometric, Font.Twemoji, R.drawable.ic_1f534),
+        EmojiIcon("OrangeCircle", "1f7e0", Category.Symbols, Subcategory.Geometric, Font.Twemoji, R.drawable.ic_1f7e0),
+        EmojiIcon("YellowCircle", "1f7e1", Category.Symbols, Subcategory.Geometric, Font.Twemoji, R.drawable.ic_1f7e1),
+        EmojiIcon("GreenCircle", "1f7e2", Category.Symbols, Subcategory.Geometric, Font.Twemoji, R.drawable.ic_1f7e2),
+        EmojiIcon("BlueCircle", "1f535", Category.Symbols, Subcategory.Geometric, Font.Twemoji, R.drawable.ic_1f535),
+        EmojiIcon("PurpleCircle", "1f7e3", Category.Symbols, Subcategory.Geometric, Font.Twemoji, R.drawable.ic_1f7e3),
+        EmojiIcon("BrownCircle", "1f7e4", Category.Symbols, Subcategory.Geometric, Font.Twemoji, R.drawable.ic_1f7e4),
+        EmojiIcon("BlackCircle", "26ab", Category.Symbols, Subcategory.Geometric, Font.Twemoji, R.drawable.ic_26ab),
+        EmojiIcon("WhiteCircle", "26aa", Category.Symbols, Subcategory.Geometric, Font.Twemoji, R.drawable.ic_26aa),
+        EmojiIcon("RedSquare", "1f7e5", Category.Symbols, Subcategory.Geometric, Font.Twemoji, R.drawable.ic_1f7e5),
+        EmojiIcon("OrangeSquare", "1f7e7", Category.Symbols, Subcategory.Geometric, Font.Twemoji, R.drawable.ic_1f7e7),
+        EmojiIcon("YellowSquare", "1f7e8", Category.Symbols, Subcategory.Geometric, Font.Twemoji, R.drawable.ic_1f7e8),
+        EmojiIcon("GreenSquare", "1f7e9", Category.Symbols, Subcategory.Geometric, Font.Twemoji, R.drawable.ic_1f7e9),
+        EmojiIcon("BlueSquare", "1f7e6", Category.Symbols, Subcategory.Geometric, Font.Twemoji, R.drawable.ic_1f7e6),
+        EmojiIcon("PurpleSquare", "1f7ea", Category.Symbols, Subcategory.Geometric, Font.Twemoji, R.drawable.ic_1f7ea),
+        EmojiIcon("BrownSquare", "1f7eb", Category.Symbols, Subcategory.Geometric, Font.Twemoji, R.drawable.ic_1f7eb),
+        EmojiIcon("BlackLargeSquare", "2b1b", Category.Symbols, Subcategory.Geometric, Font.Twemoji, R.drawable.ic_2b1b),
+        EmojiIcon("WhiteLargeSquare", "2b1c", Category.Symbols, Subcategory.Geometric, Font.Twemoji, R.drawable.ic_2b1c),
+        EmojiIcon("BlackMediumSquare", "25fc", Category.Symbols, Subcategory.Geometric, Font.Twemoji, R.drawable.ic_25fc),
+        EmojiIcon("WhiteMediumSquare", "25fb", Category.Symbols, Subcategory.Geometric, Font.Twemoji, R.drawable.ic_25fb),
+        EmojiIcon("BlackMediumSmallSquare", "25fe", Category.Symbols, Subcategory.Geometric, Font.Twemoji, R.drawable.ic_25fe),
+        EmojiIcon("WhiteMediumSmallSquare", "25fd", Category.Symbols, Subcategory.Geometric, Font.Twemoji, R.drawable.ic_25fd),
+        EmojiIcon("BlackSmallSquare", "25aa", Category.Symbols, Subcategory.Geometric, Font.Twemoji, R.drawable.ic_25aa),
+        EmojiIcon("WhiteSmallSquare", "25ab", Category.Symbols, Subcategory.Geometric, Font.Twemoji, R.drawable.ic_25ab),
+        EmojiIcon("LargeOrangeDiamond", "1f536", Category.Symbols, Subcategory.Geometric, Font.Twemoji, R.drawable.ic_1f536),
+        EmojiIcon("LargeBlueDiamond", "1f537", Category.Symbols, Subcategory.Geometric, Font.Twemoji, R.drawable.ic_1f537),
+        EmojiIcon("SmallOrangeDiamond", "1f538", Category.Symbols, Subcategory.Geometric, Font.Twemoji, R.drawable.ic_1f538),
+        EmojiIcon("SmallBlueDiamond", "1f539", Category.Symbols, Subcategory.Geometric, Font.Twemoji, R.drawable.ic_1f539),
+        EmojiIcon("RedTrianglePointedUp", "1f53a", Category.Symbols, Subcategory.Geometric, Font.Twemoji, R.drawable.ic_1f53a),
+        EmojiIcon("RedTrianglePointedDown", "1f53b", Category.Symbols, Subcategory.Geometric, Font.Twemoji, R.drawable.ic_1f53b),
+        EmojiIcon("DiamondWithADot", "1f4a0", Category.Symbols, Subcategory.Geometric, Font.Twemoji, R.drawable.ic_1f4a0),
+        EmojiIcon("RadioButton", "1f518", Category.Symbols, Subcategory.Geometric, Font.Twemoji, R.drawable.ic_1f518),
+        EmojiIcon("WhiteSquareButton", "1f533", Category.Symbols, Subcategory.Geometric, Font.Twemoji, R.drawable.ic_1f533),
+        EmojiIcon("BlackSquareButton", "1f532", Category.Symbols, Subcategory.Geometric, Font.Twemoji, R.drawable.ic_1f532)
+    )
+    // endregion
+
     // region All
     val all: List<EmojiIcon> = listOf(
         transportSign,
@@ -272,7 +311,8 @@ object Symbols {
         currency,
         otherSymbol,
         keycap,
-        alphanum
+        alphanum,
+        geometric
     ).flatten()
     // endregion
 
