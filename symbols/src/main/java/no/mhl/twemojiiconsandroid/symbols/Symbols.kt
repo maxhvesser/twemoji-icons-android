@@ -141,6 +141,16 @@ object Symbols {
     )
     // endregion
 
+    // region Math
+    private val math: List<EmojiIcon> = listOf(
+        EmojiIcon("Multiply", "2716", Category.Symbols, Subcategory.Math, Font.Twemoji, R.drawable.ic_2716),
+        EmojiIcon("Plus", "2795", Category.Symbols, Subcategory.Math, Font.Twemoji, R.drawable.ic_2795),
+        EmojiIcon("Minus", "2796", Category.Symbols, Subcategory.Math, Font.Twemoji, R.drawable.ic_2796),
+        EmojiIcon("Divide", "2797", Category.Symbols, Subcategory.Math, Font.Twemoji, R.drawable.ic_2797),
+        EmojiIcon("Infinity", "267e", Category.Symbols, Subcategory.Math, Font.Twemoji, R.drawable.ic_267e)
+    )
+    // endregion
+
     // region All
     val all: List<EmojiIcon> = listOf(
         transportSign,
@@ -149,7 +159,8 @@ object Symbols {
         religion,
         zodiac,
         avSymbol,
-        gender
+        gender,
+        math
     ).flatten()
     // endregion
 
