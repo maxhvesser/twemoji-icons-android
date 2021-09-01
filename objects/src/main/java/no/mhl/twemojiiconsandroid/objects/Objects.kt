@@ -285,6 +285,18 @@ object Objects {
     )
     // endregion
 
+    // region Science
+    private val science: List<EmojiIcon> = listOf(
+        EmojiIcon("Alembic", "2697", Category.Objects, Subcategory.Science, Font.Twemoji, R.drawable.ic_2697),
+        EmojiIcon("TestTube", "1f9ea", Category.Objects, Subcategory.Science, Font.Twemoji, R.drawable.ic_1f9ea),
+        EmojiIcon("PetriDish", "1f9eb", Category.Objects, Subcategory.Science, Font.Twemoji, R.drawable.ic_1f9eb),
+        EmojiIcon("Dna", "1f9ec", Category.Objects, Subcategory.Science, Font.Twemoji, R.drawable.ic_1f9ec),
+        EmojiIcon("Microscope", "1f52c", Category.Objects, Subcategory.Science, Font.Twemoji, R.drawable.ic_1f52c),
+        EmojiIcon("Telescope", "1f52d", Category.Objects, Subcategory.Science, Font.Twemoji, R.drawable.ic_1f52d),
+        EmojiIcon("SatelliteAntenna", "1f4e1", Category.Objects, Subcategory.Science, Font.Twemoji, R.drawable.ic_1f4e1)
+    )
+    // endregion
+
     // region All
     val all: List<EmojiIcon> = listOf(
         clothing,
@@ -300,7 +312,8 @@ object Objects {
         writing,
         office,
         lock,
-        tool
+        tool,
+        science
     ).flatten()
     // endregion
 
