@@ -86,12 +86,31 @@ object Symbols {
     )
     // endregion
 
+    // region Zodiac
+    private val zodiac: List<EmojiIcon> = listOf(
+        EmojiIcon("Aries", "2648", Category.Symbols, Subcategory.Zodiac, Font.Twemoji, R.drawable.ic_2648),
+        EmojiIcon("Taurus", "2649", Category.Symbols, Subcategory.Zodiac, Font.Twemoji, R.drawable.ic_2649),
+        EmojiIcon("Gemini", "264a", Category.Symbols, Subcategory.Zodiac, Font.Twemoji, R.drawable.ic_264a),
+        EmojiIcon("Cancer", "264b", Category.Symbols, Subcategory.Zodiac, Font.Twemoji, R.drawable.ic_264b),
+        EmojiIcon("Leo", "264c", Category.Symbols, Subcategory.Zodiac, Font.Twemoji, R.drawable.ic_264c),
+        EmojiIcon("Virgo", "264d", Category.Symbols, Subcategory.Zodiac, Font.Twemoji, R.drawable.ic_264d),
+        EmojiIcon("Libra", "264e", Category.Symbols, Subcategory.Zodiac, Font.Twemoji, R.drawable.ic_264e),
+        EmojiIcon("Scorpio", "264f", Category.Symbols, Subcategory.Zodiac, Font.Twemoji, R.drawable.ic_264f),
+        EmojiIcon("Sagittarius", "2650", Category.Symbols, Subcategory.Zodiac, Font.Twemoji, R.drawable.ic_2650),
+        EmojiIcon("Capricorn", "2651", Category.Symbols, Subcategory.Zodiac, Font.Twemoji, R.drawable.ic_2651),
+        EmojiIcon("Aquarius", "2652", Category.Symbols, Subcategory.Zodiac, Font.Twemoji, R.drawable.ic_2652),
+        EmojiIcon("Pisces", "2653", Category.Symbols, Subcategory.Zodiac, Font.Twemoji, R.drawable.ic_2653),
+        EmojiIcon("Ophiuchus", "26ce", Category.Symbols, Subcategory.Zodiac, Font.Twemoji, R.drawable.ic_26ce)
+    )
+    // endregion
+
     // region All
     val all: List<EmojiIcon> = listOf(
         transportSign,
         warning,
         arrow,
-        religion
+        religion,
+        zodiac
     ).flatten()
     // endregion
 
