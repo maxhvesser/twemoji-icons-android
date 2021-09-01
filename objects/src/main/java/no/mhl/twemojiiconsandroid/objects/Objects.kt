@@ -255,6 +255,36 @@ object Objects {
     )
     // endregion
 
+    // region Tool
+    private val tool: List<EmojiIcon> = listOf(
+        EmojiIcon("Hammer", "1f528", Category.Objects, Subcategory.Tool, Font.Twemoji, R.drawable.ic_1f528),
+        EmojiIcon("Axe", "1fa93", Category.Objects, Subcategory.Tool, Font.Twemoji, R.drawable.ic_1fa93),
+        EmojiIcon("Pick", "26cf", Category.Objects, Subcategory.Tool, Font.Twemoji, R.drawable.ic_26cf),
+        EmojiIcon("HammerAndPick", "2692", Category.Objects, Subcategory.Tool, Font.Twemoji, R.drawable.ic_2692),
+        EmojiIcon("HammerAndWrench", "1f6e0", Category.Objects, Subcategory.Tool, Font.Twemoji, R.drawable.ic_1f6e0),
+        EmojiIcon("Dagger", "1f5e1", Category.Objects, Subcategory.Tool, Font.Twemoji, R.drawable.ic_1f5e1),
+        EmojiIcon("CrossedSwords", "2694", Category.Objects, Subcategory.Tool, Font.Twemoji, R.drawable.ic_2694),
+        EmojiIcon("WaterPistol", "1f52b", Category.Objects, Subcategory.Tool, Font.Twemoji, R.drawable.ic_1f52b),
+        EmojiIcon("Boomerang", "1fa83", Category.Objects, Subcategory.Tool, Font.Twemoji, R.drawable.ic_1fa83),
+        EmojiIcon("BowAndArrow", "1f3f9", Category.Objects, Subcategory.Tool, Font.Twemoji, R.drawable.ic_1f3f9),
+        EmojiIcon("Shield", "1f6e1", Category.Objects, Subcategory.Tool, Font.Twemoji, R.drawable.ic_1f6e1),
+        EmojiIcon("CarpentrySaw", "1fa9a", Category.Objects, Subcategory.Tool, Font.Twemoji, R.drawable.ic_1fa9a),
+        EmojiIcon("Wrench", "1f527", Category.Objects, Subcategory.Tool, Font.Twemoji, R.drawable.ic_1f527),
+        EmojiIcon("Screwdriver", "1fa9b", Category.Objects, Subcategory.Tool, Font.Twemoji, R.drawable.ic_1fa9b),
+        EmojiIcon("NutAndBolt", "1f529", Category.Objects, Subcategory.Tool, Font.Twemoji, R.drawable.ic_1f529),
+        EmojiIcon("Gear", "2699", Category.Objects, Subcategory.Tool, Font.Twemoji, R.drawable.ic_2699),
+        EmojiIcon("Clamp", "1f5dc", Category.Objects, Subcategory.Tool, Font.Twemoji, R.drawable.ic_1f5dc),
+        EmojiIcon("BalanceScale", "2696", Category.Objects, Subcategory.Tool, Font.Twemoji, R.drawable.ic_2696),
+        EmojiIcon("WhiteCane", "1f9af", Category.Objects, Subcategory.Tool, Font.Twemoji, R.drawable.ic_1f9af),
+        EmojiIcon("Link", "1f517", Category.Objects, Subcategory.Tool, Font.Twemoji, R.drawable.ic_1f517),
+        EmojiIcon("Chains", "26d3", Category.Objects, Subcategory.Tool, Font.Twemoji, R.drawable.ic_26d3),
+        EmojiIcon("Hook", "1fa9d", Category.Objects, Subcategory.Tool, Font.Twemoji, R.drawable.ic_1fa9d),
+        EmojiIcon("Toolbox", "1f9f0", Category.Objects, Subcategory.Tool, Font.Twemoji, R.drawable.ic_1f9f0),
+        EmojiIcon("Magnet", "1f9f2", Category.Objects, Subcategory.Tool, Font.Twemoji, R.drawable.ic_1f9f2),
+        EmojiIcon("Ladder", "1fa9c", Category.Objects, Subcategory.Tool, Font.Twemoji, R.drawable.ic_1fa9c)
+    )
+    // endregion
+
     // region All
     val all: List<EmojiIcon> = listOf(
         clothing,
@@ -269,7 +299,8 @@ object Objects {
         mail,
         writing,
         office,
-        lock
+        lock,
+        tool
     ).flatten()
     // endregion
 
