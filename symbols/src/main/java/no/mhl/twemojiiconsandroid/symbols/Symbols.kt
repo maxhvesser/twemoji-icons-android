@@ -196,6 +196,24 @@ object Symbols {
     )
     // endregion
 
+    // region Keycap
+    private val keycap: List<EmojiIcon> = listOf(
+        EmojiIcon("KeycapHash", "23-20e3", Category.Symbols, Subcategory.Keycap, Font.Twemoji, R.drawable.ic_23_20e3),
+        EmojiIcon("KeycapStar", "2a-20e3", Category.Symbols, Subcategory.Keycap, Font.Twemoji, R.drawable.ic_2a_20e3),
+        EmojiIcon("KeycapZero", "30-20e3", Category.Symbols, Subcategory.Keycap, Font.Twemoji, R.drawable.ic_30_20e3),
+        EmojiIcon("KeycapOne", "31-20e3", Category.Symbols, Subcategory.Keycap, Font.Twemoji, R.drawable.ic_31_20e3),
+        EmojiIcon("KeycapTwo", "32-20e3", Category.Symbols, Subcategory.Keycap, Font.Twemoji, R.drawable.ic_32_20e3),
+        EmojiIcon("KeycapThree", "33-20e3", Category.Symbols, Subcategory.Keycap, Font.Twemoji, R.drawable.ic_33_20e3),
+        EmojiIcon("KeycapFour", "34-20e3", Category.Symbols, Subcategory.Keycap, Font.Twemoji, R.drawable.ic_34_20e3),
+        EmojiIcon("KeycapFive", "35-20e3", Category.Symbols, Subcategory.Keycap, Font.Twemoji, R.drawable.ic_35_20e3),
+        EmojiIcon("KeycapSix", "36-20e3", Category.Symbols, Subcategory.Keycap, Font.Twemoji, R.drawable.ic_36_20e3),
+        EmojiIcon("KeycapSeven", "37-20e3", Category.Symbols, Subcategory.Keycap, Font.Twemoji, R.drawable.ic_37_20e3),
+        EmojiIcon("KeycapEight", "38-20e3", Category.Symbols, Subcategory.Keycap, Font.Twemoji, R.drawable.ic_38_20e3),
+        EmojiIcon("KeycapNine", "39-20e3", Category.Symbols, Subcategory.Keycap, Font.Twemoji, R.drawable.ic_39_20e3),
+        EmojiIcon("KeycapTen", "1f51f", Category.Symbols, Subcategory.Keycap, Font.Twemoji, R.drawable.ic_1f51f)
+    )
+    // endregion
+
     // region All
     val all: List<EmojiIcon> = listOf(
         transportSign,
@@ -208,7 +226,8 @@ object Symbols {
         math,
         punctuation,
         currency,
-        otherSymbol
+        otherSymbol,
+        keycap
     ).flatten()
     // endregion
 
