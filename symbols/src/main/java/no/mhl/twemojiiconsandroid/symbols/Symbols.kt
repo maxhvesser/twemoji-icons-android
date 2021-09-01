@@ -214,6 +214,50 @@ object Symbols {
     )
     // endregion
 
+    // region Alphanum
+    private val alphanum: List<EmojiIcon> = listOf(
+        EmojiIcon("InputLatinUppercase", "1f520", Category.Symbols, Subcategory.Alphanum, Font.Twemoji, R.drawable.ic_1f520),
+        EmojiIcon("InputLatinLowercase", "1f521", Category.Symbols, Subcategory.Alphanum, Font.Twemoji, R.drawable.ic_1f521),
+        EmojiIcon("InputNumbers", "1f522", Category.Symbols, Subcategory.Alphanum, Font.Twemoji, R.drawable.ic_1f522),
+        EmojiIcon("InputSymbols", "1f523", Category.Symbols, Subcategory.Alphanum, Font.Twemoji, R.drawable.ic_1f523),
+        EmojiIcon("InputLatinLetters", "1f524", Category.Symbols, Subcategory.Alphanum, Font.Twemoji, R.drawable.ic_1f524),
+        EmojiIcon("AButton", "1f170", Category.Symbols, Subcategory.Alphanum, Font.Twemoji, R.drawable.ic_1f170),
+        EmojiIcon("AbButton", "1f18e", Category.Symbols, Subcategory.Alphanum, Font.Twemoji, R.drawable.ic_1f18e),
+        EmojiIcon("BButton", "1f171", Category.Symbols, Subcategory.Alphanum, Font.Twemoji, R.drawable.ic_1f171),
+        EmojiIcon("ClButton", "1f191", Category.Symbols, Subcategory.Alphanum, Font.Twemoji, R.drawable.ic_1f191),
+        EmojiIcon("CoolButton", "1f192", Category.Symbols, Subcategory.Alphanum, Font.Twemoji, R.drawable.ic_1f192),
+        EmojiIcon("FreeButton", "1f193", Category.Symbols, Subcategory.Alphanum, Font.Twemoji, R.drawable.ic_1f193),
+        EmojiIcon("Information", "2139", Category.Symbols, Subcategory.Alphanum, Font.Twemoji, R.drawable.ic_2139),
+        EmojiIcon("IdButton", "1f194", Category.Symbols, Subcategory.Alphanum, Font.Twemoji, R.drawable.ic_1f194),
+        EmojiIcon("CircledM", "24c2", Category.Symbols, Subcategory.Alphanum, Font.Twemoji, R.drawable.ic_24c2),
+        EmojiIcon("NewButton", "1f195", Category.Symbols, Subcategory.Alphanum, Font.Twemoji, R.drawable.ic_1f195),
+        EmojiIcon("NgButton", "1f196", Category.Symbols, Subcategory.Alphanum, Font.Twemoji, R.drawable.ic_1f196),
+        EmojiIcon("OButton", "1f17e", Category.Symbols, Subcategory.Alphanum, Font.Twemoji, R.drawable.ic_1f17e),
+        EmojiIcon("OkButton", "1f197", Category.Symbols, Subcategory.Alphanum, Font.Twemoji, R.drawable.ic_1f197),
+        EmojiIcon("PButton", "1f17f", Category.Symbols, Subcategory.Alphanum, Font.Twemoji, R.drawable.ic_1f17f),
+        EmojiIcon("SosButton", "1f198", Category.Symbols, Subcategory.Alphanum, Font.Twemoji, R.drawable.ic_1f198),
+        EmojiIcon("UpButton", "1f199", Category.Symbols, Subcategory.Alphanum, Font.Twemoji, R.drawable.ic_1f199),
+        EmojiIcon("VsButton", "1f19a", Category.Symbols, Subcategory.Alphanum, Font.Twemoji, R.drawable.ic_1f19a),
+        EmojiIcon("JapaneseHereButton", "1f201", Category.Symbols, Subcategory.Alphanum, Font.Twemoji, R.drawable.ic_1f201),
+        EmojiIcon("JapaneseServiceChargeButton", "1f202", Category.Symbols, Subcategory.Alphanum, Font.Twemoji, R.drawable.ic_1f202),
+        EmojiIcon("JapaneseMonthlyAmountButton", "1f237", Category.Symbols, Subcategory.Alphanum, Font.Twemoji, R.drawable.ic_1f237),
+        EmojiIcon("JapaneseNotFreeOfChargeButton", "1f236", Category.Symbols, Subcategory.Alphanum, Font.Twemoji, R.drawable.ic_1f236),
+        EmojiIcon("JapaneseReservedButton", "1f22f", Category.Symbols, Subcategory.Alphanum, Font.Twemoji, R.drawable.ic_1f22f),
+        EmojiIcon("JapaneseBargainButton", "1f250", Category.Symbols, Subcategory.Alphanum, Font.Twemoji, R.drawable.ic_1f250),
+        EmojiIcon("JapaneseDiscountButton", "1f239", Category.Symbols, Subcategory.Alphanum, Font.Twemoji, R.drawable.ic_1f239),
+        EmojiIcon("JapaneseFreeOfChargeButton", "1f21a", Category.Symbols, Subcategory.Alphanum, Font.Twemoji, R.drawable.ic_1f21a),
+        EmojiIcon("JapaneseProhibitedButton", "1f232", Category.Symbols, Subcategory.Alphanum, Font.Twemoji, R.drawable.ic_1f232),
+        EmojiIcon("JapaneseAcceptableButton", "1f251", Category.Symbols, Subcategory.Alphanum, Font.Twemoji, R.drawable.ic_1f251),
+        EmojiIcon("JapaneseApplicationButton", "1f238", Category.Symbols, Subcategory.Alphanum, Font.Twemoji, R.drawable.ic_1f238),
+        EmojiIcon("JapanesePassingGradeButton", "1f234", Category.Symbols, Subcategory.Alphanum, Font.Twemoji, R.drawable.ic_1f234),
+        EmojiIcon("JapaneseVacancyButton", "1f233", Category.Symbols, Subcategory.Alphanum, Font.Twemoji, R.drawable.ic_1f233),
+        EmojiIcon("JapaneseCongratulationsButton", "3297", Category.Symbols, Subcategory.Alphanum, Font.Twemoji, R.drawable.ic_3297),
+        EmojiIcon("JapaneseSecretButton", "3299", Category.Symbols, Subcategory.Alphanum, Font.Twemoji, R.drawable.ic_3299),
+        EmojiIcon("JapaneseOpenForBusinessButton", "1f23a", Category.Symbols, Subcategory.Alphanum, Font.Twemoji, R.drawable.ic_1f23a),
+        EmojiIcon("JapaneseNoVacancyButton", "1f235", Category.Symbols, Subcategory.Alphanum, Font.Twemoji, R.drawable.ic_1f235)
+    )
+    // endregion
+
     // region All
     val all: List<EmojiIcon> = listOf(
         transportSign,
@@ -227,7 +271,8 @@ object Symbols {
         punctuation,
         currency,
         otherSymbol,
-        keycap
+        keycap,
+        alphanum
     ).flatten()
     // endregion
 
