@@ -163,6 +163,13 @@ object Symbols {
     )
     // endregion
 
+    // region Currency
+    private val currency: List<EmojiIcon> = listOf(
+        EmojiIcon("CurrencyExchange", "1f4b1", Category.Symbols, Subcategory.Currency, Font.Twemoji, R.drawable.ic_1f4b1),
+        EmojiIcon("HeavyDollarSign", "1f4b2", Category.Symbols, Subcategory.Currency, Font.Twemoji, R.drawable.ic_1f4b2)
+    )
+    // endregion
+
     // region All
     val all: List<EmojiIcon> = listOf(
         transportSign,
@@ -173,7 +180,8 @@ object Symbols {
         avSymbol,
         gender,
         math,
-        punctuation
+        punctuation,
+        currency
     ).flatten()
     // endregion
 
