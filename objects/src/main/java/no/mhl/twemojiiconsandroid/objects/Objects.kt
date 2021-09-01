@@ -85,11 +85,26 @@ object Objects {
     )
     // endregion
 
+    // region Musical instruments
+    private val musicalInstruments: List<EmojiIcon> = listOf(
+        EmojiIcon("Saxophone", "1f3b7", Category.Objects, Subcategory.MusicalInstrument, Font.Twemoji, R.drawable.ic_1f3b7),
+        EmojiIcon("Accordion", "1fa97", Category.Objects, Subcategory.MusicalInstrument, Font.Twemoji, R.drawable.ic_1fa97),
+        EmojiIcon("Guitar", "1f3b8", Category.Objects, Subcategory.MusicalInstrument, Font.Twemoji, R.drawable.ic_1f3b8),
+        EmojiIcon("MusicalKeyboard", "1f3b9", Category.Objects, Subcategory.MusicalInstrument, Font.Twemoji, R.drawable.ic_1f3b9),
+        EmojiIcon("Trumpet", "1f3ba", Category.Objects, Subcategory.MusicalInstrument, Font.Twemoji, R.drawable.ic_1f3ba),
+        EmojiIcon("Violin", "1f3bb", Category.Objects, Subcategory.MusicalInstrument, Font.Twemoji, R.drawable.ic_1f3bb),
+        EmojiIcon("Banjo", "1fa95", Category.Objects, Subcategory.MusicalInstrument, Font.Twemoji, R.drawable.ic_1fa95),
+        EmojiIcon("Drum", "1f941", Category.Objects, Subcategory.MusicalInstrument, Font.Twemoji, R.drawable.ic_1f941),
+        EmojiIcon("LongDrum", "1fa98", Category.Objects, Subcategory.MusicalInstrument, Font.Twemoji, R.drawable.ic_1fa98)
+    )
+    // endregion
+
     // region All
     val all: List<EmojiIcon> = listOf(
         clothing,
         sound,
-        music
+        music,
+        musicalInstruments
     ).flatten()
     // endregion
 
