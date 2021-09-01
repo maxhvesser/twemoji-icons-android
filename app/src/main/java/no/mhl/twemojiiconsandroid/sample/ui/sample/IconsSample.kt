@@ -20,17 +20,18 @@ import androidx.compose.ui.unit.dp
 import com.google.accompanist.insets.LocalWindowInsets
 import kotlinx.coroutines.CoroutineScope
 import kotlinx.coroutines.launch
-import no.mhl.twemojiiconsandroid.activities.ActivitiesProvider
-import no.mhl.twemojiiconsandroid.animals.AnimalsAndNatureProvider
-import no.mhl.twemojiiconsandroid.core.model.TwemojiIcon
-import no.mhl.twemojiiconsandroid.flags.FlagsProvider
-import no.mhl.twemojiiconsandroid.food.FoodAndDrinksProvider
-import no.mhl.twemojiiconsandroid.objects.ObjectsProvider
-import no.mhl.twemojiiconsandroid.people.PeopleAndBodyProvider
+import no.mhl.twemojiiconsandroid.activities.Activities
+import no.mhl.twemojiiconsandroid.animals.AnimalsAndNature
+import no.mhl.twemojiiconsandroid.core.model.EmojiIcon
+import no.mhl.twemojiiconsandroid.flags.Flags
+import no.mhl.twemojiiconsandroid.food.FoodAndDrink
+import no.mhl.twemojiiconsandroid.objects.Objects
+import no.mhl.twemojiiconsandroid.people.PeopleAndBody
 import no.mhl.twemojiiconsandroid.sample.R
 import no.mhl.twemojiiconsandroid.sample.ui.views.PropertyText
-import no.mhl.twemojiiconsandroid.symbols.SymbolsProvider
-import no.mhl.twemojiiconsandroid.travel.TravelAndPlacesProvider
+import no.mhl.twemojiiconsandroid.smileys.SmileysAndEmotion
+import no.mhl.twemojiiconsandroid.symbols.Symbols
+import no.mhl.twemojiiconsandroid.travel.TravelAndPlaces
 
 // region Main entry
 @ExperimentalMaterialApi
@@ -39,7 +40,7 @@ import no.mhl.twemojiiconsandroid.travel.TravelAndPlacesProvider
 fun IconsSample() {
     val coroutineScope = rememberCoroutineScope()
     val sheetState = rememberBottomSheetScaffoldState(bottomSheetState = BottomSheetState(BottomSheetValue.Collapsed))
-    val selectedIcon = remember { mutableStateOf(TwemojiIcon()) }
+    val selectedIcon = remember { mutableStateOf(EmojiIcon()) }
 
     BottomSheetScaffold(
         sheetContent = { IconInfoSheet(coroutineScope, sheetState, selectedIcon.value) },
@@ -57,7 +58,7 @@ fun IconsSample() {
 private fun IconGrid(
     coroutineScope: CoroutineScope,
     sheetState: BottomSheetScaffoldState,
-    selectedIcon: MutableState<TwemojiIcon>
+    selectedIcon: MutableState<EmojiIcon>
 ) {
     val insets = LocalWindowInsets.current
     val density = LocalDensity.current
@@ -69,7 +70,17 @@ private fun IconGrid(
         cells = GridCells.Adaptive(80.dp),
         contentPadding = PaddingValues(8.dp, top, 8.dp, bottom)
     ) {
-        val icons = listOf<TwemojiIcon>()
+        val icons = listOf(
+            SmileysAndEmotion.all,
+            PeopleAndBody.all,
+            AnimalsAndNature.all,
+            FoodAndDrink.all,
+            TravelAndPlaces.all,
+            Activities.all,
+            Objects.all,
+            Symbols.all,
+            Flags.all
+        ).flatten()
 
         items(icons) {
             IconTile(
@@ -86,9 +97,9 @@ private fun IconGrid(
 @Composable
 private fun IconTile(
     coroutineScope: CoroutineScope,
-    selectedIcon: MutableState<TwemojiIcon>,
+    selectedIcon: MutableState<EmojiIcon>,
     sheetState: BottomSheetScaffoldState,
-    icon: TwemojiIcon
+    icon: EmojiIcon
 ) = BoxWithConstraints {
     Box(
         modifier = Modifier
@@ -106,7 +117,7 @@ private fun IconTile(
         Image(
             modifier = Modifier.size(40.dp),
             painter = painterResource(icon.resource),
-            contentDescription = icon.plainName
+            contentDescription = icon.name
         )
     }
 }
@@ -118,7 +129,7 @@ private fun IconTile(
 private fun IconInfoSheet(
     coroutineScope: CoroutineScope,
     sheetState: BottomSheetScaffoldState,
-    icon: TwemojiIcon
+    icon: EmojiIcon
 ) = Column(
     modifier = Modifier.padding(16.dp)
 ) {
@@ -127,7 +138,7 @@ private fun IconInfoSheet(
     ) {
         Image(
             painter = painterResource(icon.resource),
-            contentDescription = icon.plainName
+            contentDescription = icon.name
         )
         Spacer(Modifier.weight(1f))
         IconButton({ coroutineScope.launch { sheetState.bottomSheetState.collapse() } }) {
@@ -141,7 +152,7 @@ private fun IconInfoSheet(
     Spacer(Modifier.height(8.dp))
     PropertyText(
         label = stringResource(R.string.icon_info_name),
-        text = icon.plainName
+        text = icon.name
     )
     Spacer(Modifier.height(16.dp))
     PropertyText(
