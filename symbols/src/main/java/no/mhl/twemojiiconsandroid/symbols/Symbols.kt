@@ -104,13 +104,43 @@ object Symbols {
     )
     // endregion
 
+    // region Av symbol
+    private val avSymbol: List<EmojiIcon> = listOf(
+        EmojiIcon("ShuffleTracksButton", "1f500", Category.Symbols, Subcategory.AvSymbol, Font.Twemoji, R.drawable.ic_1f500),
+        EmojiIcon("RepeatButton", "1f501", Category.Symbols, Subcategory.AvSymbol, Font.Twemoji, R.drawable.ic_1f501),
+        EmojiIcon("RepeatSingleButton", "1f502", Category.Symbols, Subcategory.AvSymbol, Font.Twemoji, R.drawable.ic_1f502),
+        EmojiIcon("PlayButton", "25b6", Category.Symbols, Subcategory.AvSymbol, Font.Twemoji, R.drawable.ic_25b6),
+        EmojiIcon("FastForwardButton", "23e9", Category.Symbols, Subcategory.AvSymbol, Font.Twemoji, R.drawable.ic_23e9),
+        EmojiIcon("NextTrackButton", "23ed", Category.Symbols, Subcategory.AvSymbol, Font.Twemoji, R.drawable.ic_23ed),
+        EmojiIcon("PlayOrPauseButton", "23ef", Category.Symbols, Subcategory.AvSymbol, Font.Twemoji, R.drawable.ic_23ef),
+        EmojiIcon("ReverseButton", "25c0", Category.Symbols, Subcategory.AvSymbol, Font.Twemoji, R.drawable.ic_25c0),
+        EmojiIcon("FastReverseButton", "23ea", Category.Symbols, Subcategory.AvSymbol, Font.Twemoji, R.drawable.ic_23ea),
+        EmojiIcon("LastTrackButton", "23ee", Category.Symbols, Subcategory.AvSymbol, Font.Twemoji, R.drawable.ic_23ee),
+        EmojiIcon("UpwardsButton", "1f53c", Category.Symbols, Subcategory.AvSymbol, Font.Twemoji, R.drawable.ic_1f53c),
+        EmojiIcon("FastUpButton", "23eb", Category.Symbols, Subcategory.AvSymbol, Font.Twemoji, R.drawable.ic_23eb),
+        EmojiIcon("DownwardsButton", "1f53d", Category.Symbols, Subcategory.AvSymbol, Font.Twemoji, R.drawable.ic_1f53d),
+        EmojiIcon("FastDownButton", "23ec", Category.Symbols, Subcategory.AvSymbol, Font.Twemoji, R.drawable.ic_23ec),
+        EmojiIcon("PauseButton", "23f8", Category.Symbols, Subcategory.AvSymbol, Font.Twemoji, R.drawable.ic_23f8),
+        EmojiIcon("StopButton", "23f9", Category.Symbols, Subcategory.AvSymbol, Font.Twemoji, R.drawable.ic_23f9),
+        EmojiIcon("RecordButton", "23fa", Category.Symbols, Subcategory.AvSymbol, Font.Twemoji, R.drawable.ic_23fa),
+        EmojiIcon("EjectButton", "23cf", Category.Symbols, Subcategory.AvSymbol, Font.Twemoji, R.drawable.ic_23cf),
+        EmojiIcon("Cinema", "1f3a6", Category.Symbols, Subcategory.AvSymbol, Font.Twemoji, R.drawable.ic_1f3a6),
+        EmojiIcon("DimButton", "1f505", Category.Symbols, Subcategory.AvSymbol, Font.Twemoji, R.drawable.ic_1f505),
+        EmojiIcon("BrightButton", "1f506", Category.Symbols, Subcategory.AvSymbol, Font.Twemoji, R.drawable.ic_1f506),
+        EmojiIcon("AntennaBars", "1f4f6", Category.Symbols, Subcategory.AvSymbol, Font.Twemoji, R.drawable.ic_1f4f6),
+        EmojiIcon("VibrationMode", "1f4f3", Category.Symbols, Subcategory.AvSymbol, Font.Twemoji, R.drawable.ic_1f4f3),
+        EmojiIcon("MobilePhoneOff", "1f4f4", Category.Symbols, Subcategory.AvSymbol, Font.Twemoji, R.drawable.ic_1f4f4)
+    )
+    // endregion
+
     // region All
     val all: List<EmojiIcon> = listOf(
         transportSign,
         warning,
         arrow,
         religion,
-        zodiac
+        zodiac,
+        avSymbol
     ).flatten()
     // endregion
 
