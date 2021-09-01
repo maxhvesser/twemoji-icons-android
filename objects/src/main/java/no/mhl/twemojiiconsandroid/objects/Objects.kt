@@ -110,13 +110,32 @@ object Objects {
     )
     // endregion
 
+    // region Computer
+    private val computer: List<EmojiIcon> = listOf(
+        EmojiIcon("Battery", "1f50b", Category.Objects, Subcategory.Computer, Font.Twemoji, R.drawable.ic_1f50b),
+        EmojiIcon("ElectricPlug", "1f50c", Category.Objects, Subcategory.Computer, Font.Twemoji, R.drawable.ic_1f50c),
+        EmojiIcon("Laptop", "1f4bb", Category.Objects, Subcategory.Computer, Font.Twemoji, R.drawable.ic_1f4bb),
+        EmojiIcon("DesktopComputer", "1f5a5", Category.Objects, Subcategory.Computer, Font.Twemoji, R.drawable.ic_1f5a5),
+        EmojiIcon("Printer", "1f5a8", Category.Objects, Subcategory.Computer, Font.Twemoji, R.drawable.ic_1f5a8),
+        EmojiIcon("Keyboard", "2328", Category.Objects, Subcategory.Computer, Font.Twemoji, R.drawable.ic_2328),
+        EmojiIcon("ComputerMouse", "1f5b1", Category.Objects, Subcategory.Computer, Font.Twemoji, R.drawable.ic_1f5b1),
+        EmojiIcon("Trackball", "1f5b2", Category.Objects, Subcategory.Computer, Font.Twemoji, R.drawable.ic_1f5b2),
+        EmojiIcon("ComputerDisk", "1f4bd", Category.Objects, Subcategory.Computer, Font.Twemoji, R.drawable.ic_1f4bd),
+        EmojiIcon("FloppyDisk", "1f4be", Category.Objects, Subcategory.Computer, Font.Twemoji, R.drawable.ic_1f4be),
+        EmojiIcon("OpticalDisk", "1f4bf", Category.Objects, Subcategory.Computer, Font.Twemoji, R.drawable.ic_1f4bf),
+        EmojiIcon("Dvd", "1f4c0", Category.Objects, Subcategory.Computer, Font.Twemoji, R.drawable.ic_1f4c0),
+        EmojiIcon("Abacus", "1f9ee", Category.Objects, Subcategory.Computer, Font.Twemoji, R.drawable.ic_1f9ee)
+    )
+    // endregion
+
     // region All
     val all: List<EmojiIcon> = listOf(
         clothing,
         sound,
         music,
         musicalInstruments,
-        phone
+        phone,
+        computer
     ).flatten()
     // endregion
 
