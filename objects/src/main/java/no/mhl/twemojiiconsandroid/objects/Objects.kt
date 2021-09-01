@@ -99,12 +99,24 @@ object Objects {
     )
     // endregion
 
+    // region Phone
+    private val phone: List<EmojiIcon> = listOf(
+        EmojiIcon("MobilePhone", "1f4f1", Category.Objects, Subcategory.Phone, Font.Twemoji, R.drawable.ic_1f4f1),
+        EmojiIcon("MobilePhoneWithArrow", "1f4f2", Category.Objects, Subcategory.Phone, Font.Twemoji, R.drawable.ic_1f4f2),
+        EmojiIcon("Telephone", "260e", Category.Objects, Subcategory.Phone, Font.Twemoji, R.drawable.ic_260e),
+        EmojiIcon("TelephoneReceiver", "1f4de", Category.Objects, Subcategory.Phone, Font.Twemoji, R.drawable.ic_1f4de),
+        EmojiIcon("Pager", "1f4df", Category.Objects, Subcategory.Phone, Font.Twemoji, R.drawable.ic_1f4df),
+        EmojiIcon("FaxMachine", "1f4e0", Category.Objects, Subcategory.Phone, Font.Twemoji, R.drawable.ic_1f4e0)
+    )
+    // endregion
+
     // region All
     val all: List<EmojiIcon> = listOf(
         clothing,
         sound,
         music,
-        musicalInstruments
+        musicalInstruments,
+        phone
     ).flatten()
     // endregion
 
