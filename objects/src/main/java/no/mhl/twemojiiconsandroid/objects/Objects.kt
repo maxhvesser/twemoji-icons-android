@@ -57,8 +57,25 @@ object Objects {
     )
     // endregion
 
+    // region Sound
+    private val sound: List<EmojiIcon> = listOf(
+        EmojiIcon("MutedSpeaker", "1f507", Category.Objects, Subcategory.Sound, Font.Twemoji, R.drawable.ic_1f507),
+        EmojiIcon("SpeakerLowVolume", "1f508", Category.Objects, Subcategory.Sound, Font.Twemoji, R.drawable.ic_1f508),
+        EmojiIcon("SpeakerMediumVolume", "1f509", Category.Objects, Subcategory.Sound, Font.Twemoji, R.drawable.ic_1f509),
+        EmojiIcon("SpeakerHighVolume", "1f50a", Category.Objects, Subcategory.Sound, Font.Twemoji, R.drawable.ic_1f50a),
+        EmojiIcon("Loudspeaker", "1f4e2", Category.Objects, Subcategory.Sound, Font.Twemoji, R.drawable.ic_1f4e2),
+        EmojiIcon("Megaphone", "1f4e3", Category.Objects, Subcategory.Sound, Font.Twemoji, R.drawable.ic_1f4e3),
+        EmojiIcon("PostalHorn", "1f4ef", Category.Objects, Subcategory.Sound, Font.Twemoji, R.drawable.ic_1f4ef),
+        EmojiIcon("Bell", "1f514", Category.Objects, Subcategory.Sound, Font.Twemoji, R.drawable.ic_1f514),
+        EmojiIcon("BellWithSlash", "1f515", Category.Objects, Subcategory.Sound, Font.Twemoji, R.drawable.ic_1f515)
+    )
+    // endregion
+
     // region All
-    val all: List<EmojiIcon> = listOf()
+    val all: List<EmojiIcon> = listOf(
+        clothing,
+        sound
+    ).flatten()
     // endregion
 
 }
