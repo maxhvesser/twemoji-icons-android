@@ -171,6 +171,21 @@ object Objects {
     )
     // endregion
 
+    // region Money
+    private val money: List<EmojiIcon> = listOf(
+        EmojiIcon("MoneyBag", "1f4b0", Category.Objects, Subcategory.Money, Font.Twemoji, R.drawable.ic_1f4b0),
+        EmojiIcon("Coin", "1fa99", Category.Objects, Subcategory.Money, Font.Twemoji, R.drawable.ic_1fa99),
+        EmojiIcon("YenBanknote", "1f4b4", Category.Objects, Subcategory.Money, Font.Twemoji, R.drawable.ic_1f4b4),
+        EmojiIcon("DollarBanknote", "1f4b5", Category.Objects, Subcategory.Money, Font.Twemoji, R.drawable.ic_1f4b5),
+        EmojiIcon("EuroBanknote", "1f4b6", Category.Objects, Subcategory.Money, Font.Twemoji, R.drawable.ic_1f4b6),
+        EmojiIcon("PoundBanknote", "1f4b7", Category.Objects, Subcategory.Money, Font.Twemoji, R.drawable.ic_1f4b7),
+        EmojiIcon("MoneyWithWings", "1f4b8", Category.Objects, Subcategory.Money, Font.Twemoji, R.drawable.ic_1f4b8),
+        EmojiIcon("CreditCard", "1f4b3", Category.Objects, Subcategory.Money, Font.Twemoji, R.drawable.ic_1f4b3),
+        EmojiIcon("Receipt", "1f9fe", Category.Objects, Subcategory.Money, Font.Twemoji, R.drawable.ic_1f9fe),
+        EmojiIcon("ChartIncreasingWithYen", "1f4b9", Category.Objects, Subcategory.Money, Font.Twemoji, R.drawable.ic_1f4b9)
+    )
+    // endregion
+
     // region All
     val all: List<EmojiIcon> = listOf(
         clothing,
@@ -180,7 +195,8 @@ object Objects {
         phone,
         computer,
         lightAndVideo,
-        bookPaper
+        bookPaper,
+        money
     ).flatten()
     // endregion
 
