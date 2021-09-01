@@ -170,6 +170,32 @@ object Symbols {
     )
     // endregion
 
+    // region Other symbol
+    private val otherSymbol: List<EmojiIcon> = listOf(
+        EmojiIcon("MedicalSymbol", "2695", Category.Symbols, Subcategory.OtherSymbol, Font.Twemoji, R.drawable.ic_2695),
+        EmojiIcon("RecyclingSymbol", "267b", Category.Symbols, Subcategory.OtherSymbol, Font.Twemoji, R.drawable.ic_267b),
+        EmojiIcon("FleurDeLis", "269c", Category.Symbols, Subcategory.OtherSymbol, Font.Twemoji, R.drawable.ic_269c),
+        EmojiIcon("TridentEmblem", "1f531", Category.Symbols, Subcategory.OtherSymbol, Font.Twemoji, R.drawable.ic_1f531),
+        EmojiIcon("NameBadge", "1f4db", Category.Symbols, Subcategory.OtherSymbol, Font.Twemoji, R.drawable.ic_1f4db),
+        EmojiIcon("JapaneseSymbolForBeginner", "1f530", Category.Symbols, Subcategory.OtherSymbol, Font.Twemoji, R.drawable.ic_1f530),
+        EmojiIcon("HollowRedCircle", "2b55", Category.Symbols, Subcategory.OtherSymbol, Font.Twemoji, R.drawable.ic_2b55),
+        EmojiIcon("CheckMarkButton", "2705", Category.Symbols, Subcategory.OtherSymbol, Font.Twemoji, R.drawable.ic_2705),
+        EmojiIcon("CheckBoxWithCheck", "2611", Category.Symbols, Subcategory.OtherSymbol, Font.Twemoji, R.drawable.ic_2611),
+        EmojiIcon("CheckMark", "2714", Category.Symbols, Subcategory.OtherSymbol, Font.Twemoji, R.drawable.ic_2714),
+        EmojiIcon("CrossMark", "274c", Category.Symbols, Subcategory.OtherSymbol, Font.Twemoji, R.drawable.ic_274c),
+        EmojiIcon("CrossMarkButton", "274e", Category.Symbols, Subcategory.OtherSymbol, Font.Twemoji, R.drawable.ic_274e),
+        EmojiIcon("CurlyLoop", "27b0", Category.Symbols, Subcategory.OtherSymbol, Font.Twemoji, R.drawable.ic_27b0),
+        EmojiIcon("DoubleCurlyLoop", "27bf", Category.Symbols, Subcategory.OtherSymbol, Font.Twemoji, R.drawable.ic_27bf),
+        EmojiIcon("PartAlternationMark", "303d", Category.Symbols, Subcategory.OtherSymbol, Font.Twemoji, R.drawable.ic_303d),
+        EmojiIcon("EightSpokedAsterisk", "2733", Category.Symbols, Subcategory.OtherSymbol, Font.Twemoji, R.drawable.ic_2733),
+        EmojiIcon("EightPointedStar", "2734", Category.Symbols, Subcategory.OtherSymbol, Font.Twemoji, R.drawable.ic_2734),
+        EmojiIcon("Sparkle", "2747", Category.Symbols, Subcategory.OtherSymbol, Font.Twemoji, R.drawable.ic_2747),
+        EmojiIcon("Copyright", "a9", Category.Symbols, Subcategory.OtherSymbol, Font.Twemoji, R.drawable.ic_a9),
+        EmojiIcon("Registered", "ae", Category.Symbols, Subcategory.OtherSymbol, Font.Twemoji, R.drawable.ic_ae),
+        EmojiIcon("TradeMark", "2122", Category.Symbols, Subcategory.OtherSymbol, Font.Twemoji, R.drawable.ic_2122)
+    )
+    // endregion
+
     // region All
     val all: List<EmojiIcon> = listOf(
         transportSign,
@@ -181,7 +207,8 @@ object Symbols {
         gender,
         math,
         punctuation,
-        currency
+        currency,
+        otherSymbol
     ).flatten()
     // endregion
 
