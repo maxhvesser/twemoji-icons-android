@@ -151,6 +151,18 @@ object Symbols {
     )
     // endregion
 
+    // region Punctuation
+    private val punctuation: List<EmojiIcon> = listOf(
+        EmojiIcon("DoubleExclamationMark", "203c", Category.Symbols, Subcategory.Punctuation, Font.Twemoji, R.drawable.ic_203c),
+        EmojiIcon("ExclamationQuestionMark", "2049", Category.Symbols, Subcategory.Punctuation, Font.Twemoji, R.drawable.ic_2049),
+        EmojiIcon("RedQuestionMark", "2753", Category.Symbols, Subcategory.Punctuation, Font.Twemoji, R.drawable.ic_2753),
+        EmojiIcon("WhiteQuestionMark", "2754", Category.Symbols, Subcategory.Punctuation, Font.Twemoji, R.drawable.ic_2754),
+        EmojiIcon("WhiteExclamationMark", "2755", Category.Symbols, Subcategory.Punctuation, Font.Twemoji, R.drawable.ic_2755),
+        EmojiIcon("RedExclamationMark", "2757", Category.Symbols, Subcategory.Punctuation, Font.Twemoji, R.drawable.ic_2757),
+        EmojiIcon("WavyDash", "3030", Category.Symbols, Subcategory.Punctuation, Font.Twemoji, R.drawable.ic_3030)
+    )
+    // endregion
+
     // region All
     val all: List<EmojiIcon> = listOf(
         transportSign,
@@ -160,7 +172,8 @@ object Symbols {
         zodiac,
         avSymbol,
         gender,
-        math
+        math,
+        punctuation
     ).flatten()
     // endregion
 
