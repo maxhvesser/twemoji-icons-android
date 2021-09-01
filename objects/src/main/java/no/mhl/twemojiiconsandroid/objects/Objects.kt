@@ -306,6 +306,35 @@ object Objects {
         EmojiIcon("Stethoscope", "1fa7a", Category.Objects, Subcategory.Medical, Font.Twemoji, R.drawable.ic_1fa7a)
     )
     // endregion
+    
+    // region Household
+    private val household: List<EmojiIcon> = listOf(
+        EmojiIcon("Door", "1f6aa", Category.Objects, Subcategory.Household, Font.Twemoji, R.drawable.ic_1f6aa),
+        EmojiIcon("Elevator", "1f6d7", Category.Objects, Subcategory.Household, Font.Twemoji, R.drawable.ic_1f6d7),
+        EmojiIcon("Mirror", "1fa9e", Category.Objects, Subcategory.Household, Font.Twemoji, R.drawable.ic_1fa9e),
+        EmojiIcon("Window", "1fa9f", Category.Objects, Subcategory.Household, Font.Twemoji, R.drawable.ic_1fa9f),
+        EmojiIcon("Bed", "1f6cf", Category.Objects, Subcategory.Household, Font.Twemoji, R.drawable.ic_1f6cf),
+        EmojiIcon("CouchAndLamp", "1f6cb", Category.Objects, Subcategory.Household, Font.Twemoji, R.drawable.ic_1f6cb),
+        EmojiIcon("Chair", "1fa91", Category.Objects, Subcategory.Household, Font.Twemoji, R.drawable.ic_1fa91),
+        EmojiIcon("Toilet", "1f6bd", Category.Objects, Subcategory.Household, Font.Twemoji, R.drawable.ic_1f6bd),
+        EmojiIcon("Plunger", "1faa0", Category.Objects, Subcategory.Household, Font.Twemoji, R.drawable.ic_1faa0),
+        EmojiIcon("Shower", "1f6bf", Category.Objects, Subcategory.Household, Font.Twemoji, R.drawable.ic_1f6bf),
+        EmojiIcon("Bathtub", "1f6c1", Category.Objects, Subcategory.Household, Font.Twemoji, R.drawable.ic_1f6c1),
+        EmojiIcon("MouseTrap", "1faa4", Category.Objects, Subcategory.Household, Font.Twemoji, R.drawable.ic_1faa4),
+        EmojiIcon("Razor", "1fa92", Category.Objects, Subcategory.Household, Font.Twemoji, R.drawable.ic_1fa92),
+        EmojiIcon("LotionBottle", "1f9f4", Category.Objects, Subcategory.Household, Font.Twemoji, R.drawable.ic_1f9f4),
+        EmojiIcon("SafetyPin", "1f9f7", Category.Objects, Subcategory.Household, Font.Twemoji, R.drawable.ic_1f9f7),
+        EmojiIcon("Broom", "1f9f9", Category.Objects, Subcategory.Household, Font.Twemoji, R.drawable.ic_1f9f9),
+        EmojiIcon("Basket", "1f9fa", Category.Objects, Subcategory.Household, Font.Twemoji, R.drawable.ic_1f9fa),
+        EmojiIcon("RollOfPaper", "1f9fb", Category.Objects, Subcategory.Household, Font.Twemoji, R.drawable.ic_1f9fb),
+        EmojiIcon("Bucket", "1faa3", Category.Objects, Subcategory.Household, Font.Twemoji, R.drawable.ic_1faa3),
+        EmojiIcon("Soap", "1f9fc", Category.Objects, Subcategory.Household, Font.Twemoji, R.drawable.ic_1f9fc),
+        EmojiIcon("Toothbrush", "1faa5", Category.Objects, Subcategory.Household, Font.Twemoji, R.drawable.ic_1faa5),
+        EmojiIcon("Sponge", "1f9fd", Category.Objects, Subcategory.Household, Font.Twemoji, R.drawable.ic_1f9fd),
+        EmojiIcon("FireExtinguisher", "1f9ef", Category.Objects, Subcategory.Household, Font.Twemoji, R.drawable.ic_1f9ef),
+        EmojiIcon("ShoppingCart", "1f6d2", Category.Objects, Subcategory.Household, Font.Twemoji, R.drawable.ic_1f6d2)
+    )
+    // endregion
 
     // region All
     val all: List<EmojiIcon> = listOf(
@@ -324,7 +353,8 @@ object Objects {
         lock,
         tool,
         science,
-        medical
+        medical,
+        household
     ).flatten()
     // endregion
 
