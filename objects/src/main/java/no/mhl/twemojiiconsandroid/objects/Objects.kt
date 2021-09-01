@@ -306,7 +306,7 @@ object Objects {
         EmojiIcon("Stethoscope", "1fa7a", Category.Objects, Subcategory.Medical, Font.Twemoji, R.drawable.ic_1fa7a)
     )
     // endregion
-    
+
     // region Household
     private val household: List<EmojiIcon> = listOf(
         EmojiIcon("Door", "1f6aa", Category.Objects, Subcategory.Household, Font.Twemoji, R.drawable.ic_1f6aa),
@@ -336,6 +336,17 @@ object Objects {
     )
     // endregion
 
+    // region Other object
+    private val otherObject: List<EmojiIcon> = listOf(
+        EmojiIcon("Cigarette", "1f6ac", Category.Objects, Subcategory.OtherObject, Font.Twemoji, R.drawable.ic_1f6ac),
+        EmojiIcon("Coffin", "26b0", Category.Objects, Subcategory.OtherObject, Font.Twemoji, R.drawable.ic_26b0),
+        EmojiIcon("Headstone", "1faa6", Category.Objects, Subcategory.OtherObject, Font.Twemoji, R.drawable.ic_1faa6),
+        EmojiIcon("FuneralUrn", "26b1", Category.Objects, Subcategory.OtherObject, Font.Twemoji, R.drawable.ic_26b1),
+        EmojiIcon("Moai", "1f5ff", Category.Objects, Subcategory.OtherObject, Font.Twemoji, R.drawable.ic_1f5ff),
+        EmojiIcon("Placard", "1faa7", Category.Objects, Subcategory.OtherObject, Font.Twemoji, R.drawable.ic_1faa7)
+    )
+    // endregion
+
     // region All
     val all: List<EmojiIcon> = listOf(
         clothing,
@@ -354,7 +365,8 @@ object Objects {
         tool,
         science,
         medical,
-        household
+        household,
+        otherObject
     ).flatten()
     // endregion
 
