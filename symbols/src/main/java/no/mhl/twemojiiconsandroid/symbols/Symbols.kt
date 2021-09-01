@@ -25,9 +25,28 @@ object Symbols {
     )
     // endregion
 
+    // region Warning
+    private val warning: List<EmojiIcon> = listOf(
+        EmojiIcon("Warning", "26a0", Category.Symbols, Subcategory.Warning, Font.Twemoji, R.drawable.ic_26a0),
+        EmojiIcon("ChildrenCrossing", "1f6b8", Category.Symbols, Subcategory.Warning, Font.Twemoji, R.drawable.ic_1f6b8),
+        EmojiIcon("NoEntry", "26d4", Category.Symbols, Subcategory.Warning, Font.Twemoji, R.drawable.ic_26d4),
+        EmojiIcon("Prohibited", "1f6ab", Category.Symbols, Subcategory.Warning, Font.Twemoji, R.drawable.ic_1f6ab),
+        EmojiIcon("NoBicycles", "1f6b3", Category.Symbols, Subcategory.Warning, Font.Twemoji, R.drawable.ic_1f6b3),
+        EmojiIcon("NoSmoking", "1f6ad", Category.Symbols, Subcategory.Warning, Font.Twemoji, R.drawable.ic_1f6ad),
+        EmojiIcon("NoLittering", "1f6af", Category.Symbols, Subcategory.Warning, Font.Twemoji, R.drawable.ic_1f6af),
+        EmojiIcon("NonPotableWater", "1f6b1", Category.Symbols, Subcategory.Warning, Font.Twemoji, R.drawable.ic_1f6b1),
+        EmojiIcon("NoPedestrians", "1f6b7", Category.Symbols, Subcategory.Warning, Font.Twemoji, R.drawable.ic_1f6b7),
+        EmojiIcon("NoMobilePhones", "1f4f5", Category.Symbols, Subcategory.Warning, Font.Twemoji, R.drawable.ic_1f4f5),
+        EmojiIcon("NoOneUnderEighteen", "1f51e", Category.Symbols, Subcategory.Warning, Font.Twemoji, R.drawable.ic_1f51e),
+        EmojiIcon("Radioactive", "2622", Category.Symbols, Subcategory.Warning, Font.Twemoji, R.drawable.ic_2622),
+        EmojiIcon("Biohazard", "2623", Category.Symbols, Subcategory.Warning, Font.Twemoji, R.drawable.ic_2623)
+    )
+    // endregion
+
     // region All
     val all: List<EmojiIcon> = listOf(
-        transportSign
+        transportSign,
+        warning
     ).flatten()
     // endregion
 
