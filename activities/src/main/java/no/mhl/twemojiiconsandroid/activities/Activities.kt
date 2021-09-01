@@ -76,11 +76,40 @@ object Activities {
     )
     // endregion
 
+    // region Game
+    private val game: List<EmojiIcon> = listOf(
+        EmojiIcon("Bullseye", "1f3af", Category.Activities, Subcategory.Game, Font.Twemoji, R.drawable.ic_1f3af),
+        EmojiIcon("YoYo", "1fa80", Category.Activities, Subcategory.Game, Font.Twemoji, R.drawable.ic_1fa80),
+        EmojiIcon("Kite", "1fa81", Category.Activities, Subcategory.Game, Font.Twemoji, R.drawable.ic_1fa81),
+        EmojiIcon("PoolBall", "1f3b1", Category.Activities, Subcategory.Game, Font.Twemoji, R.drawable.ic_1f3b1),
+        EmojiIcon("CrystalBall", "1f52e", Category.Activities, Subcategory.Game, Font.Twemoji, R.drawable.ic_1f52e),
+        EmojiIcon("MagicWand", "1fa84", Category.Activities, Subcategory.Game, Font.Twemoji, R.drawable.ic_1fa84),
+        EmojiIcon("NazarAmulet", "1f9ff", Category.Activities, Subcategory.Game, Font.Twemoji, R.drawable.ic_1f9ff),
+        EmojiIcon("VideoGame", "1f3ae", Category.Activities, Subcategory.Game, Font.Twemoji, R.drawable.ic_1f3ae),
+        EmojiIcon("Joystick", "1f579", Category.Activities, Subcategory.Game, Font.Twemoji, R.drawable.ic_1f579),
+        EmojiIcon("SlotMachine", "1f3b0", Category.Activities, Subcategory.Game, Font.Twemoji, R.drawable.ic_1f3b0),
+        EmojiIcon("GameDie", "1f3b2", Category.Activities, Subcategory.Game, Font.Twemoji, R.drawable.ic_1f3b2),
+        EmojiIcon("PuzzlePiece", "1f9e9", Category.Activities, Subcategory.Game, Font.Twemoji, R.drawable.ic_1f9e9),
+        EmojiIcon("TeddyBear", "1f9f8", Category.Activities, Subcategory.Game, Font.Twemoji, R.drawable.ic_1f9f8),
+        EmojiIcon("Piñata", "1fa85", Category.Activities, Subcategory.Game, Font.Twemoji, R.drawable.ic_1fa85),
+        EmojiIcon("NestingDolls", "1fa86", Category.Activities, Subcategory.Game, Font.Twemoji, R.drawable.ic_1fa86),
+        EmojiIcon("SpadeSuit", "2660", Category.Activities, Subcategory.Game, Font.Twemoji, R.drawable.ic_2660),
+        EmojiIcon("HeartSuit", "2665", Category.Activities, Subcategory.Game, Font.Twemoji, R.drawable.ic_2665),
+        EmojiIcon("DiamondSuit", "2666", Category.Activities, Subcategory.Game, Font.Twemoji, R.drawable.ic_2666),
+        EmojiIcon("ClubSuit", "2663", Category.Activities, Subcategory.Game, Font.Twemoji, R.drawable.ic_2663),
+        EmojiIcon("ChessPawn", "265f", Category.Activities, Subcategory.Game, Font.Twemoji, R.drawable.ic_265f),
+        EmojiIcon("Joker", "1f0cf", Category.Activities, Subcategory.Game, Font.Twemoji, R.drawable.ic_1f0cf),
+        EmojiIcon("MahjongRedDragon", "1f004", Category.Activities, Subcategory.Game, Font.Twemoji, R.drawable.ic_1f004),
+        EmojiIcon("FlowerPlayingCards", "1f3b4", Category.Activities, Subcategory.Game, Font.Twemoji, R.drawable.ic_1f3b4)
+    )
+    // endregion
+
     // region All
     val all: List<EmojiIcon> = listOf(
         event,
         awardMedal,
-        sport
+        sport,
+        game
     ).flatten()
     // endregion
 
