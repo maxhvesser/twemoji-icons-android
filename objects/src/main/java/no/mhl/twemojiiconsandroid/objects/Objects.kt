@@ -244,6 +244,17 @@ object Objects {
     )
     // endregion
 
+    // region Lock
+    private val lock: List<EmojiIcon> = listOf(
+        EmojiIcon("Locked", "1f512", Category.Objects, Subcategory.Lock, Font.Twemoji, R.drawable.ic_1f512),
+        EmojiIcon("Unlocked", "1f513", Category.Objects, Subcategory.Lock, Font.Twemoji, R.drawable.ic_1f513),
+        EmojiIcon("LockedWithPen", "1f50f", Category.Objects, Subcategory.Lock, Font.Twemoji, R.drawable.ic_1f50f),
+        EmojiIcon("LockedWithKey", "1f510", Category.Objects, Subcategory.Lock, Font.Twemoji, R.drawable.ic_1f510),
+        EmojiIcon("Key", "1f511", Category.Objects, Subcategory.Lock, Font.Twemoji, R.drawable.ic_1f511),
+        EmojiIcon("OldKey", "1f5dd", Category.Objects, Subcategory.Lock, Font.Twemoji, R.drawable.ic_1f5dd)
+    )
+    // endregion
+
     // region All
     val all: List<EmojiIcon> = listOf(
         clothing,
@@ -257,7 +268,8 @@ object Objects {
         money,
         mail,
         writing,
-        office
+        office,
+        lock
     ).flatten()
     // endregion
 
