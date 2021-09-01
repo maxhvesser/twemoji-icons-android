@@ -43,10 +43,37 @@ object Symbols {
     )
     // endregion
 
+    // region Arrow
+    private val arrow: List<EmojiIcon> = listOf(
+        EmojiIcon("UpArrow", "2b06", Category.Symbols, Subcategory.Arrow, Font.Twemoji, R.drawable.ic_2b06),
+        EmojiIcon("UpRightArrow", "2197", Category.Symbols, Subcategory.Arrow, Font.Twemoji, R.drawable.ic_2197),
+        EmojiIcon("RightArrow", "27a1", Category.Symbols, Subcategory.Arrow, Font.Twemoji, R.drawable.ic_27a1),
+        EmojiIcon("DownRightArrow", "2198", Category.Symbols, Subcategory.Arrow, Font.Twemoji, R.drawable.ic_2198),
+        EmojiIcon("DownArrow", "2b07", Category.Symbols, Subcategory.Arrow, Font.Twemoji, R.drawable.ic_2b07),
+        EmojiIcon("DownLeftArrow", "2199", Category.Symbols, Subcategory.Arrow, Font.Twemoji, R.drawable.ic_2199),
+        EmojiIcon("LeftArrow", "2b05", Category.Symbols, Subcategory.Arrow, Font.Twemoji, R.drawable.ic_2b05),
+        EmojiIcon("UpLeftArrow", "2196", Category.Symbols, Subcategory.Arrow, Font.Twemoji, R.drawable.ic_2196),
+        EmojiIcon("UpDownArrow", "2195", Category.Symbols, Subcategory.Arrow, Font.Twemoji, R.drawable.ic_2195),
+        EmojiIcon("LeftRightArrow", "2194", Category.Symbols, Subcategory.Arrow, Font.Twemoji, R.drawable.ic_2194),
+        EmojiIcon("RightArrowCurvingLeft", "21a9", Category.Symbols, Subcategory.Arrow, Font.Twemoji, R.drawable.ic_21a9),
+        EmojiIcon("LeftArrowCurvingRight", "21aa", Category.Symbols, Subcategory.Arrow, Font.Twemoji, R.drawable.ic_21aa),
+        EmojiIcon("RightArrowCurvingUp", "2934", Category.Symbols, Subcategory.Arrow, Font.Twemoji, R.drawable.ic_2934),
+        EmojiIcon("RightArrowCurvingDown", "2935", Category.Symbols, Subcategory.Arrow, Font.Twemoji, R.drawable.ic_2935),
+        EmojiIcon("ClockwiseVerticalArrows", "1f503", Category.Symbols, Subcategory.Arrow, Font.Twemoji, R.drawable.ic_1f503),
+        EmojiIcon("CounterclockwiseArrowsButton", "1f504", Category.Symbols, Subcategory.Arrow, Font.Twemoji, R.drawable.ic_1f504),
+        EmojiIcon("BackArrow", "1f519", Category.Symbols, Subcategory.Arrow, Font.Twemoji, R.drawable.ic_1f519),
+        EmojiIcon("EndArrow", "1f51a", Category.Symbols, Subcategory.Arrow, Font.Twemoji, R.drawable.ic_1f51a),
+        EmojiIcon("On!Arrow", "1f51b", Category.Symbols, Subcategory.Arrow, Font.Twemoji, R.drawable.ic_1f51b),
+        EmojiIcon("SoonArrow", "1f51c", Category.Symbols, Subcategory.Arrow, Font.Twemoji, R.drawable.ic_1f51c),
+        EmojiIcon("TopArrow", "1f51d", Category.Symbols, Subcategory.Arrow, Font.Twemoji, R.drawable.ic_1f51d)
+    )
+    // endregion
+
     // region All
     val all: List<EmojiIcon> = listOf(
         transportSign,
-        warning
+        warning,
+        arrow
     ).flatten()
     // endregion
 
