@@ -133,6 +133,14 @@ object Symbols {
     )
     // endregion
 
+    // region Gender
+    private val gender: List<EmojiIcon> = listOf(
+        EmojiIcon("FemaleSign", "2640", Category.Symbols, Subcategory.Gender, Font.Twemoji, R.drawable.ic_2640),
+        EmojiIcon("MaleSign", "2642", Category.Symbols, Subcategory.Gender, Font.Twemoji, R.drawable.ic_2642),
+        EmojiIcon("TransgenderSymbol", "26a7", Category.Symbols, Subcategory.Gender, Font.Twemoji, R.drawable.ic_26a7)
+    )
+    // endregion
+
     // region All
     val all: List<EmojiIcon> = listOf(
         transportSign,
@@ -140,7 +148,8 @@ object Symbols {
         arrow,
         religion,
         zodiac,
-        avSymbol
+        avSymbol,
+        gender
     ).flatten()
     // endregion
 
