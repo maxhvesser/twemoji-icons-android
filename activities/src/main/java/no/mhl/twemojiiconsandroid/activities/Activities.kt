@@ -104,12 +104,25 @@ object Activities {
     )
     // endregion
 
+    // region Arts and crafts
+    private val artsAndCrafts: List<EmojiIcon> = listOf(
+        EmojiIcon("PerformingArts", "1f3ad", Category.Activities, Subcategory.ArtsAndCrafts, Font.Twemoji, R.drawable.ic_1f3ad),
+        EmojiIcon("FramedPicture", "1f5bc", Category.Activities, Subcategory.ArtsAndCrafts, Font.Twemoji, R.drawable.ic_1f5bc),
+        EmojiIcon("ArtistPalette", "1f3a8", Category.Activities, Subcategory.ArtsAndCrafts, Font.Twemoji, R.drawable.ic_1f3a8),
+        EmojiIcon("Thread", "1f9f5", Category.Activities, Subcategory.ArtsAndCrafts, Font.Twemoji, R.drawable.ic_1f9f5),
+        EmojiIcon("SewingNeedle", "1faa1", Category.Activities, Subcategory.ArtsAndCrafts, Font.Twemoji, R.drawable.ic_1faa1),
+        EmojiIcon("Yarn", "1f9f6", Category.Activities, Subcategory.ArtsAndCrafts, Font.Twemoji, R.drawable.ic_1f9f6),
+        EmojiIcon("Knot", "1faa2", Category.Activities, Subcategory.ArtsAndCrafts, Font.Twemoji, R.drawable.ic_1faa2)
+    )
+    // endregion
+
     // region All
     val all: List<EmojiIcon> = listOf(
         event,
         awardMedal,
         sport,
-        game
+        game,
+        artsAndCrafts
     ).flatten()
     // endregion
 
