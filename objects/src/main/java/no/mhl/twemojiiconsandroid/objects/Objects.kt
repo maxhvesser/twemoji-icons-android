@@ -149,6 +149,28 @@ object Objects {
     )
     // endregion
 
+    // region Book paper
+    private val bookPaper: List<EmojiIcon> = listOf(
+        EmojiIcon("NotebookWithDecorativeCover", "1f4d4", Category.Objects, Subcategory.BookPaper, Font.Twemoji, R.drawable.ic_1f4d4),
+        EmojiIcon("ClosedBook", "1f4d5", Category.Objects, Subcategory.BookPaper, Font.Twemoji, R.drawable.ic_1f4d5),
+        EmojiIcon("OpenBook", "1f4d6", Category.Objects, Subcategory.BookPaper, Font.Twemoji, R.drawable.ic_1f4d6),
+        EmojiIcon("GreenBook", "1f4d7", Category.Objects, Subcategory.BookPaper, Font.Twemoji, R.drawable.ic_1f4d7),
+        EmojiIcon("BlueBook", "1f4d8", Category.Objects, Subcategory.BookPaper, Font.Twemoji, R.drawable.ic_1f4d8),
+        EmojiIcon("OrangeBook", "1f4d9", Category.Objects, Subcategory.BookPaper, Font.Twemoji, R.drawable.ic_1f4d9),
+        EmojiIcon("Books", "1f4da", Category.Objects, Subcategory.BookPaper, Font.Twemoji, R.drawable.ic_1f4da),
+        EmojiIcon("Notebook", "1f4d3", Category.Objects, Subcategory.BookPaper, Font.Twemoji, R.drawable.ic_1f4d3),
+        EmojiIcon("Ledger", "1f4d2", Category.Objects, Subcategory.BookPaper, Font.Twemoji, R.drawable.ic_1f4d2),
+        EmojiIcon("PageWithCurl", "1f4c3", Category.Objects, Subcategory.BookPaper, Font.Twemoji, R.drawable.ic_1f4c3),
+        EmojiIcon("Scroll", "1f4dc", Category.Objects, Subcategory.BookPaper, Font.Twemoji, R.drawable.ic_1f4dc),
+        EmojiIcon("PageFacingUp", "1f4c4", Category.Objects, Subcategory.BookPaper, Font.Twemoji, R.drawable.ic_1f4c4),
+        EmojiIcon("Newspaper", "1f4f0", Category.Objects, Subcategory.BookPaper, Font.Twemoji, R.drawable.ic_1f4f0),
+        EmojiIcon("RolledUpNewspaper", "1f5de", Category.Objects, Subcategory.BookPaper, Font.Twemoji, R.drawable.ic_1f5de),
+        EmojiIcon("BookmarkTabs", "1f4d1", Category.Objects, Subcategory.BookPaper, Font.Twemoji, R.drawable.ic_1f4d1),
+        EmojiIcon("Bookmark", "1f516", Category.Objects, Subcategory.BookPaper, Font.Twemoji, R.drawable.ic_1f516),
+        EmojiIcon("Label", "1f3f7", Category.Objects, Subcategory.BookPaper, Font.Twemoji, R.drawable.ic_1f3f7)
+    )
+    // endregion
+
     // region All
     val all: List<EmojiIcon> = listOf(
         clothing,
@@ -157,7 +179,8 @@ object Objects {
         musicalInstruments,
         phone,
         computer,
-        lightAndVideo
+        lightAndVideo,
+        bookPaper
     ).flatten()
     // endregion
 
