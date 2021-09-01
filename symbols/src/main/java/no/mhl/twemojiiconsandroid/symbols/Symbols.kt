@@ -69,11 +69,29 @@ object Symbols {
     )
     // endregion
 
+    // region Religion
+    private val religion: List<EmojiIcon> = listOf(
+        EmojiIcon("PlaceOfWorship", "1f6d0", Category.Symbols, Subcategory.Religion, Font.Twemoji, R.drawable.ic_1f6d0),
+        EmojiIcon("AtomSymbol", "269b", Category.Symbols, Subcategory.Religion, Font.Twemoji, R.drawable.ic_269b),
+        EmojiIcon("Om", "1f549", Category.Symbols, Subcategory.Religion, Font.Twemoji, R.drawable.ic_1f549),
+        EmojiIcon("StarOfDavid", "2721", Category.Symbols, Subcategory.Religion, Font.Twemoji, R.drawable.ic_2721),
+        EmojiIcon("WheelOfDharma", "2638", Category.Symbols, Subcategory.Religion, Font.Twemoji, R.drawable.ic_2638),
+        EmojiIcon("YinYang", "262f", Category.Symbols, Subcategory.Religion, Font.Twemoji, R.drawable.ic_262f),
+        EmojiIcon("LatinCross", "271d", Category.Symbols, Subcategory.Religion, Font.Twemoji, R.drawable.ic_271d),
+        EmojiIcon("OrthodoxCross", "2626", Category.Symbols, Subcategory.Religion, Font.Twemoji, R.drawable.ic_2626),
+        EmojiIcon("StarAndCrescent", "262a", Category.Symbols, Subcategory.Religion, Font.Twemoji, R.drawable.ic_262a),
+        EmojiIcon("PeaceSymbol", "262e", Category.Symbols, Subcategory.Religion, Font.Twemoji, R.drawable.ic_262e),
+        EmojiIcon("Menorah", "1f54e", Category.Symbols, Subcategory.Religion, Font.Twemoji, R.drawable.ic_1f54e),
+        EmojiIcon("DottedSixPointedStar", "1f52f", Category.Symbols, Subcategory.Religion, Font.Twemoji, R.drawable.ic_1f52f)
+    )
+    // endregion
+
     // region All
     val all: List<EmojiIcon> = listOf(
         transportSign,
         warning,
-        arrow
+        arrow,
+        religion
     ).flatten()
     // endregion
 
