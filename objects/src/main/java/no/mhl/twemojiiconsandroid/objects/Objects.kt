@@ -186,6 +186,24 @@ object Objects {
     )
     // endregion
 
+    // region Mail
+    private val mail: List<EmojiIcon> = listOf(
+        EmojiIcon("Envelope", "2709", Category.Objects, Subcategory.Mail, Font.Twemoji, R.drawable.ic_2709),
+        EmojiIcon("EMail", "1f4e7", Category.Objects, Subcategory.Mail, Font.Twemoji, R.drawable.ic_1f4e7),
+        EmojiIcon("IncomingEnvelope", "1f4e8", Category.Objects, Subcategory.Mail, Font.Twemoji, R.drawable.ic_1f4e8),
+        EmojiIcon("EnvelopeWithArrow", "1f4e9", Category.Objects, Subcategory.Mail, Font.Twemoji, R.drawable.ic_1f4e9),
+        EmojiIcon("OutboxTray", "1f4e4", Category.Objects, Subcategory.Mail, Font.Twemoji, R.drawable.ic_1f4e4),
+        EmojiIcon("InboxTray", "1f4e5", Category.Objects, Subcategory.Mail, Font.Twemoji, R.drawable.ic_1f4e5),
+        EmojiIcon("Package", "1f4e6", Category.Objects, Subcategory.Mail, Font.Twemoji, R.drawable.ic_1f4e6),
+        EmojiIcon("ClosedMailboxWithRaisedFlag", "1f4eb", Category.Objects, Subcategory.Mail, Font.Twemoji, R.drawable.ic_1f4eb),
+        EmojiIcon("ClosedMailboxWithLoweredFlag", "1f4ea", Category.Objects, Subcategory.Mail, Font.Twemoji, R.drawable.ic_1f4ea),
+        EmojiIcon("OpenMailboxWithRaisedFlag", "1f4ec", Category.Objects, Subcategory.Mail, Font.Twemoji, R.drawable.ic_1f4ec),
+        EmojiIcon("OpenMailboxWithLoweredFlag", "1f4ed", Category.Objects, Subcategory.Mail, Font.Twemoji, R.drawable.ic_1f4ed),
+        EmojiIcon("Postbox", "1f4ee", Category.Objects, Subcategory.Mail, Font.Twemoji, R.drawable.ic_1f4ee),
+        EmojiIcon("BallotBoxWithBallot", "1f5f3", Category.Objects, Subcategory.Mail, Font.Twemoji, R.drawable.ic_1f5f3)
+    )
+    // endregion
+
     // region All
     val all: List<EmojiIcon> = listOf(
         clothing,
@@ -196,7 +214,8 @@ object Objects {
         computer,
         lightAndVideo,
         bookPaper,
-        money
+        money,
+        mail
     ).flatten()
     // endregion
 
