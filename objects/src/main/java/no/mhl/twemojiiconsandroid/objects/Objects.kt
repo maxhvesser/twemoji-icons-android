@@ -204,6 +204,18 @@ object Objects {
     )
     // endregion
 
+    // region Writing
+    private val writing: List<EmojiIcon> = listOf(
+        EmojiIcon("Pencil", "270f", Category.Objects, Subcategory.Writing, Font.Twemoji, R.drawable.ic_270f),
+        EmojiIcon("BlackNib", "2712", Category.Objects, Subcategory.Writing, Font.Twemoji, R.drawable.ic_2712),
+        EmojiIcon("FountainPen", "1f58b", Category.Objects, Subcategory.Writing, Font.Twemoji, R.drawable.ic_1f58b),
+        EmojiIcon("Pen", "1f58a", Category.Objects, Subcategory.Writing, Font.Twemoji, R.drawable.ic_1f58a),
+        EmojiIcon("Paintbrush", "1f58c", Category.Objects, Subcategory.Writing, Font.Twemoji, R.drawable.ic_1f58c),
+        EmojiIcon("Crayon", "1f58d", Category.Objects, Subcategory.Writing, Font.Twemoji, R.drawable.ic_1f58d),
+        EmojiIcon("Memo", "1f4dd", Category.Objects, Subcategory.Writing, Font.Twemoji, R.drawable.ic_1f4dd)
+    )
+    // endregion
+
     // region All
     val all: List<EmojiIcon> = listOf(
         clothing,
@@ -215,7 +227,8 @@ object Objects {
         lightAndVideo,
         bookPaper,
         money,
-        mail
+        mail,
+        writing
     ).flatten()
     // endregion
 
