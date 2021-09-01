@@ -128,6 +128,27 @@ object Objects {
     )
     // endregion
 
+    // region Light and video
+    private val lightAndVideo: List<EmojiIcon> = listOf(
+        EmojiIcon("MovieCamera", "1f3a5", Category.Objects, Subcategory.LightAndVideo, Font.Twemoji, R.drawable.ic_1f3a5),
+        EmojiIcon("FilmFrames", "1f39e", Category.Objects, Subcategory.LightAndVideo, Font.Twemoji, R.drawable.ic_1f39e),
+        EmojiIcon("FilmProjector", "1f4fd", Category.Objects, Subcategory.LightAndVideo, Font.Twemoji, R.drawable.ic_1f4fd),
+        EmojiIcon("ClapperBoard", "1f3ac", Category.Objects, Subcategory.LightAndVideo, Font.Twemoji, R.drawable.ic_1f3ac),
+        EmojiIcon("Television", "1f4fa", Category.Objects, Subcategory.LightAndVideo, Font.Twemoji, R.drawable.ic_1f4fa),
+        EmojiIcon("Camera", "1f4f7", Category.Objects, Subcategory.LightAndVideo, Font.Twemoji, R.drawable.ic_1f4f7),
+        EmojiIcon("CameraWithFlash", "1f4f8", Category.Objects, Subcategory.LightAndVideo, Font.Twemoji, R.drawable.ic_1f4f8),
+        EmojiIcon("VideoCamera", "1f4f9", Category.Objects, Subcategory.LightAndVideo, Font.Twemoji, R.drawable.ic_1f4f9),
+        EmojiIcon("Videocassette", "1f4fc", Category.Objects, Subcategory.LightAndVideo, Font.Twemoji, R.drawable.ic_1f4fc),
+        EmojiIcon("MagnifyingGlassTiltedLeft", "1f50d", Category.Objects, Subcategory.LightAndVideo, Font.Twemoji, R.drawable.ic_1f50d),
+        EmojiIcon("MagnifyingGlassTiltedRight", "1f50e", Category.Objects, Subcategory.LightAndVideo, Font.Twemoji, R.drawable.ic_1f50e),
+        EmojiIcon("Candle", "1f56f", Category.Objects, Subcategory.LightAndVideo, Font.Twemoji, R.drawable.ic_1f56f),
+        EmojiIcon("LightBulb", "1f4a1", Category.Objects, Subcategory.LightAndVideo, Font.Twemoji, R.drawable.ic_1f4a1),
+        EmojiIcon("Flashlight", "1f526", Category.Objects, Subcategory.LightAndVideo, Font.Twemoji, R.drawable.ic_1f526),
+        EmojiIcon("RedPaperLantern", "1f3ee", Category.Objects, Subcategory.LightAndVideo, Font.Twemoji, R.drawable.ic_1f3ee),
+        EmojiIcon("DiyaLamp", "1fa94", Category.Objects, Subcategory.LightAndVideo, Font.Twemoji, R.drawable.ic_1fa94)
+    )
+    // endregion
+
     // region All
     val all: List<EmojiIcon> = listOf(
         clothing,
@@ -135,7 +156,8 @@ object Objects {
         music,
         musicalInstruments,
         phone,
-        computer
+        computer,
+        lightAndVideo
     ).flatten()
     // endregion
 
