@@ -50,7 +50,7 @@ afterEvaluate {
                 from components.release
                 groupId = 'no.mhl.twemoji-icons'
                 artifactId = 'food'
-                version = '0.1.7'
+                version = '0.1.8'
             }
         }
     }
