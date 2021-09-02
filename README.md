@@ -87,15 +87,15 @@ ext {
 implementation "com.github.maxhvesser.twemoji-icons-android:core:$twemoji_icons_version"
 
 // Next you can add the categories you want access to
-implementation "com.github.maxhvesser.twemoji-icons-android:activities:$twemoji_icons_version"
-implementation "com.github.maxhvesser.twemoji-icons-android:animals:$twemoji_icons_version"
-implementation "com.github.maxhvesser.twemoji-icons-android:flags:$twemoji_icons_version"
-implementation "com.github.maxhvesser.twemoji-icons-android:food:$twemoji_icons_version"
-implementation "com.github.maxhvesser.twemoji-icons-android:objects:$twemoji_icons_version"
-implementation "com.github.maxhvesser.twemoji-icons-android:people:$twemoji_icons_version"
 implementation "com.github.maxhvesser.twemoji-icons-android:smileys:$twemoji_icons_version"
-implementation "com.github.maxhvesser.twemoji-icons-android:symbols:$twemoji_icons_version"
+implementation "com.github.maxhvesser.twemoji-icons-android:people:$twemoji_icons_version"
+implementation "com.github.maxhvesser.twemoji-icons-android:animals:$twemoji_icons_version"
+implementation "com.github.maxhvesser.twemoji-icons-android:food:$twemoji_icons_version"
 implementation "com.github.maxhvesser.twemoji-icons-android:travel:$twemoji_icons_version"
+implementation "com.github.maxhvesser.twemoji-icons-android:activities:$twemoji_icons_version"
+implementation "com.github.maxhvesser.twemoji-icons-android:objects:$twemoji_icons_version"
+implementation "com.github.maxhvesser.twemoji-icons-android:symbols:$twemoji_icons_version"
+implementation "com.github.maxhvesser.twemoji-icons-android:flags:$twemoji_icons_version"
 
 ```
 
