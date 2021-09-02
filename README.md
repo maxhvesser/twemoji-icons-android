@@ -104,14 +104,14 @@ implementation "com.github.maxhvesser.twemoji-icons-android:flags:$twemoji_icons
 Each category (module) has it's own providing class that is an object with statically defined references, these providers can be accessed via the following:
 
 ```Kotlin
-SmileysAndEmotion.all,
-PeopleAndBody.all,
-AnimalsAndNature.all,
-FoodAndDrink.all,
-TravelAndPlaces.all,
-Activities.all,
-Objects.all,
-Symbols.all,
+SmileysAndEmotion.all
+PeopleAndBody.all
+AnimalsAndNature.all
+FoodAndDrink.all
+TravelAndPlaces.all
+Activities.all
+Objects.all
+Symbols.all
 Flags.all
 ```
 
