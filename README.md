@@ -61,14 +61,14 @@ The library is currently provided via [JitPack](https://jitpack.io/#maxhvesser/t
 
 ### Current version
 
-The latest version of twemoji-icons-android is `0.1.7`.
+The latest version of twemoji-icons-android is `0.1.8`.
 
 ### Gradle
 
 If you would like to have access to the entire icons set then you can simple add the following to your apps `build.gradle` file, in the dependencies closure:
 
 ```
-implementation 'com.github.maxhvesser:twemoji-icons-android:0.1.7'
+implementation 'com.github.maxhvesser:twemoji-icons-android:0.1.8'
 ```
 
 If you would however like access to specific categories then you would need to add the following: 
@@ -77,7 +77,7 @@ If you would however like access to specific categories then you would need to a
 // Abstract the version to your root build.gradle
 ext {
   ...
-  twemoji_icons_version = '0.1.7'
+  twemoji_icons_version = '0.1.8'
 }
 
 // Continue with app build.gradle dependencies
