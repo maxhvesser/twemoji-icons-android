@@ -61,7 +61,7 @@ The library is currently provided via [JitPack](https://jitpack.io/#maxhvesser/t
 
 ### Current version
 
-The latest version of twemoji-icons-android is `0.1.7` and this is marked currenrtly as pre-release and should be considered as such.
+The latest version of twemoji-icons-android is `0.1.7`.
 
 ### Gradle
 
