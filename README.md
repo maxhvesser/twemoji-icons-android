@@ -12,7 +12,7 @@
 
 [![](https://jitpack.io/v/maxhvesser/twemoji-icons-android.svg)](https://jitpack.io/#maxhvesser/twemoji-icons-android)
 
-In a basic sense this library is a wrapper class for [Twemoji](https://github.com/twitter/twemoji), targetting the Android platform. All icons have been split into their unicode-given categories and converted to XML vector resources. Each category has a class which for now is a very basic object with `val` references to drawables. At the moment, subcategories are not accessible but are present, if there is a need for such granualarity then these can also be made available.
+In a basic sense this library is a wrapper class for [Twemoji](https://github.com/twitter/twemoji), targetting the Android platform. All icons have been split into their unicode-given categories and converted to WebP resources. Each category has a class which for now is a very basic object with `val` references to drawables. At the moment, subcategories are not accessible but are present, if there is a need for such granualarity then these can also be made available.
 
 ### But really...why does this library exist?
 
